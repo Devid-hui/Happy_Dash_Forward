@@ -1,0 +1,16 @@
+# Godot editor/import cache
+.godot/
+
+# macOS filesystem metadata
+.DS_Store
+
+# Local exports and build artifacts
+builds/
+*.app/
+*.dmg
+*.zip
+
+# Editor and temporary files
+.vscode/
+.idea/
+*.tmp
