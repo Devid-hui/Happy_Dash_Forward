@@ -38,11 +38,11 @@
 本地引擎：`Godot 4.7.2.stable.official.ed1daf0bf`。最终 F14 修复后的完整日志结果为：
 
 ```text
-PASS import (1.72s)
-PASS runner self-test: rejected SCRIPT ERROR with exit 0 and a PASS marker (0.14s)
+PASS import (1.77s)
+PASS runner self-test: rejected SCRIPT ERROR with exit 0 and a PASS marker (0.15s)
 PASS smoke (2.65s)
-PASS hunter rules (1.41s)
-PASS audit regressions (4.24s)
+PASS hunter rules (1.45s)
+PASS audit regressions (4.37s)
 ALL TESTS PASS: import, failure gate, smoke, hunter rules, audit regressions
 ```
 
@@ -54,7 +54,9 @@ python3 tests/run_tests.py --godot /path/to/godot-4.7.2
 
 回归包含实际按键事件、模态状态、暂停期间计时冻结/恢复、地图边界、技能 1–3 合法装备与融合、痕迹状态、敌人生命周期、真实模型视锥保护、补位数量与间隔，以及闪电提示槽位。测试场景通过程序化定位或触发验证胜利逻辑；这不代表真实玩家自然通关。
 
-代码知识图谱通过已安装的 `codebase-memory-mcp` CLI 刷新并核对：项目 `happy-dash-forward-audit-20261012`，最终代码检查代际 `2026-10-12T11:11:37Z`，368 个节点、841 条边。23 个代码/配置/说明变更路径的覆盖记录均返回，图谱无部分解析、不可用解析或跳过代码文件。`project.godot`、新场景及 UID 的未跟踪元数据通过直接读取补足；排除目录包括 Git、Godot 缓存和 Python 缓存。图谱的“无记录缺口”仅为尽力覆盖信号，不证明穷尽。
+首次推送后，Linux CI 已通过所有游戏断言，但退出阶段报告 OGG 音频对象与资源仍在使用，严格测试入口因此判为失败。在 macOS 上使用加速 headless 帧复现后，verbose 日志确认是雨声音频线程尚未处理完释放队列。本次补充修改仅在测试场景释放后等待约 100 毫秒实际墙钟时间，再输出成功并退出；没有放宽错误判定或修改游戏音频。普通模拟计时在加速帧下仍能复现问题，实际墙钟等待在 `--fixed-fps 1000` 和 `10000` 两档均消除了该退出错误。最终云端结果以修正提交对应的 Actions 为准。
+
+代码知识图谱通过已安装的 `codebase-memory-mcp` CLI 刷新并核对：项目 `happy-dash-forward-audit-20261012`，补充测试收尾后的刷新记录时间 `2026-10-12T11:56:04Z`，索引代际 `2026-10-12T11:49:56Z`，380 个节点、850 条边。24 个代码/配置/说明变更路径的覆盖记录均返回，图谱无部分解析、不可用解析或跳过代码文件。`project.godot`、新场景及 UID 的未跟踪元数据通过直接读取补足；排除目录包括 Git、Godot 缓存和 Python 缓存。图谱的“无记录缺口”仅为尽力覆盖信号，不证明穷尽。
 
 ## 真实操作验收
 

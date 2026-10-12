@@ -293,5 +293,10 @@ func run_checks() -> void:
 	world.queue_free()
 	await get_tree().process_frame
 	await _check_legal_selection()
+	# Audio playback releases are consumed by the audio thread after node deletion.
+	# Wait in wall-clock time so accelerated headless frames cannot outrun that cleanup.
+	var cleanup_until := Time.get_ticks_msec() + 100
+	while Time.get_ticks_msec() < cleanup_until:
+		await get_tree().process_frame
 	print("AUDIT REGRESSIONS PASS: real Tab/Esc input, GUI consumption, modal/focus lifecycle, paused visual and logic timers, four edges/fall, upgraded traces, repeat salt contact, equipped lightning hints, legal loadouts and four fusions")
 	get_tree().quit()
