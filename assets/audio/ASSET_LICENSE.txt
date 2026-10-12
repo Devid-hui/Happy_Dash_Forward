@@ -1,0 +1,5 @@
+Audio used in this project:
+- rain_loop.ogg (Rain loopable, recording 3)
+- canopy_rain_loop.ogg (Rain loopable, recording 1)
+Source: Ylmir, OpenGameArt.org, https://opengameart.org/content/rain-loopable
+License: CC0. The source page describes four loopable 25-45 second rain recordings; these two are mixed as distant rain and a quieter nearby canopy layer.

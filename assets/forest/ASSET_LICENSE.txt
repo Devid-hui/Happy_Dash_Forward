@@ -1,0 +1,11 @@
+Kenney Nature Kit models used in this project:
+- tree_cone.dae
+- tree_default.dae
+- tree_oak.dae
+- tree_pineTallA.dae
+- tree_pineTallB.dae
+- tree_simple.dae
+
+Source: https://kenney.nl/assets/nature-kit
+License: Creative Commons CC0 1.0 (public domain dedication).
+The models are darkened through Godot material overrides to match the night scene.
