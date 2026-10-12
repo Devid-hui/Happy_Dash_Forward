@@ -6,6 +6,7 @@ func _ready() -> void:
 
 func run_checks() -> void:
 	seed(721)
+	get_tree().root.size = Vector2i(640,360)
 	GameState.game_over = false
 	var world := World.new()
 	add_child(world)
@@ -77,6 +78,8 @@ func run_checks() -> void:
 	player.rotation.y = 0
 	hunter.global_position = Vector3(-90,0,0)
 	var director = world.hunter_director
+	check_model_visibility(player,hunter,director)
+	hunter.global_position = Vector3(-90,0,0)
 	for npc in world.hunter_nodes: director.recycle_cooldowns[npc.get_instance_id()] = 0.0
 	director.scan_timer = 0.0
 	# 看着后方敌人时必须保留原位置，即使运动方向朝 +X。
@@ -95,6 +98,18 @@ func run_checks() -> void:
 	assert(offset.x > 0.0 and offset.length() >= 16.0 and offset.length() <= 24.1)
 	assert(moved_hunter.charge_phase == hunter.ChargePhase.RESTING,"relocation must not charge immediately")
 	assert(hunter.health == 88.0,"relocation preserves health")
+	assert(director.ambush_cooldown == 8.0,"a successful recycle batch must start the full eight-second interval")
+	for npc in world.hunter_nodes:
+		npc.global_position = Vector3(-45,0,world.hunter_nodes.find(npc)*4.0)
+		director.recycle_cooldowns[npc.get_instance_id()] = 0.0
+	for i in range(15):
+		director.scan_timer = 0.0
+		director._physics_process(.5)
+		for npc in world.hunter_nodes:
+			assert(npc.global_position.x < 0.0,"recycling must remain blocked throughout the eight-second batch interval")
+	director.scan_timer = 0.0
+	director._physics_process(.5)
+	assert(world.hunter_nodes.filter(func(npc): return npc.global_position.x > 0.0).size() == 3,"recycling must resume with the three-hunter cap once the interval expires")
 	var storm = world.storm_controller
 	storm.set_process(false)
 	assert(storm.lightning is OmniLight3D and storm.lightning.shadow_enabled)
@@ -117,11 +132,129 @@ func run_checks() -> void:
 	hunter.stunned = 0.0
 	hunter._physics_process(.016)
 	assert(hunter.state == hunter.State.CHASE and hunter.velocity.z < 0.0)
+	var dead_id: int = hunter.get_instance_id()
 	hunter.take_damage(1000.0)
 	assert(world.hunter_nodes.size() == 4)
+	assert(not director.recycle_cooldowns.has(dead_id) and not director.initial_directions.has(dead_id),"normal death must clear director dictionaries")
 	director._physics_process(.016)
 	assert(world.hunter_nodes.size() == 5,"director must replace dead hunters")
+	var replacement = director.pending_initial[0]
+	var replacement_id: int = replacement.get_instance_id()
+	var survivors := world.hunter_nodes.filter(func(npc): return npc != replacement)
+	var survivor_health: Array[float] = []
+	var survivor_positions: Array[Vector3] = []
+	for npc in survivors:
+		survivor_health.append(npc.health)
+		survivor_positions.append(npc.global_position)
+	replacement.take_damage(1000.0)
+	assert(not director.pending_initial.has(replacement),"death while waiting for replacement placement must clear the queue")
+	assert(not director.recycle_cooldowns.has(replacement_id) and not director.initial_directions.has(replacement_id))
+	for i in range(survivors.size()):
+		assert(world.hunter_nodes.has(survivors[i]) and survivors[i].health == survivor_health[i] and survivors[i].global_position == survivor_positions[i],"death must leave surviving hunters unchanged")
+	await get_tree().physics_frame
+	director._physics_process(.016)
+	for i in range(4):
+		await get_tree().physics_frame
+		director._physics_process(.016)
+	assert(world.hunter_nodes.size() == 5 and director.pending_initial.is_empty(),"replacement must complete positioning after queued frees")
+	for npc in world.hunter_nodes:
+		assert(is_instance_valid(npc),"replacement registry cannot retain freed objects")
 	world.queue_free()
+	await get_tree().process_frame
+	await check_initial_death()
+	# 等待音频混音线程处理停止事件，避免把过早退出误报为资源泄漏。
 	await get_tree().create_timer(1.0).timeout
-	print("HUNTER RULES PASS: reverse movement, five independent hunters, global chase, charge/rest/audio, forward collision-safe recycle, health and replacement")
+	print("HUNTER RULES PASS: reverse movement, five independent hunters, global chase, charge/rest/audio, forward collision-safe recycle, model-frustum edges, health and positioned replacement")
 	get_tree().quit()
+
+func check_model_visibility(player: CharacterBody3D, hunter: CharacterBody3D, director: Node) -> void:
+	var camera: Camera3D = player.camera
+	camera.fov = 75.0
+	camera.look_at_from_position(Vector3(0,1.5,0),Vector3(0,1.5,-5))
+	hunter.global_position = Vector3(41.43,0,-30)
+	hunter.look_at(Vector3(0,0,0),Vector3.UP)
+	var missed_vertex := Vector3(40.76921,.218,-30.43514)
+	var closest_vertex_distance := INF
+	for vertex in model_world_vertices(hunter):
+		closest_vertex_distance = minf(closest_vertex_distance,vertex.distance_to(missed_vertex))
+	assert(closest_vertex_distance < .001,"the regression point must belong to the actual generated hunter mesh")
+	assert(camera.is_position_in_frustum(missed_vertex),"the original right-foot regression point must really enter the 640x360 frustum")
+	var old_sampling_visible := false
+	for height in [.2,1.35,2.65]:
+		for side in [-.5,0.0,.5]:
+			old_sampling_visible = old_sampling_visible or camera.is_position_in_frustum(hunter.global_position+Vector3(side,height,0))
+	assert(not old_sampling_visible,"the original point regression must exercise a gap in the old body sampling")
+	assert(director.is_in_view(hunter),"visible model feet must protect the hunter from teleporting")
+	var watched_positions: Array[Vector3] = []
+	for npc in director.hunters:
+		watched_positions.append(npc.global_position)
+		director.recycle_cooldowns[npc.get_instance_id()] = 0.0
+	director.scan_timer = 0.0
+	director.ambush_cooldown = 0.0
+	director._physics_process(.5)
+	for i in range(director.hunters.size()):
+		assert(director.hunters[i].global_position == watched_positions[i],"a visible model extremity must protect the entire actual recycle scan")
+	# 用真实网格顶点放置画面四边；不同朝向会改变手、脚和头的投影边界。
+	for angle in [0.0,45.0,90.0,180.0]:
+		hunter.rotation_degrees = Vector3(0,angle,0)
+		hunter.global_position = Vector3(0,0,-30)
+		var vertices := model_world_vertices(hunter)
+		assert(not vertices.is_empty())
+		for edge in range(4):
+			var extremity: Vector3 = vertices[0]
+			for vertex in vertices:
+				if (edge == 0 and vertex.x > extremity.x) or (edge == 1 and vertex.x < extremity.x) or (edge == 2 and vertex.y < extremity.y) or (edge == 3 and vertex.y > extremity.y):
+					extremity = vertex
+			var pixel: Vector2 = [Vector2(1,180),Vector2(639,180),Vector2(320,1),Vector2(320,359)][edge]
+			var anchor := camera.project_position(pixel,30.0)
+			var local_extremity := extremity-hunter.global_position
+			hunter.global_position = anchor-local_extremity
+			assert(camera.is_position_in_frustum(anchor),"edge fixture must include a real visible model vertex")
+			assert(director.is_in_view(hunter),"all model rotations and left/right/head/foot edges must be protected")
+			hunter.global_position = Vector3(0,0,-30)
+	hunter.global_position = Vector3(90,0,-30)
+	assert(not director.is_in_view(hunter),"a model entirely outside the frustum must remain recyclable")
+	hunter.global_position = Vector3(0,0,-camera.near)
+	assert(director.is_in_view(hunter),"a model intersecting the near plane must be protected")
+	hunter.global_position = Vector3(0,0,0)
+	assert(director.is_in_view(hunter),"camera inside model bounds must be protected")
+	var unknown := Node3D.new()
+	get_parent().add_child(unknown)
+	assert(director.is_in_view(unknown),"unknown model bounds must conservatively block teleporting")
+	unknown.queue_free()
+
+func model_world_vertices(hunter: Node3D) -> Array[Vector3]:
+	var vertices: Array[Vector3] = []
+	for part in hunter.get_node("VisualRoot").find_children("*","MeshInstance3D",true,false):
+		for surface in range(part.mesh.get_surface_count()):
+			for vertex in part.mesh.surface_get_arrays(surface)[Mesh.ARRAY_VERTEX]:
+				vertices.append(part.global_transform*vertex)
+	return vertices
+
+func check_initial_death() -> void:
+	GameState.game_over = false
+	var world := World.new()
+	add_child(world)
+	var director = world.hunter_director
+	director.set_physics_process(false)
+	world.player.set_physics_process(false)
+	var victim = world.hunter_nodes[0]
+	var id: int = victim.get_instance_id()
+	assert(director.pending_initial.has(victim) and director.initial_directions.has(id))
+	director.recycle_cooldowns[id] = 6.0
+	victim.take_damage(1000.0)
+	assert(world.hunter_nodes.size() == 4)
+	assert(not director.pending_initial.has(victim),"death before first positioning must clear waiting instances")
+	assert(not director.initial_directions.has(id) and not director.recycle_cooldowns.has(id),"death must clear every waiting ID")
+	await get_tree().physics_frame
+	assert(not is_instance_valid(victim),"test must cross the actual queued-free boundary")
+	for i in range(5):
+		director._physics_process(.016)
+		await get_tree().physics_frame
+	assert(world.hunter_nodes.size() == 5 and director.pending_initial.is_empty(),"initial death must recover five fully positioned hunters")
+	assert(director.initial_directions.is_empty(),"completed initial placement must release direction entries")
+	for npc in world.hunter_nodes:
+		assert(is_instance_valid(npc) and npc.is_physics_processing(),"all replacements must be alive and enabled after positioning")
+		assert(npc.global_position.distance_to(world.player.global_position) >= 15.0,"replacement cannot remain at an unvalidated nearby location")
+	world.queue_free()
+	await get_tree().process_frame

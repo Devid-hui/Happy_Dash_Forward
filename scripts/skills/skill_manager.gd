@@ -30,7 +30,7 @@ func cast_slot(slot: int) -> void:
 			if player.stamina < salt_cost: world.notice("体力不足，无法结成盐阵。"); return
 			player.stamina -= salt_cost; player.dehydration = 18.0; world.place_field("salt", player.global_position, 3.0 if salt_cost > 22.0 else 2.4); success = true
 		"filter":
-			player.filter_time = 10.0; world.set_filtering(true); world.notice("剥噪生效：雨声被削弱，其他同频提示也会减弱。"); success = true
+			player.filter_time = 10.0; world.set_filtering(true); world.notice("剥噪生效：雨声减弱并保留所选频段。敌人、脚步与雷声不受此滤波影响。"); success = true
 	if success:
 		cooldowns[skill_id] = 8.0
 		world.check_fusion(skill_id)

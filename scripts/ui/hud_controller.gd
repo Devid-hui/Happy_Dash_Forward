@@ -15,13 +15,23 @@ func setup(game_world) -> void:
 	layer = 10
 	_build()
 
+func _input(event: InputEvent) -> void:
+	if not is_instance_valid(world) or world.is_queued_for_deletion() or GameState.game_over: return
+	if not event.is_action_pressed("handbook",true) and not event.is_action_pressed("ui_cancel",true): return
+	get_viewport().set_input_as_handled()
+	if event is InputEventKey and event.echo: return
+	if event.is_action_pressed("handbook") or world.notebook:
+		world.toggle_handbook()
+	else:
+		world.toggle_pause()
+
 func _build() -> void:
 	var panel:=PanelContainer.new();panel.position=Vector2(10,8);panel.custom_minimum_size=Vector2(250,0);add_child(panel)
 	var v:=VBoxContainer.new();panel.add_child(v)
 	objective_label=Label.new();objective_label.add_theme_font_size_override("font_size",12);v.add_child(objective_label)
 	slots_label=Label.new();slots_label.add_theme_font_size_override("font_size",10);slots_label.text="1/2/3 技能   E 交互   Shift 奔跑   TAB 手册";v.add_child(slots_label)
 	stamina_bar=ProgressBar.new();stamina_bar.max_value=100;stamina_bar.show_percentage=false;stamina_bar.custom_minimum_size=Vector2(180,8);v.add_child(stamina_bar)
-	status_label=Label.new();status_label.set_anchors_preset(Control.PRESET_CENTER_BOTTOM);status_label.position=Vector2(-260,-62);status_label.size=Vector2(520,36);status_label.add_theme_font_size_override("font_size",11);status_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;add_child(status_label)
+	status_label=Label.new();status_label.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_WIDE);status_label.offset_left=16;status_label.offset_right=-16;status_label.offset_top=-76;status_label.offset_bottom=-12;status_label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;status_label.add_theme_font_size_override("font_size",11);status_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;status_label.vertical_alignment=VERTICAL_ALIGNMENT_BOTTOM;status_label.mouse_filter=Control.MOUSE_FILTER_IGNORE;add_child(status_label)
 	var cross:=Label.new();cross.text="+";cross.set_anchors_preset(Control.PRESET_CENTER);cross.position=Vector2(-5,-12);add_child(cross)
 
 func update_display() -> void:
@@ -39,21 +49,23 @@ func notice(text: String) -> void:
 	notice_timer=3.5
 
 func _process(delta: float) -> void:
+	if not is_instance_valid(world) or world.is_queued_for_deletion() or world.is_gameplay_blocked(): return
 	if notice_timer > 0.0:
 		notice_timer -= delta
 		if notice_timer <= 0.0 and is_instance_valid(status_label): status_label.text=""
 
 func show_pause() -> void:
-	if is_instance_valid(pause_overlay): pause_overlay.queue_free()
+	if is_instance_valid(pause_overlay): return
 	pause_overlay=PanelContainer.new();pause_overlay.process_mode=Node.PROCESS_MODE_ALWAYS;pause_overlay.set_anchors_preset(Control.PRESET_CENTER);pause_overlay.position=Vector2(-180,-90);pause_overlay.custom_minimum_size=Vector2(360,180);add_child(pause_overlay)
 	var v:=VBoxContainer.new();pause_overlay.add_child(v)
 	var title:=Label.new();title.text="试炼暂停";title.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;v.add_child(title)
 	var resume:=Button.new();resume.text="继续";resume.pressed.connect(world.toggle_pause);v.add_child(resume)
-	var retry:=Button.new();retry.text="重新开始";retry.pressed.connect(func():world.get_tree().paused=false;world.retry_requested.emit());v.add_child(retry)
-	var menu:=Button.new();menu.text="返回主菜单";menu.pressed.connect(func():world.get_tree().paused=false;Input.mouse_mode=Input.MOUSE_MODE_VISIBLE;world.return_to_menu.emit());v.add_child(menu)
+	var retry:=Button.new();retry.text="重新开始";retry.pressed.connect(world.request_retry);v.add_child(retry)
+	var menu:=Button.new();menu.text="返回主菜单";menu.pressed.connect(world.request_menu);v.add_child(menu)
 
 func hide_pause() -> void:
 	if is_instance_valid(pause_overlay): pause_overlay.queue_free()
+	pause_overlay = null
 
 func show_handbook(skill_entries: Array[String], fusion_entries: Array[String]) -> void:
 	if is_instance_valid(handbook_panel): handbook_panel.queue_free()
@@ -64,14 +76,15 @@ func show_handbook(skill_entries: Array[String], fusion_entries: Array[String]) 
 	var entries:=VBoxContainer.new();entries.size_flags_horizontal=Control.SIZE_EXPAND_FILL;scroll.add_child(entries)
 	for text in skill_entries + fusion_entries:
 		var label:=Label.new();label.text=text;label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;entries.add_child(label)
-	var close:=Button.new();close.text="关闭手册";close.pressed.connect(func():world.notebook=false;hide_handbook());content.add_child(close)
+	var close:=Button.new();close.text="关闭手册";close.pressed.connect(world.toggle_handbook);content.add_child(close)
 
 func hide_handbook() -> void:
 	if is_instance_valid(handbook_panel): handbook_panel.queue_free()
+	handbook_panel = null
 
 func show_outcome(won: bool) -> void:
 	var box:=PanelContainer.new();box.process_mode=Node.PROCESS_MODE_ALWAYS;box.set_anchors_preset(Control.PRESET_CENTER);box.position=Vector2(-190,-100);box.custom_minimum_size=Vector2(380,200);add_child(box)
 	var v:=VBoxContainer.new();box.add_child(v)
 	var label:=Label.new();label.text="你逃出了梦境。" if won else "You became part of the experiment.";label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;v.add_child(label)
-	var retry:=Button.new();retry.text="重新开始";retry.pressed.connect(func():world.get_tree().paused=false;world.retry_requested.emit());v.add_child(retry)
-	var menu:=Button.new();menu.text="返回主菜单";menu.pressed.connect(func():world.get_tree().paused=false;world.return_to_menu.emit());v.add_child(menu)
+	var retry:=Button.new();retry.text="重新开始";retry.pressed.connect(world.request_retry);v.add_child(retry)
+	var menu:=Button.new();menu.text="返回主菜单";menu.pressed.connect(world.request_menu);v.add_child(menu)

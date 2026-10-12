@@ -47,12 +47,17 @@ var rain_bus_index := -1
 var rain_filter: AudioEffectBandPassFilter
 var footsteps_audio: AudioStreamPlayer3D
 var flash_snapshot_points: Array[Vector2] = []
+var _modal_ready := false
+var _leaving := false
 
 func _ready() -> void:
 	research_manager=RESEARCH_MANAGER.new(); add_child(research_manager); research_manager.setup(self)
 	fusion_manager=FUSION_MANAGER.new(); add_child(fusion_manager); fusion_manager.setup(self)
 	_build_environment(); _build_ground(); _build_landmarks(); _build_forest(); _build_player(); _build_hunter(); _build_objectives(); _build_rain(); _build_hud()
 	update_hud()
+	_modal_ready = true
+	paused = not _window_is_focused()
+	_sync_modal_state()
 
 func _exit_tree() -> void:
 	for audio in get_tree().get_nodes_in_group("procedural_audio"):
@@ -99,6 +104,16 @@ void fragment() {
 	var ground_material := ShaderMaterial.new(); ground_material.shader=ground_shader
 	plane.material_override = ground_material; add_child(plane)
 	var body := StaticBody3D.new(); var shape := CollisionShape3D.new(); var box := BoxShape3D.new(); box.size = Vector3(200,0.2,200); shape.shape = box; shape.position.y = -0.1; body.add_child(shape); add_child(body)
+	for edge in [Vector3(-99.5,6,0),Vector3(99.5,6,0),Vector3(0,6,-99.5),Vector3(0,6,99.5)]:
+		var wall := StaticBody3D.new()
+		wall.name = "MapBoundary_%d" % get_child_count()
+		var wall_shape := CollisionShape3D.new()
+		var wall_box := BoxShape3D.new()
+		wall_box.size = Vector3(1,12,200) if edge.x != 0 else Vector3(200,12,1)
+		wall_shape.shape = wall_box
+		wall.position = edge
+		wall.add_child(wall_shape)
+		add_child(wall)
 	for i in range(520):
 		var span := 18.0 if i < 200 else 88.0
 		var x := randf_range(-span,span); var z := randf_range(-span,span)
@@ -245,11 +260,17 @@ func _build_objectives() -> void:
 
 func _build_rain() -> void:
 	var rain:=GPUParticles3D.new();rain.name="Rain";rain.amount=1500;rain.lifetime=1.25;rain.emitting=true;rain.position.y=6
+	rain.transform_align = GPUParticles3D.TRANSFORM_ALIGN_Z_BILLBOARD_Y_TO_VELOCITY
+	rain.local_coords = false
+	rain.visibility_aabb = AABB(Vector3(-64,-47,-64),Vector3(128,57,128))
 	var process:=ParticleProcessMaterial.new();process.direction=Vector3(0.10,-1,0.06);process.spread=4.0;process.initial_velocity_min=20;process.initial_velocity_max=28;process.gravity=Vector3(0,-3,0);process.emission_shape=ParticleProcessMaterial.EMISSION_SHAPE_BOX;process.emission_box_extents=Vector3(18,8,18)
 	process.collision_mode=ParticleProcessMaterial.COLLISION_HIDE_ON_CONTACT;process.sub_emitter_mode=ParticleProcessMaterial.SUB_EMITTER_AT_COLLISION;process.sub_emitter_amount_at_collision=2;process.sub_emitter_keep_velocity=true;rain.process_material=process
 	var quad:=QuadMesh.new();quad.size=Vector2(0.016,0.36);var rain_material := _mat(Color(0.19,0.25,0.29));rain_material.shading_mode=BaseMaterial3D.SHADING_MODE_UNSHADED;quad.material=rain_material;rain.draw_pass_1=quad;add_child(rain)
 	var collision := GPUParticlesCollisionBox3D.new(); collision.name = "RainGroundCollision"; collision.size = Vector3(38,0.18,38); collision.position.y = -6.0; rain.add_child(collision)
 	var splashes := GPUParticles3D.new(); splashes.name = "RainSplashes"; splashes.amount = 900; splashes.lifetime = 0.34; splashes.explosiveness = 0.0
+	splashes.transform_align = GPUParticles3D.TRANSFORM_ALIGN_Z_BILLBOARD
+	splashes.local_coords = false
+	splashes.visibility_aabb = AABB(Vector3(-35,-14,-35),Vector3(70,16,70))
 	var splash_process := ParticleProcessMaterial.new(); splash_process.direction = Vector3.UP; splash_process.spread = 78.0; splash_process.initial_velocity_min = 0.35; splash_process.initial_velocity_max = 1.8; splash_process.gravity = Vector3(0,-5.0,0); splash_process.scale_min = 0.035; splash_process.scale_max = 0.11; splashes.process_material = splash_process
 	var splash_mesh := QuadMesh.new(); splash_mesh.size = Vector2(0.12,0.12); var splash_mat := _mat(Color(0.14,0.2,0.22)); splash_mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED; splash_mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA; splash_mat.albedo_color.a = 0.45; splash_mesh.material = splash_mat; splashes.draw_pass_1 = splash_mesh; add_child(splashes)
 	rain.sub_emitter = NodePath("../RainSplashes")
@@ -323,7 +344,7 @@ func set_filtering(enabled: bool) -> void:
 
 func _play_thunder_after_delay(position: Vector3) -> void:
 	var delay := position.distance_to(player.global_position)/343.0 + .08
-	await get_tree().create_timer(delay).timeout
+	await get_tree().create_timer(delay,false).timeout
 	if is_instance_valid(thunder_audio) and not GameState.game_over:
 		thunder_audio.global_position = position
 		thunder_audio.play()
@@ -337,6 +358,8 @@ func _process(delta: float) -> void:
 	if player:
 		var rain: GPUParticles3D=get_node_or_null("Rain")
 		if rain: rain.global_position=player.global_position+Vector3(0,6,0)
+		var splashes: GPUParticles3D = get_node_or_null("RainSplashes")
+		if splashes and rain: splashes.global_position = rain.global_position-Vector3(0,6,0)
 		if is_instance_valid(canopy_rain_audio): canopy_rain_audio.global_position=player.global_position+Vector3(0,3.5,0)
 	for i in range(fields.size()-1,-1,-1):
 		fields[i].time-=delta
@@ -349,7 +372,8 @@ func _process(delta: float) -> void:
 func _on_lightning_started() -> void:
 	if player: player.afterimage_ready=true; player.afterimage_window=5.0
 	_capture_flash_snapshot()
-	_notice("闪电照亮了平原。按 1 延长视觉后像。")
+	var afterimage_slot := GameState.equipped.find("afterimage")
+	_notice("闪电照亮了平原。按 %d 延长视觉后像。" % (afterimage_slot+1) if afterimage_slot >= 0 else "闪电照亮了平原。")
 	_play_thunder_after_delay(storm_controller.strike_position)
 
 func _apply_fields() -> void:
@@ -363,8 +387,9 @@ func _apply_fields() -> void:
 		for field in fields:
 			if hunter.global_position.distance_to(field.node.global_position)<field.radius and field.kind=="salt":
 				hunter.slow_timer=0.2
-				if not hunter.get_meta("salt_marked", false):
-					hunter.set_meta("salt_marked", true);damage_hunter_trace(hunter.global_position,true)
+				var hunter_id := hunter.get_instance_id()
+				var has_active_trace := traces.any(func(trace): return trace.salt_reactive and trace.time > 0.0 and is_instance_valid(trace.node) and trace.get("source_hunter_id",0) == hunter_id)
+				if not has_active_trace: _spawn_trace(hunter.global_position,true,hunter_id)
 
 func update_hud() -> void:
 	if is_instance_valid(hud_controller): hud_controller.update_display()
@@ -414,18 +439,48 @@ func interact() -> void:
 	else: _notice("附近没有可交互目标。")
 
 func _notification(what: int) -> void:
-	if what == NOTIFICATION_WM_WINDOW_FOCUS_OUT:
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	if what == NOTIFICATION_WM_WINDOW_FOCUS_OUT and _can_change_modal():
+		paused = true
+		notebook = false
+		_sync_modal_state()
+
+func _window_is_focused() -> bool:
+	return DisplayServer.get_name() == "headless" or DisplayServer.window_is_focused(get_window().get_window_id())
+
+func _can_change_modal() -> bool:
+	return _modal_ready and not _leaving and is_inside_tree() and not is_queued_for_deletion() and not GameState.game_over
+
+func is_gameplay_blocked() -> bool:
+	return paused or notebook or GameState.game_over or _leaving
+
+func _sync_modal_state() -> void:
+	if not _modal_ready or not is_inside_tree() or is_queued_for_deletion(): return
+	var blocked := is_gameplay_blocked()
+	get_tree().paused = blocked
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE if blocked else Input.MOUSE_MODE_CAPTURED
+	if blocked and is_instance_valid(player):
+		player.velocity.x = 0.0
+		player.velocity.z = 0.0
+		player.is_sprinting = false
+	if GameState.game_over or _leaving:
+		hud_controller.hide_handbook()
+		hud_controller.hide_pause()
+	elif notebook:
+		hud_controller.hide_pause()
+	else:
+		hud_controller.hide_handbook()
+		if paused: hud_controller.show_pause()
+		else: hud_controller.hide_pause()
 
 func toggle_pause() -> void:
-	paused=not paused;get_tree().paused=paused
-	if paused:
-		hud_controller.show_pause()
-	else:
-		hud_controller.hide_pause()
-		if not notebook: Input.mouse_mode=Input.MOUSE_MODE_CAPTURED
+	if not _can_change_modal(): return
+	if paused and not _window_is_focused(): return
+	paused = not paused
+	_sync_modal_state()
 
 func toggle_handbook() -> void:
+	if not _can_change_modal(): return
+	if not notebook and not _window_is_focused(): return
 	notebook=not notebook
 	if notebook:
 		var entries: Array[String] = []
@@ -439,11 +494,26 @@ func toggle_handbook() -> void:
 		hud_controller.show_handbook(entries,fusion_entries)
 	else:
 		hud_controller.hide_handbook()
+	_sync_modal_state()
+
+func request_retry() -> void:
+	_request_scene_change(true)
+
+func request_menu() -> void:
+	_request_scene_change(false)
+
+func _request_scene_change(retry: bool) -> void:
+	if _leaving or is_queued_for_deletion(): return
+	_leaving = true
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	hud_controller.set_process_input(false)
+	if retry: retry_requested.emit()
+	else: return_to_menu.emit()
 
 func cycle_filter() -> void:
 	filter_index=(filter_index+1)%3
 	if is_instance_valid(rain_filter): rain_filter.cutoff_hz = [350.0,650.0,1400.0][filter_index]
-	_notice("频段选择：%s。过滤也会削弱该频带内其他声音。" % ["低频", "中频", "高频"][filter_index])
+	_notice("保留雨声中的%s频段；其余雨声频率被衰减。" % ["低频", "中频", "高频"][filter_index])
 
 func _notice(text: String) -> void:
 	if is_instance_valid(hud_controller): hud_controller.notice(text)
@@ -453,7 +523,8 @@ func notice(text: String) -> void: _notice(text)
 func finish(won: bool) -> void:
 	if GameState.game_over:return
 	GameState.game_over=true;GameState.outcome="胜利" if won else "You became part of the experiment."
-	get_tree().paused=true;Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
+	notebook = false
+	_sync_modal_state()
 	hud_controller.show_outcome(won)
 
 func emit_echo(position: Vector3) -> void:
@@ -477,15 +548,16 @@ func show_afterimage(duration: float) -> void:
 	var overlay:=ColorRect.new();overlay.color=Color(0.5,0.67,0.64,0.08);overlay.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT);overlay.mouse_filter=Control.MOUSE_FILTER_IGNORE;hud_controller.add_child(overlay)
 	for saved_point in flash_snapshot_points:
 		var marker:=Label.new();marker.text="◇";marker.position=saved_point-Vector2(12,12);marker.add_theme_font_size_override("font_size",22);marker.add_theme_color_override("font_color",Color(0.56,0.83,0.69,0.9));overlay.add_child(marker)
-	var timer:=Timer.new();timer.wait_time=duration;timer.one_shot=true;overlay.add_child(timer);timer.timeout.connect(overlay.queue_free);timer.start()
+	var timer:=Timer.new();timer.process_mode=Node.PROCESS_MODE_PAUSABLE;timer.wait_time=duration;timer.one_shot=true;overlay.add_child(timer);timer.timeout.connect(overlay.queue_free);timer.start()
 	_notice("雷痕保留了闪电时敌人的旧屏幕位置；目标移动后，残像也不会更新。")
 
 func reveal_traces(improved := false) -> void:
 	var count:=0
 	for trace in traces:
 		if not is_instance_valid(trace.node): continue
-		if improved and not trace.salt_reactive: continue
 		trace.node.visible=true;count+=1
+		var material := trace.node.material_override as StandardMaterial3D
+		if material: material.emission_energy_multiplier = 1.2 if improved and trace.salt_reactive else 0.6
 	_notice("鲁米诺显影 %d 处仍未被暴雨冲淡的反应性痕迹。" % count if count>0 else "没有合适的催化痕迹；干净地面不会发光。")
 
 func place_field(kind: String, position: Vector3, radius := 2.4) -> void:
@@ -493,12 +565,15 @@ func place_field(kind: String, position: Vector3, radius := 2.4) -> void:
 	fields.append({"node":node,"kind":kind,"time":11.0,"radius":radius})
 	_notice("%s已形成。玩家与追猎者都受其规则影响，暴雨会逐渐稀释。" % ("剪切增稠泥浆" if kind=="mire" else "高渗盐阵"))
 
-func _spawn_trace(position: Vector3, salt_reactive := false) -> void:
-	var mark:=MeshInstance3D.new();var mesh:=SphereMesh.new();mesh.radius=0.16;mesh.height=0.05;mark.mesh=mesh;mark.position=position+Vector3(0,0.04,0);mark.visible=false;mark.material_override=_mat(Color(0.2,0.55,0.95),true);add_child(mark);traces.append({"node":mark,"time":20.0,"salt_reactive":salt_reactive})
+func _spawn_trace(position: Vector3, salt_reactive := false, source_hunter_id := 0) -> void:
+	var mark:=MeshInstance3D.new();var mesh:=SphereMesh.new();mesh.radius=0.16;mesh.height=0.05;mark.mesh=mesh;mark.position=position+Vector3(0,0.04,0);mark.visible=false;mark.material_override=_mat(Color(0.2,0.55,0.95),true);add_child(mark);traces.append({"node":mark,"time":20.0,"salt_reactive":salt_reactive,"source_hunter_id":source_hunter_id})
 
 func check_fusion(skill: String) -> void:
 	var discovered_description: String = fusion_manager.check_trigger(skill)
-	if not discovered_description.is_empty(): _notice("融合记录发现：" + discovered_description)
+	if not discovered_description.is_empty():
+		var titles: Array[String] = []
+		for description in discovered_description.split("\n"): titles.append(description.split("｜")[0])
+		_notice("融合记录发现：%s。按 Tab 查看手册。" % "、".join(titles))
 
 func toggle_mire_state(_enabled: bool) -> void: pass
 

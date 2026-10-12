@@ -40,19 +40,13 @@ func _ready() -> void:
 	light.shadow_enabled = true
 	add_child(light)
 	skill_manager = preload("res://scripts/skills/skill_manager.gd").new(); add_child(skill_manager); skill_manager.setup(self, world)
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
 		rotate_y(-event.relative.x * look_sensitivity)
 		pitch = clampf(pitch - event.relative.y * look_sensitivity, -1.35, 1.35)
 		camera.rotation.x = pitch
-	if event.is_action_pressed("ui_cancel"):
-		if Input.mouse_mode == Input.MOUSE_MODE_CAPTURED: Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-		else: Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-		world.toggle_pause()
 	if event.is_action_pressed("interact"): world.interact()
-	if event.is_action_pressed("handbook"): world.toggle_handbook()
 	if event.is_action_pressed("skill_1"): use_slot(0)
 	if event.is_action_pressed("skill_2"): use_slot(1)
 	if event.is_action_pressed("skill_3"): use_slot(2)
@@ -89,6 +83,8 @@ func _physics_process(delta: float) -> void:
 		world.play_footstep(global_position, running)
 		step_timer = 0.3 if running else 0.5
 	move_and_slide()
+	if global_position.y < -5.0 and world:
+		world.finish(false)
 	if world: world.update_hud()
 
 func movement_settings(input: Vector2, sprint_pressed: bool) -> Dictionary:

@@ -1,16 +1,15 @@
-# Godot editor/import cache
+# Godot regenerates its import and editor cache. Keep source .import and .gd.uid files.
 .godot/
 
-# macOS filesystem metadata
-.DS_Store
-
-# Local exports and build artifacts
+# Local exports and test/tool artifacts.
 builds/
 *.app/
 *.dmg
 *.zip
-
-# Editor and temporary files
 .vscode/
 .idea/
 *.tmp
+__pycache__/
+*.pyc
+*.log
+.DS_Store

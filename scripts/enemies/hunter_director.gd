@@ -47,8 +47,11 @@ func _on_warning(_hunter: CharacterBody3D) -> void:
 	world.notice("尖叫逼近：奶龙即将冲刺！")
 
 func _on_death(hunter: CharacterBody3D) -> void:
+	var id := hunter.get_instance_id()
 	hunters.erase(hunter)
-	recycle_cooldowns.erase(hunter.get_instance_id())
+	pending_initial.erase(hunter)
+	recycle_cooldowns.erase(id)
+	initial_directions.erase(id)
 	# 死亡以后也保持目标数量，但补位发生在物理帧。
 
 func candidate_is_clear(hunter: CharacterBody3D, candidate: Vector3) -> bool:
@@ -88,6 +91,9 @@ func _physics_process(delta: float) -> void:
 	for id in recycle_cooldowns.keys():
 		recycle_cooldowns[id] = maxf(0.0,recycle_cooldowns[id]-delta)
 	for hunter in pending_initial.duplicate():
+		if not is_instance_valid(hunter):
+			pending_initial.erase(hunter)
+			continue
 		if relocate(hunter,initial_directions.get(hunter.get_instance_id(),last_motion),initial_directions.has(hunter.get_instance_id())):
 			hunter.set_physics_process(true)
 			pending_initial.erase(hunter)
@@ -119,9 +125,27 @@ func _physics_process(delta: float) -> void:
 	if moved > 0: ambush_cooldown = ambush_interval
 
 func is_in_view(hunter: Node3D) -> bool:
-	# 身体多点检测：只有头/脚进入画面也保护，不受黑暗中是否能辨认影响。
-	for height in [.2,1.35,2.65]:
-		for side in [-.5,0.0,.5]:
-			if player.camera.is_position_in_frustum(hunter.global_position+Vector3(side,height,0)):
-				return true
-	return false
+	if not is_instance_valid(hunter) or not is_instance_valid(player) or not is_instance_valid(player.camera): return true
+	var camera: Camera3D = player.camera
+	if not camera.is_inside_tree(): return true
+	var visual := hunter.get_node_or_null("VisualRoot")
+	if visual == null: return true
+	var bounds := AABB()
+	var has_bounds := false
+	for node in visual.find_children("*","MeshInstance3D",true,false):
+		var part := node as MeshInstance3D
+		if part.mesh == null: continue
+		var part_bounds := part.global_transform * part.get_aabb()
+		if not part_bounds.is_finite(): return true
+		bounds = bounds.merge(part_bounds) if has_bounds else part_bounds
+		has_bounds = true
+	if not has_bounds: return true
+	# 只有某个裁剪平面能排除整个模型时才允许传送，边缘接触也保护。
+	for plane in camera.get_frustum():
+		var outside := true
+		for corner in range(8):
+			if plane.distance_to(bounds.get_endpoint(corner)) <= .001:
+				outside = false
+				break
+		if outside: return false
+	return true

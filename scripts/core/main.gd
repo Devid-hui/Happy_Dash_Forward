@@ -150,7 +150,11 @@ func _restart_world() -> void:
 
 func _show_menu_from_world() -> void:
 	if transitioning: return
+	transitioning = true
 	get_tree().paused = false
 	if is_instance_valid(world): world.queue_free()
+	world = null
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	_build_shell()
 	_show_menu()
+	transitioning = false
