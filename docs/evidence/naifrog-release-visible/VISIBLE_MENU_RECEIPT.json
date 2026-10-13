@@ -1,0 +1,12 @@
+{
+  "app_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/TheMidnightAcademy-naifrog-v9.app",
+  "observed": "Actual visible native release window and rendered main menu",
+  "scope": "Menu visibility only; no ordinary input full-game or in-game character view claim",
+  "screenshot": "visible-menu.png",
+  "captured_at": "2026-10-13T05:29:03.150Z",
+  "process_executable_verified": true,
+  "initial_pid": 67944,
+  "closed_after_check": true,
+  "close_verification": "cua.listApps reports com.midnightacademy.rainfield isRunning=false",
+  "screenshot_sha256": "57511125753899be66c6bebfa29e6c45d3457baf35449256c84defa1792ff845"
+}

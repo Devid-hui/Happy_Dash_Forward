@@ -35,7 +35,7 @@
 | Godot 专项合同 | 3,853 项检查、276 个采样状态、37,943,652 次顶点评估，失败 0 | 三档 morph／蒙皮／刚性部件、支撑、动画边界、五实例共享与独立、暂停／恢复及重建；支撑上限已收紧为 3 mm |
 | 实际 GPU 轮廓 | 脚部视图 GPU／CPU mask 完全一致；三分之四视图脚底轮廓最多差 1 像素 | Metal／Forward+、1920×1080、LOD0 的两个 idle 视图；不是所有动画时间的 GPU 顶点证明 |
 | 正式回归套件 | 导入、运行器错误拦截自检、13 场景合同、两个档案重启进程全部通过 | 运行器同时检查退出码、成功标记和引擎／脚本 ERROR |
-| 独立 macOS 应用 | 导出成功；release 可执行文件以 headless 模式启动菜单入口成功；签名验证成功；实际导出 PCK 的 46 项资源／World 加载检查失败 0，包含五只追猎者和三档奶蛙 | release 的 headless 启动与 exact-version editor 的 headless PCK 资源探测分别记录；不声称已打开 release GUI 或完成普通键鼠整局逃生 |
+| 独立 macOS 应用 | 导出成功；release headless 菜单入口和后续真实可见菜单窗口均启动成功；签名验证成功；实际导出 PCK 的 46 项资源／World 加载检查失败 0，包含五只追猎者和三档奶蛙 | release 菜单画面、headless 启动与 exact-version editor 的 headless PCK 资源探测分别记录；不声称已在 release GUI 内完成游戏或普通键鼠整局逃生 |
 
 V8 的 24 对 UV 重叠和约 14 mm 支撑高度保留在[历史证据](../evidence/naifrog-model-v8/README.md)，没有覆盖成通过。V9 已按实际 UV 和动画重新制作、导出、检查；当前文件身份见[冻结清单](../evidence/naifrog-model-v9/producer/freeze-identities.json)，本版全部回执见[V9 证据索引](../evidence/naifrog-model-v9/README.md)。
 
@@ -67,4 +67,8 @@ V8 的 24 对 UV 重叠和约 14 mm 支撑高度保留在[历史证据](../evide
 
 独立应用与 ZIP 保存在本次聊天的 `outputs/naifrog-standalone-v9/`，不混入可编辑仓库。导出时使用已核验的官方模板，临时模板路径随后逐字节恢复；生产输入前后 SHA 一致。较早的 standalone preflight 和旧 ZIP/PCK 是历史快照，不能代表当前奶蛙。
 
+后续通过 `cua_repl` 按新 APP 的完整路径启动了实际 release 窗口，核对运行进程路径及真实菜单画面，随后关闭本次实例。证据见[可见菜单回执](../evidence/naifrog-release-visible/VISIBLE_MENU_RECEIPT.json)和[窗口原图](../evidence/naifrog-release-visible/visible-menu.png)。该记录仅增加可见菜单启动证据，没有开展整局操作或写入科研档案。
+
 Git LFS 管理模型和贴图；检出该分支后应完成 `git lfs pull` 再启动工程。先前 `17b34a5` 的云端失败来自 checkout 未取得实际 LFS 文件，本次已设置 `lfs: true`，云端结果以当前提交对应的 GitHub Actions 为准。
+
+奶蛙主提交为 `9f27f2281b63cad171d28a8402dbe797323c3790`；已从远端独立检出并下载实际 LFS 数据，15 个关键文件逐 SHA 与本地一致。[发布和回读回执](../evidence/naifrog-publication-v9/README.md)记录这一身份。该提交的首轮云端检查已成功取得 LFS 文件，但冷导入在 62% 时触发 120 秒超时，未进入场景测试。工作流随后使用运行器已有的 `--timeout 360` 参数，保留退出码、ERROR 和成功标记三项判定，以及 20 分钟总作业上限。

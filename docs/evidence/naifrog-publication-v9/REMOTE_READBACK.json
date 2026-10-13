@@ -1,0 +1,113 @@
+{
+  "head": "9f27f2281b63cad171d28a8402dbe797323c3790",
+  "scope": "Fresh remote fetch into independent checkout; actual downloaded LFS bytes and Git text, not local pointers",
+  "seconds": 38.784364417006145,
+  "matches_all": true,
+  "records": [
+    {
+      "path": "source_assets/naifrog/model/naifrog_game_rig.blend",
+      "local_sha256": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+      "remote_sha256": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+      "matches": true,
+      "bytes": 88353139
+    },
+    {
+      "path": "source_assets/naifrog/model/naifrog_high_rig.blend",
+      "local_sha256": "69b5c34f6b9a88e0081dea53fb96564dbeb07bfc60f5eff448710885d77a58ab",
+      "remote_sha256": "69b5c34f6b9a88e0081dea53fb96564dbeb07bfc60f5eff448710885d77a58ab",
+      "matches": true,
+      "bytes": 88353139
+    },
+    {
+      "path": "assets/refined/naifrog/MODEL_MANIFEST.json",
+      "local_sha256": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab",
+      "remote_sha256": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab",
+      "matches": true,
+      "bytes": 118913
+    },
+    {
+      "path": "assets/refined/naifrog/naifrog_lod0.glb",
+      "local_sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+      "remote_sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+      "matches": true,
+      "bytes": 34869824
+    },
+    {
+      "path": "assets/refined/naifrog/naifrog_lod1.glb",
+      "local_sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+      "remote_sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+      "matches": true,
+      "bytes": 7229692
+    },
+    {
+      "path": "assets/refined/naifrog/naifrog_lod2.glb",
+      "local_sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+      "remote_sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+      "matches": true,
+      "bytes": 3673172
+    },
+    {
+      "path": "assets/refined/naifrog/textures/naifrog_basecolor.png",
+      "local_sha256": "291be3d8404ce3adcc6e2e5d8afc9147ca4d752183d5c81d9c5c8fa3a775ff58",
+      "remote_sha256": "291be3d8404ce3adcc6e2e5d8afc9147ca4d752183d5c81d9c5c8fa3a775ff58",
+      "matches": true,
+      "bytes": 1163665
+    },
+    {
+      "path": "assets/refined/naifrog/textures/naifrog_roughness.png",
+      "local_sha256": "991862976e0e4e4a6533af856f38fd641a9c8cbb95d682ab65d11ca49f1fbc2e",
+      "remote_sha256": "991862976e0e4e4a6533af856f38fd641a9c8cbb95d682ab65d11ca49f1fbc2e",
+      "matches": true,
+      "bytes": 668383
+    },
+    {
+      "path": "source_assets/naifrog/model/naifrog_shape_master.blend",
+      "local_sha256": "eefd2a85f3de41781ea0873af37272a685a223549bf29de8a2d848f096d69d50",
+      "remote_sha256": "eefd2a85f3de41781ea0873af37272a685a223549bf29de8a2d848f096d69d50",
+      "matches": true,
+      "bytes": 26082096
+    },
+    {
+      "path": "docs/implementation/NAIFROG_MODEL_UPDATE_2026-10-13.md",
+      "local_sha256": "ff572f3fbeba5c559bae12a9a379e672e739d0ded120c49c06469287533af592",
+      "remote_sha256": "ff572f3fbeba5c559bae12a9a379e672e739d0ded120c49c06469287533af592",
+      "matches": true,
+      "bytes": 9409
+    },
+    {
+      "path": "docs/implementation/GOAL.md",
+      "local_sha256": "e9618991043507dd7ebfc939fbc3a7457452144db8fc51fe25c27efcd11ba3a2",
+      "remote_sha256": "e9618991043507dd7ebfc939fbc3a7457452144db8fc51fe25c27efcd11ba3a2",
+      "matches": true,
+      "bytes": 26776
+    },
+    {
+      "path": "scripts/enemies/hunter_visual.gd",
+      "local_sha256": "f6f6f6d936bfc720a7c41fe0f03b3899194ddb523ee6bdc36f22f4f9252812a8",
+      "remote_sha256": "f6f6f6d936bfc720a7c41fe0f03b3899194ddb523ee6bdc36f22f4f9252812a8",
+      "matches": true,
+      "bytes": 7423
+    },
+    {
+      "path": "tests/naifrog_model_contract.gd",
+      "local_sha256": "6d4b7b865c6958d83f138b7b84a30a7baedc5f8ec87660165641d3cabf5459d7",
+      "remote_sha256": "6d4b7b865c6958d83f138b7b84a30a7baedc5f8ec87660165641d3cabf5459d7",
+      "matches": true,
+      "bytes": 31258
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "local_sha256": "a88928490ab206794d362027960e2176eed620cfe97cfc84597c63b8a11ccea5",
+      "remote_sha256": "a88928490ab206794d362027960e2176eed620cfe97cfc84597c63b8a11ccea5",
+      "matches": true,
+      "bytes": 974
+    },
+    {
+      "path": "docs/evidence/naifrog-model-v9/PORTABLE_INDEX.json",
+      "local_sha256": "be839836edd88915c32d95d609d44a18c8c5bd48ba9cc531be79a6caeab1d3eb",
+      "remote_sha256": "be839836edd88915c32d95d609d44a18c8c5bd48ba9cc531be79a6caeab1d3eb",
+      "matches": true,
+      "bytes": 36156
+    }
+  ]
+}
