@@ -1,0 +1,287 @@
+regressions	Set up job	﻿2026-10-13T06:25:30.6679676Z Current runner version: '2.337.0'
+regressions	Set up job	2026-10-13T06:25:30.6701575Z ##[group]Runner Image Provisioner
+regressions	Set up job	2026-10-13T06:25:30.6702204Z Hosted Compute Agent
+regressions	Set up job	2026-10-13T06:25:30.6702641Z Version: 20261002.596
+regressions	Set up job	2026-10-13T06:25:30.6703019Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+regressions	Set up job	2026-10-13T06:25:30.6703436Z Build Date: 2026-10-02T22:28:27Z
+regressions	Set up job	2026-10-13T06:25:30.6703931Z Worker ID: {08f03dae-54e0-423c-9ab0-cea386f988da}
+regressions	Set up job	2026-10-13T06:25:30.6704352Z Region: centralus
+regressions	Set up job	2026-10-13T06:25:30.6704732Z Cloud: Azure
+regressions	Set up job	2026-10-13T06:25:30.6705313Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:25:30.6706167Z ##[group]Operating System
+regressions	Set up job	2026-10-13T06:25:30.6706617Z Ubuntu
+regressions	Set up job	2026-10-13T06:25:30.6706937Z 24.04.5
+regressions	Set up job	2026-10-13T06:25:30.6707297Z LTS
+regressions	Set up job	2026-10-13T06:25:30.6707621Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:25:30.6707952Z ##[group]Runner Image
+regressions	Set up job	2026-10-13T06:25:30.6708381Z Image: ubuntu-24.04
+regressions	Set up job	2026-10-13T06:25:30.6708724Z Version: 20261004.327.1
+regressions	Set up job	2026-10-13T06:25:30.6709333Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+regressions	Set up job	2026-10-13T06:25:30.6710417Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+regressions	Set up job	2026-10-13T06:25:30.6711039Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:25:30.6711723Z ##[group]GITHUB_TOKEN Permissions
+regressions	Set up job	2026-10-13T06:25:30.6713230Z Contents: read
+regressions	Set up job	2026-10-13T06:25:30.6713599Z Metadata: read
+regressions	Set up job	2026-10-13T06:25:30.6714306Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:25:30.6716083Z Secret source: Actions
+regressions	Set up job	2026-10-13T06:25:30.6716612Z Cache mode: write
+regressions	Set up job	2026-10-13T06:25:30.6717145Z Prepare workflow directory
+regressions	Set up job	2026-10-13T06:25:30.6935855Z Prepare all required actions
+regressions	Set up job	2026-10-13T06:25:30.6974628Z Getting action download info
+regressions	Set up job	2026-10-13T06:25:30.9208931Z Download action repository 'actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+regressions	Set up job	2026-10-13T06:25:31.0679423Z Complete job name: regressions
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	﻿2026-10-13T06:25:31.1246799Z ##[group]Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1247370Z with:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1247633Z   lfs: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1247891Z   repository: Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1250275Z   token: ***
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1250510Z   ssh-strict: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1250752Z   ssh-user: git
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1251006Z   persist-credentials: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1251353Z   clean: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1251611Z   sparse-checkout-cone-mode: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1251904Z   fetch-depth: 1
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1252146Z   fetch-tags: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1252407Z   show-progress: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1252665Z   submodules: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1252921Z   set-safe-directory: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1253208Z   allow-unsafe-pr-checkout: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1253582Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1987110Z Syncing repository: Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1988863Z ##[group]Getting Git version info
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1989653Z Working directory is '/home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.1990736Z [command]/usr/bin/git version
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.2042766Z git version 2.55.0
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.2083428Z [command]/usr/bin/git lfs version
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6607550Z git-lfs/3.8.0 (GitHub; linux amd64; go 1.27.0)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6619373Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6631102Z Temporarily overriding HOME='/home/runner/work/_temp/6a974aa8-c096-4113-958d-f66c2886fb26' before making global git config changes
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6632055Z Adding repository directory to the temporary git global config as a safe directory
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6635665Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6680337Z Deleting the contents of '/home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6682954Z ##[group]Initializing the repository
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.6685956Z [command]/usr/bin/git init /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7264660Z hint: Using 'master' as the name for the initial branch. This default branch name
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7266461Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7268631Z hint: to use in all of your new repositories, which will suppress this warning,
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7269489Z hint: call:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7270044Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7270696Z hint: 	git config --global init.defaultBranch <name>
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7271327Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7275909Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7281672Z hint: 'development'. The just-created branch can be renamed via this command:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7285602Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7286121Z hint: 	git branch -m <name>
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7286525Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7286906Z hint: Disable this message with "git config set advice.defaultBranchName false"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7287636Z Initialized empty Git repository in /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward/.git/
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7291915Z [command]/usr/bin/git remote add origin https://github.com/Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7382749Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7383683Z ##[group]Disabling automatic garbage collection
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7386887Z [command]/usr/bin/git config --local gc.auto 0
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7421208Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7422142Z ##[group]Setting up auth
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7427915Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7462589Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7700480Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7732250Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7915551Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.7944132Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8123774Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8477659Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8480911Z [command]/usr/bin/git lfs install --local
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8898988Z Updated Git hooks.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8900001Z Git LFS initialized.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8970203Z ##[group]Fetching the repository
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:31.8981311Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5059734721bd40d3891492e122c30cb46d2d6273:refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8009245Z From https://github.com/Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8011411Z  * [new ref]         5059734721bd40d3891492e122c30cb46d2d6273 -> origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8014831Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8016085Z ##[group]Determining the checkout info
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8017167Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8018047Z ##[group]Fetching LFS objects
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8019331Z [command]/usr/bin/git lfs fetch origin refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:25:32.8245613Z Fetching reference refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:23.9157233Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:23.9162092Z [command]/usr/bin/git sparse-checkout disable
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:23.9218015Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:23.9251912Z ##[group]Checking out the ref
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:23.9257222Z [command]/usr/bin/git checkout --progress --force -B codex/four-stage-modeling refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:25.2241527Z Updating files:  10% (166/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:25.9621258Z Updating files:  11% (176/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:26.0273795Z Updating files:  11% (185/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:26.8517305Z Updating files:  12% (192/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:26.9321432Z Updating files:  13% (208/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:27.0072049Z Updating files:  13% (213/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.0253721Z Updating files:  14% (224/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.0254196Z Updating files:  14% (239/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.2411403Z Updating files:  15% (240/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.4961322Z Updating files:  16% (256/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.8038925Z Updating files:  17% (272/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:28.8381745Z Updating files:  18% (288/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:29.0415378Z Updating files:  19% (304/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:29.4510882Z Updating files:  19% (306/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:29.9252971Z Updating files:  20% (320/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:30.1029532Z Updating files:  21% (336/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:30.5629231Z Updating files:  21% (337/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:31.1050508Z Updating files:  22% (352/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:31.1681415Z Updating files:  22% (364/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:31.5320856Z Updating files:  23% (368/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:31.9320385Z Updating files:  24% (384/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:31.9321105Z Updating files:  24% (398/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:32.2476207Z Updating files:  25% (399/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:32.4959639Z Updating files:  26% (415/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.0310559Z Updating files:  27% (431/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.0340608Z Updating files:  27% (446/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.0713803Z Updating files:  28% (447/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.3449900Z Updating files:  29% (463/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.5388457Z Updating files:  30% (479/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7319363Z Updating files:  31% (495/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7567724Z Updating files:  32% (511/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7763606Z Updating files:  33% (527/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7911458Z Updating files:  34% (543/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7920645Z Updating files:  35% (559/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.7927823Z Updating files:  36% (575/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8050327Z Updating files:  37% (591/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8054038Z Updating files:  38% (607/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8064772Z Updating files:  39% (623/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8076103Z Updating files:  40% (639/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8272488Z Updating files:  41% (655/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8433471Z Updating files:  42% (671/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8524583Z Updating files:  43% (687/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:33.8949318Z Updating files:  44% (703/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0249112Z Updating files:  45% (719/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0251506Z Updating files:  45% (733/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0279389Z Updating files:  46% (735/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0396986Z Updating files:  47% (751/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0545222Z Updating files:  48% (767/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0681963Z Updating files:  49% (783/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0694560Z Updating files:  50% (798/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0703467Z Updating files:  51% (814/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0871549Z Updating files:  52% (830/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.0880381Z Updating files:  53% (846/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1209372Z Updating files:  54% (862/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1294976Z Updating files:  55% (878/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1305582Z Updating files:  56% (894/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1317522Z Updating files:  57% (910/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1331639Z Updating files:  58% (926/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1782668Z Updating files:  59% (942/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1795234Z Updating files:  60% (958/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1814429Z Updating files:  61% (974/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1822557Z Updating files:  62% (990/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.1928494Z Updating files:  63% (1006/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.2109962Z Updating files:  64% (1022/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.2365589Z Updating files:  65% (1038/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.2470379Z Updating files:  66% (1054/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.2680450Z Updating files:  67% (1070/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.2922136Z Updating files:  68% (1086/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3070143Z Updating files:  69% (1102/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3197538Z Updating files:  70% (1118/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3342855Z Updating files:  71% (1134/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3503959Z Updating files:  72% (1150/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3749119Z Updating files:  73% (1166/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.3910823Z Updating files:  74% (1182/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.4065856Z Updating files:  75% (1197/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.4243012Z Updating files:  76% (1213/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.4247996Z Updating files:  77% (1229/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.4254400Z Updating files:  78% (1245/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:34.4260466Z Updating files:  79% (1261/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:35.0962937Z Updating files:  80% (1277/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:35.7388349Z Updating files:  80% (1289/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:36.0826381Z Updating files:  81% (1293/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:37.0290496Z Updating files:  81% (1294/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:38.0287524Z Updating files:  81% (1297/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:38.9791004Z Updating files:  81% (1300/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:39.1329185Z Updating files:  81% (1303/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.2569258Z Updating files:  82% (1309/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.8032543Z Updating files:  82% (1314/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.8048427Z Updating files:  83% (1325/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.8319016Z Updating files:  84% (1341/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.8800847Z Updating files:  85% (1357/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:40.8961418Z Updating files:  86% (1373/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:41.2579491Z Updating files:  87% (1389/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:42.0782792Z Updating files:  87% (1394/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:43.0945100Z Updating files:  87% (1397/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:44.0252718Z Updating files:  87% (1400/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:45.1772386Z Updating files:  87% (1402/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:46.2052461Z Updating files:  88% (1405/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.0214029Z Updating files:  88% (1410/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.0370695Z Updating files:  88% (1414/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3192000Z Updating files:  89% (1421/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3194837Z Updating files:  90% (1437/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3201123Z Updating files:  91% (1453/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3206205Z Updating files:  92% (1469/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3212054Z Updating files:  93% (1485/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3217880Z Updating files:  94% (1501/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3233376Z Updating files:  95% (1517/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3241314Z Updating files:  96% (1533/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3250570Z Updating files:  97% (1549/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3261885Z Updating files:  98% (1565/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3273182Z Updating files:  99% (1581/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3273407Z Updating files: 100% (1596/1596)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.3273632Z Updating files: 100% (1596/1596), done.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.6189205Z Switched to a new branch 'codex/four-stage-modeling'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.6196997Z branch 'codex/four-stage-modeling' set up to track 'origin/codex/four-stage-modeling'.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.6493757Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.6507250Z [command]/usr/bin/git log -1 --format=%H
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:26:47.6532448Z 5059734721bd40d3891492e122c30cb46d2d6273
+regressions	Download and verify Godot 4.7.2	﻿2026-10-13T06:26:47.7814460Z ##[group]Run mkdir -p "$RUNNER_TEMP/godot"
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.7814782Z ^[[36;1mmkdir -p "$RUNNER_TEMP/godot"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.7815518Z ^[[36;1mcurl --fail --location --retry 3 --output "$RUNNER_TEMP/godot.zip" "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.7816271Z ^[[36;1mecho "9aa00f7a605200940bce3027a567b782f49bd8e940dd06ae9e987bd65aee1b1467edd56ed84fcdcbdd44354bf613bdbb4e5d2913e925850368e150c59ed54c65  $RUNNER_TEMP/godot.zip" | sha512sum --check^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.7816781Z ^[[36;1munzip -q "$RUNNER_TEMP/godot.zip" -d "$RUNNER_TEMP/godot"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.8248790Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.8249100Z ##[endgroup]
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.9280782Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.9281296Z                                  Dload  Upload   Total   Spent    Left  Speed
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:47.9285755Z 
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:48.0185017Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:48.0185486Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:48.4282655Z 
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:48.4283373Z 100 74.2M  100 74.2M    0     0   148M      0 --:--:-- --:--:-- --:--:--  148M
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:26:48.5058205Z /home/runner/work/_temp/godot.zip: OK
+regressions	Run suite	﻿2026-10-13T06:26:49.3939197Z ##[group]Run python3 tests/run_tests.py --godot "$RUNNER_TEMP/godot/Godot_v4.7.2-stable_linux.x86_64" --timeout 360
+regressions	Run suite	2026-10-13T06:26:49.3939803Z ^[[36;1mpython3 tests/run_tests.py --godot "$RUNNER_TEMP/godot/Godot_v4.7.2-stable_linux.x86_64" --timeout 360^[[0m
+regressions	Run suite	2026-10-13T06:26:49.3998140Z shell: /usr/bin/bash -e {0}
+regressions	Run suite	2026-10-13T06:26:49.3998349Z ##[endgroup]
+regressions	Run suite	2026-10-13T06:37:08.5492648Z FAIL native UI: timeout (360.06s)
+regressions	Run suite	2026-10-13T06:37:08.5493168Z Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+regressions	Run suite	2026-10-13T06:37:08.5493434Z 
+regressions	Run suite	2026-10-13T06:37:08.5493954Z SCRIPT ERROR: Assertion failed: CJK font fallback must contain 雨
+regressions	Run suite	2026-10-13T06:37:08.5494286Z           at: run_checks (res://tests/ui_contract.gd:94)
+regressions	Run suite	2026-10-13T06:37:08.5494582Z           GDScript backtrace (most recent call first):
+regressions	Run suite	2026-10-13T06:37:08.5495007Z               [0] run_checks (res://tests/ui_contract.gd:94)
+regressions	Run suite	2026-10-13T06:37:08.5495298Z               [1] _settle (res://tests/ui_contract.gd:46)
+regressions	Run suite	2026-10-13T06:37:40.1094559Z Godot 4.7.2.stable.official.ed1daf0bf
+regressions	Run suite	2026-10-13T06:37:40.1095179Z PASS import (185.41s)
+regressions	Run suite	2026-10-13T06:37:40.1095504Z PASS runner self-test: rejected SCRIPT ERROR with exit 0 and a PASS marker (0.15s)
+regressions	Run suite	2026-10-13T06:37:40.1095837Z PASS smoke (18.31s)
+regressions	Run suite	2026-10-13T06:37:40.1096019Z PASS hunter rules (16.97s)
+regressions	Run suite	2026-10-13T06:37:40.1096222Z PASS audit regressions (17.30s)
+regressions	Run suite	2026-10-13T06:37:40.1096453Z PASS research progression (0.15s)
+regressions	Run suite	2026-10-13T06:37:40.1096669Z PASS skill dispatch (0.16s)
+regressions	Run suite	2026-10-13T06:37:40.1096872Z PASS report world flow (10.67s)
+regressions	Run suite	2026-10-13T06:37:40.1097046Z PASS spectrum gameplay (9.66s)
+regressions	Run suite	2026-10-13T06:37:40.1097185Z PASS static asset integration (6.11s)
+regressions	Run suite	2026-10-13T06:37:40.1097331Z PASS environment geometry (4.53s)
+regressions	Run suite	2026-10-13T06:37:40.1097475Z PASS equipment vehicle geometry (3.13s)
+regressions	Run suite	2026-10-13T06:37:40.1097633Z PASS hand anatomy and grip motion (1.73s)
+regressions	Run suite	2026-10-13T06:37:40.1097785Z PASS naifrog skin animation (15.77s)
+regressions	Run suite	2026-10-13T06:37:40.1097936Z PASS archive process restart write (0.14s)
+regressions	Run suite	2026-10-13T06:37:40.1098095Z PASS archive process restart read (0.15s)
+regressions	Run suite	2026-10-13T06:37:40.1167006Z ##[error]Process completed with exit code 1.
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	﻿2026-10-13T06:37:40.1252365Z Post job cleanup.
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3043716Z [command]/usr/bin/git version
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3077109Z git version 2.55.0
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3100249Z Temporarily overriding HOME='/home/runner/work/_temp/4e22a796-b2fb-4369-b733-fb0296d74ffc' before making global git config changes
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3100962Z Adding repository directory to the temporary git global config as a safe directory
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3103299Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3135779Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3163055Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3373736Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3415544Z http.https://github.com/.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3490950Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3537012Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3668376Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:37:40.3702496Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+regressions	Complete job	﻿2026-10-13T06:37:40.4035562Z Cleaning up orphan processes

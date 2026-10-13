@@ -74,3 +74,5 @@ Git LFS 管理模型和贴图；检出该分支后应完成 `git lfs pull` 再�
 奶蛙主提交为 `9f27f2281b63cad171d28a8402dbe797323c3790`；已从远端独立检出并下载实际 LFS 数据，15 个关键文件逐 SHA 与本地一致。[发布和回读回执](../evidence/naifrog-publication-v9/README.md)记录这一身份。该提交的首轮云端检查已成功取得 LFS 文件，但冷导入在 62% 时触发 120 秒超时，未进入场景测试。工作流随后使用运行器已有的 `--timeout 360` 参数，保留退出码、ERROR 和成功标记三项判定，以及 20 分钟总作业上限。
 
 后续云端冷导入仍在 360 秒超时，末段正在导入多份旧奶龙候选；同时发现可见菜单截图原件为 JPEG、后缀误记为 PNG。现已保留原字节并修正为 `.jpg`，原 SHA 不变；给 `docs/`、`assets/nailong/`、`assets/refined/nailong/` 增加 `.gdignore`，保留历史文件但不参与当前 Godot 资源导入。已按当前 actor、动态 LOD、森林／地表绑定清单、器具与正式 13 场景测试核对依赖。正式资源仍在 `assets/refined/naifrog/` 和其余现用目录；图片预览直接保存到文档目录不受影响。复现依赖旧模型的离线历史候选时，需暂时移开对应 `.gdignore` 并重新导入。第二轮实际失败日志已归档，不将超时记为通过。
+
+提交 `5059734` 的实际云端检查已通过冷导入（185.41 秒）、错误拦截自检、奶蛙专项、其余 11 个场景合同及两次档案重启；唯一失败为 Linux runner 未安装中文字体，UI 合同在“雨”字覆盖断言失败后等待至超时。当前主题已明确列出 `Noto Sans CJK SC` 系统字体候选，macOS 本地完整 UI 合同通过。现仅在 CI 安装 Ubuntu 官方的 `fonts-noto-cjk` 和 `fontconfig`，不修改游戏主题或字体断言；[官方包文件清单](https://packages.ubuntu.com/noble/all/fonts-noto-cjk/filelist)确认包含 NotoSansCJK-Regular/Bold 字体。该轮实际日志已归档，后续完整结果以最终提交的 CI 为准。
