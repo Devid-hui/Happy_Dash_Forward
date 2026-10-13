@@ -1,0 +1,422 @@
+{
+  "checks": [
+    {
+      "label": "bark/floor binding manifest packaged",
+      "ok": true
+    },
+    {
+      "label": "stone binding manifest packaged",
+      "ok": true
+    },
+    {
+      "label": "application main scene packaged",
+      "ok": true
+    },
+    {
+      "label": "packaged runtime readiness and all JSON manifests pass",
+      "ok": true
+    },
+    {
+      "label": "application main scene loads",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/stone_basecolor.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/stone_basecolor.jpg",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/stone_normal.png",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/stone_normal.png",
+      "ok": true
+    },
+    {
+      "label": "PBR texture loads: res://assets/refined/environment/textures/stone_roughness.jpg",
+      "ok": true
+    },
+    {
+      "label": "actual imported PBR dimensions: res://assets/refined/environment/textures/stone_roughness.jpg",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/abandoned_car.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/field_equipment.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/abandoned_car_lod2.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/abandoned_car_lod1.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/research_report.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/field_equipment_lod2.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/field_equipment_lod1.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/power_tower.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/naifrog/naifrog_lod2.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/naifrog/naifrog_lod0.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/naifrog/naifrog_lod1.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_4.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_5.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_6.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_2.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_3.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/broadleaf_tree_1.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/forest_understory_kit.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/dead_tree_1.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/dead_tree_3.glb",
+      "ok": true
+    },
+    {
+      "label": "runtime GLB loads through import remap: res://assets/refined/environment/dead_tree_2.glb",
+      "ok": true
+    },
+    {
+      "label": "native World script packaged and loads",
+      "ok": true
+    },
+    {
+      "label": "native World creates Player from packaged resources",
+      "ok": true
+    },
+    {
+      "label": "native World creates five hunters",
+      "ok": true
+    }
+  ],
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "failed": 0,
+  "renderer": "headless dummy; no rendering or FPS acceptance",
+  "resources": [
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 86,
+      "path": "res://assets/refined/abandoned_car.glb",
+      "triangles": 529190
+    },
+    {
+      "animations": [],
+      "bones": 38,
+      "meshes": 31,
+      "path": "res://assets/refined/field_equipment.glb",
+      "triangles": 229800
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 86,
+      "path": "res://assets/refined/abandoned_car_lod2.glb",
+      "triangles": 98084
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 86,
+      "path": "res://assets/refined/abandoned_car_lod1.glb",
+      "triangles": 231404
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 15,
+      "path": "res://assets/refined/research_report.glb",
+      "triangles": 125512
+    },
+    {
+      "animations": [],
+      "bones": 38,
+      "meshes": 31,
+      "path": "res://assets/refined/field_equipment_lod2.glb",
+      "triangles": 43264
+    },
+    {
+      "animations": [],
+      "bones": 38,
+      "meshes": 31,
+      "path": "res://assets/refined/field_equipment_lod1.glb",
+      "triangles": 100365
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 18,
+      "path": "res://assets/refined/power_tower.glb",
+      "triangles": 83268
+    },
+    {
+      "animations": [
+        "charge",
+        "chase",
+        "idle",
+        "recover",
+        "walk",
+        "warn"
+      ],
+      "bones": 24,
+      "meshes": 4,
+      "path": "res://assets/refined/naifrog/naifrog_lod2.glb",
+      "triangles": 31044
+    },
+    {
+      "animations": [
+        "charge",
+        "chase",
+        "idle",
+        "recover",
+        "walk",
+        "warn"
+      ],
+      "bones": 24,
+      "meshes": 4,
+      "path": "res://assets/refined/naifrog/naifrog_lod0.glb",
+      "triangles": 618634
+    },
+    {
+      "animations": [
+        "charge",
+        "chase",
+        "idle",
+        "recover",
+        "walk",
+        "warn"
+      ],
+      "bones": 24,
+      "meshes": 4,
+      "path": "res://assets/refined/naifrog/naifrog_lod1.glb",
+      "triangles": 103884
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_4.glb",
+      "triangles": 2275951
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_5.glb",
+      "triangles": 2275921
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_6.glb",
+      "triangles": 2275967
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_2.glb",
+      "triangles": 2275982
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_3.glb",
+      "triangles": 2276002
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 6,
+      "path": "res://assets/refined/environment/broadleaf_tree_1.glb",
+      "triangles": 2275930
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 17,
+      "path": "res://assets/refined/environment/forest_understory_kit.glb",
+      "triangles": 64328
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 3,
+      "path": "res://assets/refined/environment/dead_tree_1.glb",
+      "triangles": 54153
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 3,
+      "path": "res://assets/refined/environment/dead_tree_3.glb",
+      "triangles": 54111
+    },
+    {
+      "animations": [],
+      "bones": 0,
+      "meshes": 3,
+      "path": "res://assets/refined/environment/dead_tree_2.glb",
+      "triangles": 54150
+    }
+  ],
+  "textures": [
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/forest_floor_diff_4k.jpg",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/forest_floor_rough_4k.jpg",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/stone_basecolor.jpg",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/stone_normal.png",
+      "width": 4096
+    },
+    {
+      "height": 4096,
+      "path": "res://assets/refined/environment/textures/stone_roughness.jpg",
+      "width": 4096
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "scope": "Actual handoff diagnosis and cold source/controlled GPU/export evidence; colleague machines not accessed",
+  "files": [
+    {
+      "path": "CLEAN_BOOTSTRAP_RECEIPT.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/CLEAN_BOOTSTRAP_RECEIPT.json",
+      "sha256": "b89cc5677ebe6822e13b76a65e2ca5183e12c285c074d5e2a61e118add473c26",
+      "bytes": 706
+    },
+    {
+      "path": "CLEAN_MAP_RENDER.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/CLEAN_MAP_RENDER.json",
+      "sha256": "5f40a7656e11c09f642be2f8f3bb16d73b09ae1abfe36051189c63901550d709",
+      "bytes": 724
+    },
+    {
+      "path": "clean-map-native.png",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/clean-map-native.png",
+      "sha256": "20090acff6559b8a4fa6ab6e7d5c53cecc104f7c8f87d6d75599e52822ecd2b2",
+      "bytes": 1907111
+    },
+    {
+      "path": "readiness-contract.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/readiness-contract.txt",
+      "sha256": "35d90708bc077ac783f76cd93814a84cdc4c66cc5ed62a80b55be7cfffa793ef",
+      "bytes": 1801
+    },
+    {
+      "path": "clean-bootstrap.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/clean-bootstrap.txt",
+      "sha256": "a7398651c399115f04957f96fa09291febb9ee2ecdec9eaaef502346538a0236",
+      "bytes": 47731
+    },
+    {
+      "path": "full-suite.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/full-suite.txt",
+      "sha256": "f845520147e659ba5065bd9223799db176e6a24996fef2d2b363f2576d10a477",
+      "bytes": 768
+    },
+    {
+      "path": "bootstrap-fixtures.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-bootstrap-fixtures/RESULTS.json",
+      "sha256": "328e239571c77a661bd846d7bcc1a714be5b645c8e36a41dbf97c29b77a72f53",
+      "bytes": 5490
+    },
+    {
+      "path": "IMPORT_SCAN_SCOPE.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-bootstrap-fixtures/IMPORT_SCAN_SCOPE.json",
+      "sha256": "0a1cc7dc482364a303d5ce1592545ebe96748ebc6863cb3a6ab84ebef8480a89",
+      "bytes": 13699
+    },
+    {
+      "path": "all-lfs-remote-audit.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-publication-v9/all-lfs-remote-audit.txt",
+      "sha256": "bfb83cb2aa4b57cc33583cbb6456dea85b3aef286d1175d2973d95c19e463375",
+      "bytes": 61
+    },
+    {
+      "path": "anonymous-fresh-download.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/anonymous-fresh-download.txt",
+      "sha256": "c087e425b045eb28739f1dd651cacbe89402a909a1b8067e5a8e1e68f5a33d44",
+      "bytes": 60
+    },
+    {
+      "path": "standalone-validation.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-standalone/validation.json",
+      "sha256": "616af4a2887baf187e6407570f10f21de14ed0887b34f4125a2a738d8d0be0b4",
+      "bytes": 4403
+    },
+    {
+      "path": "standalone-resource-load.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-standalone/native-load-receipt.json",
+      "sha256": "4ab61076443690e432b39de981e797492baf44f3fa54997932d93638e456ae87",
+      "bytes": 11492
+    },
+    {
+      "path": "prior-ci-success.txt",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-publication-v9/CI_SUCCESS_LOG.txt",
+      "sha256": "98aaa574497e49ec18c78a7c249daac807f28ae98b498182360842f9f7b25aa6",
+      "bytes": 47760
+    },
+    {
+      "path": "graph-final-coverage.json",
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/graph-final-coverage.json",
+      "sha256": "228291441227f36c76673e1bd71e4f4c970d90db04a383e9ec1139ddf6f8ed7d",
+      "bytes": 2899
+    }
+  ]
+}

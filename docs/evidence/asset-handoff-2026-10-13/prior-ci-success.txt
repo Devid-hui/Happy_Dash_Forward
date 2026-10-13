@@ -1,0 +1,360 @@
+regressions	Set up job	﻿2026-10-13T06:41:22.6359309Z Current runner version: '2.337.0'
+regressions	Set up job	2026-10-13T06:41:22.6389738Z ##[group]Runner Image Provisioner
+regressions	Set up job	2026-10-13T06:41:22.6390841Z Hosted Compute Agent
+regressions	Set up job	2026-10-13T06:41:22.6391504Z Version: 20261002.596
+regressions	Set up job	2026-10-13T06:41:22.6392151Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+regressions	Set up job	2026-10-13T06:41:22.6393243Z Build Date: 2026-10-02T22:28:27Z
+regressions	Set up job	2026-10-13T06:41:22.6393981Z Worker ID: {bf63d6a8-a19c-410e-b988-778431f251cd}
+regressions	Set up job	2026-10-13T06:41:22.6394820Z Region: westus
+regressions	Set up job	2026-10-13T06:41:22.6395391Z Cloud: Azure
+regressions	Set up job	2026-10-13T06:41:22.6395932Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:41:22.6397730Z ##[group]Operating System
+regressions	Set up job	2026-10-13T06:41:22.6398419Z Ubuntu
+regressions	Set up job	2026-10-13T06:41:22.6398973Z 24.04.5
+regressions	Set up job	2026-10-13T06:41:22.6399566Z LTS
+regressions	Set up job	2026-10-13T06:41:22.6400094Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:41:22.6400685Z ##[group]Runner Image
+regressions	Set up job	2026-10-13T06:41:22.6401320Z Image: ubuntu-24.04
+regressions	Set up job	2026-10-13T06:41:22.6401956Z Version: 20261004.327.1
+regressions	Set up job	2026-10-13T06:41:22.6403340Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+regressions	Set up job	2026-10-13T06:41:22.6405257Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+regressions	Set up job	2026-10-13T06:41:22.6406280Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:41:22.6407507Z ##[group]GITHUB_TOKEN Permissions
+regressions	Set up job	2026-10-13T06:41:22.6409873Z Contents: read
+regressions	Set up job	2026-10-13T06:41:22.6410977Z Metadata: read
+regressions	Set up job	2026-10-13T06:41:22.6411569Z ##[endgroup]
+regressions	Set up job	2026-10-13T06:41:22.6414219Z Secret source: Actions
+regressions	Set up job	2026-10-13T06:41:22.6415332Z Cache mode: write
+regressions	Set up job	2026-10-13T06:41:22.6416073Z Prepare workflow directory
+regressions	Set up job	2026-10-13T06:41:22.6791984Z Prepare all required actions
+regressions	Set up job	2026-10-13T06:41:22.6844833Z Getting action download info
+regressions	Set up job	2026-10-13T06:41:23.0305682Z Download action repository 'actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+regressions	Set up job	2026-10-13T06:41:23.2510705Z Complete job name: regressions
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	﻿2026-10-13T06:41:23.3423157Z ##[group]Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3424344Z with:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3424811Z   lfs: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3425294Z   repository: Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3429246Z   token: ***
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3429690Z   ssh-strict: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3430137Z   ssh-user: git
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3430586Z   persist-credentials: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3431087Z   clean: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3431541Z   sparse-checkout-cone-mode: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3432086Z   fetch-depth: 1
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3432744Z   fetch-tags: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3433223Z   show-progress: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3433688Z   submodules: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3434148Z   set-safe-directory: true
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3434718Z   allow-unsafe-pr-checkout: false
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.3435516Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4519954Z Syncing repository: Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4523286Z ##[group]Getting Git version info
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4524392Z Working directory is '/home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4526194Z [command]/usr/bin/git version
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4610366Z git version 2.55.0
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:23.4674698Z [command]/usr/bin/git lfs version
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2045111Z git-lfs/3.8.0 (GitHub; linux amd64; go 1.27.0)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2062744Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2081606Z Temporarily overriding HOME='/home/runner/work/_temp/a619af3a-ecd0-43d4-b14c-a12572b03a30' before making global git config changes
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2083951Z Adding repository directory to the temporary git global config as a safe directory
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2088919Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2148211Z Deleting the contents of '/home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2153595Z ##[group]Initializing the repository
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2159427Z [command]/usr/bin/git init /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2288402Z hint: Using 'master' as the name for the initial branch. This default branch name
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2291387Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2293120Z hint: to use in all of your new repositories, which will suppress this warning,
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2294586Z hint: call:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2295561Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2296446Z hint: 	git config --global init.defaultBranch <name>
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2297392Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2298319Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2300255Z hint: 'development'. The just-created branch can be renamed via this command:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2301680Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2302321Z hint: 	git branch -m <name>
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2303064Z hint:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2303803Z hint: Disable this message with "git config set advice.defaultBranchName false"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2305884Z Initialized empty Git repository in /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward/.git/
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2309347Z [command]/usr/bin/git remote add origin https://github.com/Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2430166Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2431289Z ##[group]Disabling automatic garbage collection
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2435747Z [command]/usr/bin/git config --local gc.auto 0
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2473693Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2474748Z ##[group]Setting up auth
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2483286Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2525014Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2841803Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.2888043Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3136441Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3180720Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3425039Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3469873Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3475769Z [command]/usr/bin/git lfs install --local
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3922754Z Updated Git hooks.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3923695Z Git LFS initialized.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3935621Z ##[group]Fetching the repository
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:24.3948046Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e7ca6d02f6248a71adb80bd7cd7a5521f5b40e3c:refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4271629Z From https://github.com/Devid-hui/Happy_Dash_Forward
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4274656Z  * [new ref]         e7ca6d02f6248a71adb80bd7cd7a5521f5b40e3c -> origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4278566Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4280998Z ##[group]Determining the checkout info
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4282244Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4283932Z ##[group]Fetching LFS objects
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4289617Z [command]/usr/bin/git lfs fetch origin refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:41:25.4634217Z Fetching reference refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:49.1088058Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:49.1103711Z [command]/usr/bin/git sparse-checkout disable
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:49.1154881Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:49.1189801Z ##[group]Checking out the ref
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:49.1194184Z [command]/usr/bin/git checkout --progress --force -B codex/four-stage-modeling refs/remotes/origin/codex/four-stage-modeling
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:50.8109739Z Updating files:   8% (131/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:50.9039446Z Updating files:   9% (144/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:51.1593781Z Updating files:  10% (160/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:51.1669627Z Updating files:  10% (173/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:51.4782440Z Updating files:  11% (176/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:51.7620243Z Updating files:  12% (192/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:51.8121833Z Updating files:  13% (208/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.1230059Z Updating files:  14% (224/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.1424574Z Updating files:  15% (240/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.1892944Z Updating files:  15% (241/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.2740044Z Updating files:  16% (256/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.3698258Z Updating files:  17% (272/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.3823514Z Updating files:  18% (288/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.5835503Z Updating files:  19% (304/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.7139218Z Updating files:  20% (320/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:52.9185979Z Updating files:  21% (336/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.1259246Z Updating files:  22% (352/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.1917729Z Updating files:  23% (368/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.2924537Z Updating files:  23% (370/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.4928719Z Updating files:  24% (384/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.6553711Z Updating files:  25% (400/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.7498991Z Updating files:  26% (416/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:53.9380444Z Updating files:  27% (432/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.0738208Z Updating files:  28% (448/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.1250951Z Updating files:  29% (464/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.1961339Z Updating files:  29% (469/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.2756880Z Updating files:  30% (480/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4419727Z Updating files:  31% (496/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4529633Z Updating files:  32% (512/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4634439Z Updating files:  33% (528/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4684579Z Updating files:  34% (543/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4706162Z Updating files:  35% (559/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4717874Z Updating files:  36% (575/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4761071Z Updating files:  37% (591/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4768128Z Updating files:  38% (607/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4782783Z Updating files:  39% (623/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4798669Z Updating files:  40% (639/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4867865Z Updating files:  41% (655/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.4954231Z Updating files:  42% (671/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5013187Z Updating files:  43% (687/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5173191Z Updating files:  44% (703/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5604108Z Updating files:  45% (719/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5639951Z Updating files:  46% (735/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5655979Z Updating files:  47% (751/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5742207Z Updating files:  48% (767/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5817376Z Updating files:  49% (783/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5827366Z Updating files:  50% (799/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5839343Z Updating files:  51% (815/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5893275Z Updating files:  52% (831/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.5908234Z Updating files:  53% (847/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6037745Z Updating files:  54% (863/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6082689Z Updating files:  55% (879/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6101866Z Updating files:  56% (895/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6121784Z Updating files:  57% (911/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6134841Z Updating files:  58% (927/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6286477Z Updating files:  59% (943/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6306237Z Updating files:  60% (959/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6335055Z Updating files:  61% (975/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6347118Z Updating files:  62% (991/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6386626Z Updating files:  63% (1007/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6461424Z Updating files:  64% (1023/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6542713Z Updating files:  65% (1039/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6612843Z Updating files:  66% (1055/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6673838Z Updating files:  67% (1070/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6774502Z Updating files:  68% (1086/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6832756Z Updating files:  69% (1102/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6885787Z Updating files:  70% (1118/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6936412Z Updating files:  71% (1134/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.6997615Z Updating files:  72% (1150/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7074925Z Updating files:  73% (1166/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7162148Z Updating files:  74% (1182/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7237921Z Updating files:  75% (1198/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7330489Z Updating files:  76% (1214/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7338429Z Updating files:  77% (1230/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7348803Z Updating files:  78% (1246/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:54.7358707Z Updating files:  79% (1262/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:55.2120160Z Updating files:  80% (1278/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:55.3253561Z Updating files:  80% (1293/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:56.1490287Z Updating files:  81% (1294/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:56.7818293Z Updating files:  81% (1300/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.3264842Z Updating files:  82% (1310/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.6186591Z Updating files:  82% (1315/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.6213936Z Updating files:  83% (1326/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.6347062Z Updating files:  84% (1342/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.6471617Z Updating files:  85% (1358/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:57.6500168Z Updating files:  86% (1374/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:58.2463583Z Updating files:  87% (1390/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:59.2271001Z Updating files:  87% (1398/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:42:59.8541813Z Updating files:  87% (1403/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.1615748Z Updating files:  88% (1406/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.8417906Z Updating files:  88% (1408/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9800027Z Updating files:  89% (1422/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9806502Z Updating files:  90% (1438/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9814841Z Updating files:  91% (1454/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9821936Z Updating files:  92% (1470/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9830390Z Updating files:  93% (1486/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9838778Z Updating files:  94% (1502/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9860351Z Updating files:  95% (1518/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9872277Z Updating files:  96% (1534/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9886572Z Updating files:  97% (1550/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9903186Z Updating files:  98% (1566/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9919070Z Updating files:  99% (1582/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9919553Z Updating files: 100% (1597/1597)
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:00.9920013Z Updating files: 100% (1597/1597), done.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:02.3347486Z Switched to a new branch 'codex/four-stage-modeling'
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:02.4382137Z branch 'codex/four-stage-modeling' set up to track 'origin/codex/four-stage-modeling'.
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:02.4717810Z ##[endgroup]
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:02.4898407Z [command]/usr/bin/git log -1 --format=%H
+regressions	Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:43:02.4919853Z e7ca6d02f6248a71adb80bd7cd7a5521f5b40e3c
+regressions	Download and verify Godot 4.7.2	﻿2026-10-13T06:43:02.7402417Z ##[group]Run mkdir -p "$RUNNER_TEMP/godot"
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:02.7403354Z ^[[36;1mmkdir -p "$RUNNER_TEMP/godot"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:02.7404861Z ^[[36;1mcurl --fail --location --retry 3 --output "$RUNNER_TEMP/godot.zip" "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:02.7407424Z ^[[36;1mecho "9aa00f7a605200940bce3027a567b782f49bd8e940dd06ae9e987bd65aee1b1467edd56ed84fcdcbdd44354bf613bdbb4e5d2913e925850368e150c59ed54c65  $RUNNER_TEMP/godot.zip" | sha512sum --check^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:02.7409096Z ^[[36;1munzip -q "$RUNNER_TEMP/godot.zip" -d "$RUNNER_TEMP/godot"^[[0m
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.4422920Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.4423374Z ##[endgroup]
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.4606821Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.4607892Z                                  Dload  Upload   Total   Spent    Left  Speed
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.4608559Z 
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.7778836Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.7780022Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:03.8040070Z 
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:04.2491035Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:04.2492347Z 100 74.2M  100 74.2M    0     0  94.1M      0 --:--:-- --:--:-- --:--:--  166M
+regressions	Download and verify Godot 4.7.2	2026-10-13T06:43:04.3678031Z /home/runner/work/_temp/godot.zip: OK
+regressions	Install Chinese font fallback	﻿2026-10-13T06:43:05.4097312Z ##[group]Run sudo apt-get update
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.4097678Z ^[[36;1msudo apt-get update^[[0m
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.4098083Z ^[[36;1msudo apt-get install --no-install-recommends --yes fonts-noto-cjk fontconfig^[[0m
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.4098528Z ^[[36;1mfc-match "Noto Sans CJK SC"^[[0m
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.4162870Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.4163270Z ##[endgroup]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5307014Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5671009Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5690204Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5691678Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5753590Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.5773535Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7138930Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [513 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7299307Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [571 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7686962Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1397 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7785592Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [308 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7787061Z Get:17 https://packages.microsoft.com/ubuntu/24.04/prod noble/main all Packages [640 B]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7790562Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1702 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7812240Z Get:18 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.3 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7914031Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [342 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.7934162Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1805 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.8040212Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [411 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.8051635Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [50.7 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.8064658Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.0 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.8328459Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [748 B]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.8894309Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1122 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9391098Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [228 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9413197Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1220 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9491401Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [245 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9512259Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1674 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9612197Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [383 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9637224Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [45.4 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:05.9647128Z Get:27 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.1 kB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:10.6987892Z Fetched 12.4 MB in 1s (9502 kB/s)
+regressions	Install Chinese font fallback	2026-10-13T06:43:11.6994176Z Reading package lists...
+regressions	Install Chinese font fallback	2026-10-13T06:43:11.8979416Z Reading package lists...
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.1684269Z Building dependency tree...
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.1693336Z Reading state information...
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.3767670Z fontconfig is already the newest version (2.15.0-1.1ubuntu2).
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.3768422Z fontconfig set to manually installed.
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.3768770Z Suggested packages:
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.3769575Z   fonts-noto-cjk-extra
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4000306Z The following NEW packages will be installed:
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4011932Z   fonts-noto-cjk
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4206228Z 0 upgraded, 1 newly installed, 0 to remove and 29 not upgraded.
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4207188Z Need to get 61.2 MB of archives.
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4207983Z After this operation, 93.2 MB of additional disk space will be used.
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.4209106Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+regressions	Install Chinese font fallback	2026-10-13T06:43:12.5055463Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-noto-cjk all 1:20230817+repack1-3 [61.2 MB]
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2165947Z Fetched 61.2 MB in 1s (41.1 MB/s)
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2416641Z Selecting previously unselected package fonts-noto-cjk.
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2739819Z (Reading database ... 
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2740352Z (Reading database ... 5%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2740786Z (Reading database ... 10%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2741209Z (Reading database ... 15%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2741749Z (Reading database ... 20%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2742165Z (Reading database ... 25%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2742932Z (Reading database ... 30%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2743601Z (Reading database ... 35%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2744173Z (Reading database ... 40%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2744584Z (Reading database ... 45%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2744985Z (Reading database ... 50%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.2796663Z (Reading database ... 55%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.3865199Z (Reading database ... 60%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.5941101Z (Reading database ... 65%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.7994666Z (Reading database ... 70%
+regressions	Install Chinese font fallback	2026-10-13T06:43:14.9803587Z (Reading database ... 75%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.1391062Z (Reading database ... 80%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.3445584Z (Reading database ... 85%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.5382181Z (Reading database ... 90%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.7356536Z (Reading database ... 95%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.7357421Z (Reading database ... 100%
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.7358281Z (Reading database ... 203191 files and directories currently installed.)
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.7407726Z Preparing to unpack .../fonts-noto-cjk_1%3a20230817+repack1-3_all.deb ...
+regressions	Install Chinese font fallback	2026-10-13T06:43:15.7513024Z Unpacking fonts-noto-cjk (1:20230817+repack1-3) ...
+regressions	Install Chinese font fallback	2026-10-13T06:43:16.2425795Z Setting up fonts-noto-cjk (1:20230817+repack1-3) ...
+regressions	Install Chinese font fallback	2026-10-13T06:43:16.2497896Z Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0954908Z 
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0955774Z Running kernel seems to be up-to-date.
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0956214Z 
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0956394Z No services need to be restarted.
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0956682Z 
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0956859Z No containers need to be restarted.
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0957162Z 
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0957378Z No user sessions are running outdated binaries.
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0957731Z 
+regressions	Install Chinese font fallback	2026-10-13T06:43:17.0958069Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+regressions	Install Chinese font fallback	2026-10-13T06:43:18.4059284Z NotoSansCJK-Regular.ttc: "Noto Sans CJK SC" "Regular"
+regressions	Run suite	﻿2026-10-13T06:43:18.4110605Z ##[group]Run python3 tests/run_tests.py --godot "$RUNNER_TEMP/godot/Godot_v4.7.2-stable_linux.x86_64" --timeout 360
+regressions	Run suite	2026-10-13T06:43:18.4111494Z ^[[36;1mpython3 tests/run_tests.py --godot "$RUNNER_TEMP/godot/Godot_v4.7.2-stable_linux.x86_64" --timeout 360^[[0m
+regressions	Run suite	2026-10-13T06:43:18.4185269Z shell: /usr/bin/bash -e {0}
+regressions	Run suite	2026-10-13T06:43:18.4185602Z ##[endgroup]
+regressions	Run suite	2026-10-13T06:50:25.2027997Z Godot 4.7.2.stable.official.ed1daf0bf
+regressions	Run suite	2026-10-13T06:50:25.2028612Z PASS import (272.48s)
+regressions	Run suite	2026-10-13T06:50:25.2029165Z PASS runner self-test: rejected SCRIPT ERROR with exit 0 and a PASS marker (0.16s)
+regressions	Run suite	2026-10-13T06:50:25.2029825Z PASS smoke (24.46s)
+regressions	Run suite	2026-10-13T06:50:25.2030218Z PASS hunter rules (26.37s)
+regressions	Run suite	2026-10-13T06:50:25.2030608Z PASS audit regressions (22.83s)
+regressions	Run suite	2026-10-13T06:50:25.2031001Z PASS research progression (0.26s)
+regressions	Run suite	2026-10-13T06:50:25.2031425Z PASS skill dispatch (0.26s)
+regressions	Run suite	2026-10-13T06:50:25.2032223Z PASS report world flow (14.32s)
+regressions	Run suite	2026-10-13T06:50:25.2033018Z PASS spectrum gameplay (12.00s)
+regressions	Run suite	2026-10-13T06:50:25.2033498Z PASS native UI (1.10s)
+regressions	Run suite	2026-10-13T06:50:25.2033856Z PASS static asset integration (7.98s)
+regressions	Run suite	2026-10-13T06:50:25.2034322Z PASS environment geometry (6.96s)
+regressions	Run suite	2026-10-13T06:50:25.2034815Z PASS equipment vehicle geometry (4.44s)
+regressions	Run suite	2026-10-13T06:50:25.2035286Z PASS hand anatomy and grip motion (2.30s)
+regressions	Run suite	2026-10-13T06:50:25.2035629Z PASS naifrog skin animation (30.29s)
+regressions	Run suite	2026-10-13T06:50:25.2035961Z PASS archive process restart write (0.25s)
+regressions	Run suite	2026-10-13T06:50:25.2036313Z PASS archive process restart read (0.25s)
+regressions	Run suite	2026-10-13T06:50:25.2036834Z ALL TESTS PASS: import, failure gate, 13 scene contracts, two archive restart processes
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	﻿2026-10-13T06:50:25.2237957Z Post job cleanup.
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4563616Z [command]/usr/bin/git version
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4608994Z git version 2.55.0
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4675792Z Temporarily overriding HOME='/home/runner/work/_temp/3a529b63-eba6-41a4-b0c2-c4c80dd5cc57' before making global git config changes
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4677617Z Adding repository directory to the temporary git global config as a safe directory
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4681852Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Happy_Dash_Forward/Happy_Dash_Forward
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4735952Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.4791399Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5128513Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5201806Z http.https://github.com/.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5208393Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5325135Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5821205Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+regressions	Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09	2026-10-13T06:50:25.5865895Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+regressions	Complete job	﻿2026-10-13T06:50:25.6265402Z Cleaning up orphan processes

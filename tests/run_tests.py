@@ -25,6 +25,7 @@ SUITE = (
     ("report world flow", "res://tests/progression_world.tscn", "PROGRESSION WORLD PASS:"),
     ("spectrum gameplay", "res://tests/spectrum_gameplay_contract.tscn", "SPECTRUM GAMEPLAY PASS:"),
     ("native UI", "res://tests/ui_contract.tscn", "UI CONTRACT PASS:"),
+    ("runtime asset readiness", "res://tests/asset_readiness_contract.tscn", "ASSET READINESS PASS:"),
     ("static asset integration", "res://tests/static_assets_contract.tscn", "STATIC ASSETS PASS:"),
     ("environment geometry", "res://tests/environment_quality_contract.tscn", "ENVIRONMENT QUALITY PASS:"),
     ("equipment vehicle geometry", "res://tests/high_fidelity_assets_contract.tscn", "HIGH FIDELITY GEOMETRY/API GUARDS PASS:"),

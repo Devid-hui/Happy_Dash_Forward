@@ -1,0 +1,26 @@
+{
+  "device": "Apple M4 Pro (Apple9)",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "equipment_present": true,
+  "meshes": 1505,
+  "multimeshes": 535,
+  "naifrog_assets": 5,
+  "readiness": {
+    "checked": 36,
+    "issues": [],
+    "ok": true
+  },
+  "renderer": "forward_plus",
+  "scope": "Actual clean-source Main entry and 1080p Forward+ rendering; programmatic selection and disabled physics with focus pause overlay cleared for inspection, not ordinary full-game input.",
+  "screenshot": "clean-map-native.png"
+}

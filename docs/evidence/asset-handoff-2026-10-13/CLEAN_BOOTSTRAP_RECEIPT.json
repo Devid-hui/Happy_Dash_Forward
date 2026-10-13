@@ -1,0 +1,11 @@
+{
+  "clone": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-audit/clean-project",
+  "initial_source_check_exit": 1,
+  "initial_lfs_pointers_detected": true,
+  "initial_import_cache_absent": true,
+  "bootstrap_exit": 0,
+  "lfs_hydration_source": "Existing independently SHA verified local LFS object cache, shared only in this task-owned test checkout",
+  "network_evidence": "Separate all-355 remote upload-presence audit and fresh anonymous 3.67 MB download with matching SHA; this cold bootstrap does not claim a new 2 GB network transfer",
+  "engine": "Godot 4.7.2",
+  "result": "Real cold editor import and post-import source/cache check passed"
+}

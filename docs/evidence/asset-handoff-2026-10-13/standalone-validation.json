@@ -1,0 +1,107 @@
+{
+  "scope": "Current naifrog V9 production export; ordinary full-game input and subjective commercial art acceptance are not asserted.",
+  "template": {
+    "source_release": "https://github.com/godotengine/godot-builds/releases/tag/4.7.2-stable",
+    "asset_url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+    "expected_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "actual_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "asset_bytes": 1281349702,
+    "template_version": "4.7.2.stable",
+    "macos_template": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/godot-export-4.7.2/macos.zip",
+    "macos_sha256": "88df5e2e6fee99088699be66e6d42e4da4fb0c5619d054297d755a49558a4792",
+    "macos_bytes": 123597580,
+    "macos_entries": [
+      "macos_template.app/",
+      "macos_template.app/Contents/",
+      "macos_template.app/Contents/Info.plist",
+      "macos_template.app/Contents/PkgInfo",
+      "macos_template.app/Contents/Resources/",
+      "macos_template.app/Contents/Resources/PrivacyInfo.xcprivacy",
+      "macos_template.app/Contents/Resources/icon.icns",
+      "macos_template.app/Contents/MacOS/",
+      "macos_template.app/Contents/MacOS/godot_macos_release.universal",
+      "macos_template.app/Contents/MacOS/godot_macos_debug.universal"
+    ],
+    "global_template_directory_modified": false,
+    "final_game_exported": false
+  },
+  "production_new_character": true,
+  "final_delivery": false,
+  "started": 1791877827.95349,
+  "archive_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-standalone/isolated-archive.json",
+  "export": {
+    "exit": 0,
+    "errors": [],
+    "log": "export.log"
+  },
+  "preset_restored": true,
+  "inputs_unchanged": true,
+  "changed_input_paths": [],
+  "bundle": {
+    "info": {
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleExecutable": "The Midnight Academy- The Rainfield",
+      "CFBundleName": "The Midnight Academy: The Rainfield",
+      "CFBundleDisplayName": "The Midnight Academy: The Rainfield",
+      "CFBundleIconFile": "icon.icns",
+      "CFBundleIdentifier": "com.midnightacademy.rainfield",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundlePackageType": "APPL",
+      "CFBundleShortVersionString": "0.1.0",
+      "CFBundleSignature": "",
+      "CFBundleVersion": "0.1.0",
+      "DTPlatformBuild": "14C18",
+      "DTPlatformName": "macosx",
+      "DTPlatformVersion": "13.1",
+      "DTSDKBuild": "22C55",
+      "DTSDKName": "macosx13.1",
+      "DTXcode": "1420",
+      "DTXcodeBuild": "14C18",
+      "NSHumanReadableCopyright": "",
+      "CFBundleSupportedPlatforms": [
+        "MacOSX"
+      ],
+      "NSPrincipalClass": "NSApplication",
+      "LSApplicationCategoryType": "public.app-category.games",
+      "LSArchitecturePriority": [
+        "arm64",
+        "x86_64"
+      ],
+      "LSMinimumSystemVersionByArchitecture": {
+        "arm64": "13.00",
+        "x86_64": "11.00"
+      },
+      "NSHighResolutionCapable": true
+    },
+    "executable": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/asset-handoff-standalone/TheMidnightAcademy-assets-ready.app/Contents/MacOS/The Midnight Academy- The Rainfield",
+    "sha256": "d2be4aa741754bdf9eb2fe0e546a62b0c66b9033118d1a7ba0f8bfc4c86c1c21",
+    "executable_permission": true,
+    "files": [
+      "Contents/Info.plist",
+      "Contents/PkgInfo",
+      "Contents/_CodeSignature/CodeResources",
+      "Contents/MacOS/The Midnight Academy- The Rainfield",
+      "Contents/Resources/icon.icns",
+      "Contents/Resources/The Midnight Academy- The Rainfield.pck",
+      "Contents/Resources/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "standalone_menu_startup": {
+    "exit": 0,
+    "errors": [],
+    "log": "standalone-menu.log"
+  },
+  "pack_sha256": "cf6f8dd1cd0fe8d8b2c7d4da43bd29046224b35530eda1b44476001c552845ed",
+  "pack_resource_load": {
+    "exit": 0,
+    "errors": [],
+    "log": "pack-resources.log",
+    "runtime": "Exact4.7.2 editor reads exportedPCK; no repository path supplied; distinct from release-binary input acceptance."
+  },
+  "codesign_verify": {
+    "exit": 0,
+    "errors": [],
+    "log": "codesign-verify.log"
+  },
+  "finished": 1791877859.3031979
+}

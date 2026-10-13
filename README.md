@@ -6,11 +6,13 @@ See [中文说明](README_ZH.md) for controls, current rules, abilities, validat
 
 The [2026-10-12 audit repair report](docs/updates/2026-10-12-audit-repair.md) records the changes, regression results, actual play attempts, export checks, and performance measurements. Asset attribution is listed in [README_ASSETS.md](README_ASSETS.md) and the corresponding `assets/*/ASSET_LICENSE.txt` files.
 
-Import `project.godot` in Godot 4.7.2 and press F5, or run:
+For a complete first checkout, follow [download and first-run instructions](docs/GETTING_STARTED.md). Models and textures use **Git LFS**. A default GitHub Source ZIP may contain only pointers, and running the game directly does not replace the editor's initial import. Download only the current runtime assets and explicitly import them with:
 
 ```bash
-godot --path .
+python3 tools/bootstrap_project.py --download --godot /path/to/godot
 ```
+
+Then open `project.godot` in Godot 4.7.2 and press F5. To diagnose a map showing ground/rain/HUD but no trees, character or held equipment, run `python3 tools/bootstrap_project.py --check`; it distinguishes missing LFS binaries from missing/stale local imports. Blender is optional for source editing and is not required to play. See the linked guide for selective cloning, Windows/macOS commands and optional full Blender-source downloads.
 
 Controls: WASD move, mouse look, Shift sprint, E interact, 1/2/3 abilities, Tab handbook, F rain-filter band, Esc pause. The handbook pauses gameplay and releases the mouse. Losing window focus pauses the game; returning focus requires an explicit resume.
 

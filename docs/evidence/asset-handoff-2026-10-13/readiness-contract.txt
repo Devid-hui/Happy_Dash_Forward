@@ -1,0 +1,14 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"missing","message":"文件缺失","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"lfs_pointer","message":"尚未下载 Git LFS 大文件","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"invalid_glb","message":"模型文件不完整或格式错误","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"not_imported","message":"资源尚未完成 Godot 导入","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"import_cache_missing","message":"Godot 导入缓存缺失","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"import_cache_missing","message":"Godot 导入缓存缺失","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"import_cache_missing","message":"Godot 导入缓存缺失","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS BLOCKED: {"checked":1,"issues":[{"code":"import_cache_missing","message":"Godot 导入缓存缺失","path":"user://asset-readiness-contract-166633/model.glb"}],"ok":false}
+ASSET READINESS PASS: delivery fixtures, prevented empty World, recoverable menu, packaged remap, 36 production resources
+RELEASED render; exact owned PID 71393 exit 0

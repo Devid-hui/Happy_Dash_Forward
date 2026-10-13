@@ -4,9 +4,10 @@
 
 ## 环境与运行
 
+- **首次下载或“进地图只有地面、雨和文字”时，先看 [完整下载与首次运行](docs/GETTING_STARTED.md)**。模型和纹理由 Git LFS 管理；网页 ZIP 可能只有指针，`git pull` 或直接运行游戏不能替代二进制下载和编辑器导入。完整 Git 检出后执行 `python3 tools/bootstrap_project.py --download --godot "引擎路径"`；已有工程用 `--check` 做只读诊断。脚本按运行清单推导活动资产及编辑器导入附属图片，Blender 不是运行依赖。
 - 引擎：**Godot 4.7.2 Standard**，GDScript；渲染器：Forward+。macOS 可使用 Universal 引擎运行。
 - 本仓库提供源码，**没有随仓库分发可运行的 `.app`**。
-- 用 Godot Project Manager 导入本目录的 `project.godot`，按 F5 运行整个项目；终端也可执行 `godot --path .`。
+- 用 Godot Project Manager 导入本目录的 `project.godot`，等待资源导入结束后，按 F5 运行整个项目。终端首次运行先完成显式 `--editor --import`，再执行 `godot --path .`。
 - 设计视口为 640×360，默认窗口为 1280×720，采用整数缩放。黑暗、阴影、体积雾和雨效需要在实际图形窗口中检查。
 - 设置提供亮度切换及“减少闪光”。减少闪光会降低闪电亮度、延长间隔；仍保留闪电。
 

@@ -1,0 +1,97 @@
+{
+  "helper_sha256": "c53b0bb9088328f56d759646649f0896077db2f826d50a266880afd5a45130bf",
+  "real_godot_started": false,
+  "network_downloads_performed": false,
+  "cases": [
+    {
+      "case": "LFS pointer must reject game readiness",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "",
+      "stderr": "LFS POINTER: assets/refined/test asset.glb (model/texture binary has not been downloaded)\nFAIL source assets. Use --download in a Git checkout, then rerun. See docs/GETTING_STARTED.md.\n"
+    },
+    {
+      "case": "Unlisted active importer companion pointer must fail before import",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "",
+      "stderr": "LFS POINTER: assets/refined/test asset_material.png (model/texture binary has not been downloaded)\nFAIL source assets. Use --download in a Git checkout, then rerun. See docs/GETTING_STARTED.md.\n"
+    },
+    {
+      "case": "Ignored historical LFS pointer must not expand runtime scope",
+      "pass": true,
+      "returncode": 0,
+      "expected_returncode": 0,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\nPASS import cache: current runtime resources have generated imports matching their source files.\nReady to open project.godot with Godot 4.7.2 and press F5. This check does not test GPU/rendering quality.\n",
+      "stderr": ""
+    },
+    {
+      "case": "GLB length mismatch must reject even if magic is valid",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "",
+      "stderr": "INVALID SOURCE: assets/refined/test asset.glb: invalid GLB header/version/length (header=92, actual=88)\nFAIL source assets. Use --download in a Git checkout, then rerun. See docs/GETTING_STARTED.md.\n"
+    },
+    {
+      "case": "Source-only checkout must require explicit import",
+      "pass": true,
+      "returncode": 2,
+      "expected_returncode": 2,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\n",
+      "stderr": "IMPORT REQUIRED: assets/refined/test asset.glb: [Errno 2] No such file or directory: '/private/var/folders/5z/rd60vf6s3l35jd59strz4t6c0000gn/T/bootstrap-fixtures-j4_k142f/missing import/assets/refined/test asset.glb.import'\nSOURCE OK, IMPORT NOT READY. Open project.godot in the Godot 4.7.2 editor and wait for import, or run this helper with --godot PATH. No import was verified.\n"
+    },
+    {
+      "case": "Read-only check may not take a mutating engine option",
+      "pass": true,
+      "returncode": 2,
+      "expected_returncode": 2,
+      "stdout": "",
+      "stderr": "usage: bootstrap_project.py [-h] [--check | --download] [--godot PATH]\n                            [--timeout TIMEOUT]\nbootstrap_project.py: error: --check is read-only. Omit --check when using --godot to generate the import cache.\n"
+    },
+    {
+      "case": "Matching source/cache with spaces in paths passes",
+      "pass": true,
+      "returncode": 0,
+      "expected_returncode": 0,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\nPASS import cache: current runtime resources have generated imports matching their source files.\nReady to open project.godot with Godot 4.7.2 and press F5. This check does not test GPU/rendering quality.\n",
+      "stderr": ""
+    },
+    {
+      "case": "Existing but stale imported scene must reject readiness",
+      "pass": true,
+      "returncode": 2,
+      "expected_returncode": 2,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\n",
+      "stderr": "IMPORT REQUIRED: assets/refined/test asset.glb: generated import belongs to a different source file\nSOURCE OK, IMPORT NOT READY. Open project.godot in the Godot 4.7.2 editor and wait for import, or run this helper with --godot PATH. No import was verified.\n"
+    },
+    {
+      "case": "Godot zero exit ERROR must still fail import",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\nImporting with Godot 4.7.2.stable.official; wait for completion before opening the game.\n",
+      "stderr": "FAIL bootstrap: Godot import reported ERROR/SCRIPT ERROR even though its exit code was zero:\nERROR: deliberately invalid importer fixture\n"
+    },
+    {
+      "case": "Mismatched editor version must fail before import",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "PASS source assets: 1 required runtime resources plus 0 importer-scanned companions are real, structurally valid files.\n",
+      "stderr": "FAIL bootstrap: Require the validated Godot 4.7.2 editor; received '4.6.0.stable.official'\n"
+    },
+    {
+      "case": "Missing Git LFS provides concrete dependency error",
+      "pass": true,
+      "returncode": 1,
+      "expected_returncode": 1,
+      "stdout": "",
+      "stderr": "FAIL bootstrap: Git LFS is unavailable. Install Git LFS for your OS, then retry; this helper does not install global software.\nCommand failed (1): git lfs version\ngit: 'lfs' is not a git command\n"
+    }
+  ],
+  "passed": 11,
+  "total": 11
+}

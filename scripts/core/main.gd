@@ -2,6 +2,8 @@ extends Node
 
 const WORLD := preload("res://scripts/world/world.gd")
 const FIELD := preload("res://scripts/ui/field_theme.gd")
+const ASSET_READINESS := preload("res://scripts/core/asset_readiness.gd")
+var asset_manifest_path := ASSET_READINESS.MANIFEST_PATH
 var root_ui: Control
 var body: VBoxContainer
 var screen := "menu"
@@ -282,16 +284,54 @@ func _has_button(node: Node) -> bool:
 func _start_game() -> void:
 	if transitioning: return
 	transitioning = true
-	if selected.is_empty(): selected = ["afterimage", "echo", "mire"]
-	GameState.equipped = selected.duplicate()
-	GameState.reset_run()
 	_clear()
 	_label("正在准备雨夜森林……", 32)
 	await get_tree().process_frame
 	await get_tree().process_frame
+	var readiness: Dictionary = ASSET_READINESS.check_runtime(asset_manifest_path)
+	if not readiness.ok:
+		_show_resource_problem(readiness)
+		transitioning = false
+		return
+	if selected.is_empty(): selected = ["afterimage", "echo", "mire"]
+	GameState.equipped = selected.duplicate()
+	GameState.reset_run()
 	_spawn_world()
 	root_ui.queue_free()
 	transitioning = false
+
+func _show_resource_problem(report: Dictionary) -> void:
+	screen = "resource_error"
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	_clear()
+	_label("运行模型与材质尚未准备好", 44)
+	_label("发现 %d 项资源问题，已暂停进入地图。修复后可以直接重新检查。" % report.issues.size(), 22, FIELD.AMBER)
+	var scroll := ScrollContainer.new()
+	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	body.add_child(scroll)
+	var details := VBoxContainer.new()
+	details.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	details.add_theme_constant_override("separation", 12)
+	scroll.add_child(details)
+	for problem in report.issues:
+		details.add_child(FIELD.label("%s\n%s" % [problem.message, String(problem.path).trim_prefix("res://")], 19, FIELD.MUTED))
+	_label("源码版本：先运行 tools/bootstrap_project.py，下载 Git LFS 模型与材质，再用 Godot 4.7.2 打开项目并等待导入完成。", 21)
+	_label("已打包版本：重新下载完整安装包。若资源检查通过但画面仍异常，请保留 Godot 的完整报错日志。", 19, FIELD.MUTED)
+	var actions := HBoxContainer.new()
+	actions.add_theme_constant_override("separation", 24)
+	body.add_child(actions)
+	actions.add_child(FIELD.button("重新检查并进入", _start_game, true))
+	actions.add_child(FIELD.button("返回选科", _return_to_selection))
+	actions.add_child(FIELD.button("返回主菜单", _show_menu))
+	_focus_first(actions)
+	print("ASSET READINESS BLOCKED: ", JSON.stringify(report))
+
+func _return_to_selection() -> void:
+	var previous := selected.duplicate()
+	_show_selection()
+	selected.assign(previous)
+	_refresh_skill_buttons()
 
 func _spawn_world() -> void:
 	screen = "gameplay"

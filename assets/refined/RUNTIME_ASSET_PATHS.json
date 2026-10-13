@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "path": "res://assets/refined/abandoned_car.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/abandoned_car_lod1.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/abandoned_car_lod2.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/field_equipment.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/field_equipment_lod1.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/field_equipment_lod2.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/power_tower.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/research_report.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_1.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_2.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_3.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_4.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_5.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/broadleaf_tree_6.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/dead_tree_1.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/dead_tree_2.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/dead_tree_3.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/forest_understory_kit.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/leaf_detail_study.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/naifrog/naifrog_lod0.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/naifrog/naifrog_lod1.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/naifrog/naifrog_lod2.glb",
+      "kind": "glb"
+    },
+    {
+      "path": "res://assets/refined/environment/leaf_venation_color.png",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/leaf_venation_normal.png",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/forest_floor_diff_4k.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/forest_floor_rough_4k.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/stone_basecolor.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/stone_normal.png",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/stone_roughness.jpg",
+      "kind": "texture"
+    },
+    {
+      "path": "res://assets/refined/environment/PHYSICS_ENVELOPE.json",
+      "kind": "json"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/PBR_TEXTURE_BINDINGS.json",
+      "kind": "json"
+    },
+    {
+      "path": "res://assets/refined/environment/textures/STONE_PBR_SOURCE.json",
+      "kind": "json"
+    }
+  ]
+}
