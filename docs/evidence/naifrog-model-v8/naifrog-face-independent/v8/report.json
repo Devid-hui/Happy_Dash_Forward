@@ -1,0 +1,5919 @@
+{
+  "schema": "naifrog-independent-face-geometry-v1",
+  "blender": "4.5.14 LTS",
+  "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+  "glb": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+  "manifest": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/MODEL_MANIFEST.json",
+  "initial_sha256": {
+    "source": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+    "glb": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+    "manifest": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+    "parser": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a"
+  },
+  "synthetic": {
+    "pass": true,
+    "cases": [
+      {
+        "name": "proper_interior_crossing",
+        "expected": "strict_noncoplanar_crossing",
+        "actual": "strict_noncoplanar_crossing",
+        "pass": true
+      },
+      {
+        "name": "separated_parallel",
+        "expected": null,
+        "actual": null,
+        "pass": true
+      },
+      {
+        "name": "shared_edge_only",
+        "expected": null,
+        "actual": null,
+        "pass": true
+      },
+      {
+        "name": "point_touch_only",
+        "expected": null,
+        "actual": null,
+        "pass": true
+      },
+      {
+        "name": "strict_coplanar_overlap",
+        "expected": "coplanar_area_overlap",
+        "actual": "coplanar_area_overlap",
+        "pass": true
+      },
+      {
+        "name": "coplanar_edge_touch",
+        "expected": null,
+        "actual": null,
+        "pass": true
+      },
+      {
+        "name": "degenerate_triangle",
+        "expected": null,
+        "actual": null,
+        "pass": true
+      },
+      {
+        "name": "translated_reversed_scale_0.01",
+        "expected": "strict_noncoplanar_crossing",
+        "actual": "strict_noncoplanar_crossing",
+        "pass": true
+      },
+      {
+        "name": "translated_reversed_scale_0.1",
+        "expected": "strict_noncoplanar_crossing",
+        "actual": "strict_noncoplanar_crossing",
+        "pass": true
+      },
+      {
+        "name": "translated_reversed_scale_2.0",
+        "expected": "strict_noncoplanar_crossing",
+        "actual": "strict_noncoplanar_crossing",
+        "pass": true
+      }
+    ],
+    "tolerances": {
+      "length_m": 1e-08,
+      "degenerate_area_m2": 1e-12,
+      "strict_barycentric_margin": 1e-07
+    }
+  },
+  "limits": [
+    "27 static raw authored Blink/Focus/Open combinations only; no skin/bone animation or continuous-time proof",
+    "Only explicit FACE ROI; no global whole-character self-intersection proof",
+    "Normals are geometric triangle normals relative to Basis; normal reversal is reported for manual interpretation",
+    "Eye clearance is signed along frozen actual eye normal over projected actual front-cap/front-annulus triangle overlaps; not Euclidean margin"
+  ],
+  "GLB_ROI_mapping": {
+    "NaifrogContinuousSkin": {
+      "matching_tolerance_m": 1e-06,
+      "vertices": 317303,
+      "matched_vertices": 317303,
+      "triangles": 606058,
+      "matched_triangles": 606058,
+      "max_basis_error_m": 0.0,
+      "max_morph_delta_error_m": 0.0,
+      "ambiguous_source_identity_export_vertices": 0,
+      "ROI_source_triangles": 10450,
+      "ROI_matched_export_triangles": 10450,
+      "complete_same_topology_mapping": true
+    }
+  },
+  "SOURCE": {
+    "body_object": "NaifrogContinuousSkin",
+    "ROI_patch_labels": {
+      "1": "left eye annulus plus backseal",
+      "2": "right eye annulus plus backseal",
+      "3": "mouth annulus plus oral cavity"
+    },
+    "ROI_triangle_count": 11296,
+    "explicit_ROI_triangles": 10450,
+    "surrounding_one_ring_triangles": 846,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 4150
+    },
+    "state_grid": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "states": [
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22664,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.9999999999999996,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 0.0,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20880,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20467,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22623,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.9534412842196869,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 5.105338264460355,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20839,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20426,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22607,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.7355720109610425,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 13.824883890996476,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20823,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20410,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 3307
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 3282
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30669,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 136.17525353493522,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 46.17486916362911,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28885,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 136.17525353493522,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 46.17486916362911,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28472,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30653,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28869,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28456,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30535,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28751,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28338,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 3262
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 3169
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 51847,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50063,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49650,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 51947,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50163,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49750,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 52076,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50292,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49879,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 3265
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 3359
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      }
+    ],
+    "elapsed_seconds": 154.1181309223175,
+    "strict_intersection_and_degeneracy_pass": true,
+    "cap_clearance_pass": true
+  },
+  "GLB": {
+    "body_object": "NaifrogContinuousSkin",
+    "ROI_patch_labels": {
+      "1": "left eye annulus plus backseal",
+      "2": "right eye annulus plus backseal",
+      "3": "mouth annulus plus oral cavity"
+    },
+    "ROI_triangle_count": 11296,
+    "explicit_ROI_triangles": 10450,
+    "surrounding_one_ring_triangles": 846,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 4150
+    },
+    "state_grid": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "states": [
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22664,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.9999999999999996,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 0.0,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20880,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20467,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22623,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.9534412842196869,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 5.105338264460355,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20839,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20426,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 22607,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.7355720109610425,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 122.66145066388223,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 13.824883890996476,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20823,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 132.05566707379558,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 41.08199908051009,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 20410,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 282,
+            "minimum_signed_normal_gap_m": 0.003081819661181852,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1989,
+              "cap_subset_triangle": 715
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 285,
+            "minimum_signed_normal_gap_m": 0.0030818578042571335,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1790,
+              "cap_subset_triangle": 690
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 0,
+          "examples": [],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30669,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 136.17525353493522,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 46.17486916362911,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28885,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 136.17525353493522,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 46.17486916362911,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28472,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4529,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4893,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 29,
+          "examples": [
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30653,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28869,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28456,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4545,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4910,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 30535,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.8473108703945516,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28751,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.6822579911661307,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 135.56682381469108,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 45.56742442391696,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 28338,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.5370738190507106,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4561,
+            "minimum_signed_normal_gap_m": 0.0030998671320706175,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1793,
+              "cap_subset_triangle": 670
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 4938,
+            "minimum_signed_normal_gap_m": 0.0030994651170383677,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1890,
+              "cap_subset_triangle": 577
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 145.64581428260416,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 50.71529892886922,
+          "new_over_90deg_edges_added_over_45deg": 15,
+          "examples": [
+            [
+              602193,
+              602444
+            ],
+            [
+              602195,
+              602446
+            ],
+            [
+              602197,
+              602448
+            ],
+            [
+              602199,
+              602450
+            ],
+            [
+              602201,
+              602452
+            ],
+            [
+              602203,
+              602454
+            ],
+            [
+              602205,
+              602456
+            ],
+            [
+              603460,
+              603713
+            ],
+            [
+              603462,
+              603715
+            ],
+            [
+              603464,
+              603717
+            ],
+            [
+              603466,
+              603719
+            ],
+            [
+              603468,
+              603721
+            ],
+            [
+              603470,
+              603723
+            ],
+            [
+              603472,
+              603725
+            ],
+            [
+              603474,
+              603727
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 51847,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50063,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49650,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10529,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10689,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.8149281678398,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.8145437965337,
+          "new_over_90deg_edges_added_over_45deg": 126,
+          "examples": [
+            [
+              602047,
+              602298
+            ],
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 51947,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50163,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49750,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10527,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10693,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 122,
+          "examples": [
+            [
+              602049,
+              602300
+            ],
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 52076,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 50292,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "ROI_triangles": 11296,
+        "candidate_nonneighbor_pairs": 49879,
+        "adjacent_pairs_excluded": 94007,
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "degenerate_triangles": 0,
+        "minimum_triangle_area_m2": 9.320796050772592e-08,
+        "basis_normal_dot_min": 0.3668617166240881,
+        "basis_normal_dot_negative_triangles": 0,
+        "basis_normal_negative_examples": [],
+        "cap_clearance": {
+          "left": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10535,
+            "minimum_signed_normal_gap_m": 0.0031009375459689417,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1791,
+              "cap_subset_triangle": 673
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          },
+          "right": {
+            "status": "pass",
+            "cap_triangles": 3360,
+            "projected_overlap_triangle_pairs": 10700,
+            "minimum_signed_normal_gap_m": 0.0031106649492525923,
+            "negative_gap_pairs": 0,
+            "nonpenetrating_with_numeric_tolerance": true,
+            "nominal_3mm_margin_met": true,
+            "minimum_example": {
+              "body_subset_triangle": 1888,
+              "cap_subset_triangle": 767
+            },
+            "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+          }
+        },
+        "edge_normal_change": {
+          "shared_edges": 16733,
+          "maximum_dihedral_degrees": 148.21852544989324,
+          "basis_maximum_dihedral_degrees": 122.66145066388223,
+          "maximum_added_dihedral_degrees": 58.21912605911912,
+          "new_over_90deg_edges_added_over_45deg": 116,
+          "examples": [
+            [
+              602051,
+              602302
+            ],
+            [
+              602053,
+              602304
+            ],
+            [
+              602055,
+              602306
+            ],
+            [
+              602057,
+              602308
+            ],
+            [
+              602059,
+              602310
+            ],
+            [
+              602061,
+              602312
+            ],
+            [
+              602063,
+              602314
+            ],
+            [
+              602065,
+              602316
+            ],
+            [
+              602067,
+              602318
+            ],
+            [
+              602069,
+              602320
+            ],
+            [
+              602071,
+              602322
+            ],
+            [
+              602073,
+              602324
+            ],
+            [
+              602075,
+              602326
+            ],
+            [
+              602077,
+              602328
+            ],
+            [
+              602079,
+              602330
+            ],
+            [
+              602081,
+              602332
+            ],
+            [
+              602083,
+              602334
+            ],
+            [
+              602085,
+              602336
+            ],
+            [
+              602087,
+              602338
+            ],
+            [
+              602089,
+              602340
+            ]
+          ],
+          "diagnostic_thresholds_only": "90 degree edge dihedral and 45 degree increase; reports, never filters crossing"
+        },
+        "strict_intersection_and_degeneracy_pass": true
+      }
+    ],
+    "elapsed_seconds": 151.235267162323,
+    "strict_intersection_and_degeneracy_pass": true,
+    "cap_clearance_pass": true
+  },
+  "final_sha256": {
+    "source": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+    "glb": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+    "manifest": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+    "parser": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a"
+  },
+  "frozen_input_bytes_unchanged": true,
+  "strict_geometry_pass": true,
+  "cap_clearance_pass": true
+}

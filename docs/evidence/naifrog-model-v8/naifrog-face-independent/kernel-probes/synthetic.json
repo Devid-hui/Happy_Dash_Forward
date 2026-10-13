@@ -1,0 +1,70 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "name": "proper_interior_crossing",
+      "expected": "strict_noncoplanar_crossing",
+      "actual": "strict_noncoplanar_crossing",
+      "pass": true
+    },
+    {
+      "name": "separated_parallel",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "name": "shared_edge_only",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "name": "point_touch_only",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "name": "strict_coplanar_overlap",
+      "expected": "coplanar_area_overlap",
+      "actual": "coplanar_area_overlap",
+      "pass": true
+    },
+    {
+      "name": "coplanar_edge_touch",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "name": "degenerate_triangle",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "name": "translated_reversed_scale_0.01",
+      "expected": "strict_noncoplanar_crossing",
+      "actual": "strict_noncoplanar_crossing",
+      "pass": true
+    },
+    {
+      "name": "translated_reversed_scale_0.1",
+      "expected": "strict_noncoplanar_crossing",
+      "actual": "strict_noncoplanar_crossing",
+      "pass": true
+    },
+    {
+      "name": "translated_reversed_scale_2.0",
+      "expected": "strict_noncoplanar_crossing",
+      "actual": "strict_noncoplanar_crossing",
+      "pass": true
+    }
+  ],
+  "tolerances": {
+    "length_m": 1e-08,
+    "degenerate_area_m2": 1e-12,
+    "strict_barycentric_margin": 1e-07
+  }
+}

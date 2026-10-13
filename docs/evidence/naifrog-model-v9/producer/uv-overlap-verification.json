@@ -1,0 +1,130 @@
+{
+  "schema": "naifrog-uv-overlap-v1",
+  "checked_at": "2026-10-13T05:05:14.212589+00:00",
+  "checker_path": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_uv_verify.py",
+  "checker_sha256": "82d0e90f983f7a5c7bf688584cb5f7e9559011ba444cc8a48c037b0770ba3cd8",
+  "scope": "Within each selected raw mesh UV atlas; meshes and LODs are not compared to one another.",
+  "limitations": [
+    "No geometric self-intersection, animated skinning, image fidelity, or Godot verification.",
+    "Area magnitudes are float64 estimates; strict contact classification uses exact represented-coordinate integer predicates."
+  ],
+  "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+  "blender": "4.5.14 LTS",
+  "meshes": [
+    {
+      "method": "2D triangle AABB grid, exact dyadic-integer SAT contacts, Sutherland-Hodgman area",
+      "arithmetic": "Exact integer separating-axis classification on represented UVs; float64 intersection area, rational fallback for collapsed positive area.",
+      "input_uv_dtype": "float32",
+      "dyadic_scale_power": 31,
+      "area_epsilon": 0.0,
+      "positive_criterion": "intersection_area > area_epsilon",
+      "uv_triangle_count": 606058,
+      "zero_area_triangles": 0,
+      "uv_range_min": [
+        0.007812075782567263,
+        0.007812465075403452
+      ],
+      "uv_range_max": [
+        0.9905368685722351,
+        0.9921402931213379
+      ],
+      "summed_triangle_area": 0.3789891163847469,
+      "positive_overlap_pairs": 0,
+      "cross_region_pairs": 0,
+      "within_region_pairs": 0,
+      "unlabelled_pairs": 0,
+      "region_pair_counts": [],
+      "pairs": [],
+      "reported_pairs_truncated": false,
+      "coverage": {
+        "complete": true,
+        "stop_reason": null,
+        "indexed_triangles": 606058,
+        "total_triangles": 606058,
+        "processed_grid_cells": 108171,
+        "total_nonempty_grid_cells": 108171,
+        "processed_large_triangles": 833,
+        "total_large_triangles": 833,
+        "candidate_pairs_examined": 1971402,
+        "note": "Complete requires indexing and exhausting every owned AABB candidate; bounded zero findings are not clearance."
+      },
+      "configuration": {
+        "grid_size": 512,
+        "large_triangle_cell_limit": 64,
+        "max_seconds": 120.0,
+        "max_candidates": 10000000,
+        "max_reported_pairs": 1000
+      },
+      "elapsed_seconds": 37.86895287499647,
+      "ok": true,
+      "status": "clear",
+      "object": "NaifrogContinuousSkin",
+      "mesh_data": "NaifrogContinuousSkin",
+      "uv_layer": "NaifrogUV",
+      "uv_corner_count": 1212534,
+      "finite_corner_values": true,
+      "region_attribute": "NaiFrogUVRegion",
+      "region_triangle_counts": [
+        {
+          "region": 0,
+          "triangles": 201506
+        },
+        {
+          "region": 1,
+          "triangles": 2016
+        },
+        {
+          "region": 2,
+          "triangles": 2016
+        },
+        {
+          "region": 3,
+          "triangles": 2656
+        },
+        {
+          "region": 4,
+          "triangles": 47074
+        },
+        {
+          "region": 5,
+          "triangles": 47068
+        },
+        {
+          "region": 6,
+          "triangles": 96974
+        },
+        {
+          "region": 7,
+          "triangles": 96978
+        },
+        {
+          "region": 8,
+          "triangles": 1134
+        },
+        {
+          "region": 9,
+          "triangles": 1134
+        },
+        {
+          "region": 10,
+          "triangles": 1494
+        },
+        {
+          "region": 11,
+          "triangles": 75006
+        },
+        {
+          "region": 12,
+          "triangles": 15498
+        },
+        {
+          "region": 13,
+          "triangles": 15504
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "ok": true,
+  "status": "clear"
+}

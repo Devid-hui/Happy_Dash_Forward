@@ -304,4 +304,4 @@ func take_hit() -> void:
 	hits += 1
 	stamina = maxf(0.0, stamina - 20.0)
 	if hits >= 2: world.finish(false)
-	else: world.notice("奶龙撞击了你！再一次就会被捕获。")
+	else: world.notice("奶蛙撞击了你！再一次就会被捕获。")

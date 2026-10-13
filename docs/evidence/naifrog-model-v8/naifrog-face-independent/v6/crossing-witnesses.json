@@ -1,0 +1,525 @@
+{
+  "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+  "source_sha256": "c23db184bcee37d1c4a018607e7ea16cd7ff33f739de8175310c0dc8efc7bf4b",
+  "state": {
+    "Blink": 0.0,
+    "Focus": 0.0,
+    "Open": 1.0
+  },
+  "witnesses": [
+    {
+      "face_a": 288574,
+      "face_b": 605560,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 144287,
+      "source_polygon_b": 302906,
+      "vertices_a": [
+        144777,
+        144792,
+        144791
+      ],
+      "vertices_b": [
+        302707,
+        302708,
+        302856
+      ],
+      "A_edge_strictly_pierces_B": [],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.7902842176730162,
+          "point_global_gltf_m": [
+            -0.11664982885122299,
+            2.4025795459747314,
+            -0.37340386861720737
+          ],
+          "opposite_triangle_barycentric": [
+            0.36829378939037405,
+            0.24172650844940777,
+            0.38997970216021816
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.20632544442864206,
+          "point_global_gltf_m": [
+            -0.11625986070377635,
+            2.4019909658568888,
+            -0.37343860555787467
+          ],
+          "opposite_triangle_barycentric": [
+            0.2669460654492213,
+            0.28841976490478893,
+            0.4446341696459898
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288574,
+      "face_b": 605561,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 144287,
+      "source_polygon_b": 302906,
+      "vertices_a": [
+        144777,
+        144792,
+        144791
+      ],
+      "vertices_b": [
+        302707,
+        302856,
+        302855
+      ],
+      "A_edge_strictly_pierces_B": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.5885919664982342,
+          "point_global_gltf_m": [
+            -0.11523269937678048,
+            2.4004406681239963,
+            -0.3735301013436336
+          ],
+          "opposite_triangle_barycentric": [
+            0.19739542284245382,
+            0.2502211512870871,
+            0.5523834258704591
+          ]
+        }
+      ],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.7936745555713579,
+          "point_global_gltf_m": [
+            -0.11625986070377635,
+            2.4019909658568888,
+            -0.37343860555787467
+          ],
+          "opposite_triangle_barycentric": [
+            0.2669460654492213,
+            0.28841976490478893,
+            0.4446341696459898
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288574,
+      "face_b": 605562,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 144287,
+      "source_polygon_b": 302907,
+      "vertices_a": [
+        144777,
+        144792,
+        144791
+      ],
+      "vertices_b": [
+        302708,
+        302709,
+        302857
+      ],
+      "A_edge_strictly_pierces_B": [],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.7723561008289535,
+          "point_global_gltf_m": [
+            -0.11832968890666962,
+            2.4054763317108154,
+            -0.37334585251615093
+          ],
+          "opposite_triangle_barycentric": [
+            0.7994739589012965,
+            0.09989095881042169,
+            0.10063508228828182
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.2236347327555549,
+          "point_global_gltf_m": [
+            -0.11795401385210308,
+            2.404828509806876,
+            -0.3733588269314062
+          ],
+          "opposite_triangle_barycentric": [
+            0.703047096923229,
+            0.13161031404914558,
+            0.16534258902762541
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288574,
+      "face_b": 605563,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 144287,
+      "source_polygon_b": 302907,
+      "vertices_a": [
+        144777,
+        144792,
+        144791
+      ],
+      "vertices_b": [
+        302708,
+        302857,
+        302856
+      ],
+      "A_edge_strictly_pierces_B": [],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.7763652672444452,
+          "point_global_gltf_m": [
+            -0.11795401385210308,
+            2.404828509806876,
+            -0.3733588269314062
+          ],
+          "opposite_triangle_barycentric": [
+            0.703047096923229,
+            0.13161031404914558,
+            0.16534258902762541
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.20971578232698387,
+          "point_global_gltf_m": [
+            -0.11664982885122299,
+            2.4025795459747314,
+            -0.37340386861720737
+          ],
+          "opposite_triangle_barycentric": [
+            0.36829378939037405,
+            0.24172650844940777,
+            0.38997970216021816
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288574,
+      "face_b": 605565,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 144287,
+      "source_polygon_b": 302908,
+      "vertices_a": [
+        144777,
+        144792,
+        144791
+      ],
+      "vertices_b": [
+        302709,
+        302858,
+        302857
+      ],
+      "A_edge_strictly_pierces_B": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.08153150727793325,
+          "point_global_gltf_m": [
+            -0.11880087845558868,
+            2.4064194097679836,
+            -0.37336267823358693
+          ],
+          "opposite_triangle_barycentric": [
+            0.2338357958456192,
+            0.3212764837144909,
+            0.44488772043988983
+          ]
+        }
+      ],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 2,
+          "edge_parameter": 0.22764389917104652,
+          "point_global_gltf_m": [
+            -0.11832968890666962,
+            2.4054763317108154,
+            -0.37334585251615093
+          ],
+          "opposite_triangle_barycentric": [
+            0.7994739589012965,
+            0.09989095881042169,
+            0.10063508228828182
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288966,
+      "face_b": 605558,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 3,
+      "patch_b": 3,
+      "source_polygon_a": 144483,
+      "source_polygon_b": 302905,
+      "vertices_a": [
+        146914,
+        146913,
+        302409
+      ],
+      "vertices_b": [
+        302706,
+        302707,
+        302855
+      ],
+      "A_edge_strictly_pierces_B": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.7323067169943861,
+          "point_global_gltf_m": [
+            -0.11417816774055847,
+            2.3989493236031048,
+            -0.3886816326516224
+          ],
+          "opposite_triangle_barycentric": [
+            0.277364876186708,
+            0.4346796827587512,
+            0.2879554410545408
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.1196888584808728,
+          "point_global_gltf_m": [
+            -0.11325792474752637,
+            2.397719041346023,
+            -0.39141734716799575
+          ],
+          "opposite_triangle_barycentric": [
+            0.7162301417086594,
+            0.08023610672911033,
+            0.20353375156223033
+          ]
+        }
+      ],
+      "B_edge_strictly_pierces_A": [],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 288967,
+      "face_b": 605558,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 3,
+      "patch_b": 3,
+      "source_polygon_a": 144483,
+      "source_polygon_b": 302905,
+      "vertices_a": [
+        146914,
+        302409,
+        302408
+      ],
+      "vertices_b": [
+        302706,
+        302707,
+        302855
+      ],
+      "A_edge_strictly_pierces_B": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.8803111415191273,
+          "point_global_gltf_m": [
+            -0.11325792474752637,
+            2.397719041346023,
+            -0.39141734716799575
+          ],
+          "opposite_triangle_barycentric": [
+            0.7162301417086594,
+            0.08023610672911033,
+            0.20353375156223033
+          ]
+        },
+        {
+          "edge": 1,
+          "edge_parameter": 0.12081071958265927,
+          "point_global_gltf_m": [
+            -0.11308676715515642,
+            2.397490219012518,
+            -0.3918039500858938
+          ],
+          "opposite_triangle_barycentric": [
+            0.7978554545773557,
+            0.010061491688511653,
+            0.19208305373413256
+          ]
+        }
+      ],
+      "B_edge_strictly_pierces_A": [],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 291620,
+      "face_b": 605552,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 145810,
+      "source_polygon_b": 302902,
+      "vertices_a": [
+        144791,
+        146316,
+        146315
+      ],
+      "vertices_b": [
+        302703,
+        302704,
+        302852
+      ],
+      "A_edge_strictly_pierces_B": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.929979891187987,
+          "point_global_gltf_m": [
+            -0.1078310406882923,
+            2.391451679125944,
+            -0.37428417185713325
+          ],
+          "opposite_triangle_barycentric": [
+            0.012315609199823885,
+            0.1262999304518483,
+            0.8613844603483278
+          ]
+        }
+      ],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.8612001796767277,
+          "point_global_gltf_m": [
+            -0.10786420851945877,
+            2.391484022140503,
+            -0.37427895661198074
+          ],
+          "opposite_triangle_barycentric": [
+            0.004563708055212556,
+            0.07013009980697565,
+            0.9253061921378118
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 291620,
+      "face_b": 605554,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 145810,
+      "source_polygon_b": 302903,
+      "vertices_a": [
+        144791,
+        146316,
+        146315
+      ],
+      "vertices_b": [
+        302704,
+        302705,
+        302853
+      ],
+      "A_edge_strictly_pierces_B": [],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 1,
+          "edge_parameter": 0.8441736688994206,
+          "point_global_gltf_m": [
+            -0.11036299169063568,
+            2.394174098968506,
+            -0.373958317861649
+          ],
+          "opposite_triangle_barycentric": [
+            0.34776592179227317,
+            0.10417757620158918,
+            0.5480565020061376
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.15321743599459764,
+          "point_global_gltf_m": [
+            -0.1099801345400415,
+            2.3937619322942907,
+            -0.3740074453088553
+          ],
+          "opposite_triangle_barycentric": [
+            0.29518135857581096,
+            0.09896090916631126,
+            0.6058577322578778
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    },
+    {
+      "face_a": 291620,
+      "face_b": 605555,
+      "kind": "strict_noncoplanar_crossing",
+      "patch_a": 0,
+      "patch_b": 3,
+      "source_polygon_a": 145810,
+      "source_polygon_b": 302903,
+      "vertices_a": [
+        144791,
+        146316,
+        146315
+      ],
+      "vertices_b": [
+        302704,
+        302853,
+        302852
+      ],
+      "A_edge_strictly_pierces_B": [],
+      "B_edge_strictly_pierces_A": [
+        {
+          "edge": 0,
+          "edge_parameter": 0.8467825640054024,
+          "point_global_gltf_m": [
+            -0.1099801345400415,
+            2.3937619322942907,
+            -0.3740074453088553
+          ],
+          "opposite_triangle_barycentric": [
+            0.29518135857581096,
+            0.09896090916631126,
+            0.6058577322578778
+          ]
+        },
+        {
+          "edge": 2,
+          "edge_parameter": 0.1387998203232723,
+          "point_global_gltf_m": [
+            -0.10786420851945877,
+            2.391484022140503,
+            -0.37427895661198074
+          ],
+          "opposite_triangle_barycentric": [
+            0.004563708055212556,
+            0.07013009980697565,
+            0.9253061921378118
+          ]
+        }
+      ],
+      "proper_crossing_edge_witness_count": 2
+    }
+  ],
+  "all_probed_pairs_have_two_or_more_strict_edge_plane_witnesses": true
+}

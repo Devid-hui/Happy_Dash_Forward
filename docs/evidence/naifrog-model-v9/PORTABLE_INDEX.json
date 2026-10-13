@@ -1,0 +1,592 @@
+{
+  "schema": "naifrog-v9-portable-evidence-1",
+  "scope": "Frozen V9 selected completed evidence and actual scripts. No new engine/checker execution, production mutation or Git by archive worker.",
+  "entries": [
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-high.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/actual-sole-keyframe-checks-high.json",
+      "bytes": 73115,
+      "sha256": "b9d53b3ececd9de648f4e0271c2d6e74430488bec1c2c6dc11989dadc3887d42",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod0.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/actual-sole-keyframe-checks-lod0.json",
+      "bytes": 73115,
+      "sha256": "b9d53b3ececd9de648f4e0271c2d6e74430488bec1c2c6dc11989dadc3887d42",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod1.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/actual-sole-keyframe-checks-lod1.json",
+      "bytes": 73296,
+      "sha256": "95095b78f14620f6303833951687397b66e5264444f398b19e6e37c05ab2b839",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod2.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/actual-sole-keyframe-checks-lod2.json",
+      "bytes": 73285,
+      "sha256": "ca91637e4c1e0e97364b26cd6c71831983dc2fe98070663e0a723bb28f13fa00",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/all-float-accessors-finite.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/all-float-accessors-finite.json",
+      "bytes": 893,
+      "sha256": "104a8c5ffaf62b75e8b246c3b7999cd8e7a69ff64a0fc87b8f15fe4ae54ba6fe",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/build.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/build.log.txt",
+      "bytes": 4817,
+      "sha256": "9b9ea1db55b2894123a8c344523d3279020b5c3685b3ad70f5395cbfcac27848",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-preview.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-preview.log.txt",
+      "bytes": 61013,
+      "sha256": "5590de2c1b09f5da24e9a6439231b91168bdcdda934d4a0942780fe9f60ac5d0",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_blink_closed.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_blink_closed.png",
+      "bytes": 839018,
+      "sha256": "a51474a5f3aed8ed5f4517f49095188100e55388586d268ca1b6dbc0389dd8d2",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_blink_half.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_blink_half.png",
+      "bytes": 845361,
+      "sha256": "a3f3af29fe62a84f50845369739803fc04999f7bc775ce190ebedd1e0368e869",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_joint_closed.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_joint_closed.png",
+      "bytes": 838831,
+      "sha256": "9fb4905fe8f762b555147f5bc24797f6d07d6ec2db2120910557f4ec0c866fee",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_joint_half.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_joint_half.png",
+      "bytes": 844826,
+      "sha256": "3e72e66dc653e83c7f1a2ea49e1bf1ca27d3d18f26b529f078b5f27d336c410b",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_neutral.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_neutral.png",
+      "bytes": 851743,
+      "sha256": "dd2558e9b1e0744e00fea76cca9dd437354d162a6dfdfec8f89f30254be066b4",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_warn_open.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/face_warn_open.png",
+      "bytes": 866280,
+      "sha256": "81a99889868d4a5f674b8e2ac775422495af2ba7047e58b6ab1b7c7be2fb8bb9",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_back.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/naifrog_shape_back.png",
+      "bytes": 843927,
+      "sha256": "73972c622f55f3085befe519c76646d49adb8f0595233ad882e2d6c0fd0b633c",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_front.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/naifrog_shape_front.png",
+      "bytes": 861734,
+      "sha256": "fae7e9d5ef6e21193527b413452743644e69ffbee2b46343ca03089119354321",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_side.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/naifrog_shape_side.png",
+      "bytes": 842989,
+      "sha256": "d825aa4d0df2a167dda7fcdf95dd13cda8d0eaa5e345182f44c78c5e2b5c0550",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_three_quarter.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/cpu-previews/naifrog_shape_three_quarter.png",
+      "bytes": 864679,
+      "sha256": "c0469ef0d92d42f06a3a8c0ed14ec44e77cccd30441bd7ed53990074f3d031a4",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/freeze-identities.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/freeze-identities.json",
+      "bytes": 959,
+      "sha256": "2e0aac5305804a887dc8eab358bc7e97e458b3a7cfef02214ca28e41e18fa477",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/game-source-contract.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/game-source-contract.json",
+      "bytes": 13439,
+      "sha256": "47991ce3c1e1a2d1cbda986098a9bf3135b9884fb7bb36a031b315b28a6d9360",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/game-source-inspect.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/game-source-inspect.log.txt",
+      "bytes": 355,
+      "sha256": "3a261bd3441e25ad7e5e911f7e904a697fdea973b31997cbc5bc50e4c8640e80",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/glb-contract.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/glb-contract.json",
+      "bytes": 64261,
+      "sha256": "fc9e1eb4c73da34a381a81fa3c104da12d5ebba99ca3ae144ae66de0133cfe1b",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/post-verification-identities.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/post-verification-identities.json",
+      "bytes": 333,
+      "sha256": "79db9a09d2399ad9158f30d0c6568cc40305b9fa417acbf6b1de5824e384bad5",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/sole-summary.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/sole-summary.json",
+      "bytes": 1338,
+      "sha256": "ce8cf460f408fdbd75d49958c36498717c4d56ee9a753d87febd3558ca4e709a",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/uv-color-diagnostic.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/uv-color-diagnostic.json",
+      "bytes": 12137,
+      "sha256": "55aa5639f8c72f6d3348c2da1f454cddccf083897ecd9c7460f6e7f66b14ee70",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/uv-color-diagnostic.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/uv-color-diagnostic.log.txt",
+      "bytes": 344,
+      "sha256": "724d7f005f36151b306a7d67d60656666ef54e2897594f781ec0359be6cb5b9e",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/uv-overlap-verification.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/uv-overlap-verification.json",
+      "bytes": 3854,
+      "sha256": "3ab108dc331f2c702307c2a4f46a181b5133a41f1c87d8301568597356fde19e",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/uv-overlap-verification.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/producer/uv-overlap-verification.log.txt",
+      "bytes": 1706,
+      "sha256": "94b4117c3c089917f4325c7c9e80649d84260302336e802412726f9bfdc8836c",
+      "role": "Frozen V9 completed producer/source/three-LOD/UV/sole/CPU result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/floor-render-probe.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/floor-render-probe.txt",
+      "bytes": 427,
+      "sha256": "9765ce566415b33f40a9234d312cca3595e5a3df70561fbabd9a37c83446f484",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/full-production-suite.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/full-production-suite.txt",
+      "bytes": 731,
+      "sha256": "f8562957ae9be9dfa99d390ac9147336d6c1ddfed1a6cdeed5d315e266067237",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/graph-final-reindex.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/graph-final-reindex.txt",
+      "bytes": 594,
+      "sha256": "3233ba3ae85a12f06e2c253e63360b6218605d49871814e4a53074d838f18c59",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/import.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/import.txt",
+      "bytes": 5261,
+      "sha256": "6792683dd989a143e49b629fcd72b0c67c267b228d634256127361570d3673c4",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/preview.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/preview.txt",
+      "bytes": 830,
+      "sha256": "c28858dd1603fe4cff0127248af1755a5378d9bc5ffe720cf392f95dadc6fe11",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/targeted-contract.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/targeted-contract.json",
+      "bytes": 110278,
+      "sha256": "f86740fae9bc2ed86e38919bac0239acec22d4f0dc2094b83c9292663d6b05d5",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v9/targeted-contract.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v9/native/targeted-contract.txt",
+      "bytes": 69629,
+      "sha256": "1e72c9771d02ecf842274bebb58c7a5c45b4edb654ea1f7384f27497f95f07c9",
+      "role": "Actual V9 import, complete targeted contract, full production suite and diagnostic logs",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/feet_cpu_pose_mask.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/feet_cpu_pose_mask.png",
+      "bytes": 11398,
+      "sha256": "24422ef6510a29a4d8aeff97fee3a5ae362191b1a964b157ab5a4468c9a87a07",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/feet_native_gpu_mask.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/feet_native_gpu_mask.png",
+      "bytes": 11398,
+      "sha256": "24422ef6510a29a4d8aeff97fee3a5ae362191b1a964b157ab5a4468c9a87a07",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/geometry-identity.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/geometry-identity.json",
+      "bytes": 12966,
+      "sha256": "695f884185569c23ba122c9db4ed8cf16ab1def6b4a537185053e56585b4270c",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/report.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/report.json",
+      "bytes": 6979,
+      "sha256": "b72b09f9c6a32ef715b83ebce7ebaf1b4909376ac42b01105dff6c76ae3049e2",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/three_quarter_cpu_pose_mask.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/three_quarter_cpu_pose_mask.png",
+      "bytes": 11459,
+      "sha256": "12bdd8278d4769cfbd52dc3ef7cecb6889b8db8a2a527a5f880e6699ddaa3955",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-render-floor-check/v9/three_quarter_native_gpu_mask.png",
+      "repository_relative": "docs/evidence/naifrog-model-v9/render-floor/three_quarter_native_gpu_mask.png",
+      "bytes": 11464,
+      "sha256": "1c37bf00ae37a9ee13d66879031e41bbb24490542d8b875da5332cc8227fec01",
+      "role": "Actual native GPU vs complete CPU pose masks and explicit V8/V9 geometry identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/codesign-verify.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/codesign-verify.log.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/export.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/export.log.txt",
+      "bytes": 68011,
+      "sha256": "f5ce4120b2b7fed24d578ecd98a7596c748d5d9922027c1189bcd9869a553704",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/export_presets-after-engine.cfg",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/export_presets-after-engine.cfg.txt",
+      "bytes": 1879,
+      "sha256": "f2531bcbacfb1e29b0ab03d800fbce337de0df8224da0dfade3ecc12b03c870f",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/export_presets-before.cfg",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/export_presets-before.cfg.txt",
+      "bytes": 1732,
+      "sha256": "6bbfa96365fd7bdff68077c7f67702e1e4a7dc778668f17ad4460a001992fe9c",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/isolated-archive.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/isolated-archive.json",
+      "bytes": 514,
+      "sha256": "b4533c21ee75d1e76d17fa90056d250f154c14534379cb89b270068801647e9e",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/native-load-receipt.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/native-load-receipt.json",
+      "bytes": 11389,
+      "sha256": "d4aa17d841e76d8368165fd54d69c6337950852d23e942ab4d0c6a61e6f4f611",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/pack-resources.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/pack-resources.log.txt",
+      "bytes": 107,
+      "sha256": "8ec3454e89770e2982320a5198a877c9299b4604ea6a51e3d7782bf5f99784ad",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/source-after.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/source-after.json",
+      "bytes": 32657,
+      "sha256": "3fd67c8a3ec9a16aa80d8e9c04e77704a27df26b9a55637ad997a5e7a70f2ae0",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/source-before.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/source-before.json",
+      "bytes": 32657,
+      "sha256": "3fd67c8a3ec9a16aa80d8e9c04e77704a27df26b9a55637ad997a5e7a70f2ae0",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/standalone-menu.log",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/standalone-menu.log.txt",
+      "bytes": 73,
+      "sha256": "6d1c065383a27c36804949b6ffa4b09714470b112e5dacc0bd5aeb7b9c147c4e",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/validation.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/validation.json",
+      "bytes": 4396,
+      "sha256": "2829f89c888bb8cced8b088b40c2739bce20524c59b6ae54fbad1fd35fb1b9d5",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/zip-identity.json",
+      "repository_relative": "docs/evidence/naifrog-model-v9/standalone/zip-identity.json",
+      "bytes": 261,
+      "sha256": "cc505f6e18ff22d7214974ffbb90d9c7f3d613c58bcb0e0eba837c98b559c541",
+      "role": "Actual V9 app export/release-menu/editor-PCK-load/codesign/input-restoration proof; no app/PCK copied",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/render_rig.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/producer/render_rig.py",
+      "bytes": 1864,
+      "sha256": "b176f1c157a3e323ec434feefe5783fed6ddfd33ed636b8b3aabc5a1c82b020e",
+      "role": "Producer identified actual executed V9 checker/render script",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/diagnose_uv.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/producer/diagnose_uv.py",
+      "bytes": 4070,
+      "sha256": "10bc4a43bb9a9ab04da686f665216132be85488e038b139ca4499f89714e72a8",
+      "role": "Producer identified actual executed V9 checker/render script",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/verify_float_accessors.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/producer/verify_float_accessors.py",
+      "bytes": 1869,
+      "sha256": "ac4ea56a6345ea583ae8f928fd27580de29d97da972bb45ebfcf6622b63bc3a6",
+      "role": "Producer identified actual executed V9 checker/render script",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_inspect.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/parser/naifrog_inspect.py",
+      "bytes": 31233,
+      "sha256": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a",
+      "role": "Actual source/GLB inspection dependency snapshot",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_uv_verify.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/uv/naifrog_uv_verify.py",
+      "bytes": 20172,
+      "sha256": "82d0e90f983f7a5c7bf688584cb5f7e9559011ba444cc8a48c037b0770ba3cd8",
+      "role": "Frozen actual UV checker; identity bound by V9 UV report",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/render-floor-check/compare_v8_geometry.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/render-floor/compare_v8_geometry.py",
+      "bytes": 6770,
+      "sha256": "5a1d5b2306160588813167f942ec757d628d1cb511a7bdd52f11fb9f1d4d6da3",
+      "role": "Actual Root geometry identity/native GPU-CPU floor diagnostic script",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/render-floor-check/floor_projection_probe.gd",
+      "repository_relative": "tools/naifrog_validation_archive/v9/render-floor/floor_projection_probe.gd.txt",
+      "bytes": 10474,
+      "sha256": "801a83729516511e9f10694ff314c1324eea8acabd1fda96f3aee6cba7c99661",
+      "role": "Actual Root geometry identity/native GPU-CPU floor diagnostic script",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/export_naifrog_v9.py",
+      "repository_relative": "tools/naifrog_validation_archive/v9/standalone/export_naifrog_v9.py",
+      "bytes": 6978,
+      "sha256": "9073f174e663bb5ce853c56e5ca05a57800aae28202bb9d2c5c4972cf0ee057a",
+      "role": "Actual Root isolated export/validation orchestrator",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/standalone_resource_probe.gd",
+      "repository_relative": "tools/naifrog_validation_archive/v9/standalone/standalone_resource_probe.gd.txt",
+      "bytes": 5014,
+      "sha256": "a7eef073f5043dc9543a3d0f9cc240cc047d0b55b04fd33c549d6a7ffae5cf43",
+      "role": "Exact output-PCK resource probe generated/executed by export orchestrator",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tests/naifrog_model_contract.gd",
+      "repository_relative": "tools/naifrog_validation_archive/v9/native/naifrog_model_contract.gd.txt",
+      "bytes": 31258,
+      "sha256": "6d4b7b865c6958d83f138b7b84a30a7baedc5f8ec87660165641d3cabf5459d7",
+      "role": "Current final native contract with 3mm support limit; runtime does not separately record test-script hash",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/scripts/enemies/hunter_visual.gd",
+      "repository_relative": "tools/naifrog_validation_archive/v9/native/hunter_visual.gd.txt",
+      "bytes": 7423,
+      "sha256": "f6f6f6d936bfc720a7c41fe0f03b3899194ddb523ee6bdc36f22f4f9252812a8",
+      "role": "Actual V9 actor; SHA bound by targeted/GPU receipts",
+      "source_sha_matches_target": true
+    }
+  ],
+  "copy_count": 63,
+  "copy_bytes": 9491863,
+  "existing_formal_asset_references": [
+    {
+      "repository_relative": "source_assets/naifrog/model/naifrog_game_rig.blend",
+      "bytes": 88353139,
+      "sha256": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    },
+    {
+      "repository_relative": "source_assets/naifrog/model/naifrog_high_rig.blend",
+      "bytes": 88353139,
+      "sha256": "69b5c34f6b9a88e0081dea53fb96564dbeb07bfc60f5eff448710885d77a58ab",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    },
+    {
+      "repository_relative": "assets/refined/naifrog/MODEL_MANIFEST.json",
+      "bytes": 118913,
+      "sha256": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    },
+    {
+      "repository_relative": "assets/refined/naifrog/naifrog_lod0.glb",
+      "bytes": 34869824,
+      "sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    },
+    {
+      "repository_relative": "assets/refined/naifrog/naifrog_lod1.glb",
+      "bytes": 7229692,
+      "sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    },
+    {
+      "repository_relative": "assets/refined/naifrog/naifrog_lod2.glb",
+      "bytes": 3673172,
+      "sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+      "copied": false,
+      "current_bytes_match_frozen_identity": true,
+      "notice": "Depends on existing formal V9 assets; later replacement requires matching this identity, not merely the same path"
+    }
+  ],
+  "native_actual_stats": {
+    "checks": 3853,
+    "sampled_states": 276,
+    "vertex_evaluations": 37943652,
+    "failures": []
+  },
+  "production_suite": "Actual full-production-suite.txt reports import, failure gate, 13 scene contracts and two archive restart processes PASS.",
+  "uv_result": {
+    "complete": true,
+    "ok": true,
+    "status": "clear",
+    "triangles": 606058,
+    "candidate_pairs": 1971402,
+    "positive_overlap_pairs": 0,
+    "scope": "Within each selected raw mesh UV atlas; meshes and LODs are not compared to one another."
+  },
+  "geometry_reuse": {
+    "identity_report": "docs/evidence/naifrog-model-v9/render-floor/geometry-identity.json",
+    "bounded_v8_geometry_report": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/report.json",
+    "notice": "Only identical raw geometry supports reuse of bounded V8 27-combo FACE ROI check. V9 UV, animated sole and native visual checks are independent, not reused."
+  },
+  "limits": [
+    "No large blend/GLB duplicates or app/PCK/ZIP/templates/runtime/cache copied; formal V9 assets verified above.",
+    "GPU masks isolate geometry and show two static views, not ordinary full-game input or art approval.",
+    "Release app menu was actually started; output PCK resource load was separately done with exact editor and is not release-binary full gameplay.",
+    "Closed-eye dihedral diagnostic from identical bounded geometry remains; no commercial art approval.",
+    "Original reports/default script paths retained byte for byte and mapped here."
+  ],
+  "generated_import_settings": [],
+  "standalone_boundary": "Actual release executable HEADLESS menu entry startup; separate HEADLESS exact editor probe against output PCK; no visible GUI or ordinary release-binary gameplay claim."
+}

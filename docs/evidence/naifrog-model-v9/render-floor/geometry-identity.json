@@ -1,0 +1,367 @@
+{
+  "scope": "Exact raw SOURCE geometry/morph/ROI and actual GLB canonical geometry identity against V8. UV and animation remain separate. Not a new 27-combination execution.",
+  "blender": "4.5.14 LTS",
+  "paths": {
+    "old_source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_game_rig.blend",
+    "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+    "old_glb": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_lod0.glb",
+    "glb": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+    "old_manifest": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/MODEL_MANIFEST.json",
+    "manifest": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/MODEL_MANIFEST.json"
+  },
+  "initial_sha256": {
+    "old_source": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+    "source": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+    "old_glb": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+    "glb": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+    "old_manifest": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+    "manifest": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab"
+  },
+  "source_mesh_names_equal": true,
+  "source": {
+    "NaifrogContinuousSkin": {
+      "pass": true,
+      "morph_and_ROI_attribute_names_equal": true,
+      "checks": {
+        "basis": {
+          "equal_exact": true,
+          "old_shape": [
+            303031,
+            3
+          ],
+          "new_shape": [
+            303031,
+            3
+          ],
+          "old_hash": "a99f89a47a02611b9a32cf451af06934379766da7dcd381b9825b477264d9a05",
+          "new_hash": "a99f89a47a02611b9a32cf451af06934379766da7dcd381b9825b477264d9a05",
+          "maximum_numeric_difference": 0.0
+        },
+        "triangles": {
+          "equal_exact": true,
+          "old_shape": [
+            606058,
+            3
+          ],
+          "new_shape": [
+            606058,
+            3
+          ],
+          "old_hash": "66aa76e26a296d7c69cc3b345e45a2d8e0f4f4161db59a2c77d29176d5b2873f",
+          "new_hash": "66aa76e26a296d7c69cc3b345e45a2d8e0f4f4161db59a2c77d29176d5b2873f",
+          "maximum_numeric_difference": 0.0
+        },
+        "morph_Blink": {
+          "equal_exact": true,
+          "old_shape": [
+            303031,
+            3
+          ],
+          "new_shape": [
+            303031,
+            3
+          ],
+          "old_hash": "4e41c1e3049dc9c46034df1e9fe14a34315a18ad9ecc6f691ecfe292d62a5c7e",
+          "new_hash": "4e41c1e3049dc9c46034df1e9fe14a34315a18ad9ecc6f691ecfe292d62a5c7e",
+          "maximum_numeric_difference": 0.0
+        },
+        "morph_Open": {
+          "equal_exact": true,
+          "old_shape": [
+            303031,
+            3
+          ],
+          "new_shape": [
+            303031,
+            3
+          ],
+          "old_hash": "3f2072f5e5e8d53b52ed8a38934277fd34ffa9fe417b06a462a108eedabce0bc",
+          "new_hash": "3f2072f5e5e8d53b52ed8a38934277fd34ffa9fe417b06a462a108eedabce0bc",
+          "maximum_numeric_difference": 0.0
+        },
+        "morph_Focus": {
+          "equal_exact": true,
+          "old_shape": [
+            303031,
+            3
+          ],
+          "new_shape": [
+            303031,
+            3
+          ],
+          "old_hash": "f2444e11146245361abd0e8304cf81ad3c88c68543e5392e464a435256ca5a57",
+          "new_hash": "f2444e11146245361abd0e8304cf81ad3c88c68543e5392e464a435256ca5a57",
+          "maximum_numeric_difference": 0.0
+        },
+        "NaiFrogFacialSection": {
+          "equal_exact": true,
+          "old_shape": [
+            606058
+          ],
+          "new_shape": [
+            606058
+          ],
+          "old_hash": "a42c4530dc8bdad0d99ecf1f6a2be8f1a4b341c23ae80c5394be513c124e8d19",
+          "new_hash": "a42c4530dc8bdad0d99ecf1f6a2be8f1a4b341c23ae80c5394be513c124e8d19",
+          "maximum_numeric_difference": 0.0
+        },
+        "NaiFrogFacialPatch": {
+          "equal_exact": true,
+          "old_shape": [
+            606058
+          ],
+          "new_shape": [
+            606058
+          ],
+          "old_hash": "d8988ed27c46017037584aabf4a652811d1d861babaf19194155abca121a7ad1",
+          "new_hash": "d8988ed27c46017037584aabf4a652811d1d861babaf19194155abca121a7ad1",
+          "maximum_numeric_difference": 0.0
+        }
+      },
+      "scope": {
+        "explicit_ROI": 10450,
+        "canonical_one_ring": 846,
+        "total_triangles": 11296,
+        "scoped_triangle_identity_hash": "9c08f6466b0c3927a8ead4d12a18a21e0761d38f2d05a91cebd827ec7b5f4d73"
+      }
+    },
+    "NaifrogEyes_left": {
+      "pass": true,
+      "morph_and_ROI_attribute_names_equal": true,
+      "checks": {
+        "basis": {
+          "equal_exact": true,
+          "old_shape": [
+            2402,
+            3
+          ],
+          "new_shape": [
+            2402,
+            3
+          ],
+          "old_hash": "6d1ab56f8f2f3377148e0db78e103520dc68ddf1d5d4eed1ed8d0de375f45a46",
+          "new_hash": "6d1ab56f8f2f3377148e0db78e103520dc68ddf1d5d4eed1ed8d0de375f45a46",
+          "maximum_numeric_difference": 0.0
+        },
+        "triangles": {
+          "equal_exact": true,
+          "old_shape": [
+            4800,
+            3
+          ],
+          "new_shape": [
+            4800,
+            3
+          ],
+          "old_hash": "ea819eb317459924cb7c2670127a28ee79f1f9c220c1a1e211b50069b97ed57e",
+          "new_hash": "ea819eb317459924cb7c2670127a28ee79f1f9c220c1a1e211b50069b97ed57e",
+          "maximum_numeric_difference": 0.0
+        }
+      }
+    },
+    "NaifrogEyes_right": {
+      "pass": true,
+      "morph_and_ROI_attribute_names_equal": true,
+      "checks": {
+        "basis": {
+          "equal_exact": true,
+          "old_shape": [
+            2402,
+            3
+          ],
+          "new_shape": [
+            2402,
+            3
+          ],
+          "old_hash": "908202131bd2185650052bc89d25876988d338f565659648f682dec108ab1132",
+          "new_hash": "908202131bd2185650052bc89d25876988d338f565659648f682dec108ab1132",
+          "maximum_numeric_difference": 0.0
+        },
+        "triangles": {
+          "equal_exact": true,
+          "old_shape": [
+            4800,
+            3
+          ],
+          "new_shape": [
+            4800,
+            3
+          ],
+          "old_hash": "ea819eb317459924cb7c2670127a28ee79f1f9c220c1a1e211b50069b97ed57e",
+          "new_hash": "ea819eb317459924cb7c2670127a28ee79f1f9c220c1a1e211b50069b97ed57e",
+          "maximum_numeric_difference": 0.0
+        }
+      }
+    }
+  },
+  "source_uv": {
+    "NaifrogContinuousSkin/NaifrogUV": {
+      "equal_exact": false,
+      "old_shape": [
+        1212534,
+        2
+      ],
+      "new_shape": [
+        1212534,
+        2
+      ],
+      "old_hash": "27a8e0866a3f5970c4e17d6f0565bb3298ee20a8e2fa3c6822579fd66610fa95",
+      "new_hash": "ef54729e8ad79957297ad4f6ae291b18f17c347054940ed8d2b89e17dea70216",
+      "maximum_numeric_difference": 0.9647080302238464
+    },
+    "NaifrogEyes_left/NaiFrog eye radial UV": {
+      "equal_exact": true,
+      "old_shape": [
+        9792,
+        2
+      ],
+      "new_shape": [
+        9792,
+        2
+      ],
+      "old_hash": "3c479278c675e33da4754858994b63222ec215956f032d1e1c7a7506bb4500fe",
+      "new_hash": "3c479278c675e33da4754858994b63222ec215956f032d1e1c7a7506bb4500fe",
+      "maximum_numeric_difference": 0.0
+    },
+    "NaifrogEyes_right/NaiFrog eye radial UV": {
+      "equal_exact": true,
+      "old_shape": [
+        9792,
+        2
+      ],
+      "new_shape": [
+        9792,
+        2
+      ],
+      "old_hash": "d94fdba8c4e5a6586ecd475b5fe2732850b69026f38d0cce1b3131f5b62417a9",
+      "new_hash": "d94fdba8c4e5a6586ecd475b5fe2732850b69026f38d0cce1b3131f5b62417a9",
+      "maximum_numeric_difference": 0.0
+    }
+  },
+  "GLB": {
+    "V8": {
+      "NaifrogContinuousSkin": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 317303,
+          "matched_vertices": 317303,
+          "triangles": 606058,
+          "matched_triangles": 606058,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 10450,
+          "ROI_matched_export_triangles": 10450,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      },
+      "NaifrogEyes_left": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 4801,
+          "matched_vertices": 4801,
+          "triangles": 4800,
+          "matched_triangles": 4800,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 0,
+          "ROI_matched_export_triangles": 0,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      },
+      "NaifrogEyes_right": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 4801,
+          "matched_vertices": 4801,
+          "triangles": 4800,
+          "matched_triangles": 4800,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 0,
+          "ROI_matched_export_triangles": 0,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      }
+    },
+    "current": {
+      "NaifrogContinuousSkin": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 317926,
+          "matched_vertices": 317926,
+          "triangles": 606058,
+          "matched_triangles": 606058,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 10450,
+          "ROI_matched_export_triangles": 10450,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      },
+      "NaifrogEyes_left": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 4801,
+          "matched_vertices": 4801,
+          "triangles": 4800,
+          "matched_triangles": 4800,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 0,
+          "ROI_matched_export_triangles": 0,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      },
+      "NaifrogEyes_right": {
+        "mapping": {
+          "matching_tolerance_m": 1e-06,
+          "vertices": 4801,
+          "matched_vertices": 4801,
+          "triangles": 4800,
+          "matched_triangles": 4800,
+          "max_basis_error_m": 0.0,
+          "max_morph_delta_error_m": 0.0,
+          "ambiguous_source_identity_export_vertices": 0,
+          "ROI_source_triangles": 0,
+          "ROI_matched_export_triangles": 0,
+          "complete_same_topology_mapping": true
+        },
+        "oriented_canonical_triangle_multiset_exact_equal": true,
+        "pass": true
+      }
+    }
+  },
+  "eye_frame_exact_equal": true,
+  "final_sha256": {
+    "old_source": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+    "source": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+    "old_glb": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+    "glb": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+    "old_manifest": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+    "manifest": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab"
+  },
+  "input_bytes_unchanged": true,
+  "reuse_v8_27_raw_geometry_results": true,
+  "uv_exact_equal": false,
+  "reuse_limits": [
+    "Applies only to V8 27 raw authored rest morph eye/mouth geometry result, whose checker does not inspect UV.",
+    "UV may differ; this comparison explicitly does not transfer texture/appearance acceptance.",
+    "Bone animation/support changed and must retain new native animation/sole verification.",
+    "Actual GLB vertices are mapped to unchanged SOURCE physical identities; raw export ordering/UV duplicates may differ."
+  ]
+}

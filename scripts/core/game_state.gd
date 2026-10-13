@@ -166,7 +166,7 @@ func upgrade_cost_summary(skill_id: String) -> String:
 		"afterimage":
 			return "需近期闪电；耗8体力，冷却8秒；后像不会跟随目标。"
 		"echo":
-			return "施放后短暂听觉受扰，冷却%.0f秒；奶龙仍会追踪。" % values.cooldown
+			return "施放后短暂听觉受扰，冷却%.0f秒；奶蛙仍会追踪。" % values.cooldown
 		"luminol":
 			return "每次耗一份有限试剂，冷却8秒；雨水仍会冲淡痕迹。"
 		"mire":

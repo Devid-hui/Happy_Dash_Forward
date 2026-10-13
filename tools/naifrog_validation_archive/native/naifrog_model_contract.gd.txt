@@ -1,0 +1,616 @@
+extends Node
+## Native geometry/behavior contract. Visual likeness needs a separate rendered review.
+const CLIPS := ["idle", "walk", "chase", "warn", "charge", "recover"]
+const EXPRESSIONS := ["Blink", "Focus", "Open"]
+const FRACTIONS := [0.0, .125, .25, .375, .5, .625, .75, .875, 1.0]
+const FLOOR_TOLERANCE := .015
+const SOLE_REST_CEILING := .04
+const SOLE_FOOT_WEIGHT := .5
+const NUMERIC_EPSILON := .000001
+var failures: Array[String] = []
+var checks := 0
+var candidate: Script
+var candidate_path := "res://scripts/enemies/hunter_visual.gd"
+var skeleton_frame := Transform3D.IDENTITY
+var report := {"scope": "Sampled native geometry and actor behavior; not rendered likeness or continuous-time certification.", "lods": [], "samples": []}
+
+func expect(condition: bool, message: String) -> void:
+	checks += 1
+	if not condition:
+		failures.append(message)
+		push_error(message)
+
+func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
+	var args := OS.get_cmdline_user_args()
+	if args.has("--candidate-script"):
+		var index := args.find("--candidate-script") + 1
+		if index >= args.size():
+			expect(false, "--candidate-script needs a script path")
+			_finish()
+			return
+		candidate_path = args[index]
+	candidate = load(candidate_path) as Script
+	expect(candidate != null, "Candidate actor script loads: " + candidate_path)
+	if candidate == null:
+		_finish()
+		return
+	call_deferred("_run")
+
+func _finish() -> void:
+	report["engine"] = Engine.get_version_info()
+	report["candidate_script"] = candidate_path
+	report["candidate_sha256"] = FileAccess.get_sha256(candidate_path)
+	report["checks"] = checks
+	report["failures"] = failures
+	print("NAIFROG_MODEL_CONTRACT ", JSON.stringify(report))
+	get_tree().quit(0 if failures.is_empty() else 1)
+
+func _parts(actor: Node3D) -> Dictionary:
+	var result: Dictionary = {}
+	for value in actor.meshes:
+		var part := value as MeshInstance3D
+		expect(part != null and part.mesh != null, "Actor exposes a real mesh instance")
+		if part != null and part.mesh != null:
+			expect(not result.has(String(part.name)), "Mesh instance names are unique")
+			result[String(part.name)] = part
+	return result
+
+func _canonical_clips(player: AnimationPlayer) -> Dictionary:
+	var result: Dictionary = {}
+	for name in player.get_animation_list():
+		for clip in CLIPS:
+			if String(name) == clip or String(name).ends_with("/" + clip) or String(name).ends_with("|" + clip):
+				expect(not result.has(clip), "Each semantic clip maps once: " + clip)
+				result[clip] = name
+	return result
+
+func _direct_lods(path: String) -> void:
+	expect(path.ends_with("_lod0.glb"), "LOD0 path declares the existing three-file naming convention")
+	if not path.ends_with("_lod0.glb"):
+		return
+	var base_bones: Array = []
+	var base_lengths: Dictionary = {}
+	var base_parts: Dictionary = {}
+	var imports: Array = []
+	for level in range(3):
+		var lod_path := path.trim_suffix("_lod0.glb") + "_lod%d.glb" % level
+		expect(FileAccess.file_exists(lod_path), "Native LOD file exists: " + lod_path)
+		if not FileAccess.file_exists(lod_path):
+			continue
+		var scene := load(lod_path) as PackedScene
+		expect(scene != null, "Native LOD PackedScene imports: " + lod_path)
+		if scene == null:
+			continue
+		var model := scene.instantiate() as Node3D
+		add_child(model)
+		var skeletons := model.find_children("*", "Skeleton3D", true, false)
+		var players := model.find_children("*", "AnimationPlayer", true, false)
+		expect(skeletons.size() == 1 and players.size() == 1, "LOD%d has one native skeleton/player" % level)
+		var record := {"level": level, "path": lod_path, "sha256": FileAccess.get_sha256(lod_path), "clips": {}}
+		if skeletons.size() == 1 and players.size() == 1:
+			var skeleton := skeletons[0] as Skeleton3D
+			var player := players[0] as AnimationPlayer
+			player.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL
+			expect(skeleton.get_bone_count() == 24, "LOD%d retains all 24 native bones" % level)
+			var bones: Array = []
+			for bone in skeleton.get_bone_count():
+				bones.append([skeleton.get_bone_name(bone), skeleton.get_bone_parent(bone), skeleton.get_bone_rest(bone)])
+			if level == 0:
+				base_bones = bones
+			else:
+				expect(bones.size() == base_bones.size(), "LOD skeleton sizes match")
+				for bone in mini(bones.size(), base_bones.size()):
+					expect(bones[bone][0] == base_bones[bone][0] and bones[bone][1] == base_bones[bone][1] and bones[bone][2].is_equal_approx(base_bones[bone][2]), "LOD%d preserves its authored joint binding %d" % [level, bone])
+			var clips := _canonical_clips(player)
+			expect(clips.size() == CLIPS.size(), "LOD%d imports six semantic clips" % level)
+			var part_semantics: Dictionary = {}
+			for value in model.find_children("*", "MeshInstance3D", true, false):
+				var part := value as MeshInstance3D
+				var shape_names: Array = []
+				for shape in part.mesh.get_blend_shape_count():
+					shape_names.append(String(part.mesh.get_blend_shape_name(shape)))
+				var skin_binds: Array = []
+				if part.skin != null:
+					for bind in part.skin.get_bind_count():
+						skin_binds.append([part.skin.get_bind_bone(bind), part.skin.get_bind_name(bind), part.skin.get_bind_pose(bind)])
+				part_semantics[String(part.name)] = {"shape_names": shape_names, "skin_binds": skin_binds}
+			if level == 0:
+				base_parts = part_semantics
+			else:
+				expect(part_semantics.size() == base_parts.size(), "LOD%d preserves all native node names" % level)
+				for key in base_parts:
+					expect(part_semantics.has(key), "LOD%d preserves native node %s" % [level, key])
+					if not part_semantics.has(key):
+						continue
+					var actual: Dictionary = part_semantics[key]
+					var baseline: Dictionary = base_parts[key]
+					expect(actual["shape_names"] == baseline["shape_names"], "LOD%d preserves native shape-index semantics: %s" % [level, key])
+					expect(actual["skin_binds"].size() == baseline["skin_binds"].size(), "LOD Skin palette lengths match")
+					for bind in mini(actual["skin_binds"].size(), baseline["skin_binds"].size()):
+						var a: Array = actual["skin_binds"][bind]
+						var b: Array = baseline["skin_binds"][bind]
+						expect(a[0] == b[0] and a[1] == b[1] and a[2].is_equal_approx(b[2]), "LOD%d preserves the Skin binding used by mesh swapping: %s %d" % [level, key, bind])
+			for clip in CLIPS:
+				expect(clips.has(clip), "LOD%d imports %s" % [level, clip])
+				if not clips.has(clip):
+					continue
+				var animation: Animation = player.get_animation(clips[clip])
+				expect(is_finite(animation.length) and animation.length > .3, "LOD%d %s has a real duration" % [level, clip])
+				expect(animation.get_track_count() > 0, "LOD%d %s contains native tracks" % [level, clip])
+				record["clips"][clip] = {"duration": animation.length, "tracks": animation.get_track_count()}
+				if level == 0:
+					base_lengths[clip] = animation.length
+				elif base_lengths.has(clip):
+					expect(is_equal_approx(animation.length, base_lengths[clip]), "LOD%d %s retains timeline duration" % [level, clip])
+				var initial: Array = []
+				var has_motion := false
+				for time in _sample_times(animation):
+					player.play(clips[clip], 0.0)
+					player.seek(time, true)
+					player.advance(0.0)
+					skeleton.force_update_all_bone_transforms()
+					var deformation: Array = []
+					for bone in skeleton.get_bone_count():
+						deformation.append(skeleton.get_bone_pose(bone))
+					for value in model.find_children("*", "MeshInstance3D", true, false):
+						var part := value as MeshInstance3D
+						for shape in part.mesh.get_blend_shape_count():
+							deformation.append(part.get_blend_shape_value(shape))
+					if initial.is_empty():
+						initial = deformation
+					else:
+						has_motion = has_motion or _deformation_changed(initial, deformation)
+				expect(has_motion, "LOD%d native %s timeline really moves its own imported bones/morphs" % [level, clip])
+		imports.append(record)
+		model.free()
+	report["native_imports"] = imports
+
+func _sample_times(animation: Animation) -> Array[float]:
+	var times: Array[float] = []
+	for fraction in FRACTIONS:
+		times.append(animation.length * fraction)
+	# Include actual extrema of expression tracks instead of old fixed warning/blink times.
+	for track in animation.get_track_count():
+		var type := animation.track_get_type(track)
+		if type != Animation.TYPE_BLEND_SHAPE and type != Animation.TYPE_VALUE:
+			continue
+		var path := String(animation.track_get_path(track))
+		var relevant := false
+		for expression in EXPRESSIONS:
+			relevant = relevant or path.ends_with(expression)
+		if not relevant:
+			continue
+		var low := INF
+		var high := -INF
+		var low_time := 0.0
+		var high_time := 0.0
+		for key in animation.track_get_key_count(track):
+			var value: Variant = animation.track_get_key_value(track, key)
+			if not (value is float or value is int):
+				continue
+			if float(value) < low:
+				low = float(value)
+				low_time = animation.track_get_key_time(track, key)
+			if float(value) > high:
+				high = float(value)
+				high_time = animation.track_get_key_time(track, key)
+		for time in [low_time, high_time]:
+			if time >= 0.0 and time <= animation.length and not times.has(time):
+				times.append(time)
+	times.sort()
+	return times
+
+func _bind_bones(part: MeshInstance3D, skeleton: Skeleton3D) -> Array[int]:
+	var result: Array[int] = []
+	if part.skin == null:
+		return result
+	for bind in part.skin.get_bind_count():
+		var bone := part.skin.get_bind_bone(bind)
+		if bone < 0:
+			bone = skeleton.find_bone(part.skin.get_bind_name(bind))
+		expect(bone >= 0 and bone < skeleton.get_bone_count(), "Skin bind resolves: " + String(part.name))
+		if bone < 0 or bone >= skeleton.get_bone_count():
+			return []
+		result.append(bone)
+	return result
+
+func _skin_matrices(actor: Node3D, part: MeshInstance3D, bind_bones: Array[int], rest: bool) -> Array[Transform3D]:
+	var matrices: Array[Transform3D] = []
+	var skeleton: Skeleton3D = actor.skeleton
+	var skeleton_to_actor := actor.global_transform.affine_inverse() * skeleton.global_transform
+	for bind in bind_bones.size():
+		var bone := bind_bones[bind]
+		if bone < 0 or bone >= skeleton.get_bone_count():
+			continue
+		var pose := skeleton.get_bone_global_rest(bone) if rest else skeleton.get_bone_global_pose(bone)
+		matrices.append(skeleton_to_actor * pose * part.skin.get_bind_pose(bind))
+	return matrices
+
+func _surface_cache(actor: Node3D, part: MeshInstance3D, surface: int, bind_bones: Array[int]) -> Dictionary:
+	var mesh := part.mesh as ArrayMesh
+	var arrays: Array = mesh.surface_get_arrays(surface)
+	var vertices: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+	var bones := PackedInt32Array()
+	var weights := PackedFloat32Array()
+	if arrays[Mesh.ARRAY_BONES] != null:
+		bones = PackedInt32Array(arrays[Mesh.ARRAY_BONES])
+	if arrays[Mesh.ARRAY_WEIGHTS] != null:
+		weights = arrays[Mesh.ARRAY_WEIGHTS]
+	var influences := 0
+	if not bones.is_empty():
+		influences = bones.size() / maxi(1, vertices.size())
+		expect(part.skin != null and (influences == 4 or influences == 8) and bones.size() == vertices.size() * influences and weights.size() == bones.size(), "Every skinned vertex has four/eight complete weights: " + String(part.name))
+		if part.skin == null or not (influences == 4 or influences == 8) or bones.size() != vertices.size() * influences or weights.size() != bones.size():
+			return {}
+	else:
+		expect(weights.is_empty(), "Rigid geometry has no orphan weights")
+	var deltas: Array = []
+	var maxima: Array[float] = []
+	var shapes: Array = mesh.surface_get_blend_shape_arrays(surface)
+	expect(shapes.size() == mesh.get_blend_shape_count(), "All surface morph arrays are present")
+	if shapes.size() != mesh.get_blend_shape_count():
+		return {}
+	for shape in shapes.size():
+		var target: PackedVector3Array = shapes[shape][Mesh.ARRAY_VERTEX]
+		expect(target.size() == vertices.size(), "Morph covers every surface vertex")
+		if target.size() != vertices.size():
+			return {}
+		var delta := target.duplicate()
+		var maximum := 0.0
+		for vertex in vertices.size():
+			if mesh.blend_shape_mode == Mesh.BLEND_SHAPE_MODE_NORMALIZED:
+				delta[vertex] -= vertices[vertex]
+			maximum = maxf(maximum, delta[vertex].length())
+		deltas.append(delta)
+		maxima.append(maximum)
+	var sole_sides := PackedInt32Array()
+	sole_sides.resize(vertices.size())
+	sole_sides.fill(-1)
+	var rest_matrices := _skin_matrices(actor, part, bind_bones, true)
+	var bind_sides: Array[int] = []
+	var skeleton: Skeleton3D = actor.skeleton
+	for bone in bind_bones:
+		var name := skeleton.get_bone_name(bone)
+		bind_sides.append(0 if name == "foot_left" else (1 if name == "foot_right" else -1))
+	var rigid := actor.global_transform.affine_inverse() * part.global_transform
+	var valid := true
+	var weight_error := 0.0
+	for vertex in vertices.size():
+		valid = valid and vertices[vertex].is_finite()
+		var rest_point := rigid * vertices[vertex]
+		if influences > 0:
+			rest_point = Vector3.ZERO
+			var total := 0.0
+			var foot_weights := Vector2.ZERO
+			for influence in influences:
+				var index := vertex * influences + influence
+				var weight := weights[index]
+				var bind := bones[index]
+				valid = valid and is_finite(weight) and weight >= 0.0 and weight <= 1.0 and bind >= 0 and bind < rest_matrices.size()
+				if bind < 0 or bind >= rest_matrices.size():
+					continue
+				total += weight
+				if weight > 0.0:
+					rest_point += (rest_matrices[bind] * vertices[vertex]) * weight
+				if bind_sides[bind] == 0:
+					foot_weights.x += weight
+				elif bind_sides[bind] == 1:
+					foot_weights.y += weight
+			weight_error = maxf(weight_error, absf(total - 1.0))
+			if rest_point.y <= SOLE_REST_CEILING:
+				if foot_weights.x >= SOLE_FOOT_WEIGHT:
+					sole_sides[vertex] = 0
+				elif foot_weights.y >= SOLE_FOOT_WEIGHT:
+					sole_sides[vertex] = 1
+	for delta in deltas:
+		for point in delta:
+			valid = valid and point.is_finite()
+	expect(valid and weight_error <= .0001, "Rest vertices, morphs, bind indices and normalized weights are finite/valid: " + String(part.name))
+	if not valid or weight_error > .0001:
+		return {}
+	return {"surface": surface, "vertices": vertices, "bones": bones, "weights": weights, "influences": influences, "deltas": deltas, "maxima": maxima, "sole_sides": sole_sides}
+
+func _triangle_geometry(mesh: ArrayMesh, surface: int, vertices: PackedVector3Array) -> Dictionary:
+	var arrays: Array = mesh.surface_get_arrays(surface)
+	var indices := PackedInt32Array()
+	if arrays[Mesh.ARRAY_INDEX] != null:
+		indices = arrays[Mesh.ARRAY_INDEX]
+	var count := indices.size() if not indices.is_empty() else vertices.size()
+	var primitive := mesh.surface_get_primitive_type(surface)
+	expect(primitive == Mesh.PRIMITIVE_TRIANGLES, "Native production surfaces contain triangle geometry")
+	expect(count > 0 and count % 3 == 0, "Triangle surface is nonempty/complete")
+	if primitive != Mesh.PRIMITIVE_TRIANGLES or count % 3 != 0:
+		return {"triangles": 0, "degenerate_triangles": 0}
+	var valid := true
+	var degenerates := 0
+	for offset in range(0, count, 3):
+		var a := indices[offset] if not indices.is_empty() else offset
+		var b := indices[offset + 1] if not indices.is_empty() else offset + 1
+		var c := indices[offset + 2] if not indices.is_empty() else offset + 2
+		if a < 0 or b < 0 or c < 0 or a >= vertices.size() or b >= vertices.size() or c >= vertices.size():
+			valid = false
+			continue
+		if (vertices[b] - vertices[a]).cross(vertices[c] - vertices[a]).length_squared() <= 1e-24:
+			degenerates += 1
+	expect(valid and degenerates == 0, "Native eye, mouth and body triangle surfaces have valid indices and nondegenerate rest geometry")
+	return {"triangles": count / 3, "degenerate_triangles": degenerates}
+
+func _geometry(actor: Node3D, level: int) -> Array:
+	var result: Array = []
+	var unique: Dictionary = {}
+	var record := {"level": level, "unique_mesh_triangles": 0, "submitted_triangles_per_actor": 0, "vertices_per_actor": 0, "sole_vertices": [0, 0], "expression_delta_max": {}, "degenerate_triangles": 0}
+	var lod_cache: Array = candidate.get("cached_lod_meshes")
+	expect(lod_cache.size() == 3 and actor.meshes.size() == lod_cache[level].size(), "LOD%d retains the complete native mesh set" % level)
+	for value in actor.meshes:
+		var part := value as MeshInstance3D
+		var mesh := part.mesh as ArrayMesh
+		expect(mesh != null, "Native morph/skin geometry is an ArrayMesh")
+		if mesh == null:
+			continue
+		var key := String(part.name)
+		expect(lod_cache.size() == 3 and lod_cache[level].has(key) and lod_cache[level][key] == mesh, "LOD%d switches every named mesh to its real cached resource: %s" % [level, key])
+		var binds := _bind_bones(part, actor.skeleton)
+		var surfaces: Array = []
+		var mesh_triangles := 0
+		var shape_maxima: Array[float] = []
+		shape_maxima.resize(mesh.get_blend_shape_count())
+		shape_maxima.fill(0.0)
+		for surface in mesh.get_surface_count():
+			var data := _surface_cache(actor, part, surface, binds)
+			if data.is_empty():
+				continue
+			var triangle_data := _triangle_geometry(mesh, surface, data["vertices"])
+			mesh_triangles += triangle_data["triangles"]
+			record["degenerate_triangles"] += triangle_data["degenerate_triangles"]
+			record["vertices_per_actor"] += data["vertices"].size()
+			for side in data["sole_sides"]:
+				if side >= 0:
+					record["sole_vertices"][side] += 1
+			for shape in mesh.get_blend_shape_count():
+				shape_maxima[shape] = maxf(shape_maxima[shape], data["maxima"][shape])
+				var expression := String(mesh.get_blend_shape_name(shape))
+				if expression in EXPRESSIONS:
+					record["expression_delta_max"][expression] = maxf(record["expression_delta_max"].get(expression, 0.0), data["maxima"][shape])
+			surfaces.append(data)
+		record["submitted_triangles_per_actor"] += mesh_triangles
+		if not unique.has(mesh.get_instance_id()):
+			unique[mesh.get_instance_id()] = true
+			record["unique_mesh_triangles"] += mesh_triangles
+		result.append({"part": part, "bind_bones": binds, "surfaces": surfaces, "shape_maxima": shape_maxima})
+	expect(record["sole_vertices"][0] > 0 and record["sole_vertices"][1] > 0, "LOD%d exposes both complete foot-weighted bottom patches" % level)
+	for expression in EXPRESSIONS:
+		expect(record["expression_delta_max"].get(expression, 0.0) > NUMERIC_EPSILON, "LOD%d has nonzero native %s geometry without imposing old character proportions" % [level, expression])
+	report["lods"].append(record)
+	return result
+
+func _deformation_changed(before: Array, after: Array) -> bool:
+	if before.size() != after.size():
+		return true
+	for i in before.size():
+		if before[i] is Transform3D:
+			var a: Transform3D = before[i]
+			if not a.is_equal_approx(after[i]):
+				return true
+		elif absf(float(before[i]) - float(after[i])) > .0001:
+			return true
+	return false
+
+func _pose_signature(actor: Node3D) -> Array:
+	var result: Array = [actor.global_transform, actor.current_lod, actor.current_clip, actor.pose_clock, actor.animation_player.current_animation_position]
+	actor.skeleton.force_update_all_bone_transforms()
+	for bone in actor.skeleton.get_bone_count():
+		result.append(actor.skeleton.get_bone_pose(bone))
+	for value in actor.meshes:
+		var part := value as MeshInstance3D
+		for shape in part.mesh.get_blend_shape_count():
+			result.append(part.get_blend_shape_value(shape))
+	return result
+
+func _sharing(actors: Array[Node3D], level: int) -> void:
+	for actor in actors:
+		actor.set_lod(level)
+	var first := _parts(actors[0])
+	for i in range(1, actors.size()):
+		expect(actors[0].skeleton != actors[i].skeleton and actors[0].animation_player != actors[i].animation_player, "LOD%d instance %d has independent skeleton/player" % [level, i])
+		var other := _parts(actors[i])
+		expect(other.size() == first.size(), "Every instance contains all mesh parts")
+		for key in first:
+			expect(other.has(key), "Independent instance includes " + key)
+			if not other.has(key):
+				continue
+			var a := first[key] as MeshInstance3D
+			var b := other[key] as MeshInstance3D
+			expect(a.mesh == b.mesh, "LOD%d instances share mesh: %s" % [level, key])
+			expect(a.material_override == b.material_override, "Instances share the effective material override")
+			for surface in a.mesh.get_surface_count():
+				expect(a.get_active_material(surface) != null and a.get_active_material(surface) == b.get_active_material(surface), "Instances share actual active PBR material resources")
+	actors[1].set_preview_pose("recover", .43)
+	var before := _pose_signature(actors[1])
+	actors[0].set_preview_pose("chase", .19)
+	actors[0].animation_player.advance(.11)
+	expect(before == _pose_signature(actors[1]), "Updating one instance preserves another's bones, morphs, time and LOD")
+	expect(_deformation_changed(_pose_signature(actors[0]).slice(5), _pose_signature(actors[1]).slice(5)), "Different native clips produce genuinely independent poses")
+
+func _measure(actor: Node3D, geometry: Array, label: String, stationary: bool, expression_ranges: Dictionary, root_position: Vector3, physical_transform: Transform3D) -> void:
+	actor.skeleton.force_update_all_bone_transforms()
+	var root_bone: int = actor.skeleton.find_bone("root")
+	expect(root_bone >= 0 and actor.skeleton.get_bone_pose_position(root_bone).distance_to(root_position) <= NUMERIC_EPSILON, label + " leaves physical root translation fixed")
+	expect(actor.global_transform.is_equal_approx(physical_transform), label + " does not move the gameplay actor transform")
+	expect((actor.global_transform.affine_inverse() * actor.skeleton.global_transform).is_equal_approx(skeleton_frame), label + " does not animate a hidden skeleton/model root offset")
+	var low := Vector3(INF, INF, INF)
+	var high := Vector3(-INF, -INF, -INF)
+	var soles := Vector2(INF, INF)
+	var finite := true
+	var renderer_safe := true
+	var vertex_count := 0
+	for bone in actor.skeleton.get_bone_count():
+		finite = finite and actor.skeleton.get_bone_global_pose(bone).is_finite()
+	for entry in geometry:
+		var part := entry["part"] as MeshInstance3D
+		var matrices := _skin_matrices(actor, part, entry["bind_bones"], false)
+		var mesh_to_actor := actor.global_transform.affine_inverse() * part.global_transform
+		var actor_to_mesh := mesh_to_actor.affine_inverse()
+		var part_low := Vector3(INF, INF, INF)
+		var part_high := Vector3(-INF, -INF, -INF)
+		var amounts: Array[float] = []
+		for shape in part.mesh.get_blend_shape_count():
+			var amount: float = part.get_blend_shape_value(shape)
+			amounts.append(amount)
+			finite = finite and is_finite(amount)
+			var name := String(part.mesh.get_blend_shape_name(shape))
+			if name in EXPRESSIONS and entry["shape_maxima"][shape] > NUMERIC_EPSILON:
+				var key := String(part.name) + "/" + name
+				var range_value: Vector2 = expression_ranges.get(key, Vector2(INF, -INF))
+				expression_ranges[key] = Vector2(minf(range_value.x, amount), maxf(range_value.y, amount))
+		for data in entry["surfaces"]:
+			var vertices: PackedVector3Array = data["vertices"]
+			var bones: PackedInt32Array = data["bones"]
+			var weights: PackedFloat32Array = data["weights"]
+			var influences: int = data["influences"]
+			var sole_sides: PackedInt32Array = data["sole_sides"]
+			var active_deltas: Array[PackedVector3Array] = []
+			var active_amounts: Array[float] = []
+			for shape in amounts.size():
+				if amounts[shape] != 0.0:
+					active_deltas.append(data["deltas"][shape])
+					active_amounts.append(amounts[shape])
+			for i in vertices.size():
+				var original := vertices[i]
+				for shape in active_deltas.size():
+					original += active_deltas[shape][i] * active_amounts[shape]
+				var vertex := mesh_to_actor * original
+				if influences > 0:
+					vertex = Vector3.ZERO
+					for influence in influences:
+						var index := i * influences + influence
+						if weights[index] > 0.0:
+							vertex += (matrices[bones[index]] * original) * weights[index]
+				finite = finite and vertex.is_finite()
+				low = low.min(vertex)
+				high = high.max(vertex)
+				var local := actor_to_mesh * vertex
+				part_low = part_low.min(local)
+				part_high = part_high.max(local)
+				var side := sole_sides[i]
+				if side == 0:
+					soles.x = minf(soles.x, vertex.y)
+				elif side == 1:
+					soles.y = minf(soles.y, vertex.y)
+				vertex_count += 1
+		if part_low.is_finite() and part_high.is_finite():
+			renderer_safe = renderer_safe and part.custom_aabb.grow(NUMERIC_EPSILON).encloses(AABB(part_low, part_high - part_low))
+	var bounds := AABB(low, high - low)
+	expect(finite and low.is_finite() and high.is_finite() and vertex_count > 0, label + " evaluates every finite native morph-plus-skin/rigid vertex")
+	expect(actor.get_animation_bounds().grow(NUMERIC_EPSILON).encloses(bounds), label + " Director box contains complete posed geometry")
+	expect(renderer_safe, label + " every renderer local custom_aabb contains its posed geometry")
+	expect(low.y >= -FLOOR_TOLERANCE, label + " complete geometry stays above the -1.5cm floor")
+	expect(soles.is_finite() and soles.x >= -FLOOR_TOLERANCE and soles.y >= -FLOOR_TOLERANCE, label + " actual sole patches do not penetrate the floor")
+	if stationary:
+		expect(soles.x <= FLOOR_TOLERANCE and soles.y <= FLOOR_TOLERANCE, label + " both standing soles support on the floor")
+	else:
+		expect(minf(soles.x, soles.y) <= FLOOR_TOLERANCE, label + " gait keeps at least one actual sole supporting on the floor")
+	report["samples"].append({"label": label, "vertices": vertex_count, "min": [low.x, low.y, low.z], "max": [high.x, high.y, high.z], "sole_min_y": [soles.x, soles.y]})
+
+func _expressions(ranges: Dictionary, level: int) -> void:
+	var spans: Dictionary = {}
+	for key in ranges:
+		var name := String(key).get_slice("/", String(key).get_slice_count("/") - 1)
+		var range_value: Vector2 = ranges[key]
+		spans[name] = maxf(spans.get(name, 0.0), range_value.y - range_value.x)
+	for name in EXPRESSIONS:
+		expect(spans.get(name, 0.0) > .0001, "LOD%d authored %s weights genuinely change over the six clips" % [level, name])
+	report["lods"][level]["expression_weight_span"] = spans
+
+func _behavior(actor: Node3D, geometry: Array, level: int, root_position: Vector3, physical_transform: Transform3D) -> void:
+	var cases := [[Vector3.ZERO, 0, false, "idle"], [Vector3(0, 0, -2), 0, false, "walk"], [Vector3(0, 0, -4), 0, false, "chase"], [Vector3(0, 0, -4), 1, false, "warn"], [Vector3(0, 0, -4), 2, false, "charge"], [Vector3.ZERO, 3, false, "recover"], [Vector3(0, 0, -2), 3, false, "walk"], [Vector3(0, 0, -4), 3, false, "chase"], [Vector3(0, 0, -4), 2, true, "recover"]]
+	actor._manual_pose = false
+	for item in cases:
+		actor.tick_pose(.1, item[0], item[1], item[2])
+		expect(actor.current_clip == item[3], "LOD%d physics phase/stun selects %s" % [level, item[3]])
+	# Measure tired head/belly/face overlays at native gait extrema and breathing extrema.
+	for clip in ["walk", "chase"]:
+		var animation: Animation = actor.animation_player.get_animation(actor._clip_names[clip])
+		for fraction in [0.0, .25, .5, .75, 1.0]:
+			for clock in [0.0, PI / (2.0 * 3.4), 3.0 * PI / (2.0 * 3.4)]:
+				actor.set_preview_pose(clip, animation.length * fraction)
+				actor._manual_pose = false
+				actor.pose_clock = clock
+				var native_morphs := _pose_signature(actor).slice(5 + actor.skeleton.get_bone_count())
+				actor._apply_moving_recovery()
+				expect(native_morphs == _pose_signature(actor).slice(5 + actor.skeleton.get_bone_count()), "Moving recovery preserves the complete authored native expression weights")
+				_measure(actor, geometry, "LOD%d moving_recover %s %.3f breath %.3f" % [level, clip, fraction, clock], false, {}, root_position, physical_transform)
+	var before := _pose_signature(actor)
+	get_tree().paused = true
+	actor.tick_pose(.2, Vector3(0, 0, -4), 2, false)
+	expect(before == _pose_signature(actor), "Pause preserves all bones, morph weights, time, clock, state and LOD")
+	get_tree().paused = false
+	var clock_before: float = actor.pose_clock
+	var time_before: float = actor.animation_player.current_animation_position
+	actor.tick_pose(.1, Vector3(0, 0, -4), 2, false)
+	expect(actor.pose_clock > clock_before and actor.current_clip == "charge" and not is_equal_approx(actor.animation_player.current_animation_position, time_before), "Unpause resumes the physics-driven pose and animation time")
+	expect(actor.animation_player.callback_mode_process == AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL, "No automatic AnimationPlayer callback double-advances pose")
+
+func _run() -> void:
+	var model_path: String = candidate.get("MODEL_PATH")
+	_direct_lods(model_path)
+	if not failures.is_empty():
+		_finish()
+		return
+	var actors: Array[Node3D] = []
+	for i in range(5):
+		var actor := candidate.new() as Node3D
+		add_child(actor)
+		actor.position = Vector3(i * 4.0, 0, 0)
+		actors.append(actor)
+	expect(candidate.get("build_count") == 1, "Five actors reuse one prepared asset cache")
+	var first: Node3D = actors[0]
+	expect(first.skeleton != null and first.animation_player != null, "Actor has native skeleton/player")
+	if first.skeleton == null or first.animation_player == null:
+		_finish()
+		return
+	expect(first.skeleton.get_bone_count() == 24 and first._clip_names.size() == 6, "Actor retains the 24-bone/six-clip behavior interface")
+	for name in ["root", "head", "belly", "foot_left", "foot_right"]:
+		expect(first.skeleton.find_bone(name) >= 0, "Authored semantic bone exists: " + name)
+	if not failures.is_empty():
+		_finish()
+		return
+	first.set_preview_pose("idle", 0.0)
+	var physical_transform := first.global_transform
+	skeleton_frame = first.global_transform.affine_inverse() * first.skeleton.global_transform
+	var root_position: Vector3 = first.skeleton.get_bone_pose_position(first.skeleton.find_bone("root"))
+	for level in range(3):
+		_sharing(actors, level)
+		var geometry := _geometry(first, level)
+		if not failures.is_empty():
+			_finish()
+			return
+		var ranges: Dictionary = {}
+		for clip in CLIPS:
+			var animation: Animation = first.animation_player.get_animation(first._clip_names[clip])
+			var first_pose: Array = []
+			var moves := false
+			for time in _sample_times(animation):
+				first.set_preview_pose(clip, time)
+				var pose := _pose_signature(first)
+				# Exclude clocks/clip label when deciding whether authored geometry moves.
+				var deformation := pose.slice(5)
+				if first_pose.is_empty():
+					first_pose = deformation
+				else:
+					moves = moves or _deformation_changed(first_pose, deformation)
+				_measure(first, geometry, "LOD%d %s %.6fs" % [level, clip, time], clip in ["idle", "warn", "recover"], ranges, root_position, physical_transform)
+			expect(moves, "LOD%d %s genuinely moves bones/morphs over its timeline" % [level, clip])
+		_expressions(ranges, level)
+		_behavior(first, geometry, level, root_position, physical_transform)
+		print("NAIFROG_LOD_COMPLETE ", level, " checks=", checks, " failures=", failures.size())
+		await get_tree().process_frame
+	var lods: Array = report["lods"]
+	expect(lods[0]["unique_mesh_triangles"] > lods[1]["unique_mesh_triangles"] and lods[1]["unique_mesh_triangles"] > lods[2]["unique_mesh_triangles"] and lods[2]["unique_mesh_triangles"] > 0, "Three LODs reduce actual unique mesh triangles; no unapproved old density ceiling")
+	for actor in actors:
+		actor.queue_free()
+	await get_tree().process_frame
+	var reopened := candidate.new() as Node3D
+	add_child(reopened)
+	expect(candidate.get("build_count") == 1, "Restart reuses the prepared resource cache")
+	_finish()

@@ -1,0 +1,8 @@
+{
+  "source_assets/naifrog/model/naifrog_game_rig.blend": true,
+  "source_assets/naifrog/model/naifrog_high_rig.blend": true,
+  "assets/refined/naifrog/MODEL_MANIFEST.json": true,
+  "assets/refined/naifrog/naifrog_lod0.glb": true,
+  "assets/refined/naifrog/naifrog_lod1.glb": true,
+  "assets/refined/naifrog/naifrog_lod2.glb": true
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "phase": "import",
+    "exit": 0,
+    "seconds": 19.13314986228943,
+    "engine_errors": 0,
+    "error_sample": []
+  },
+  {
+    "phase": "contract",
+    "exit": 0,
+    "seconds": 16.47540807723999,
+    "engine_errors": 0,
+    "error_sample": [],
+    "checks": 3853,
+    "failures": [],
+    "samples": 276,
+    "vertex_evaluations": 37835000
+  },
+  {
+    "phase": "preview",
+    "exit": 0,
+    "seconds": 6.599790096282959,
+    "engine_errors": 0,
+    "error_sample": []
+  }
+]

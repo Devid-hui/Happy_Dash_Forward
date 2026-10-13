@@ -1,0 +1,255 @@
+{
+	"actor_script": "res://scripts/enemies/hunter_visual.gd",
+	"actor_sha256": "f6f6f6d936bfc720a7c41fe0f03b3899194ddb523ee6bdc36f22f4f9252812a8",
+	"device": "Apple M4 Pro (Apple9)",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"floor_y": 0.0,
+	"mask_has_no_shadow_ssao_or_floor": true,
+	"model_path": "res://assets/refined/naifrog/naifrog_lod0.glb",
+	"model_sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+	"records": [
+		{
+			"camera_global_transform": "[X: (-0.928477, 0.0, -0.371391), Y: (-0.011718, 0.999502, 0.029296), Z: (0.371206, 0.031552, -0.928014), O: (2.0, 0.5, -5.0)]",
+			"camera_size": 1.25,
+			"gpu_vs_cpu_silhouette": [
+				{
+					"intersection_over_union": 1.0,
+					"maximum_bottom_silhouette_delta_pixels": 0,
+					"pixel_roi": [
+						1299,
+						792,
+						1489,
+						840
+					],
+					"side": "left",
+					"unmatched_columns": 0,
+					"xor_pixels": 0
+				},
+				{
+					"intersection_over_union": 1.0,
+					"maximum_bottom_silhouette_delta_pixels": 0,
+					"pixel_roi": [
+						536,
+						803,
+						727,
+						849
+					],
+					"side": "right",
+					"unmatched_columns": 0,
+					"xor_pixels": 0
+				}
+			],
+			"idle_time": 0.0,
+			"mesh_transforms": [
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogContinuousSkin",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogEyes_left",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogEyes_right",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogTongue",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				}
+			],
+			"server_skin_vs_cpu_max_error_m": 0.0,
+			"skeleton_global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sole_active_morph_delta_max_m": 0.0,
+			"supports": [
+				{
+					"floor_projection_gap_pixels": 0.86358642578125,
+					"minimum_world": [
+						-0.472499519586563,
+						0.000999976880848408,
+						-0.164500832557678
+					],
+					"pixel": [
+						1391.826171875,
+						823.494384765625
+					],
+					"roi": [
+						1304.16467285156,
+						797.971008300781,
+						179.1884765625,
+						26.1267700195312
+					],
+					"same_xz_floor_pixel": [
+						1391.826171875,
+						824.357971191406
+					],
+					"side": "left",
+					"sole_count": 1260
+				},
+				{
+					"floor_projection_gap_pixels": 0.86358642578125,
+					"minimum_world": [
+						0.472499519586563,
+						0.000999975018203259,
+						-0.164500832557678
+					],
+					"pixel": [
+						633.744140625,
+						833.062133789062
+					],
+					"roi": [
+						541.985229492188,
+						808.234008789062,
+						179.528076171875,
+						25.4796142578125
+					],
+					"same_xz_floor_pixel": [
+						633.744140625,
+						833.925720214844
+					],
+					"side": "right",
+					"sole_count": 1232
+				}
+			],
+			"view": "feet"
+		},
+		{
+			"camera_global_transform": "[X: (-0.868243, 0.0, -0.496139), Y: (-0.052019, 0.994488, 0.091034), Z: (0.493404, 0.104848, -0.863458), O: (4.0, 2.25, -7.0)]",
+			"camera_size": 3.45000004768372,
+			"gpu_vs_cpu_silhouette": [
+				{
+					"intersection_over_union": 0.999165971643036,
+					"maximum_bottom_silhouette_delta_pixels": 1,
+					"pixel_roi": [
+						1076,
+						955,
+						1152,
+						989
+					],
+					"side": "left",
+					"unmatched_columns": 0,
+					"xor_pixels": 1
+				},
+				{
+					"intersection_over_union": 0.996539792387543,
+					"maximum_bottom_silhouette_delta_pixels": 1,
+					"pixel_roi": [
+						817,
+						971,
+						894,
+						1005
+					],
+					"side": "right",
+					"unmatched_columns": 0,
+					"xor_pixels": 4
+				}
+			],
+			"idle_time": 0.15,
+			"mesh_transforms": [
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogContinuousSkin",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogEyes_left",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogEyes_right",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				},
+				{
+					"global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+					"name": "NaifrogTongue",
+					"resolved_skeleton_is_actor_skeleton": true,
+					"skeleton_path": ".."
+				}
+			],
+			"server_skin_vs_cpu_max_error_m": 0.0,
+			"skeleton_global_transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+			"sole_active_morph_delta_max_m": 0.0,
+			"supports": [
+				{
+					"floor_projection_gap_pixels": 0.31121826171875,
+					"minimum_world": [
+						-0.472499519586563,
+						0.000999976880848408,
+						-0.164500832557678
+					],
+					"pixel": [
+						1113.97338867188,
+						972.527526855469
+					],
+					"roi": [
+						1081.06384277344,
+						960.308898925781,
+						65.5574951171875,
+						13.5148315429688
+					],
+					"same_xz_floor_pixel": [
+						1113.97338867188,
+						972.838745117188
+					],
+					"side": "left",
+					"sole_count": 1260
+				},
+				{
+					"floor_projection_gap_pixels": 0.31121826171875,
+					"minimum_world": [
+						0.472499519586563,
+						0.000999975018203259,
+						-0.164500832557678
+					],
+					"pixel": [
+						857.124755859375,
+						987.916198730469
+					],
+					"roi": [
+						822.874450683594,
+						976.115173339844,
+						65.5810546875,
+						13.1751098632812
+					],
+					"same_xz_floor_pixel": [
+						857.124755859375,
+						988.227416992188
+					],
+					"side": "right",
+					"sole_count": 1232
+				}
+			],
+			"view": "three_quarter"
+		}
+	],
+	"renderer": "forward_plus",
+	"scope": "Two actual preview idle views at LOD0; GPU raster silhouettes versus independent CPU morph+skin and floorY=0 projection. Not all clips or whole-game certification.",
+	"server_bake_limit": "Godot 4.7 bake_skeleton reconstructs on CPU with RenderingServer bone transforms and ignores morphs; not final GPU vertex readback. Actual GPU check is the raster silhouette comparison.",
+	"viewport": [
+		1920,
+		1080
+	]
+}

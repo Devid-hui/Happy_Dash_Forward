@@ -560,7 +560,7 @@ func emit_echo(position: Vector3, highlight_duration: float = 7.0) -> void:
 	var ring_material := _mat(Color(0.4,0.72,0.65,0.8)); ring_material.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA; ring.material_override=ring_material
 	var tween:=create_tween();tween.tween_property(ring,"scale",Vector3.ONE*18,1.2);tween.parallel().tween_property(ring_material,"albedo_color:a",0.0,1.2);tween.tween_callback(ring.queue_free)
 	for obj in objective_nodes: obj.highlight(highlight_duration)
-	_notice("回声脉冲发出：研究记录被标亮。奶龙仍持续锁定你。")
+	_notice("回声脉冲发出：研究记录被标亮。奶蛙仍持续锁定你。")
 
 func _capture_flash_snapshot() -> void:
 	flash_snapshot_points.clear()

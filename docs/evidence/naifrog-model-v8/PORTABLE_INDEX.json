@@ -1,0 +1,761 @@
+{
+  "schema": "naifrog-v8-portable-evidence-1",
+  "scope": "Historical fixed V8 evidence, completed source/UV/full production tests, V6 failures and API repair. V9 is outside this archive.",
+  "copy_count": 72,
+  "copy_bytes": 10095226,
+  "entries": [
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/actual-sole-keyframe-checks-high.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/actual-sole-keyframe-checks-high.json",
+      "bytes": 72821,
+      "sha256": "0ddaae586ed9f0bc7db614223b82a0350823ed3b652b3f9669f8afac234bdc3d",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/actual-sole-keyframe-checks-lod0.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/actual-sole-keyframe-checks-lod0.json",
+      "bytes": 72821,
+      "sha256": "0ddaae586ed9f0bc7db614223b82a0350823ed3b652b3f9669f8afac234bdc3d",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/actual-sole-keyframe-checks-lod1.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/actual-sole-keyframe-checks-lod1.json",
+      "bytes": 72634,
+      "sha256": "f439bb0d83aa0978100f35e32a1b72170b2c6ac5fda15a97728c013538997393",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/actual-sole-keyframe-checks-lod2.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/actual-sole-keyframe-checks-lod2.json",
+      "bytes": 72831,
+      "sha256": "3b7df26c8dc75f48b119d4043b718a015fadecb39214811c713a754d186eac5e",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/all-float-accessors-finite.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/all-float-accessors-finite.json",
+      "bytes": 893,
+      "sha256": "e0a39b9554887998055ca68c9a816ed2bce5c0c0b73082a275a0b4bccd46911e",
+      "role": "Completed whole FLOAT accessor finite audit for all three V8 GLBs; no COLOR_0",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/build.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/build.log.txt",
+      "bytes": 4816,
+      "sha256": "c8829ce39b0dad054fe340fb846219ee38c979ee437ed3c6d7690a69559d62aa",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-preview.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-preview.log.txt",
+      "bytes": 60619,
+      "sha256": "bbd9a64331f39ce2423b59f94a333e4d4ba0978061d680e586e812ebf647951e",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_blink_closed.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_blink_closed.png",
+      "bytes": 838741,
+      "sha256": "86e5b0030693260af3688e5dd58bfb0d62e5157dde889578a9e14fa36a0a5237",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_blink_half.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_blink_half.png",
+      "bytes": 844977,
+      "sha256": "f9a696d54e922794e34df41f8314d4ba9af457f202f32f4024a1af85edef2195",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_joint_closed.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_joint_closed.png",
+      "bytes": 839122,
+      "sha256": "9dcb7409ac1d80ee770aa17adf45bacdee7469c718e3f3959ee057cae26a2727",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_joint_half.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_joint_half.png",
+      "bytes": 845130,
+      "sha256": "6b1de0f8844efcd626cc7299dd0ca12b94831898f678890168a8306f693a46bc",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_neutral.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_neutral.png",
+      "bytes": 851941,
+      "sha256": "81adb44c60c4967c38e1158c56e216155fca291abfdc3f6590962b1506656764",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/face_warn_open.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_warn_open.png",
+      "bytes": 866535,
+      "sha256": "4966bcd2c48eb708d40f1c7d53f9e16f352b5116ac50a5a5a125fe84f562959a",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/naifrog_shape_back.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_back.png",
+      "bytes": 843228,
+      "sha256": "5a7ab11e9ba040d8af59a34941eb122fa355d42a56119c0100a010c256ebe1a2",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/naifrog_shape_front.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_front.png",
+      "bytes": 861157,
+      "sha256": "38132a5e0033cdd45c9c6d1729caf35520575dc0635eeccea789acf6c2c9ef35",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/naifrog_shape_side.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_side.png",
+      "bytes": 842813,
+      "sha256": "7a5f35b40162f2c56098897db07f24e8e7a9e474218b672e634133f4800acc49",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/cpu-previews/naifrog_shape_three_quarter.png",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_three_quarter.png",
+      "bytes": 864605,
+      "sha256": "16fb7c3d5c857cebe54ffc6d31075cd6b87fbcb807ee9986b6694fb05b6e1084",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/freeze-identities.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/freeze-identities.json",
+      "bytes": 959,
+      "sha256": "c6c536637043fed2d1ad1c988e6f74329d1820a92b72f1b13ade48393786a6ec",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/game-source-contract.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/game-source-contract.json",
+      "bytes": 13439,
+      "sha256": "490b48c7526fb69b4bf35eacb8682732f527d702333acb844f80f11cc6bc59dc",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/game-source-inspect.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/game-source-inspect.log.txt",
+      "bytes": 355,
+      "sha256": "b8d8c2b87dcda59ada08837ff066e509b5dce1cd8f585214a73888fc20e56946",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/glb-contract.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/glb-contract.json",
+      "bytes": 64261,
+      "sha256": "6ff941eac1312516ab2f4b9aea01acbc1d68dfb129e945159094d2c4e50dd880",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-color-diagnostic.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-color-diagnostic.json",
+      "bytes": 12137,
+      "sha256": "0ff27761833aaa64a6d5c9c6642baed23736b4edfd98e3d1d733b46305d7414b",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-color-diagnostic.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-color-diagnostic.log.txt",
+      "bytes": 344,
+      "sha256": "80fd36a2f00185b1533ad37632b78eb29a6c652544f7f1833deedf710f8c6aac",
+      "role": "V8 producer actual CPU/sole/GLB/UV diagnostic; limits remain as recorded",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-overlap-verification.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-overlap-verification.log.txt",
+      "bytes": 2102,
+      "sha256": "d81b17ae0b3c9d98de90494c6e9336d50aa4be9f4c85f624d9dc4224867a7e3a",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/contract.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/contract.txt",
+      "bytes": 68563,
+      "sha256": "c9c5adbd74b02b570f38ca6d2bfc91ba90f21499a49a751227b36983d5aa6c70",
+      "role": "Actual Godot V8 native contract/import/preview results",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/import.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/import.txt",
+      "bytes": 5471,
+      "sha256": "0c657b250e8fcd56e78522869eb2ffbaaea3ab5def34bc9e0feb444471327bb5",
+      "role": "Actual Godot V8 native contract/import/preview results",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/preview-contact-shadow.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/preview-contact-shadow.txt",
+      "bytes": 830,
+      "sha256": "79ad50ef2dde79f6a8bd0f22e5707d0407ef5d24284f7579534b63e42e4c43c2",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/preview.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/preview.txt",
+      "bytes": 830,
+      "sha256": "d67b52b50378a22eace7d7e349262373baee7fe44a5983248010184ff02f80c3",
+      "role": "Actual Godot V8 native contract/import/preview results",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/run-receipt.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/run-receipt.json",
+      "bytes": 486,
+      "sha256": "fe0cc433c82fd0350c87470821736076250aff0b7117193a2f3ad33426cd6c89",
+      "role": "Actual Godot V8 native contract/import/preview results",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/validation.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/validation.json",
+      "bytes": 109212,
+      "sha256": "318a5357adf85c692654a251433e4ad76db77e1b7c859a1300da79cba63f813c",
+      "role": "Actual Godot V8 native contract/import/preview results",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/RESULT.md",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/RESULT.md",
+      "bytes": 2927,
+      "sha256": "e51e9a2400c7d693d97ed4feeb694549b4aad8fc546b1b2445701634ecc37aed",
+      "role": "V6 failure witness",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/crossing-witnesses.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/crossing-witnesses.json",
+      "bytes": 13178,
+      "sha256": "943b4481cec2be0c0483ea8bb3b46d483f21842022bc9b1a397b5ee158d4b6b2",
+      "role": "V6 failure witness",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/frozen-receipt.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/frozen-receipt.json",
+      "bytes": 1085,
+      "sha256": "e24fafc877f683328e776241f3952776322e36e04f85d4eec7b4d9cf55445e62",
+      "role": "V6 failure witness",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/report.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/report.json",
+      "bytes": 302752,
+      "sha256": "1ce1a4687c6f53291fed85900dc63dc307282bb540c3742ac58582c16ef3fc7b",
+      "role": "V6 failure witness",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/summary.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/summary.json",
+      "bytes": 25025,
+      "sha256": "4bab5cfe21d502054ba93bfc17cdde9ea08065cdb00dfba6b211b62188e0667a",
+      "role": "V6 failure witness",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/frozen-inputs/MODEL_MANIFEST.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v6/frozen-inputs/MODEL_MANIFEST.json",
+      "bytes": 103872,
+      "sha256": "6c02eb2ef201c16dc466a68218c7087f0e44725604321b764642ecb890eccafe",
+      "role": "Executed-check input manifest snapshot; historical identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/executed-validator/check_frozen_face.py",
+      "repository_relative": "tools/naifrog_validation_archive/independent-face-v6/check_frozen_face.py",
+      "bytes": 21363,
+      "sha256": "a2ba4a3f68573669cb8e3d2bc4c794919e7ea4acc87b64dee2762197f8324ce2",
+      "role": "Byte-exact checker snapshot executed for this version",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/executed-validator/probe_report_failures.py",
+      "repository_relative": "tools/naifrog_validation_archive/independent-face-v6/probe_report_failures.py",
+      "bytes": 2722,
+      "sha256": "76447a01e23e28708c832d3b267e5e17f28f64d0d1015a6c67dccdac4bb139f9",
+      "role": "Byte-exact checker snapshot executed for this version",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/executed-validator/strict_triangles.py",
+      "repository_relative": "tools/naifrog_validation_archive/independent-face-v6/strict_triangles.py",
+      "bytes": 6874,
+      "sha256": "9b874e64ab1e2787d8605a28a3b69aba2ca96b91d0c268422b3356db2ac034f4",
+      "role": "Byte-exact checker snapshot executed for this version",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/RESULT.md",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/RESULT.md",
+      "bytes": 2872,
+      "sha256": "f8574cdba66d8cdac95e91ee283774e42d32fdc1d47b5b4e92170a6e4b3504c4",
+      "role": "V8 bounded independent geometry; art not certified",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/edge-diagnostic-attribution.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/edge-diagnostic-attribution.json",
+      "bytes": 5018,
+      "sha256": "fe7b401ae74239a570e027d29f639329e6fa01542f05f97be219187f2a49cb1b",
+      "role": "V8 bounded independent geometry; art not certified",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-receipt.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/frozen-receipt.json",
+      "bytes": 1085,
+      "sha256": "7064926b40a8f4aa947ba7252006b55625cf30ec2bd18b22d6794d00f7b69080",
+      "role": "V8 bounded independent geometry; art not certified",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/report.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/report.json",
+      "bytes": 179282,
+      "sha256": "3efe4d6ac35492528954d14220707cb6fe393c512c763081441fa66aa3f756d3",
+      "role": "V8 bounded independent geometry; art not certified",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/summary.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/summary.json",
+      "bytes": 2421,
+      "sha256": "bd906adfd1f5a3e2fa8762890220c86b9b00e89650951e6c8b64785ccfb2b346",
+      "role": "V8 bounded independent geometry; art not certified",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/MODEL_MANIFEST.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/v8/frozen-inputs/MODEL_MANIFEST.json",
+      "bytes": 116815,
+      "sha256": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+      "role": "Executed-check input manifest snapshot; historical identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/executed-validator/check_frozen_face.py",
+      "repository_relative": "tools/naifrog_validation_archive/independent-face-v8/check_frozen_face.py",
+      "bytes": 21423,
+      "sha256": "8386d4e148f3cff949aaabdc7f553de8b284b2c0658b7de448c96222a503b465",
+      "role": "Byte-exact checker snapshot executed for this version",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/executed-validator/strict_triangles.py",
+      "repository_relative": "tools/naifrog_validation_archive/independent-face-v8/strict_triangles.py",
+      "bytes": 6874,
+      "sha256": "9b874e64ab1e2787d8605a28a3b69aba2ca96b91d0c268422b3356db2ac034f4",
+      "role": "Byte-exact checker snapshot executed for this version",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v6/build.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/repair-history/full-v6/build.log.txt",
+      "bytes": 4819,
+      "sha256": "1374da32833f4c03f8846fa297a5401d33793ff6bacdfb08bfd935c14e52a27f",
+      "role": "Historical producer V6 geometry failure context or V7 UV-region build failure; not V8 acceptance",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v6/freeze-identities.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/repair-history/full-v6/freeze-identities.json",
+      "bytes": 959,
+      "sha256": "3e47ff43e6e0c05764da623c28c1bb4dccd9b81d21caa54790bf960a83ad1613",
+      "role": "Historical producer V6 geometry failure context or V7 UV-region build failure; not V8 acceptance",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v7/build.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/repair-history/full-v7/build.log.txt",
+      "bytes": 1336,
+      "sha256": "96fda00213178b6b3fc9fd42ecc3a4a56709651c094b2d583b0f3f237d97f627",
+      "role": "Historical producer V6 geometry failure context or V7 UV-region build failure; not V8 acceptance",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/IMPLEMENTATION_RECEIPT.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/IMPLEMENTATION_RECEIPT.json",
+      "bytes": 2841,
+      "sha256": "6873b367aff77d0b45aa22bc52b246ed08260dd9f507bac0498783f4ca45673b",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/README.md",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/README.md",
+      "bytes": 8124,
+      "sha256": "cd8695d2dbd130927540472a49f425f46e4eb2bc2b03635601ec9b21cbc39f95",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/WEIGHT_ARRAY_FIX_RECEIPT.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/WEIGHT_ARRAY_FIX_RECEIPT.json",
+      "bytes": 1122,
+      "sha256": "a400e1148d88b781847c17a9f1d47aecab4d59b6a791b91b056a7d67f0fe0866",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/coverage-args.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/coverage-args.json",
+      "bytes": 249,
+      "sha256": "08b3b3c90dd0b8455b6e23685132dee4a1b4087ac24c40bd61b61e55c1d946a0",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/graph-coverage.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/graph-coverage.json",
+      "bytes": 1369,
+      "sha256": "557a2dd7a6d2193a38606c1c9f8a8e8c167cfcc7ae156ca4107faebae9162551",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/graph-skin-bounds-search.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/graph-skin-bounds-search.json",
+      "bytes": 364,
+      "sha256": "e96b169c3b55038c3c93aeaa573199bccf84f9be3f2160f59a9c90ea2080fadf",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/weight-fix-coverage-args.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/weight-fix-coverage-args.json",
+      "bytes": 153,
+      "sha256": "2d7b7035f89abd9cce3f6c5411dac25c0d32c424141154f8bf4c1766f7b3aea3",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-contract-review/weight-fix-graph-coverage.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-contract-review/weight-fix-graph-coverage.json",
+      "bytes": 914,
+      "sha256": "758cd0d938220268083e4a2f3aa0b4d954168eb06f8854a9d9eda3117d6e6439",
+      "role": "Historical test design and PackedFloat32Array API repair; prior pending status is temporal",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/synthetic.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/kernel-probes/synthetic.json",
+      "bytes": 1574,
+      "sha256": "c6a9a2b99c7d7ca3f61f66c3bf5384cb1f500dbd38c2e246958755d555f5efb4",
+      "role": "Checker synthetic/preliminary probe only; not a V8 full-model result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/cap-synthetic.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/kernel-probes/cap-synthetic.json",
+      "bytes": 1812,
+      "sha256": "9b01358f46b9c2e0cf956311e9627c8c78645780fbf77b255e847c263d5014ec",
+      "role": "Checker synthetic/preliminary probe only; not a V8 full-model result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/older-v3-mapping-probe.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-face-independent/kernel-probes/older-v3-mapping-probe.json",
+      "bytes": 852,
+      "sha256": "cc8d5d3c43588a926481dc028adc6835ad21f97747085df6954b9d32f3077978",
+      "role": "Checker synthetic/preliminary probe only; not a V8 full-model result",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/render_rig.py",
+      "repository_relative": "tools/naifrog_validation_archive/producer/render_rig.py",
+      "bytes": 1864,
+      "sha256": "b176f1c157a3e323ec434feefe5783fed6ddfd33ed636b8b3aabc5a1c82b020e",
+      "role": "Producer identified actual V8 CPU/UV diagnostic executor",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/diagnose_uv.py",
+      "repository_relative": "tools/naifrog_validation_archive/producer/diagnose_uv.py",
+      "bytes": 4070,
+      "sha256": "10bc4a43bb9a9ab04da686f665216132be85488e038b139ca4499f89714e72a8",
+      "role": "Producer identified actual V8 CPU/UV diagnostic executor",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_inspect.py",
+      "repository_relative": "tools/naifrog_validation_archive/parser/naifrog_inspect.py",
+      "bytes": 31233,
+      "sha256": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a",
+      "role": "Actual geometry parser SHA matches both V6 and V8 report input identity",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_uv_verify.py",
+      "repository_relative": "tools/naifrog_validation_archive/uv/naifrog_uv_verify.py",
+      "bytes": 20172,
+      "sha256": "82d0e90f983f7a5c7bf688584cb5f7e9559011ba444cc8a48c037b0770ba3cd8",
+      "role": "Frozen independent UV checker; final V8 execution report not available at first archive",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/hunter_visual_candidate.gd",
+      "repository_relative": "tools/naifrog_validation_archive/native/hunter_visual_candidate.gd.txt",
+      "bytes": 7423,
+      "sha256": "f6f6f6d936bfc720a7c41fe0f03b3899194ddb523ee6bdc36f22f4f9252812a8",
+      "role": "Exact candidate actor script; SHA verified against V8 native validation",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/tests/naifrog_model_contract.gd",
+      "repository_relative": "tools/naifrog_validation_archive/native/naifrog_model_contract.gd.txt",
+      "bytes": 31212,
+      "sha256": "205c1f0ef97ffee6874a35c23607534444badf49b53a63df34f6f523e82840c7",
+      "role": "Current corrected native test; original runtime report has no separate test-script SHA",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/verify_float_accessors.py",
+      "repository_relative": "tools/naifrog_validation_archive/producer/verify_float_accessors.py",
+      "bytes": 1869,
+      "sha256": "ac4ea56a6345ea583ae8f928fd27580de29d97da972bb45ebfcf6622b63bc3a6",
+      "role": "Producer identified actual executor for completed all-FLOAT accessor audit",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-overlap-verification.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-overlap-verification.json",
+      "bytes": 15308,
+      "sha256": "e9f3a8e4b11e96367ffac6f8f2b7cd57dac8d9d096468824e475c97e17ac3897",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-overlap-world-locations.json",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-overlap-world-locations.json",
+      "bytes": 2568,
+      "sha256": "b396cd93845b41bf917a5fa2de4a3e08d4ad0f31fe099d48f558c0ac104d0415",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v8/uv-overlap-world-locations.log",
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-overlap-world-locations.log.txt",
+      "bytes": 2025,
+      "sha256": "4ffe96f2831a2b3d5ff4fd76c6350a10db653d43ab71645b9f17cc0eedc0ef6d",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-v8/full-production-suite.txt",
+      "repository_relative": "docs/evidence/naifrog-model-v8/naifrog-native-v8/full-production-suite.txt",
+      "bytes": 733,
+      "sha256": "fcbe5ace9a4408653d829bb6284e9adc8c71828c050cae3ae6e4409fc9d1a5d7",
+      "role": "Completed historical V8 evidence; source/native PASS and UV overlap FAILURE retained independently",
+      "source_sha_matches_target": true
+    }
+  ],
+  "existing_formal_v8_binary_references": [
+    {
+      "snapshot_source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_game_rig.blend",
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+      "repository_relative": "source_assets/naifrog/model/naifrog_game_rig.blend",
+      "bytes": 88323819,
+      "sha256": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+      "role": "Existing formal V8 source/asset; not recopied; current bytes verified against executed frozen receipt",
+      "current_repository_sha256": "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    },
+    {
+      "snapshot_source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_lod0.glb",
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+      "repository_relative": "assets/refined/naifrog/naifrog_lod0.glb",
+      "bytes": 34785952,
+      "sha256": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+      "role": "Existing formal V8 source/asset; not recopied; current bytes verified against executed frozen receipt",
+      "current_repository_sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    },
+    {
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_high_rig.blend",
+      "repository_relative": "source_assets/naifrog/model/naifrog_high_rig.blend",
+      "bytes": 88323819,
+      "sha256": "5aa7835428dd1aa1e2093da42729cb490ac77abdc2068f322f2d75a280382c0d",
+      "role": "Existing formal V8 source/asset/manifest; not recopied; verified against producer V8 frozen identity",
+      "current_repository_sha256": "69b5c34f6b9a88e0081dea53fb96564dbeb07bfc60f5eff448710885d77a58ab",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    },
+    {
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/MODEL_MANIFEST.json",
+      "repository_relative": "assets/refined/naifrog/MODEL_MANIFEST.json",
+      "bytes": 116815,
+      "sha256": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+      "role": "Existing formal V8 source/asset/manifest; not recopied; verified against producer V8 frozen identity",
+      "current_repository_sha256": "fad798ca246872da26dc8c1a6ab8a39b28cd8d65c85c9c98decb280cc18219ab",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    },
+    {
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod1.glb",
+      "repository_relative": "assets/refined/naifrog/naifrog_lod1.glb",
+      "bytes": 7165832,
+      "sha256": "ae92f9bee9de2eda0a5d5c153f4a3f92c37bef08b3ac994f961cbdffae61e4e5",
+      "role": "Existing formal V8 source/asset/manifest; not recopied; verified against producer V8 frozen identity",
+      "current_repository_sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    },
+    {
+      "original_source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod2.glb",
+      "repository_relative": "assets/refined/naifrog/naifrog_lod2.glb",
+      "bytes": 3624812,
+      "sha256": "28ea88dedd1187a63c16e4c801244c83ba2f5ce34104ff0188e86c7a3708eb22",
+      "role": "Existing formal V8 source/asset/manifest; not recopied; verified against producer V8 frozen identity",
+      "current_repository_sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+      "currently_matches_v8_frozen_identity": false,
+      "historical_link_notice": "Formal path, not immutable V8 archive copy. V9 may replace bytes; original V8 identities remain in receipts."
+    }
+  ],
+  "omitted_historical_binary_inputs": [
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/frozen-inputs/naifrog_game_rig.blend",
+      "sha256": "c23db184bcee37d1c4a018607e7ea16cd7ff33f739de8175310c0dc8efc7bf4b",
+      "reason": "Historical V6 frozen binary excluded by authorized archive scope; formal V8 binary is not a substitute; V6 manifest/report/witness retained"
+    },
+    {
+      "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v6/frozen-inputs/naifrog_lod0.glb",
+      "sha256": "5d2849f51e69afe700905e2b61b798ca555f0411da502af0905b2b22054c039f",
+      "reason": "Historical V6 frozen binary excluded by authorized archive scope; formal V8 binary is not a substitute; V6 manifest/report/witness retained"
+    }
+  ],
+  "excluded": "runtime, downloads, caches, pyc, blend1, large frozen blend/glb duplicates, earlier CPU iterations, existing 19 native 1080p previews",
+  "pending": [],
+  "limitations": [
+    "V8 independent check only explicit FACE ROI plus canonical outer ring and 27 raw rest morph combinations; not full character/continuous-time/animation/visual acceptance",
+    "Closed-eye shared-edge dihedral diagnosis remains recorded; not commercial PASS",
+    "V6 failures are historical inputs and cannot be reproduced by substituting current V8 source",
+    "Native contract covers sampled actual states/all vertices; not continuous-time or complete level acceptance"
+  ],
+  "superseded_partial_archive_files": [
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/uv-overlap-verification.log.txt",
+      "previous_bytes": 735,
+      "previous_sha256": "4d5e7e214a3aa4d9b678a3904b4be0f2ae9282885b363b7b9581e1855ebc3909",
+      "reason": "previous archive captured a running log; replaced only owned archive with completed original"
+    }
+  ],
+  "historical_v8_status": {
+    "native_contract_checks": 3853,
+    "native_sampled_states": 276,
+    "native_vertex_evaluations": 37835000,
+    "production_scene_contracts_passed": 13,
+    "restart_processes_passed": 2,
+    "uv_complete": true,
+    "uv_status": "overlap",
+    "positive_uv_overlap_pairs": 24,
+    "within_region_overlap_pairs": 24,
+    "cross_region_overlap_pairs": 0,
+    "standing_sole_baseline_m_approx": 0.014,
+    "sole_baseline_limitation": "Within +0.015m native support tolerance; not exact floor contact. V9 .001m is being prepared elsewhere; no V9 result archived here.",
+    "commercial_art_acceptance": false
+  },
+  "generated_import_settings": [
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_blink_closed.png.import",
+      "bytes": 1007,
+      "sha256": "963ddea4937ddf0aba75e74ebdbb02af29bbd04a8d0632742e24b08b28bca474",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_blink_half.png.import",
+      "bytes": 1000,
+      "sha256": "12e9167caa529a614357af60f3a1758de45d3e2885ffa7bbde1bd1ed0f844de7",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_joint_closed.png.import",
+      "bytes": 1007,
+      "sha256": "623ab4a4393bd5a6fd3ff6dc5fe681a365c2b96d78f3612607155da70c077dce",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_joint_half.png.import",
+      "bytes": 1001,
+      "sha256": "e05fc6bb55414f855ab2ac05d0f59a9dd2a8ee4c24e37065a7737cf2b169bdff",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_neutral.png.import",
+      "bytes": 992,
+      "sha256": "91128f4703343466308ab6f501a68e9afa4845ce90cfe0ebd40faf3b14ec61c5",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/face_warn_open.png.import",
+      "bytes": 997,
+      "sha256": "1bc33a428d889710a20a88527483828e2d09deee283c0f15cf1734a12c4b72b3",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_back.png.import",
+      "bytes": 1010,
+      "sha256": "237ad175b3e5fd360112f0766e2445433de4f4968c65fb4487ea337da718f8c2",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_front.png.import",
+      "bytes": 1013,
+      "sha256": "a09df0a43636950ce933f06e878fd54452b04cdb2c31fa09b6a92f45a2cfb393",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_side.png.import",
+      "bytes": 1010,
+      "sha256": "a9fa5e5a2609863c195fdd63fb76404e7a69e104994049004d347a225b31dbdd",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    },
+    {
+      "repository_relative": "docs/evidence/naifrog-model-v8/full-v8/cpu-previews/naifrog_shape_three_quarter.png.import",
+      "bytes": 1035,
+      "sha256": "d2687c481221217cd8c06569cce2317bdfa86fb9287c7efc90b71c29ecba512f",
+      "origin": "Godot-generated source-side import setting; not copied evidence or a new checker result"
+    }
+  ],
+  "closure_limits": [
+    "Complete only for selected existing V8 evidence/scripts; no V9 scope.",
+    "V8 full UV check completed and FAILED with 24 same-arm-region positive overlaps.",
+    "V8 native/full suite passed sampled scopes; 14mm support is within legacy tolerance, not perfect floor contact.",
+    "Large frozen binary duplicates excluded; formal historical links may change under V9; V6 large snapshots omitted.",
+    "Historical absolute paths preserved and mapped; no engine/checker/Git executed by archive worker.",
+    "Closed-eye dihedral diagnostic remains; no commercial visual acceptance."
+  ]
+}

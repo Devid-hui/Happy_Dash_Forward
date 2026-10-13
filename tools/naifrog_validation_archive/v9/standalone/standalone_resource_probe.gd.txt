@@ -1,0 +1,69 @@
+extends SceneTree
+const GLBS = ["res://assets/refined/abandoned_car.glb", "res://assets/refined/field_equipment.glb", "res://assets/refined/abandoned_car_lod2.glb", "res://assets/refined/abandoned_car_lod1.glb", "res://assets/refined/research_report.glb", "res://assets/refined/field_equipment_lod2.glb", "res://assets/refined/field_equipment_lod1.glb", "res://assets/refined/power_tower.glb", "res://assets/refined/naifrog/naifrog_lod2.glb", "res://assets/refined/naifrog/naifrog_lod0.glb", "res://assets/refined/naifrog/naifrog_lod1.glb", "res://assets/refined/environment/broadleaf_tree_4.glb", "res://assets/refined/environment/broadleaf_tree_5.glb", "res://assets/refined/environment/broadleaf_tree_6.glb", "res://assets/refined/environment/broadleaf_tree_2.glb", "res://assets/refined/environment/broadleaf_tree_3.glb", "res://assets/refined/environment/broadleaf_tree_1.glb", "res://assets/refined/environment/forest_understory_kit.glb", "res://assets/refined/environment/dead_tree_1.glb", "res://assets/refined/environment/dead_tree_3.glb", "res://assets/refined/environment/dead_tree_2.glb"]
+const TEXTURES = ["res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg", "res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png", "res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg", "res://assets/refined/environment/textures/forest_floor_diff_4k.jpg", "res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png", "res://assets/refined/environment/textures/forest_floor_rough_4k.jpg", "res://assets/refined/environment/textures/stone_basecolor.jpg", "res://assets/refined/environment/textures/stone_normal.png", "res://assets/refined/environment/textures/stone_roughness.jpg"]
+const OUT = "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-standalone-v9/native-load-receipt.json"
+var failed := 0
+var receipt := {"resources":[], "textures":[], "checks":[]}
+func _initialize() -> void:
+	call_deferred("_probe")
+func check(ok: bool, label: String) -> void:
+	receipt.checks.append({"ok":ok,"label":label})
+	if not ok: failed += 1; push_error(label)
+func walk(node: Node, result: Dictionary) -> void:
+	if node is MeshInstance3D:
+		result.meshes += 1
+		var mesh: Mesh = node.mesh
+		for i in range(mesh.get_surface_count()):
+			var arrays := mesh.surface_get_arrays(i)
+			var count: int = arrays[Mesh.ARRAY_INDEX].size() if arrays[Mesh.ARRAY_INDEX] != null and not arrays[Mesh.ARRAY_INDEX].is_empty() else arrays[Mesh.ARRAY_VERTEX].size()
+			result.triangles += count / 3
+	if node is Skeleton3D: result.bones += node.get_bone_count()
+	if node is AnimationPlayer:
+		for clip in node.get_animation_list(): result.animations.append(clip)
+	for child in node.get_children(): walk(child,result)
+func _probe() -> void:
+	check(FileAccess.file_exists("res://assets/refined/environment/textures/PBR_TEXTURE_BINDINGS.json"),"bark/floor binding manifest packaged")
+	check(FileAccess.file_exists("res://assets/refined/environment/textures/STONE_PBR_SOURCE.json"),"stone binding manifest packaged")
+	check(ResourceLoader.exists("res://scenes/main.tscn"),"application main scene packaged")
+	var main := load("res://scenes/main.tscn") as PackedScene
+	check(main != null,"application main scene loads")
+	for path in TEXTURES:
+		var texture := load(path) as Texture2D
+		check(texture != null,"PBR texture loads: "+path)
+		var item := {"path":path,"width":0,"height":0}
+		if texture: item.width = texture.get_width(); item.height = texture.get_height()
+		check(item.width == 4096 and item.height == 4096,"actual imported PBR dimensions: "+path)
+		receipt.textures.append(item)
+	for path in GLBS:
+		var scene := load(path) as PackedScene
+		check(scene != null,"runtime GLB loads through import remap: "+path)
+		if scene:
+			var node := scene.instantiate()
+			var item := {"path":path,"meshes":0,"triangles":0,"bones":0,"animations":[]}
+			walk(node,item); receipt.resources.append(item); node.free()
+	var world_script := load("res://scripts/world/world.gd") as GDScript
+	check(world_script != null,"native World script packaged and loads")
+	if world_script:
+		var world: Node3D = world_script.new()
+		root.add_child(world)
+		await process_frame
+		check(world.get("player") != null,"native World creates Player from packaged resources")
+		var hunters: Array = world.get("hunter_nodes")
+		check(hunters.size() == 5,"native World creates five hunters")
+		world.queue_free()
+		await process_frame
+	receipt.failed = failed
+	receipt.engine = Engine.get_version_info()
+	receipt.renderer = "headless dummy; no rendering or FPS acceptance"
+	var output := FileAccess.open(OUT,FileAccess.WRITE)
+	output.store_string(JSON.stringify(receipt,"  ")); output.close()
+	print("EXPORT_AUDIT_NATIVE_LOAD_FAILED=",failed)
+	call_deferred("_finish", 1 if failed else 0)
+
+func _finish(exit_code: int) -> void:
+	for child in root.get_children():
+		child.queue_free()
+	await process_frame
+	await process_frame
+	await create_timer(1.0).timeout
+	quit(exit_code)

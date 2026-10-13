@@ -29,7 +29,7 @@ SUITE = (
     ("environment geometry", "res://tests/environment_quality_contract.tscn", "ENVIRONMENT QUALITY PASS:"),
     ("equipment vehicle geometry", "res://tests/high_fidelity_assets_contract.tscn", "HIGH FIDELITY GEOMETRY/API GUARDS PASS:"),
     ("hand anatomy and grip motion", "res://tests/hand_anatomy_contract.tscn", "HAND ANATOMY PASS:"),
-    ("nailong skin animation", "res://tests/nailong_model_contract.tscn", "failures=0"),
+    ("naifrog skin animation", "res://tests/naifrog_model_contract.tscn", "NAIFROG_MODEL_CONTRACT"),
 )
 
 

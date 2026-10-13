@@ -1,0 +1,1 @@
+{"qn_rule":"qn = qn_prefix == \"\" ? name : qn_prefix + \".\" + name","cols":["name","label","lines","in","out"],"groups":[{"qn_prefix":"happy-dash-forward-audit-20261012.tests.nailong_model_contract","file":"tests/nailong_model_contract.gd","rows":[["_skin_bounds","Function","142-180",1,4]]}],"total":1,"returned":1,"count":1,"has_more":false,"truncated":false}

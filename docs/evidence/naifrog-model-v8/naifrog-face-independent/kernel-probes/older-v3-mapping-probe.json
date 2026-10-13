@@ -1,0 +1,18 @@
+{
+  "purpose": "mapping probe only, older snapshot, never face acceptance",
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v3/frozen-native-passed-visual-wip/naifrog_game_rig.blend",
+  "glb": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v3/frozen-native-passed-visual-wip/naifrog_lod0.glb",
+  "NaifrogContinuousSkin": {
+    "matching_tolerance_m": 1e-06,
+    "vertices": 327438,
+    "matched_vertices": 327438,
+    "triangles": 606770,
+    "matched_triangles": 606770,
+    "max_basis_error_m": 0.0,
+    "max_morph_delta_error_m": 0.0,
+    "ambiguous_source_identity_export_vertices": 0,
+    "ROI_source_triangles": 0,
+    "ROI_matched_export_triangles": 0,
+    "complete_same_topology_mapping": true
+  }
+}

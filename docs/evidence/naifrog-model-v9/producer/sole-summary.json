@@ -1,0 +1,42 @@
+[
+  {
+    "file": "work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-high.json",
+    "samples": 502,
+    "support_samples": 442,
+    "support_min": 0.00099998926356748,
+    "support_max": 0.0010000132841690434,
+    "max_target_error": 1.7223966392032608e-08,
+    "support_over_3mm": 0,
+    "support_under_floor": 0
+  },
+  {
+    "file": "work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod0.json",
+    "samples": 502,
+    "support_samples": 442,
+    "support_min": 0.00099998926356748,
+    "support_max": 0.0010000132841690434,
+    "max_target_error": 1.7223966392032608e-08,
+    "support_over_3mm": 0,
+    "support_under_floor": 0
+  },
+  {
+    "file": "work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod1.json",
+    "samples": 502,
+    "support_samples": 442,
+    "support_min": 0.0009999880398410751,
+    "support_max": 0.0010000129428166839,
+    "max_target_error": 1.7681582531459128e-08,
+    "support_over_3mm": 0,
+    "support_under_floor": 0
+  },
+  {
+    "file": "work/naifrog/model-candidate/full-v9/actual-sole-keyframe-checks-lod2.json",
+    "samples": 502,
+    "support_samples": 442,
+    "support_min": 0.0009999833794901436,
+    "support_max": 0.0010000119961999406,
+    "max_target_error": 1.6620509856422883e-08,
+    "support_over_3mm": 0,
+    "support_under_floor": 0
+  }
+]

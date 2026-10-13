@@ -1,0 +1,2474 @@
+{
+  "schema": "naifrog-inspection-v1",
+  "kind": "glb_lod_set",
+  "source": "['/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb', '/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod1.glb', '/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod2.glb']",
+  "checked_at": "2026-10-13T05:05:14.621308+00:00",
+  "checks": {
+    "three_lod_files": {
+      "pass": true
+    },
+    "distinct_lod_files": {
+      "pass": true
+    },
+    "individual_data_checks": {
+      "pass": true
+    },
+    "same_part_names": {
+      "pass": true
+    },
+    "same_shape_order": {
+      "pass": true
+    },
+    "same_material_names": {
+      "pass": true
+    }
+  },
+  "limitations": [
+    "No animated deformation, foot contact, visual, or Godot acceptance."
+  ],
+  "lod_reports": [
+    {
+      "schema": "naifrog-inspection-v1",
+      "kind": "glb",
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+      "checked_at": "2026-10-13T05:05:13.772968+00:00",
+      "checks": {
+        "gltf_version": {
+          "pass": true
+        },
+        "readable_mesh_attributes": {
+          "pass": true
+        },
+        "skin_24_bones:0": {
+          "pass": true
+        },
+        "skin_present": {
+          "pass": true
+        },
+        "embedded_buffers": {
+          "pass": true
+        },
+        "embedded_image:0": {
+          "pass": true
+        },
+        "embedded_image:1": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:0:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 4,
+              "max_sum_error": 1.5040859580039978e-07,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogContinuousSkin": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "mesh:1:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:1:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_left": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:2:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:2:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_right": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:3:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:3:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogTongue": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "meshes_present": {
+          "pass": true
+        },
+        "tail_static_animation:idle:translation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:scale": {
+          "pass": true
+        },
+        "morph_output_count:idle:24": {
+          "pass": true
+        },
+        "morph_output_count:idle:27": {
+          "pass": true
+        },
+        "unique_target_paths:idle": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:walk:translation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:scale": {
+          "pass": true
+        },
+        "morph_output_count:walk:24": {
+          "pass": true
+        },
+        "morph_output_count:walk:27": {
+          "pass": true
+        },
+        "unique_target_paths:walk": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:chase:translation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:scale": {
+          "pass": true
+        },
+        "morph_output_count:chase:24": {
+          "pass": true
+        },
+        "morph_output_count:chase:27": {
+          "pass": true
+        },
+        "unique_target_paths:chase": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:warn:translation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:scale": {
+          "pass": true
+        },
+        "morph_output_count:warn:24": {
+          "pass": true
+        },
+        "morph_output_count:warn:27": {
+          "pass": true
+        },
+        "unique_target_paths:warn": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:charge:translation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:scale": {
+          "pass": true
+        },
+        "morph_output_count:charge:24": {
+          "pass": true
+        },
+        "morph_output_count:charge:27": {
+          "pass": true
+        },
+        "unique_target_paths:charge": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:recover:translation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:scale": {
+          "pass": true
+        },
+        "morph_output_count:recover:24": {
+          "pass": true
+        },
+        "morph_output_count:recover:27": {
+          "pass": true
+        },
+        "unique_target_paths:recover": {
+          "pass": true,
+          "detail": []
+        },
+        "six_clip_names": {
+          "pass": true
+        },
+        "positive_duration:idle": {
+          "pass": true,
+          "detail": 3.200000014156103
+        },
+        "duration:idle": {
+          "pass": true,
+          "detail": {
+            "actual": 3.200000014156103,
+            "expected": 3.2,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:walk": {
+          "pass": true,
+          "detail": 0.9999999664723873
+        },
+        "duration:walk": {
+          "pass": true,
+          "detail": {
+            "actual": 0.9999999664723873,
+            "expected": 1.0,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:chase": {
+          "pass": true,
+          "detail": 0.6666666530072689
+        },
+        "duration:chase": {
+          "pass": true,
+          "detail": {
+            "actual": 0.6666666530072689,
+            "expected": 0.6666666666666666,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:warn": {
+          "pass": true,
+          "detail": 0.7999999783933163
+        },
+        "duration:warn": {
+          "pass": true,
+          "detail": {
+            "actual": 0.7999999783933163,
+            "expected": 0.8,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:charge": {
+          "pass": true,
+          "detail": 0.5000000260770321
+        },
+        "duration:charge": {
+          "pass": true,
+          "detail": {
+            "actual": 0.5000000260770321,
+            "expected": 0.5,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:recover": {
+          "pass": true,
+          "detail": 1.9999999664723873
+        },
+        "duration:recover": {
+          "pass": true,
+          "detail": {
+            "actual": 1.9999999664723873,
+            "expected": 2.0,
+            "tolerance": 0.002
+          }
+        },
+        "mesh_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ],
+            "actual": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ]
+          }
+        },
+        "material_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ],
+            "actual": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ]
+          }
+        },
+        "shape_contract_covers_all_meshes": {
+          "pass": true,
+          "detail": {
+            "missing_meshes": [],
+            "uncovered_meshes": []
+          }
+        }
+      },
+      "limitations": [
+        "No animated deformation, foot contact, visual, or Godot acceptance."
+      ],
+      "sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+      "asset": {
+        "generator": "Khronos glTF Blender I/O v4.5.51",
+        "version": "2.0"
+      },
+      "node_names": [
+        "belly",
+        "jaw",
+        "eye_left",
+        "brow_left",
+        "eye_right",
+        "brow_right",
+        "head",
+        "neck",
+        "palm_left",
+        "forearm_left",
+        "upper_arm_left",
+        "palm_right",
+        "forearm_right",
+        "upper_arm_right",
+        "spine",
+        "tail",
+        "foot_left",
+        "shin_left",
+        "thigh_left",
+        "foot_right",
+        "shin_right",
+        "thigh_right",
+        "pelvis",
+        "root",
+        "NaifrogContinuousSkin",
+        "NaifrogEyes_left",
+        "NaifrogEyes_right",
+        "NaifrogTongue",
+        "NaifrogRig"
+      ],
+      "material_names": [
+        "Naifrog skin / cream belly / olive extremities",
+        "Naifrog green iris",
+        "Naifrog black pupil",
+        "Naifrog tongue"
+      ],
+      "extensions_used": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_specular"
+      ],
+      "skins": [
+        {
+          "name": "NaifrogRig",
+          "joint_count": 24,
+          "bone_names": [
+            "root",
+            "pelvis",
+            "spine",
+            "belly",
+            "neck",
+            "head",
+            "jaw",
+            "eye_left",
+            "brow_left",
+            "eye_right",
+            "brow_right",
+            "upper_arm_left",
+            "forearm_left",
+            "palm_left",
+            "upper_arm_right",
+            "forearm_right",
+            "palm_right",
+            "tail",
+            "thigh_left",
+            "shin_left",
+            "foot_left",
+            "thigh_right",
+            "shin_right",
+            "foot_right"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "name": "naifrog_basecolor",
+          "mime_type": "image/png",
+          "embedded": true
+        },
+        {
+          "name": "naifrog_roughness",
+          "mime_type": "image/png",
+          "embedded": true
+        }
+      ],
+      "meshes": [
+        {
+          "name": "NaifrogContinuousSkin",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 606058,
+          "primitives": [
+            {
+              "triangles": 606058,
+              "vertices": 317926,
+              "material": "Naifrog skin / cream belly / olive extremities",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 4,
+                  "max_sum_error": 1.5040859580039978e-07,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_left",
+          "shape_names": [],
+          "triangles": 4800,
+          "primitives": [
+            {
+              "triangles": 2208,
+              "vertices": 3456,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 2592,
+              "vertices": 1345,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_right",
+          "shape_names": [],
+          "triangles": 4800,
+          "primitives": [
+            {
+              "triangles": 2208,
+              "vertices": 3456,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 2592,
+              "vertices": 1345,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogTongue",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 2976,
+          "primitives": [
+            {
+              "triangles": 2976,
+              "vertices": 1615,
+              "material": "Naifrog tongue",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "triangle_count": 618634,
+      "clips": [
+        {
+          "name": "idle",
+          "start": 0.03333333507180214,
+          "end": 3.2333333492279053,
+          "duration": 3.200000014156103,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "walk",
+          "start": 0.03333333507180214,
+          "end": 1.0333333015441895,
+          "duration": 0.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "chase",
+          "start": 0.03333333507180214,
+          "end": 0.699999988079071,
+          "duration": 0.6666666530072689,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "warn",
+          "start": 0.03333333507180214,
+          "end": 0.8333333134651184,
+          "duration": 0.7999999783933163,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "charge",
+          "start": 0.03333333507180214,
+          "end": 0.5333333611488342,
+          "duration": 0.5000000260770321,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "recover",
+          "start": 0.03333333507180214,
+          "end": 2.0333333015441895,
+          "duration": 1.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        }
+      ],
+      "unconfigured_contract_fields": [],
+      "contract_complete": true,
+      "data_checks_pass": true,
+      "ok": true,
+      "status": "pass"
+    },
+    {
+      "schema": "naifrog-inspection-v1",
+      "kind": "glb",
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod1.glb",
+      "checked_at": "2026-10-13T05:05:14.388315+00:00",
+      "checks": {
+        "gltf_version": {
+          "pass": true
+        },
+        "readable_mesh_attributes": {
+          "pass": true
+        },
+        "skin_24_bones:0": {
+          "pass": true
+        },
+        "skin_present": {
+          "pass": true
+        },
+        "embedded_buffers": {
+          "pass": true
+        },
+        "embedded_image:0": {
+          "pass": true
+        },
+        "embedded_image:1": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:0:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 4,
+              "max_sum_error": 1.3969838619232178e-07,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogContinuousSkin": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "mesh:1:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:1:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_left": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:2:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:2:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_right": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:3:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:3:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogTongue": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "meshes_present": {
+          "pass": true
+        },
+        "tail_static_animation:idle:translation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:scale": {
+          "pass": true
+        },
+        "morph_output_count:idle:24": {
+          "pass": true
+        },
+        "morph_output_count:idle:27": {
+          "pass": true
+        },
+        "unique_target_paths:idle": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:walk:translation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:scale": {
+          "pass": true
+        },
+        "morph_output_count:walk:24": {
+          "pass": true
+        },
+        "morph_output_count:walk:27": {
+          "pass": true
+        },
+        "unique_target_paths:walk": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:chase:translation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:scale": {
+          "pass": true
+        },
+        "morph_output_count:chase:24": {
+          "pass": true
+        },
+        "morph_output_count:chase:27": {
+          "pass": true
+        },
+        "unique_target_paths:chase": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:warn:translation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:scale": {
+          "pass": true
+        },
+        "morph_output_count:warn:24": {
+          "pass": true
+        },
+        "morph_output_count:warn:27": {
+          "pass": true
+        },
+        "unique_target_paths:warn": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:charge:translation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:scale": {
+          "pass": true
+        },
+        "morph_output_count:charge:24": {
+          "pass": true
+        },
+        "morph_output_count:charge:27": {
+          "pass": true
+        },
+        "unique_target_paths:charge": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:recover:translation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:scale": {
+          "pass": true
+        },
+        "morph_output_count:recover:24": {
+          "pass": true
+        },
+        "morph_output_count:recover:27": {
+          "pass": true
+        },
+        "unique_target_paths:recover": {
+          "pass": true,
+          "detail": []
+        },
+        "six_clip_names": {
+          "pass": true
+        },
+        "positive_duration:idle": {
+          "pass": true,
+          "detail": 3.200000014156103
+        },
+        "duration:idle": {
+          "pass": true,
+          "detail": {
+            "actual": 3.200000014156103,
+            "expected": 3.2,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:walk": {
+          "pass": true,
+          "detail": 0.9999999664723873
+        },
+        "duration:walk": {
+          "pass": true,
+          "detail": {
+            "actual": 0.9999999664723873,
+            "expected": 1.0,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:chase": {
+          "pass": true,
+          "detail": 0.6666666530072689
+        },
+        "duration:chase": {
+          "pass": true,
+          "detail": {
+            "actual": 0.6666666530072689,
+            "expected": 0.6666666666666666,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:warn": {
+          "pass": true,
+          "detail": 0.7999999783933163
+        },
+        "duration:warn": {
+          "pass": true,
+          "detail": {
+            "actual": 0.7999999783933163,
+            "expected": 0.8,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:charge": {
+          "pass": true,
+          "detail": 0.5000000260770321
+        },
+        "duration:charge": {
+          "pass": true,
+          "detail": {
+            "actual": 0.5000000260770321,
+            "expected": 0.5,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:recover": {
+          "pass": true,
+          "detail": 1.9999999664723873
+        },
+        "duration:recover": {
+          "pass": true,
+          "detail": {
+            "actual": 1.9999999664723873,
+            "expected": 2.0,
+            "tolerance": 0.002
+          }
+        },
+        "mesh_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ],
+            "actual": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ]
+          }
+        },
+        "material_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ],
+            "actual": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ]
+          }
+        },
+        "shape_contract_covers_all_meshes": {
+          "pass": true,
+          "detail": {
+            "missing_meshes": [],
+            "uncovered_meshes": []
+          }
+        }
+      },
+      "limitations": [
+        "No animated deformation, foot contact, visual, or Godot acceptance."
+      ],
+      "sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+      "asset": {
+        "generator": "Khronos glTF Blender I/O v4.5.51",
+        "version": "2.0"
+      },
+      "node_names": [
+        "belly",
+        "jaw",
+        "eye_left",
+        "brow_left",
+        "eye_right",
+        "brow_right",
+        "head",
+        "neck",
+        "palm_left",
+        "forearm_left",
+        "upper_arm_left",
+        "palm_right",
+        "forearm_right",
+        "upper_arm_right",
+        "spine",
+        "tail",
+        "foot_left",
+        "shin_left",
+        "thigh_left",
+        "foot_right",
+        "shin_right",
+        "thigh_right",
+        "pelvis",
+        "root",
+        "NaifrogContinuousSkin",
+        "NaifrogEyes_left",
+        "NaifrogEyes_right",
+        "NaifrogTongue",
+        "NaifrogRig"
+      ],
+      "material_names": [
+        "Naifrog skin / cream belly / olive extremities",
+        "Naifrog green iris",
+        "Naifrog black pupil",
+        "Naifrog tongue"
+      ],
+      "extensions_used": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_specular"
+      ],
+      "skins": [
+        {
+          "name": "NaifrogRig",
+          "joint_count": 24,
+          "bone_names": [
+            "root",
+            "pelvis",
+            "spine",
+            "belly",
+            "neck",
+            "head",
+            "jaw",
+            "eye_left",
+            "brow_left",
+            "eye_right",
+            "brow_right",
+            "upper_arm_left",
+            "forearm_left",
+            "palm_left",
+            "upper_arm_right",
+            "forearm_right",
+            "palm_right",
+            "tail",
+            "thigh_left",
+            "shin_left",
+            "foot_left",
+            "thigh_right",
+            "shin_right",
+            "foot_right"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "name": "naifrog_basecolor",
+          "mime_type": "image/png",
+          "embedded": true
+        },
+        {
+          "name": "naifrog_roughness",
+          "mime_type": "image/png",
+          "embedded": true
+        }
+      ],
+      "meshes": [
+        {
+          "name": "NaifrogContinuousSkin",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 96968,
+          "primitives": [
+            {
+              "triangles": 96968,
+              "vertices": 55499,
+              "material": "Naifrog skin / cream belly / olive extremities",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 4,
+                  "max_sum_error": 1.3969838619232178e-07,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_left",
+          "shape_names": [],
+          "triangles": 2640,
+          "primitives": [
+            {
+              "triangles": 1496,
+              "vertices": 2196,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 1144,
+              "vertices": 621,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_right",
+          "shape_names": [],
+          "triangles": 2640,
+          "primitives": [
+            {
+              "triangles": 1498,
+              "vertices": 2216,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 1142,
+              "vertices": 620,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogTongue",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 1636,
+          "primitives": [
+            {
+              "triangles": 1636,
+              "vertices": 854,
+              "material": "Naifrog tongue",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "triangle_count": 103884,
+      "clips": [
+        {
+          "name": "idle",
+          "start": 0.03333333507180214,
+          "end": 3.2333333492279053,
+          "duration": 3.200000014156103,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "walk",
+          "start": 0.03333333507180214,
+          "end": 1.0333333015441895,
+          "duration": 0.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "chase",
+          "start": 0.03333333507180214,
+          "end": 0.699999988079071,
+          "duration": 0.6666666530072689,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "warn",
+          "start": 0.03333333507180214,
+          "end": 0.8333333134651184,
+          "duration": 0.7999999783933163,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "charge",
+          "start": 0.03333333507180214,
+          "end": 0.5333333611488342,
+          "duration": 0.5000000260770321,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "recover",
+          "start": 0.03333333507180214,
+          "end": 2.0333333015441895,
+          "duration": 1.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        }
+      ],
+      "unconfigured_contract_fields": [],
+      "contract_complete": true,
+      "data_checks_pass": true,
+      "ok": true,
+      "status": "pass"
+    },
+    {
+      "schema": "naifrog-inspection-v1",
+      "kind": "glb",
+      "source": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod2.glb",
+      "checked_at": "2026-10-13T05:05:14.556128+00:00",
+      "checks": {
+        "gltf_version": {
+          "pass": true
+        },
+        "readable_mesh_attributes": {
+          "pass": true
+        },
+        "skin_24_bones:0": {
+          "pass": true
+        },
+        "skin_present": {
+          "pass": true
+        },
+        "embedded_buffers": {
+          "pass": true
+        },
+        "embedded_image:0": {
+          "pass": true
+        },
+        "embedded_image:1": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:0:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:0:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 4,
+              "max_sum_error": 1.330627128481865e-07,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogContinuousSkin": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "mesh:1:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:1:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:1:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:1:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_left": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:2:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "mesh:2:primitive:1:triangles": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [],
+            "count": 0
+          }
+        },
+        "mesh:2:primitive:1:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:finite_uv": {
+          "pass": true
+        },
+        "mesh:2:primitive:1:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogEyes_right": {
+          "pass": true,
+          "detail": []
+        },
+        "mesh:3:primitive:0:triangles": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:morph_order": {
+          "pass": true,
+          "detail": {
+            "names": [
+              "Blink",
+              "Focus",
+              "Open"
+            ],
+            "count": 3
+          }
+        },
+        "mesh:3:primitive:0:morph_vertex_counts": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:finite_uv": {
+          "pass": true
+        },
+        "mesh:3:primitive:0:weights": {
+          "pass": true,
+          "detail": [
+            {
+              "valid": true,
+              "bad_vertices": 0,
+              "max_influences": 1,
+              "max_sum_error": 0.0,
+              "tail_weight_sum": 0.0
+            }
+          ]
+        },
+        "shape_order:NaifrogTongue": {
+          "pass": true,
+          "detail": [
+            "Blink",
+            "Focus",
+            "Open"
+          ]
+        },
+        "meshes_present": {
+          "pass": true
+        },
+        "tail_static_animation:idle:translation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:idle:scale": {
+          "pass": true
+        },
+        "morph_output_count:idle:24": {
+          "pass": true
+        },
+        "morph_output_count:idle:27": {
+          "pass": true
+        },
+        "unique_target_paths:idle": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:walk:translation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:walk:scale": {
+          "pass": true
+        },
+        "morph_output_count:walk:24": {
+          "pass": true
+        },
+        "morph_output_count:walk:27": {
+          "pass": true
+        },
+        "unique_target_paths:walk": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:chase:translation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:chase:scale": {
+          "pass": true
+        },
+        "morph_output_count:chase:24": {
+          "pass": true
+        },
+        "morph_output_count:chase:27": {
+          "pass": true
+        },
+        "unique_target_paths:chase": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:warn:translation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:warn:scale": {
+          "pass": true
+        },
+        "morph_output_count:warn:24": {
+          "pass": true
+        },
+        "morph_output_count:warn:27": {
+          "pass": true
+        },
+        "unique_target_paths:warn": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:charge:translation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:charge:scale": {
+          "pass": true
+        },
+        "morph_output_count:charge:24": {
+          "pass": true
+        },
+        "morph_output_count:charge:27": {
+          "pass": true
+        },
+        "unique_target_paths:charge": {
+          "pass": true,
+          "detail": []
+        },
+        "tail_static_animation:recover:translation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:rotation": {
+          "pass": true
+        },
+        "tail_static_animation:recover:scale": {
+          "pass": true
+        },
+        "morph_output_count:recover:24": {
+          "pass": true
+        },
+        "morph_output_count:recover:27": {
+          "pass": true
+        },
+        "unique_target_paths:recover": {
+          "pass": true,
+          "detail": []
+        },
+        "six_clip_names": {
+          "pass": true
+        },
+        "positive_duration:idle": {
+          "pass": true,
+          "detail": 3.200000014156103
+        },
+        "duration:idle": {
+          "pass": true,
+          "detail": {
+            "actual": 3.200000014156103,
+            "expected": 3.2,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:walk": {
+          "pass": true,
+          "detail": 0.9999999664723873
+        },
+        "duration:walk": {
+          "pass": true,
+          "detail": {
+            "actual": 0.9999999664723873,
+            "expected": 1.0,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:chase": {
+          "pass": true,
+          "detail": 0.6666666530072689
+        },
+        "duration:chase": {
+          "pass": true,
+          "detail": {
+            "actual": 0.6666666530072689,
+            "expected": 0.6666666666666666,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:warn": {
+          "pass": true,
+          "detail": 0.7999999783933163
+        },
+        "duration:warn": {
+          "pass": true,
+          "detail": {
+            "actual": 0.7999999783933163,
+            "expected": 0.8,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:charge": {
+          "pass": true,
+          "detail": 0.5000000260770321
+        },
+        "duration:charge": {
+          "pass": true,
+          "detail": {
+            "actual": 0.5000000260770321,
+            "expected": 0.5,
+            "tolerance": 0.002
+          }
+        },
+        "positive_duration:recover": {
+          "pass": true,
+          "detail": 1.9999999664723873
+        },
+        "duration:recover": {
+          "pass": true,
+          "detail": {
+            "actual": 1.9999999664723873,
+            "expected": 2.0,
+            "tolerance": 0.002
+          }
+        },
+        "mesh_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ],
+            "actual": [
+              "NaifrogContinuousSkin",
+              "NaifrogEyes_left",
+              "NaifrogEyes_right",
+              "NaifrogTongue"
+            ]
+          }
+        },
+        "material_names": {
+          "pass": true,
+          "detail": {
+            "expected": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ],
+            "actual": [
+              "Naifrog skin / cream belly / olive extremities",
+              "Naifrog green iris",
+              "Naifrog black pupil",
+              "Naifrog tongue"
+            ]
+          }
+        },
+        "shape_contract_covers_all_meshes": {
+          "pass": true,
+          "detail": {
+            "missing_meshes": [],
+            "uncovered_meshes": []
+          }
+        }
+      },
+      "limitations": [
+        "No animated deformation, foot contact, visual, or Godot acceptance."
+      ],
+      "sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+      "asset": {
+        "generator": "Khronos glTF Blender I/O v4.5.51",
+        "version": "2.0"
+      },
+      "node_names": [
+        "belly",
+        "jaw",
+        "eye_left",
+        "brow_left",
+        "eye_right",
+        "brow_right",
+        "head",
+        "neck",
+        "palm_left",
+        "forearm_left",
+        "upper_arm_left",
+        "palm_right",
+        "forearm_right",
+        "upper_arm_right",
+        "spine",
+        "tail",
+        "foot_left",
+        "shin_left",
+        "thigh_left",
+        "foot_right",
+        "shin_right",
+        "thigh_right",
+        "pelvis",
+        "root",
+        "NaifrogContinuousSkin",
+        "NaifrogEyes_left",
+        "NaifrogEyes_right",
+        "NaifrogTongue",
+        "NaifrogRig"
+      ],
+      "material_names": [
+        "Naifrog skin / cream belly / olive extremities",
+        "Naifrog green iris",
+        "Naifrog black pupil",
+        "Naifrog tongue"
+      ],
+      "extensions_used": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_specular"
+      ],
+      "skins": [
+        {
+          "name": "NaifrogRig",
+          "joint_count": 24,
+          "bone_names": [
+            "root",
+            "pelvis",
+            "spine",
+            "belly",
+            "neck",
+            "head",
+            "jaw",
+            "eye_left",
+            "brow_left",
+            "eye_right",
+            "brow_right",
+            "upper_arm_left",
+            "forearm_left",
+            "palm_left",
+            "upper_arm_right",
+            "forearm_right",
+            "palm_right",
+            "tail",
+            "thigh_left",
+            "shin_left",
+            "foot_left",
+            "thigh_right",
+            "shin_right",
+            "foot_right"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "name": "naifrog_basecolor",
+          "mime_type": "image/png",
+          "embedded": true
+        },
+        {
+          "name": "naifrog_roughness",
+          "mime_type": "image/png",
+          "embedded": true
+        }
+      ],
+      "meshes": [
+        {
+          "name": "NaifrogContinuousSkin",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 27272,
+          "primitives": [
+            {
+              "triangles": 27272,
+              "vertices": 17275,
+              "material": "Naifrog skin / cream belly / olive extremities",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 4,
+                  "max_sum_error": 1.330627128481865e-07,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_left",
+          "shape_names": [],
+          "triangles": 1440,
+          "primitives": [
+            {
+              "triangles": 776,
+              "vertices": 1403,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 664,
+              "vertices": 360,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogEyes_right",
+          "shape_names": [],
+          "triangles": 1440,
+          "primitives": [
+            {
+              "triangles": 785,
+              "vertices": 1418,
+              "material": "Naifrog green iris",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            },
+            {
+              "triangles": 655,
+              "vertices": 355,
+              "material": "Naifrog black pupil",
+              "morph_count": 0,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NaifrogTongue",
+          "shape_names": [
+            "Blink",
+            "Focus",
+            "Open"
+          ],
+          "triangles": 892,
+          "primitives": [
+            {
+              "triangles": 892,
+              "vertices": 471,
+              "material": "Naifrog tongue",
+              "morph_count": 3,
+              "attribute_names": [
+                "JOINTS_0",
+                "NORMAL",
+                "POSITION",
+                "TANGENT",
+                "TEXCOORD_0",
+                "WEIGHTS_0"
+              ],
+              "weights": [
+                {
+                  "valid": true,
+                  "bad_vertices": 0,
+                  "max_influences": 1,
+                  "max_sum_error": 0.0,
+                  "tail_weight_sum": 0.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "triangle_count": 31044,
+      "clips": [
+        {
+          "name": "idle",
+          "start": 0.03333333507180214,
+          "end": 3.2333333492279053,
+          "duration": 3.200000014156103,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "walk",
+          "start": 0.03333333507180214,
+          "end": 1.0333333015441895,
+          "duration": 0.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "chase",
+          "start": 0.03333333507180214,
+          "end": 0.699999988079071,
+          "duration": 0.6666666530072689,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "warn",
+          "start": 0.03333333507180214,
+          "end": 0.8333333134651184,
+          "duration": 0.7999999783933163,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "charge",
+          "start": 0.03333333507180214,
+          "end": 0.5333333611488342,
+          "duration": 0.5000000260770321,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        },
+        {
+          "name": "recover",
+          "start": 0.03333333507180214,
+          "end": 2.0333333015441895,
+          "duration": 1.9999999664723873,
+          "channel_count": 74,
+          "morph_channels": 2,
+          "duplicate_target_paths": []
+        }
+      ],
+      "unconfigured_contract_fields": [],
+      "contract_complete": true,
+      "data_checks_pass": true,
+      "ok": true,
+      "status": "pass"
+    }
+  ],
+  "triangle_counts": [
+    618634,
+    103884,
+    31044
+  ],
+  "unconfigured_contract_fields": [],
+  "contract_complete": true,
+  "data_checks_pass": true,
+  "ok": true,
+  "status": "pass"
+}

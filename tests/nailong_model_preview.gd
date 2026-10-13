@@ -7,10 +7,12 @@ var key: DirectionalLight3D
 var face_key: DirectionalLight3D
 var fill: OmniLight3D
 var inspection_lamp: SpotLight3D
+var naifrog_reference := false
 
 func _ready() -> void:
 	var path := "res://scripts/enemies/hunter_visual.gd"
 	var args := OS.get_cmdline_user_args()
+	naifrog_reference = args.has("--naifrog")
 	if args.has("--candidate-script"):
 		path = args[args.find("--candidate-script") + 1]
 	var script: Script = load(path)
@@ -25,6 +27,9 @@ func _ready() -> void:
 	settings.ambient_light_energy = .34
 	settings.tonemap_mode = Environment.TONE_MAPPER_ACES
 	settings.tonemap_exposure = .85
+	if naifrog_reference:
+		settings.ssao_enabled = true
+		settings.ssao_radius = .12
 	environment.environment = settings
 	add_child(environment)
 	key = DirectionalLight3D.new()
@@ -32,27 +37,37 @@ func _ready() -> void:
 	key.light_color = Color(1, .96, .9)
 	key.light_energy = 1.1
 	key.shadow_enabled = true
+	if naifrog_reference:
+		key.directional_shadow_max_distance = 12.0
+		key.directional_shadow_mode = DirectionalLight3D.SHADOW_ORTHOGONAL
+		key.shadow_normal_bias = .6
+		key.shadow_bias = .07
+		key.light_energy = .8
 	add_child(key)
 	face_key = DirectionalLight3D.new()
 	face_key.rotation_degrees = Vector3(-22, 165, 0)
 	face_key.light_color = Color(1, .98, .9)
 	face_key.light_energy = .85
+	if naifrog_reference:
+		face_key.light_energy = .55
 	add_child(face_key)
 	fill = OmniLight3D.new()
 	fill.position = Vector3(-3, 3, -3)
 	fill.light_color = Color(.80, .88, 1)
 	fill.light_energy = 4.0
+	if naifrog_reference:
+		fill.light_energy = 2.5
 	fill.omni_range = 10
 	add_child(fill)
 	var floor := MeshInstance3D.new()
 	var plane := PlaneMesh.new()
-	plane.size = Vector2(100, 100)
+	plane.size = Vector2(12, 12) if naifrog_reference else Vector2(100, 100)
 	floor.mesh = plane
 	var floor_material := StandardMaterial3D.new()
 	floor_material.albedo_color = Color(.070, .088, .095)
 	floor_material.roughness = .74
 	floor.material_override = floor_material
-	floor.position.y = .018
+	floor.position.y = 0.0 if naifrog_reference else .018
 	add_child(floor)
 	camera = Camera3D.new()
 	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
@@ -77,6 +92,8 @@ func _ready() -> void:
 
 func _capture_all() -> void:
 	var directory := "res://docs/previews/nailong/reference_candidate" if OS.get_cmdline_user_args().has("--candidate-script") else "res://docs/previews/nailong"
+	if naifrog_reference:
+		directory = "res://docs/previews/naifrog"
 	DirAccess.make_dir_recursive_absolute(directory)
 	var views := [
 		["godot_front", Vector3(0, 1.55, -7), Vector3(0, 1.4, 0), 3.45, "idle", 0.0],
@@ -100,6 +117,16 @@ func _capture_all() -> void:
 		["godot_night", Vector3(3, 2.10, -6), Vector3(0, 1.4, 0), 3.35, "recover", .43],
 	]
 	for view in views:
+		# The new reference has a small head higher on a broad pear-shaped trunk.
+		# Frame the actual feature instead of reusing the legacy large-head crop.
+		if naifrog_reference and view[0] in ["godot_face", "godot_blink"]:
+			view[1].y = 2.55
+			view[2].y = 2.53
+			view[3] = 1.02
+		if naifrog_reference and view[0] in ["godot_mouth_closed", "godot_mouth_open"]:
+			view[1].y = 2.39
+			view[2].y = 2.39
+			view[3] = .58
 		camera.position = view[1]
 		camera.look_at(view[2])
 		camera.size = view[3]
@@ -121,7 +148,7 @@ func _capture_all() -> void:
 			face_key.light_energy = .08
 			fill.light_energy = .35
 			inspection_lamp.visible = true
-		caption.text = "NAILONG | " + String(view[0]).trim_prefix("godot_").to_upper() + " | native skinned LOD0"
+		caption.text = ("NAIFROG" if naifrog_reference else "NAILONG") + " | " + String(view[0]).trim_prefix("godot_").to_upper() + " | native skinned LOD0"
 		for frame in range(8):
 			await get_tree().process_frame
 		await RenderingServer.frame_post_draw

@@ -1,0 +1,42 @@
+{
+  "scope": "Selected historical V8 evidence closed; V9 excluded",
+  "copied_source_files": 72,
+  "copied_source_bytes": 10095226,
+  "copied_file_sha_mismatches": 0,
+  "generated_import_setting_files": 10,
+  "portable_index_sha256": "9b1cf59f8f430a77f6f2e361f1275fc8003401f3f75f850ffe6fbef531ab0e3e",
+  "historical_v8_status": {
+    "native_contract_checks": 3853,
+    "native_sampled_states": 276,
+    "native_vertex_evaluations": 37835000,
+    "production_scene_contracts_passed": 13,
+    "restart_processes_passed": 2,
+    "uv_complete": true,
+    "uv_status": "overlap",
+    "positive_uv_overlap_pairs": 24,
+    "within_region_overlap_pairs": 24,
+    "cross_region_overlap_pairs": 0,
+    "standing_sole_baseline_m_approx": 0.014,
+    "sole_baseline_limitation": "Within +0.015m native support tolerance; not exact floor contact. V9 .001m is being prepared elsewhere; no V9 result archived here.",
+    "commercial_art_acceptance": false
+  },
+  "formal_v8_current_mismatches": [
+    "source_assets/naifrog/model/naifrog_game_rig.blend",
+    "assets/refined/naifrog/naifrog_lod0.glb",
+    "source_assets/naifrog/model/naifrog_high_rig.blend",
+    "assets/refined/naifrog/MODEL_MANIFEST.json",
+    "assets/refined/naifrog/naifrog_lod1.glb",
+    "assets/refined/naifrog/naifrog_lod2.glb"
+  ],
+  "limits": [
+    "Complete only for selected existing V8 evidence/scripts; no V9 scope.",
+    "V8 full UV check completed and FAILED with 24 same-arm-region positive overlaps.",
+    "V8 native/full suite passed sampled scopes; 14mm support is within legacy tolerance, not perfect floor contact.",
+    "Large frozen binary duplicates excluded; formal historical links may change under V9; V6 large snapshots omitted.",
+    "Historical absolute paths preserved and mapped; no engine/checker/Git executed by archive worker.",
+    "Closed-eye dihedral diagnostic remains; no commercial visual acceptance."
+  ],
+  "engine_or_git_run": false,
+  "physical_archive_files": 86,
+  "physical_archive_bytes": 10160917
+}

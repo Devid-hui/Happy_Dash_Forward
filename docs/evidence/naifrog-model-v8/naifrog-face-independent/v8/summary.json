@@ -1,0 +1,70 @@
+{
+  "initial_sha256": {
+    "source": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5",
+    "glb": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca",
+    "manifest": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255",
+    "parser": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a"
+  },
+  "frozen_input_bytes_unchanged": true,
+  "strict_geometry_pass": true,
+  "cap_clearance_pass": true,
+  "GLB_ROI_mapping": {
+    "NaifrogContinuousSkin": {
+      "matching_tolerance_m": 1e-06,
+      "vertices": 317303,
+      "matched_vertices": 317303,
+      "triangles": 606058,
+      "matched_triangles": 606058,
+      "max_basis_error_m": 0.0,
+      "max_morph_delta_error_m": 0.0,
+      "ambiguous_source_identity_export_vertices": 0,
+      "ROI_source_triangles": 10450,
+      "ROI_matched_export_triangles": 10450,
+      "complete_same_topology_mapping": true
+    }
+  },
+  "SOURCE": {
+    "ROI_triangle_count": 11296,
+    "explicit_ROI_triangles": 10450,
+    "surrounding_one_ring_triangles": 846,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 4150
+    },
+    "elapsed_seconds": 154.1181309223175,
+    "states": 27,
+    "failing_crossing_states": 0,
+    "maximum_strict_intersections": 0,
+    "maximum_degenerate_triangles": 0,
+    "minimum_triangle_area_m2": 9.320796050772592e-08,
+    "maximum_basis_normal_reversed_triangles": 0,
+    "maximum_added_edge_dihedral_degrees": 58.8145437965337,
+    "maximum_new_over_90deg_edges_added_over_45deg": 126,
+    "minimum_eye_cap_gap_m": 0.003081819661181852,
+    "nominal_3mm_all_projected_overlaps": true,
+    "failure_examples": []
+  },
+  "GLB": {
+    "ROI_triangle_count": 11296,
+    "explicit_ROI_triangles": 10450,
+    "surrounding_one_ring_triangles": 846,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 4150
+    },
+    "elapsed_seconds": 151.235267162323,
+    "states": 27,
+    "failing_crossing_states": 0,
+    "maximum_strict_intersections": 0,
+    "maximum_degenerate_triangles": 0,
+    "minimum_triangle_area_m2": 9.320796050772592e-08,
+    "maximum_basis_normal_reversed_triangles": 0,
+    "maximum_added_edge_dihedral_degrees": 58.8145437965337,
+    "maximum_new_over_90deg_edges_added_over_45deg": 126,
+    "minimum_eye_cap_gap_m": 0.003081819661181852,
+    "nominal_3mm_all_projected_overlaps": true,
+    "failure_examples": []
+  }
+}

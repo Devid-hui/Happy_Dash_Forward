@@ -1,0 +1,26 @@
+{
+  "source_assets/naifrog/model/naifrog_game_rig.blend": {
+    "bytes": 88323819,
+    "sha256": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5"
+  },
+  "source_assets/naifrog/model/naifrog_high_rig.blend": {
+    "bytes": 88323819,
+    "sha256": "5aa7835428dd1aa1e2093da42729cb490ac77abdc2068f322f2d75a280382c0d"
+  },
+  "assets/refined/naifrog/MODEL_MANIFEST.json": {
+    "bytes": 116815,
+    "sha256": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255"
+  },
+  "assets/refined/naifrog/naifrog_lod0.glb": {
+    "bytes": 34785952,
+    "sha256": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca"
+  },
+  "assets/refined/naifrog/naifrog_lod1.glb": {
+    "bytes": 7165832,
+    "sha256": "ae92f9bee9de2eda0a5d5c153f4a3f92c37bef08b3ac994f961cbdffae61e4e5"
+  },
+  "assets/refined/naifrog/naifrog_lod2.glb": {
+    "bytes": 3624812,
+    "sha256": "28ea88dedd1187a63c16e4c801244c83ba2f5ce34104ff0188e86c7a3708eb22"
+  }
+}

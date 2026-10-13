@@ -1,0 +1,63 @@
+{
+  "commit": "17b34a52af23054998b8b715cb586ae250eb50b1",
+  "scope": "fresh remote fetch, downloaded actual five LFS objects and three ordinary report/index files; not exhaustive content download",
+  "all_match": true,
+  "files": [
+    {
+      "path": "assets/refined/field_equipment.glb",
+      "bytes": 136352780,
+      "remote_sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+      "local_sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+      "matches": true
+    },
+    {
+      "path": "source_assets/nailong/archived_candidates_20261013/c3/nailong_lod0.glb",
+      "bytes": 76573612,
+      "remote_sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+      "local_sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+      "matches": true
+    },
+    {
+      "path": "source_assets/nailong/archived_candidates_20261013/uv4k/body_uv_4k_local_islands_candidate.blend",
+      "bytes": 133893115,
+      "remote_sha256": "3ac41906d53ed41606da99259d4ae55e5de612909e0867c142677455f64d5d35",
+      "local_sha256": "3ac41906d53ed41606da99259d4ae55e5de612909e0867c142677455f64d5d35",
+      "matches": true
+    },
+    {
+      "path": "source_assets/naifrog/reference_research/downloads/opengameart-frog/frog/frog.blend",
+      "bytes": 1003983,
+      "remote_sha256": "4bfe5c678529558db3acade949160fe912f2ca4a49d3427fc9c4ece27a307a39",
+      "local_sha256": "4bfe5c678529558db3acade949160fe912f2ca4a49d3427fc9c4ece27a307a39",
+      "matches": true
+    },
+    {
+      "path": "docs/previews/naifrog/PRIMARY_REFERENCE.png",
+      "bytes": 49506,
+      "remote_sha256": "db9fe6d72f308bf6ce0cc730e30951e57edbcb6e32a7464fb2519fd94d5472a0",
+      "local_sha256": "db9fe6d72f308bf6ce0cc730e30951e57edbcb6e32a7464fb2519fd94d5472a0",
+      "matches": true
+    },
+    {
+      "path": "docs/implementation/MODELING_UPDATE_2026-10-13.md",
+      "bytes": 9796,
+      "remote_sha256": "02c97fae323b42e03afd78624aad51778570c9bcde7e0b8eb23ac028361ef312",
+      "local_sha256": "02c97fae323b42e03afd78624aad51778570c9bcde7e0b8eb23ac028361ef312",
+      "matches": true
+    },
+    {
+      "path": "docs/implementation/NAIFROG_RESOURCE_RESEARCH.md",
+      "bytes": 13225,
+      "remote_sha256": "cbe230fc3f944974970d40c3bbac2620c0e7802cd336a94b4129a729c39672bc",
+      "local_sha256": "cbe230fc3f944974970d40c3bbac2620c0e7802cd336a94b4129a729c39672bc",
+      "matches": true
+    },
+    {
+      "path": "docs/evidence/modeling-snapshot-2026-10-13/PORTABLE_INDEX.json",
+      "bytes": 486437,
+      "remote_sha256": "d896d864c6a440b4563063236a71015ffbc7927db81fb4841d46aa8057a4e0af",
+      "local_sha256": "d896d864c6a440b4563063236a71015ffbc7927db81fb4841d46aa8057a4e0af",
+      "matches": true
+    }
+  ]
+}

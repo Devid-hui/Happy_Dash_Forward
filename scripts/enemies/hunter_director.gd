@@ -44,7 +44,7 @@ func _create_hunter(index: int) -> CharacterBody3D:
 	return hunter
 
 func _on_warning(_hunter: CharacterBody3D) -> void:
-	world.notice("尖叫逼近：奶龙即将冲刺！")
+	world.notice("尖叫逼近：奶蛙即将冲刺！")
 
 func _on_death(hunter: CharacterBody3D) -> void:
 	var id := hunter.get_instance_id()
@@ -107,7 +107,7 @@ func _physics_process(delta: float) -> void:
 	scan_timer = .5
 	ambush_cooldown = maxf(0.0,ambush_cooldown-.5)
 	if ambush_cooldown > 0.0 or not player.is_sprinting or motion.length() < 5.5: return
-	# 当前视野里有奶龙时不传送，避免眼前的敌人突然消失。
+	# 当前视野里有奶蛙时不传送，避免眼前的敌人突然消失。
 	for hunter in hunters:
 		if is_instance_valid(hunter) and is_in_view(hunter): return
 	var candidates: Array[Node] = []

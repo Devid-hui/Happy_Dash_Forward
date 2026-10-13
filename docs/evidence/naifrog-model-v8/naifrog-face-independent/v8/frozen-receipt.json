@@ -1,0 +1,17 @@
+[
+  {
+    "original": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+    "snapshot": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_game_rig.blend",
+    "sha256": "6f60ab220e2b7c1385cb215a8cb9c01d9ee06cbe80b911627a457a0b778c1cb5"
+  },
+  {
+    "original": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+    "snapshot": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/naifrog_lod0.glb",
+    "sha256": "af1a219bc38eeb2d9447699544c3c2a10c7638b991e2c0084051fadb6d19ebca"
+  },
+  {
+    "original": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/MODEL_MANIFEST.json",
+    "snapshot": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-face-independent/v8/frozen-inputs/MODEL_MANIFEST.json",
+    "sha256": "d36f662d98dbc76ad9e312d22a695b282a39f4055922cf60d1b14799843b9255"
+  }
+]

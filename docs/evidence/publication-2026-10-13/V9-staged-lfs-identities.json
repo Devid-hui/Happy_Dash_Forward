@@ -1,0 +1,175 @@
+{
+  "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc": {
+    "bytes": 34869824,
+    "paths": [
+      "assets/refined/naifrog/naifrog_lod0.glb"
+    ]
+  },
+  "291be3d8404ce3adcc6e2e5d8afc9147ca4d752183d5c81d9c5c8fa3a775ff58": {
+    "bytes": 1163665,
+    "paths": [
+      "assets/refined/naifrog/naifrog_lod0_naifrog_basecolor.png",
+      "assets/refined/naifrog/naifrog_lod1_naifrog_basecolor.png",
+      "assets/refined/naifrog/naifrog_lod2_naifrog_basecolor.png",
+      "assets/refined/naifrog/textures/naifrog_basecolor.png"
+    ]
+  },
+  "089ca73444e2ca02d0d6023c10ee1a958997f9cb277c17d6192cee523f1f5f51": {
+    "bytes": 570322,
+    "paths": [
+      "assets/refined/naifrog/naifrog_lod0_naifrog_roughness.png",
+      "assets/refined/naifrog/naifrog_lod1_naifrog_roughness.png",
+      "assets/refined/naifrog/naifrog_lod2_naifrog_roughness.png"
+    ]
+  },
+  "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8": {
+    "bytes": 7229692,
+    "paths": [
+      "assets/refined/naifrog/naifrog_lod1.glb"
+    ]
+  },
+  "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c": {
+    "bytes": 3673172,
+    "paths": [
+      "assets/refined/naifrog/naifrog_lod2.glb"
+    ]
+  },
+  "991862976e0e4e4a6533af856f38fd641a9c8cbb95d682ab65d11ca49f1fbc2e": {
+    "bytes": 668383,
+    "paths": [
+      "assets/refined/naifrog/textures/naifrog_roughness.png"
+    ]
+  },
+  "d450dd9583906af2bdf2be512e9ea7aa775867423de55c528a0c2f6b787e8f79": {
+    "bytes": 186857,
+    "paths": [
+      "docs/previews/naifrog/godot_back.png"
+    ]
+  },
+  "284833e01687ec3248c0e8ddddb56cfb1f64af7636ae7992d79e70315efe860c": {
+    "bytes": 275088,
+    "paths": [
+      "docs/previews/naifrog/godot_back_joints.png"
+    ]
+  },
+  "6080e0f179f08746dd75b1dd75ad51226606e3c6c452ad4c0fbd645d3e264ffc": {
+    "bytes": 185922,
+    "paths": [
+      "docs/previews/naifrog/godot_blink.png"
+    ]
+  },
+  "ff97837ea986d816b74461df2dfd4d578a2388da09688bae8dd7256b29a447d6": {
+    "bytes": 272602,
+    "paths": [
+      "docs/previews/naifrog/godot_charge.png"
+    ]
+  },
+  "0e9013eb36f71ce271aa541ae3b4684729c01c0865f3954d19786dfbae1d911f": {
+    "bytes": 273175,
+    "paths": [
+      "docs/previews/naifrog/godot_chase.png"
+    ]
+  },
+  "c3a777547b16b34e1d465fce3fe6772d95badc5ea20cb5f6f7a97fdc32bef9ea": {
+    "bytes": 187685,
+    "paths": [
+      "docs/previews/naifrog/godot_face.png"
+    ]
+  },
+  "c39e17cfd84dc58054c06ade103dcd3bb3b0abc424f934a3ae5b6b5a7ba67719": {
+    "bytes": 313185,
+    "paths": [
+      "docs/previews/naifrog/godot_feet.png"
+    ]
+  },
+  "49646c37005e40b8ee6d713b7f4f2efee824cf0bd9374145cccb03053239e3cb": {
+    "bytes": 206142,
+    "paths": [
+      "docs/previews/naifrog/godot_front.png"
+    ]
+  },
+  "40bb2e710a22f8e4a5df40b0390db4431205776144b13c349c0b4ff52fc8f92b": {
+    "bytes": 299039,
+    "paths": [
+      "docs/previews/naifrog/godot_mouth_closed.png"
+    ]
+  },
+  "92c6f1487663d3fb59bec6e147b808a7c38f7e094620ab0c049d0a9a1815a505": {
+    "bytes": 341143,
+    "paths": [
+      "docs/previews/naifrog/godot_mouth_open.png"
+    ]
+  },
+  "46730d341ce362b12c5bdb29e101df0dacd37bc49f606d9dc78012abc837d43f": {
+    "bytes": 234726,
+    "paths": [
+      "docs/previews/naifrog/godot_night.png"
+    ]
+  },
+  "f781bf42e40add5f117868df36816a6376c4749d998274df690fcd243f71a730": {
+    "bytes": 333557,
+    "paths": [
+      "docs/previews/naifrog/godot_palms.png"
+    ]
+  },
+  "ccb2738704ad653f8ef1960f692d01bc3dc653c71036b8623d18d914f3a761d4": {
+    "bytes": 272045,
+    "paths": [
+      "docs/previews/naifrog/godot_recover.png"
+    ]
+  },
+  "bfee2852f51acfd91bf307d50a4af220ef65a73b6229f7b0d451fb92e1b139cc": {
+    "bytes": 168107,
+    "paths": [
+      "docs/previews/naifrog/godot_side.png"
+    ]
+  },
+  "647eda7b715b791a493e2acb50d3450f415ab7ca9da093665f14dbf639f22967": {
+    "bytes": 181789,
+    "paths": [
+      "docs/previews/naifrog/godot_side_feet.png"
+    ]
+  },
+  "1d2d34d1709b55178095971c514395a21f252c19b6070eb073126ff546052a97": {
+    "bytes": 113062,
+    "paths": [
+      "docs/previews/naifrog/godot_soles.png"
+    ]
+  },
+  "0b51d237552ddb47e55469ad19803b3a5ff2dcaf7a64aea6a650ca2bc965eb8e": {
+    "bytes": 270625,
+    "paths": [
+      "docs/previews/naifrog/godot_three_quarter.png"
+    ]
+  },
+  "163fd83e45e7298eb14f14b7b26398b918a94f92a4cf2abd52466825ae30835f": {
+    "bytes": 270191,
+    "paths": [
+      "docs/previews/naifrog/godot_walk.png"
+    ]
+  },
+  "14d19961d646150250881c03f4e8a1d04ac8518d766df68019dae08e776f7c38": {
+    "bytes": 274981,
+    "paths": [
+      "docs/previews/naifrog/godot_warn.png"
+    ]
+  },
+  "c7a81b2ba12093c8d5e44043ad77ec5f1029fe30c940a8c6948d391abcddd4b5": {
+    "bytes": 88353139,
+    "paths": [
+      "source_assets/naifrog/model/naifrog_game_rig.blend"
+    ]
+  },
+  "69b5c34f6b9a88e0081dea53fb96564dbeb07bfc60f5eff448710885d77a58ab": {
+    "bytes": 88353139,
+    "paths": [
+      "source_assets/naifrog/model/naifrog_high_rig.blend"
+    ]
+  },
+  "eefd2a85f3de41781ea0873af37272a685a223549bf29de8a2d848f096d69d50": {
+    "bytes": 26082096,
+    "paths": [
+      "source_assets/naifrog/model/naifrog_shape_master.blend"
+    ]
+  }
+}

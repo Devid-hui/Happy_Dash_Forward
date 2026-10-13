@@ -82,7 +82,7 @@
 - [Blender 数据检查](../../source_assets/naifrog/reference_research/inspections/opengameart-frog-inspection.json)：完整 object、UV、bone、weight、Action、material、image 库存。
 - [最终 GLB 检查](../../source_assets/naifrog/reference_research/inspections/opengameart-frog-glb-inspection.json)与[指定结构检查](../../source_assets/naifrog/reference_research/inspections/opengameart-frog-export-checks.json)。
 - [检查脚本](../../source_assets/naifrog/reference_research/scripts/inspect_blend.py)、[CPU 预览脚本](../../source_assets/naifrog/reference_research/scripts/render_source_preview.py)、[研究导出脚本](../../source_assets/naifrog/reference_research/scripts/export_source_sample.py)、[GLB 读取脚本](../../source_assets/naifrog/reference_research/scripts/inspect_glb.py)。
-- 原始作者/官方页面及链接数据保存在 `work/naifrog/resource-research/source-pages`，下载源文件保存在 `downloads`，日志与失败导出样本保存在 `inspections`。所有这些目录均位于本 chat，不在生产仓库。
+- 原始采集目录位于本 chat 的 `work/naifrog/resource-research/`；已核验的页面、下载源文件、许可、检查结果、失败样本和制作脚本另外按原件保存到仓库的 `source_assets/naifrog/reference_research/`，随 `17b34a5` 发布。仓库档案用于来源与复现，不作为正式游戏运行资产。
 
 复现检查命令（从本 chat 根目录执行）：
 

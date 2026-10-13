@@ -1,0 +1,19 @@
+{
+  "local_head": "17b34a52af23054998b8b715cb586ae250eb50b1",
+  "remote_ref": "17b34a52af23054998b8b715cb586ae250eb50b1\trefs/heads/codex/four-stage-modeling",
+  "matches_remote": true,
+  "push_exit": 0,
+  "seconds": 20.58518624305725,
+  "upload_batches": [
+    {
+      "exit": 0,
+      "objects": 203,
+      "seconds": 1031.0414671897888
+    },
+    {
+      "exit": 0,
+      "objects": 90,
+      "seconds": 387.5869700908661
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+extends SceneTree
+## Read-only native GPU silhouette against independently posed CPU geometry.
+## Run by the root agent with the existing project, never by this author.
+var viewport: SubViewport
+var stage: Node3D
+var actor: Node3D
+var camera: Camera3D
+var cpu_root: Node3D
+var output := ""
+var records: Array = []
+var white: StandardMaterial3D
+
+func _initialize() -> void:
+	call_deferred("_run")
+
+func _argument(name: String, fallback: String) -> String:
+	var args := OS.get_cmdline_user_args()
+	return args[args.find(name) + 1] if args.has(name) else fallback
+
+func _vector(value: Vector3) -> Array:
+	return [value.x, value.y, value.z]
+
+func _settle() -> void:
+	for frame in range(8):
+		await process_frame
+	await RenderingServer.frame_post_draw
+
+func _capture(name: String) -> Image:
+	await _settle()
+	var image := viewport.get_texture().get_image()
+	assert(image.get_size() == Vector2i(1920, 1080), "Exact diagnostic viewport required")
+	assert(image.save_png(output.path_join(name + ".png")) == OK)
+	return image
+
+func _cpu_pose() -> Dictionary:
+	var skeleton: Skeleton3D = actor.skeleton
+	skeleton.force_update_all_bone_transforms()
+	var minima := [Vector3(0, INF, 0), Vector3(0, INF, 0)]
+	var bounds := [Rect2(), Rect2()]
+	var counts := [0, 0]
+	var rs_error := 0.0
+	var sole_morph_max := 0.0
+	var transforms: Array = []
+	for part_value in actor.meshes:
+		var part := part_value as MeshInstance3D
+		transforms.append({"name": String(part.name), "global_transform": str(part.global_transform), "skeleton_path": String(part.skeleton), "resolved_skeleton_is_actor_skeleton": part.get_node_or_null(part.skeleton) == skeleton})
+		var matrices: Array[Transform3D] = []
+		var rests: Array[Transform3D] = []
+		var sides: Array[int] = []
+		for bind in part.skin.get_bind_count():
+			var bone := part.skin.get_bind_bone(bind)
+			if bone < 0:
+				bone = skeleton.find_bone(part.skin.get_bind_name(bind))
+			assert(bone >= 0)
+			matrices.append(skeleton.global_transform * skeleton.get_bone_global_pose(bone) * part.skin.get_bind_pose(bind))
+			rests.append(skeleton.global_transform * skeleton.get_bone_global_rest(bone) * part.skin.get_bind_pose(bind))
+			var bone_name := String(skeleton.get_bone_name(bone))
+			sides.append(0 if bone_name == "foot_left" else (1 if bone_name == "foot_right" else -1))
+		# This uses RenderingServer skin matrices in Godot 4.7, not final GPU vertex readback.
+		var server_pose := part.bake_mesh_from_current_skeleton_pose()
+		assert(server_pose != null)
+		var posed_mesh := ArrayMesh.new()
+		for surface in part.mesh.get_surface_count():
+			var arrays: Array = part.mesh.surface_get_arrays(surface)
+			var basis: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+			var bones: PackedInt32Array = arrays[Mesh.ARRAY_BONES]
+			var weights: PackedFloat32Array = arrays[Mesh.ARRAY_WEIGHTS]
+			var influences: int = bones.size() / basis.size()
+			assert(influences == 4 or influences == 8)
+			var shapes: Array = part.mesh.surface_get_blend_shape_arrays(surface)
+			var server_vertices: PackedVector3Array = server_pose.surface_get_arrays(surface)[Mesh.ARRAY_VERTEX]
+			assert(server_vertices.size() == basis.size())
+			var posed := PackedVector3Array()
+			posed.resize(basis.size())
+			for vertex in basis.size():
+				var original := basis[vertex]
+				for shape in shapes.size():
+					var amount: float = part.get_blend_shape_value(shape)
+					var delta: Vector3 = shapes[shape][Mesh.ARRAY_VERTEX][vertex]
+					if part.mesh.blend_shape_mode == Mesh.BLEND_SHAPE_MODE_NORMALIZED:
+						delta -= basis[vertex]
+					original += delta * amount
+				var world := Vector3.ZERO
+				var rest := Vector3.ZERO
+				var foot := Vector2.ZERO
+				for influence in influences:
+					var index := vertex * influences + influence
+					var weight := weights[index]
+					var bind := bones[index]
+					world += (matrices[bind] * original) * weight
+					rest += (rests[bind] * basis[vertex]) * weight
+					if sides[bind] == 0:
+						foot.x += weight
+					elif sides[bind] == 1:
+						foot.y += weight
+				posed[vertex] = world
+				var side := 0 if foot.x >= .5 else (1 if foot.y >= .5 else -1)
+				if side >= 0 and rest.y <= .04:
+					sole_morph_max = maxf(sole_morph_max, original.distance_to(basis[vertex]))
+					rs_error = maxf(rs_error, world.distance_to(part.global_transform * server_vertices[vertex]))
+					if world.y < minima[side].y:
+						minima[side] = world
+					var screen := camera.unproject_position(world)
+					bounds[side] = Rect2(screen, Vector2.ZERO) if counts[side] == 0 else bounds[side].expand(screen)
+					counts[side] += 1
+			var static_arrays: Array = []
+			static_arrays.resize(Mesh.ARRAY_MAX)
+			static_arrays[Mesh.ARRAY_VERTEX] = posed
+			static_arrays[Mesh.ARRAY_INDEX] = arrays[Mesh.ARRAY_INDEX]
+			posed_mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, static_arrays)
+		var static_part := MeshInstance3D.new()
+		static_part.mesh = posed_mesh
+		static_part.material_override = white
+		cpu_root.add_child(static_part)
+	assert(counts[0] > 0 and counts[1] > 0)
+	var supports: Array = []
+	for side in range(2):
+		var point: Vector3 = minima[side]
+		var ground := Vector3(point.x, 0, point.z)
+		var pixel := camera.unproject_position(point)
+		var floor_pixel := camera.unproject_position(ground)
+		supports.append({"side": "left" if side == 0 else "right", "minimum_world": _vector(point), "sole_count": counts[side], "pixel": [pixel.x, pixel.y], "same_xz_floor_pixel": [floor_pixel.x, floor_pixel.y], "floor_projection_gap_pixels": pixel.distance_to(floor_pixel), "roi": [bounds[side].position.x, bounds[side].position.y, bounds[side].size.x, bounds[side].size.y]})
+	return {"supports": supports, "server_skin_vs_cpu_max_error_m": rs_error, "sole_active_morph_delta_max_m": sole_morph_max, "mesh_transforms": transforms, "skeleton_global_transform": str(skeleton.global_transform)}
+
+func _mask_compare(gpu: Image, cpu: Image, supports: Array) -> Array:
+	gpu.convert(Image.FORMAT_RGBA8)
+	cpu.convert(Image.FORMAT_RGBA8)
+	var a := gpu.get_data()
+	var b := cpu.get_data()
+	var result: Array = []
+	for support in supports:
+		var r: Array = support["roi"]
+		var x0 := clampi(floori(r[0]) - 5, 0, 1919)
+		var x1 := clampi(ceili(r[0] + r[2]) + 5, 0, 1919)
+		var y0 := clampi(floori(r[1]) - 5, 0, 1079)
+		var y1 := clampi(ceili(r[1] + r[3]) + 15, 0, 1079)
+		var xor_pixels := 0
+		var union_pixels := 0
+		var intersection_pixels := 0
+		var max_bottom_delta := 0
+		var unmatched_columns := 0
+		for x in range(x0, x1 + 1):
+			var last_a := -1
+			var last_b := -1
+			for y in range(y0, y1 + 1):
+				var index := (y * 1920 + x) * 4
+				var av := a[index] > 127
+				var bv := b[index] > 127
+				if av:
+					last_a = y
+				if bv:
+					last_b = y
+				if av or bv:
+					union_pixels += 1
+				if av and bv:
+					intersection_pixels += 1
+				if av != bv:
+					xor_pixels += 1
+			if last_a >= 0 and last_b >= 0:
+				max_bottom_delta = maxi(max_bottom_delta, absi(last_a - last_b))
+			elif last_a != last_b:
+				unmatched_columns += 1
+		result.append({"side": support["side"], "pixel_roi": [x0,y0,x1,y1], "xor_pixels": xor_pixels, "intersection_over_union": float(intersection_pixels) / maxf(1, union_pixels), "maximum_bottom_silhouette_delta_pixels": max_bottom_delta, "unmatched_columns": unmatched_columns})
+	return result
+
+func _run() -> void:
+	output = _argument("--out-dir", "user://naifrog-render-floor-check")
+	assert(DirAccess.make_dir_recursive_absolute(output) == OK)
+	viewport = SubViewport.new()
+	viewport.size = Vector2i(1920,1080)
+	viewport.own_world_3d = true
+	viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+	root.add_child(viewport)
+	stage = Node3D.new()
+	viewport.add_child(stage)
+	var environment := WorldEnvironment.new()
+	var settings := Environment.new()
+	settings.background_mode = Environment.BG_COLOR
+	settings.background_color = Color.BLACK
+	settings.tonemap_mode = Environment.TONE_MAPPER_LINEAR
+	settings.ambient_light_energy = 0
+	environment.environment = settings
+	stage.add_child(environment)
+	white = StandardMaterial3D.new()
+	white.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	white.cull_mode = BaseMaterial3D.CULL_DISABLED
+	white.albedo_color = Color.WHITE
+	var script_path := _argument("--candidate-script", "res://scripts/enemies/hunter_visual.gd")
+	actor = (load(script_path) as Script).new()
+	stage.add_child(actor)
+	camera = Camera3D.new()
+	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
+	stage.add_child(camera)
+	camera.make_current()
+	await _settle()
+	for view in [["feet",Vector3(2,.50,-5),Vector3(0,.33,0),1.25,0.0],["three_quarter",Vector3(4,2.25,-7),Vector3(0,1.4,0),3.45,.15]]:
+		camera.position = view[1]
+		camera.look_at(view[2])
+		camera.size = view[3]
+		actor.set_lod(0)
+		actor.position = Vector3.ZERO
+		actor.set_preview_pose("idle",view[4])
+		for part in actor.meshes:
+			part.material_override = white
+		await _settle()
+		cpu_root = Node3D.new()
+		stage.add_child(cpu_root)
+		cpu_root.visible = false
+		var record := _cpu_pose()
+		record["view"] = view[0]
+		record["idle_time"] = view[4]
+		record["camera_global_transform"] = str(camera.global_transform)
+		record["camera_size"] = camera.size
+		var gpu := await _capture(view[0] + "_native_gpu_mask")
+		actor.visible = false
+		cpu_root.visible = true
+		var cpu := await _capture(view[0] + "_cpu_pose_mask")
+		record["gpu_vs_cpu_silhouette"] = _mask_compare(gpu,cpu,record["supports"])
+		records.append(record)
+		cpu_root.queue_free()
+		actor.visible = true
+		await process_frame
+	var model_path: String = actor.get_script().get("MODEL_PATH")
+	var report := {"scope":"Two actual preview idle views at LOD0; GPU raster silhouettes versus independent CPU morph+skin and floorY=0 projection. Not all clips or whole-game certification.","engine":Engine.get_version_info(),"renderer":RenderingServer.get_current_rendering_method(),"device":RenderingServer.get_video_adapter_name(),"actor_script":script_path,"actor_sha256":FileAccess.get_sha256(script_path),"model_path":model_path,"model_sha256":FileAccess.get_sha256(model_path),"viewport":[1920,1080],"floor_y":0.0,"mask_has_no_shadow_ssao_or_floor":true,"records":records,"server_bake_limit":"Godot 4.7 bake_skeleton reconstructs on CPU with RenderingServer bone transforms and ignores morphs; not final GPU vertex readback. Actual GPU check is the raster silhouette comparison."}
+	var file := FileAccess.open(output.path_join("report.json"),FileAccess.WRITE)
+	file.store_string(JSON.stringify(report,"\t"))
+	print("NAIFROG_RENDER_FLOOR_REPORT ",output.path_join("report.json"))
+	quit()

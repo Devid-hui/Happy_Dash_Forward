@@ -1,0 +1,613 @@
+{
+  "schema": "naifrog-inspection-v1",
+  "kind": "blend",
+  "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+  "checked_at": "2026-10-13T05:05:14.210528+00:00",
+  "checks": {
+    "bones:NaifrogRig": {
+      "pass": true,
+      "detail": [
+        "root",
+        "pelvis",
+        "spine",
+        "belly",
+        "neck",
+        "head",
+        "jaw",
+        "eye_left",
+        "brow_left",
+        "eye_right",
+        "brow_right",
+        "upper_arm_left",
+        "forearm_left",
+        "palm_left",
+        "upper_arm_right",
+        "forearm_right",
+        "palm_right",
+        "tail",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ]
+    },
+    "tail_neutral_animation:idle": {
+      "pass": true,
+      "detail": []
+    },
+    "tail_neutral_animation:walk": {
+      "pass": true,
+      "detail": []
+    },
+    "tail_neutral_animation:chase": {
+      "pass": true,
+      "detail": []
+    },
+    "tail_neutral_animation:warn": {
+      "pass": true,
+      "detail": []
+    },
+    "tail_neutral_animation:charge": {
+      "pass": true,
+      "detail": []
+    },
+    "tail_neutral_animation:recover": {
+      "pass": true,
+      "detail": []
+    },
+    "armature_present": {
+      "pass": true
+    },
+    "six_clip_names": {
+      "pass": true
+    },
+    "positive_duration:idle": {
+      "pass": true,
+      "detail": 3.2
+    },
+    "duration:idle": {
+      "pass": true,
+      "detail": {
+        "actual": 3.2,
+        "expected": 3.2,
+        "tolerance": 0.002
+      }
+    },
+    "positive_duration:walk": {
+      "pass": true,
+      "detail": 1.0
+    },
+    "duration:walk": {
+      "pass": true,
+      "detail": {
+        "actual": 1.0,
+        "expected": 1.0,
+        "tolerance": 0.002
+      }
+    },
+    "positive_duration:chase": {
+      "pass": true,
+      "detail": 0.6666666666666666
+    },
+    "duration:chase": {
+      "pass": true,
+      "detail": {
+        "actual": 0.6666666666666666,
+        "expected": 0.6666666666666666,
+        "tolerance": 0.002
+      }
+    },
+    "positive_duration:warn": {
+      "pass": true,
+      "detail": 0.8
+    },
+    "duration:warn": {
+      "pass": true,
+      "detail": {
+        "actual": 0.8,
+        "expected": 0.8,
+        "tolerance": 0.002
+      }
+    },
+    "positive_duration:charge": {
+      "pass": true,
+      "detail": 0.5
+    },
+    "duration:charge": {
+      "pass": true,
+      "detail": {
+        "actual": 0.5,
+        "expected": 0.5,
+        "tolerance": 0.002
+      }
+    },
+    "positive_duration:recover": {
+      "pass": true,
+      "detail": 2.0
+    },
+    "duration:recover": {
+      "pass": true,
+      "detail": {
+        "actual": 2.0,
+        "expected": 2.0,
+        "tolerance": 0.002
+      }
+    },
+    "closed_manifold:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "finite_vertices:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "components:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "uv:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "weights:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "tail_zero_weight:NaifrogContinuousSkin": {
+      "pass": true
+    },
+    "shape_order:NaifrogContinuousSkin": {
+      "pass": true,
+      "detail": [
+        "Basis",
+        "Blink",
+        "Focus",
+        "Open"
+      ]
+    },
+    "closed_manifold:NaifrogEyes_left": {
+      "pass": true
+    },
+    "finite_vertices:NaifrogEyes_left": {
+      "pass": true
+    },
+    "components:NaifrogEyes_left": {
+      "pass": true
+    },
+    "uv:NaifrogEyes_left": {
+      "pass": true
+    },
+    "weights:NaifrogEyes_left": {
+      "pass": true
+    },
+    "tail_zero_weight:NaifrogEyes_left": {
+      "pass": true
+    },
+    "shape_order:NaifrogEyes_left": {
+      "pass": true,
+      "detail": []
+    },
+    "closed_manifold:NaifrogEyes_right": {
+      "pass": true
+    },
+    "finite_vertices:NaifrogEyes_right": {
+      "pass": true
+    },
+    "components:NaifrogEyes_right": {
+      "pass": true
+    },
+    "uv:NaifrogEyes_right": {
+      "pass": true
+    },
+    "weights:NaifrogEyes_right": {
+      "pass": true
+    },
+    "tail_zero_weight:NaifrogEyes_right": {
+      "pass": true
+    },
+    "shape_order:NaifrogEyes_right": {
+      "pass": true,
+      "detail": []
+    },
+    "closed_manifold:NaifrogTongue": {
+      "pass": true
+    },
+    "finite_vertices:NaifrogTongue": {
+      "pass": true
+    },
+    "components:NaifrogTongue": {
+      "pass": true
+    },
+    "uv:NaifrogTongue": {
+      "pass": true
+    },
+    "weights:NaifrogTongue": {
+      "pass": true
+    },
+    "tail_zero_weight:NaifrogTongue": {
+      "pass": true
+    },
+    "shape_order:NaifrogTongue": {
+      "pass": true,
+      "detail": [
+        "Basis",
+        "Blink",
+        "Focus",
+        "Open"
+      ]
+    },
+    "meshes_present": {
+      "pass": true
+    },
+    "mesh_names": {
+      "pass": true,
+      "detail": {
+        "expected": [
+          "NaifrogContinuousSkin",
+          "NaifrogEyes_left",
+          "NaifrogEyes_right",
+          "NaifrogTongue"
+        ],
+        "actual": [
+          "NaifrogContinuousSkin",
+          "NaifrogEyes_left",
+          "NaifrogEyes_right",
+          "NaifrogTongue"
+        ]
+      }
+    },
+    "material_names": {
+      "pass": true,
+      "detail": {
+        "expected": [
+          "Naifrog skin / cream belly / olive extremities",
+          "Naifrog green iris",
+          "Naifrog black pupil",
+          "Naifrog tongue"
+        ],
+        "actual": [
+          "Naifrog black pupil",
+          "Naifrog green iris",
+          "Naifrog skin / cream belly / olive extremities",
+          "Naifrog tongue"
+        ]
+      }
+    },
+    "shape_contract_covers_all_meshes": {
+      "pass": true,
+      "detail": {
+        "missing_meshes": [],
+        "uncovered_meshes": []
+      }
+    }
+  },
+  "limitations": [
+    "No animated deformation, foot contact, visual, or Godot acceptance."
+  ],
+  "blender_version": "4.5.14 LTS",
+  "autoexec_disabled": true,
+  "armatures": [
+    {
+      "name": "NaifrogRig",
+      "bone_names": [
+        "root",
+        "pelvis",
+        "spine",
+        "belly",
+        "neck",
+        "head",
+        "jaw",
+        "eye_left",
+        "brow_left",
+        "eye_right",
+        "brow_right",
+        "upper_arm_left",
+        "forearm_left",
+        "palm_left",
+        "upper_arm_right",
+        "forearm_right",
+        "palm_right",
+        "tail",
+        "thigh_left",
+        "shin_left",
+        "foot_left",
+        "thigh_right",
+        "shin_right",
+        "foot_right"
+      ],
+      "bone_count": 24
+    }
+  ],
+  "clips": [
+    {
+      "name": "idle",
+      "strip_name": "idle",
+      "action": "idle / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        97.0
+      ],
+      "action_duration": 3.2,
+      "nla_frame_range": [
+        1.0,
+        97.0
+      ],
+      "nla_duration": 3.2,
+      "muted": false,
+      "fps": 30.0
+    },
+    {
+      "name": "walk",
+      "strip_name": "walk",
+      "action": "walk / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        31.0
+      ],
+      "action_duration": 1.0,
+      "nla_frame_range": [
+        1.0,
+        31.0
+      ],
+      "nla_duration": 1.0,
+      "muted": true,
+      "fps": 30.0
+    },
+    {
+      "name": "chase",
+      "strip_name": "chase",
+      "action": "chase / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        21.0
+      ],
+      "action_duration": 0.6666666666666666,
+      "nla_frame_range": [
+        1.0,
+        21.0
+      ],
+      "nla_duration": 0.6666666666666666,
+      "muted": true,
+      "fps": 30.0
+    },
+    {
+      "name": "warn",
+      "strip_name": "warn",
+      "action": "warn / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        25.0
+      ],
+      "action_duration": 0.8,
+      "nla_frame_range": [
+        1.0,
+        25.0
+      ],
+      "nla_duration": 0.8,
+      "muted": true,
+      "fps": 30.0
+    },
+    {
+      "name": "charge",
+      "strip_name": "charge",
+      "action": "charge / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        16.0
+      ],
+      "action_duration": 0.5,
+      "nla_frame_range": [
+        1.0,
+        16.0
+      ],
+      "nla_duration": 0.5,
+      "muted": true,
+      "fps": 30.0
+    },
+    {
+      "name": "recover",
+      "strip_name": "recover",
+      "action": "recover / NaiFrog skeleton.001",
+      "rig": "NaifrogRig",
+      "action_frame_range": [
+        1.0,
+        61.0
+      ],
+      "action_duration": 2.0,
+      "nla_frame_range": [
+        1.0,
+        61.0
+      ],
+      "nla_duration": 2.0,
+      "muted": true,
+      "fps": 30.0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "NaifrogContinuousSkin",
+      "mesh_data_name": "NaifrogContinuousSkin",
+      "topology": {
+        "vertices": 303031,
+        "edges": 606267,
+        "faces": 303238,
+        "components": 1,
+        "component_vertex_counts": [
+          303031
+        ],
+        "boundary_edges": 0,
+        "edges_with_more_than_two_faces": 0,
+        "loose_edges": 0,
+        "duplicate_edges": 0,
+        "duplicate_faces": 0,
+        "isolated_vertices": 0,
+        "disconnected_vertex_fans": 0,
+        "invalid_faces": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        {
+          "name": "NaifrogUV",
+          "loop_count": 1212534,
+          "finite": true
+        }
+      ],
+      "material_names": [
+        "Naifrog skin / cream belly / olive extremities"
+      ],
+      "shape_names": [
+        "Basis",
+        "Blink",
+        "Focus",
+        "Open"
+      ],
+      "weights": {
+        "bad_vertices": 0,
+        "max_influences": 4,
+        "max_sum_error": 4.716275725513697e-08,
+        "tail_weight_sum": 0.0,
+        "unknown_positive_weight_groups": []
+      }
+    },
+    {
+      "name": "NaifrogEyes_left",
+      "mesh_data_name": "NaifrogEyes_left",
+      "topology": {
+        "vertices": 2402,
+        "edges": 4896,
+        "faces": 2496,
+        "components": 1,
+        "component_vertex_counts": [
+          2402
+        ],
+        "boundary_edges": 0,
+        "edges_with_more_than_two_faces": 0,
+        "loose_edges": 0,
+        "duplicate_edges": 0,
+        "duplicate_faces": 0,
+        "isolated_vertices": 0,
+        "disconnected_vertex_fans": 0,
+        "invalid_faces": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        {
+          "name": "NaiFrog eye radial UV",
+          "loop_count": 9792,
+          "finite": true
+        }
+      ],
+      "material_names": [
+        "Naifrog green iris",
+        "Naifrog black pupil"
+      ],
+      "shape_names": [],
+      "weights": {
+        "bad_vertices": 0,
+        "max_influences": 1,
+        "max_sum_error": 0.0,
+        "tail_weight_sum": 0.0,
+        "unknown_positive_weight_groups": []
+      }
+    },
+    {
+      "name": "NaifrogEyes_right",
+      "mesh_data_name": "NaifrogEyes_right",
+      "topology": {
+        "vertices": 2402,
+        "edges": 4896,
+        "faces": 2496,
+        "components": 1,
+        "component_vertex_counts": [
+          2402
+        ],
+        "boundary_edges": 0,
+        "edges_with_more_than_two_faces": 0,
+        "loose_edges": 0,
+        "duplicate_edges": 0,
+        "duplicate_faces": 0,
+        "isolated_vertices": 0,
+        "disconnected_vertex_fans": 0,
+        "invalid_faces": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        {
+          "name": "NaiFrog eye radial UV",
+          "loop_count": 9792,
+          "finite": true
+        }
+      ],
+      "material_names": [
+        "Naifrog green iris",
+        "Naifrog black pupil"
+      ],
+      "shape_names": [],
+      "weights": {
+        "bad_vertices": 0,
+        "max_influences": 1,
+        "max_sum_error": 0.0,
+        "tail_weight_sum": 0.0,
+        "unknown_positive_weight_groups": []
+      }
+    },
+    {
+      "name": "NaifrogTongue",
+      "mesh_data_name": "NaifrogTongue",
+      "topology": {
+        "vertices": 1490,
+        "edges": 3024,
+        "faces": 1536,
+        "components": 1,
+        "component_vertex_counts": [
+          1490
+        ],
+        "boundary_edges": 0,
+        "edges_with_more_than_two_faces": 0,
+        "loose_edges": 0,
+        "duplicate_edges": 0,
+        "duplicate_faces": 0,
+        "isolated_vertices": 0,
+        "disconnected_vertex_fans": 0,
+        "invalid_faces": 0,
+        "closed_manifold": true
+      },
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loop_count": 6048,
+          "finite": true
+        }
+      ],
+      "material_names": [
+        "Naifrog tongue"
+      ],
+      "shape_names": [
+        "Basis",
+        "Blink",
+        "Focus",
+        "Open"
+      ],
+      "weights": {
+        "bad_vertices": 0,
+        "max_influences": 1,
+        "max_sum_error": 0.0,
+        "tail_weight_sum": 0.0,
+        "unknown_positive_weight_groups": []
+      }
+    }
+  ],
+  "material_names": [
+    "Naifrog black pupil",
+    "Naifrog green iris",
+    "Naifrog skin / cream belly / olive extremities",
+    "Naifrog tongue"
+  ],
+  "unconfigured_contract_fields": [],
+  "contract_complete": true,
+  "data_checks_pass": true,
+  "ok": true,
+  "status": "pass"
+}

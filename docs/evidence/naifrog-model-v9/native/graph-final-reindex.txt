@@ -1,0 +1,5 @@
+level=warn msg=daemon.private_dir_group_writable_ancestor mode=0770
+level=warn msg=daemon.private_dir_group_writable_ancestor mode=0770
+level=warn msg=daemon.private_dir_group_writable_ancestor mode=0770
+level=warn msg=daemon.private_dir_group_writable_ancestor mode=0770
+{"project":"happy-dash-forward-audit-20261012","status":"aborted_previous_preserved","hint":"Indexing aborted before publication; the previous index is intact and still serving. Causes: files changed while the run was in flight, or a discovery/manifest phase failed transiently. Retry; if it repeats, check the run log."}

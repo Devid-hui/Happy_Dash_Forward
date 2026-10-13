@@ -1,0 +1,62 @@
+NAIFROG_STAGE continuous_shape
+NAIFROG_STAGE uv_and_maps
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:30:44)
+Fra:1 Mem:969.24M (Peak 976.20M) | Time:497739:50:16.76 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:969.24M (Peak 976.20M) | Time:497739:50:16.76 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | NaifrogEyes_right
+Fra:1 Mem:1006.55M (Peak 1011.18M) | Time:497739:50:16.76 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:1006.55M (Peak 1011.18M) | Time:497739:50:16.76 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:1047.45M (Peak 3158.51M) | Time:497739:50:18.71 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:1059.02M (Peak 3158.51M) | Time:497739:50:18.71 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | NaifrogEyes_right
+Fra:1 Mem:1071.66M (Peak 3158.51M) | Time:497739:50:18.71 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:1071.65M (Peak 3158.51M) | Time:497739:50:18.71 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading Naifrog roughness
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+NAIFROG_STAGE rig_and_actual_sole_animation
+Info: Saved as "naifrog_high_rig.blend"
+NAIFROG_STAGE export_lod_0
+Info: Saved as "naifrog_game_rig.blend"
+INFO Draco mesh compression is available, use library at /Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+11:50:31 | INFO: Starting glTF 2.0 export
+11:50:31 | INFO: Extracting primitive: NaifrogContinuousSkin
+/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py:73: RuntimeWarning: divide by zero encountered in matmul
+  res = np.matmul(vectors, np.array(m.transposed()))
+/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py:73: RuntimeWarning: overflow encountered in matmul
+  res = np.matmul(vectors, np.array(m.transposed()))
+/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py:73: RuntimeWarning: invalid value encountered in matmul
+  res = np.matmul(vectors, np.array(m.transposed()))
+11:50:33 | INFO: Primitives created: 1
+11:50:33 | INFO: Extracting primitive: NaifrogEyes_left
+11:50:33 | INFO: Primitives created: 2
+11:50:33 | INFO: Extracting primitive: NaifrogEyes_right
+11:50:33 | INFO: Primitives created: 2
+11:50:33 | INFO: Extracting primitive: NaifrogTongue
+11:50:33 | INFO: Primitives created: 1
+11:50:36 | INFO: Finished glTF 2.0 export in 5.2051169872283936 s
+
+NAIFROG_STAGE export_lod_1
+11:50:42 | INFO: Starting glTF 2.0 export
+11:50:42 | INFO: Extracting primitive: NaifrogContinuousSkin
+11:50:42 | INFO: Primitives created: 1
+11:50:42 | INFO: Extracting primitive: NaifrogEyes_left
+11:50:42 | INFO: Primitives created: 2
+11:50:42 | INFO: Extracting primitive: NaifrogEyes_right
+11:50:42 | INFO: Primitives created: 2
+11:50:42 | INFO: Extracting primitive: NaifrogTongue
+11:50:42 | INFO: Primitives created: 1
+11:50:43 | INFO: Finished glTF 2.0 export in 1.320019006729126 s
+
+NAIFROG_STAGE export_lod_2
+11:50:47 | INFO: Starting glTF 2.0 export
+11:50:48 | INFO: Extracting primitive: NaifrogContinuousSkin
+11:50:48 | INFO: Primitives created: 1
+11:50:48 | INFO: Extracting primitive: NaifrogEyes_left
+11:50:48 | INFO: Primitives created: 2
+11:50:48 | INFO: Extracting primitive: NaifrogEyes_right
+11:50:48 | INFO: Primitives created: 2
+11:50:48 | INFO: Extracting primitive: NaifrogTongue
+11:50:48 | INFO: Primitives created: 1
+11:50:48 | INFO: Finished glTF 2.0 export in 0.8636300563812256 s
+
+NAIFROG_FULL_BUILT {"parts": ["NaifrogContinuousSkin", "NaifrogEyes_left", "NaifrogEyes_right", "NaifrogTongue"], "bones": 24, "clips": {"idle": {"duration": 3.2, "frames": 96, "root_motion": false}, "walk": {"duration": 1.0, "frames": 30, "root_motion": false}, "chase": {"duration": 0.6666666666666666, "frames": 20, "root_motion": false}, "warn": {"duration": 0.8, "frames": 24, "root_motion": false}, "charge": {"duration": 0.5, "frames": 15, "root_motion": false}, "recover": {"duration": 2.0, "frames": 60, "root_motion": false}}, "lod0_triangles": 619186, "lod1_triangles": 103972, "lod2_triangles": 31068, "sole_keyframe_error_max": 1.762805924843125e-08}
+
+Blender quit

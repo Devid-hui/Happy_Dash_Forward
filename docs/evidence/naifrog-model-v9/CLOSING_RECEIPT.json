@@ -1,0 +1,36 @@
+{
+  "scope": "Selected completed frozen V9 evidence closed. No production/Git/engine mutation by archive worker.",
+  "copied_source_files": 63,
+  "copied_source_bytes": 9491863,
+  "sha_mismatches": 0,
+  "formal_assets_verified": 6,
+  "preset_bytes_match_archived_before": true,
+  "native_actual_stats": {
+    "checks": 3853,
+    "sampled_states": 276,
+    "vertex_evaluations": 37943652,
+    "failures": []
+  },
+  "uv_actual_result": {
+    "complete": true,
+    "ok": true,
+    "status": "clear",
+    "triangles": 606058,
+    "candidate_pairs": 1971402,
+    "positive_overlap_pairs": 0,
+    "scope": "Within each selected raw mesh UV atlas; meshes and LODs are not compared to one another."
+  },
+  "standalone_boundary": "Actual release executable HEADLESS menu entry startup; separate HEADLESS exact editor probe against output PCK; no visible GUI or ordinary release-binary gameplay claim.",
+  "portable_index_sha256": "be839836edd88915c32d95d609d44a18c8c5bd48ba9cc531be79a6caeab1d3eb",
+  "pending_within_selected_scope": [],
+  "limits": [
+    "No large blend/GLB duplicates or app/PCK/ZIP/templates/runtime/cache copied; formal V9 assets verified above.",
+    "GPU masks isolate geometry and show two static views, not ordinary full-game input or art approval.",
+    "Release app menu was actually started; output PCK resource load was separately done with exact editor and is not release-binary full gameplay.",
+    "Closed-eye dihedral diagnostic from identical bounded geometry remains; no commercial art approval.",
+    "Original reports/default script paths retained byte for byte and mapped here."
+  ],
+  "generated_import_setting_files": 0,
+  "physical_archive_files": 67,
+  "physical_archive_bytes": 9534662
+}

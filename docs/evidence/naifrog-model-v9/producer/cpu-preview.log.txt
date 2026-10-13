@@ -1,0 +1,493 @@
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:30:44)
+Read blend: "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend"
+Fra:1 Mem:131.27M (Peak 134.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:131.27M (Peak 134.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:191.77M (Peak 205.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.10 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.10 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.10 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.10 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.10 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.10 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.13 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.13 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 358.95M) | Time:00:00.13 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.24 | Remaining:00:03.22 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.91 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.91 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_front.png'
+Time: 00:03.94 (Saving: 00:00.03)
+
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:191.77M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 358.95M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 358.95M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 358.95M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.21 | Remaining:00:03.68 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:04.77 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:04.77 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_three_quarter.png'
+Time: 00:04.81 (Saving: 00:00.03)
+
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PREVIEW_ONLY_floor
+Fra:1 Mem:191.77M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 358.96M) | Time:00:00.10 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.17 | Remaining:00:02.42 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:02.89 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:02.89 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_side.png'
+Time: 00:02.92 (Saving: 00:00.03)
+
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:139.54M (Peak 142.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:191.77M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:166.93M (Peak 205.64M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 358.96M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 358.96M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 358.96M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.16 | Remaining:00:02.12 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:02.99 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:02.99 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/naifrog_shape_back.png'
+Time: 00:03.03 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:144.94M (Peak 144.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:144.94M (Peak 144.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.18 | Remaining:00:02.74 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.48 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.48 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_neutral.png'
+Time: 00:03.51 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PREVIEW_ONLY_floor
+Fra:1 Mem:144.94M (Peak 144.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.18 | Remaining:00:02.73 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.51 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.51 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_blink_half.png'
+Time: 00:03.55 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.94M (Peak 357.42M) | Time:00:00.08 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.18 | Remaining:00:02.68 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_blink_closed.png'
+Time: 00:03.60 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:1 Mem:144.94M (Peak 144.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.18 | Remaining:00:02.67 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.46 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.46 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_joint_half.png'
+Time: 00:03.50 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogEyes_right
+Fra:1 Mem:144.94M (Peak 144.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogTongue
+Fra:1 Mem:145.11M (Peak 145.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PREVIEW_ONLY_floor
+Fra:1 Mem:145.47M (Peak 145.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:159.99M (Peak 159.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.07 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.17 | Remaining:00:02.60 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_joint_closed.png'
+Time: 00:03.59 (Saving: 00:00.03)
+
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | NaifrogContinuousSkin
+Fra:1 Mem:138.01M (Peak 141.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:190.23M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog roughness
+Fra:1 Mem:165.40M (Peak 204.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Naifrog basecolor
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:278.86M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.00M, Peak:128.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:278.95M (Peak 357.42M) | Time:00:00.07 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:128.01M, Peak:128.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.42M, Peak:145.42M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.51M, Peak:145.51M | Scene, ViewLayer | Updating Geometry BVH NaifrogTongue 2/1 | Building BVH 0%
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.08 | Mem:145.62M, Peak:145.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:296.36M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:184.85M, Peak:203.63M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.37M, Peak:203.63M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:312.88M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:312.89M (Peak 357.42M) | Time:00:00.09 | Mem:201.45M, Peak:203.63M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:371.75M (Peak 371.75M) | Time:00:00.19 | Remaining:00:02.89 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:396.48M (Peak 433.56M) | Time:00:03.56 | Mem:260.17M, Peak:260.17M | Scene, ViewLayer | Finished
+Saved: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews/face_warn_open.png'
+Time: 00:03.60 (Saving: 00:00.03)
+
+NAIFROG_RIG_CPU_PREVIEW_COMPLETE /Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/model-candidate/full-v9/cpu-previews
+
+Blender quit

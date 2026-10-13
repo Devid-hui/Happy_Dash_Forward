@@ -1,0 +1,25 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+NAILONG_PREVIEW godot_front
+NAILONG_PREVIEW godot_three_quarter
+NAILONG_PREVIEW godot_side
+NAILONG_PREVIEW godot_back
+NAILONG_PREVIEW godot_face
+NAILONG_PREVIEW godot_walk
+NAILONG_PREVIEW godot_chase
+NAILONG_PREVIEW godot_warn
+NAILONG_PREVIEW godot_charge
+NAILONG_PREVIEW godot_recover
+NAILONG_PREVIEW godot_blink
+NAILONG_PREVIEW godot_feet
+NAILONG_PREVIEW godot_side_feet
+NAILONG_PREVIEW godot_back_joints
+NAILONG_PREVIEW godot_mouth_closed
+NAILONG_PREVIEW godot_mouth_open
+NAILONG_PREVIEW godot_palms
+NAILONG_PREVIEW godot_soles
+NAILONG_PREVIEW godot_night
+RELEASED render; exact owned PID 64736 exit 0

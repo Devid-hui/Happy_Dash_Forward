@@ -1,0 +1,962 @@
+{
+  "initial_sha256": {
+    "source": "c23db184bcee37d1c4a018607e7ea16cd7ff33f739de8175310c0dc8efc7bf4b",
+    "glb": "5d2849f51e69afe700905e2b61b798ca555f0411da502af0905b2b22054c039f",
+    "manifest": "6c02eb2ef201c16dc466a68218c7087f0e44725604321b764642ecb890eccafe",
+    "parser": "2853f1b8ef306d01859cd96478a0a292fc8b70f62b38ed2c419fa72645dd4c4a"
+  },
+  "frozen_input_bytes_unchanged": true,
+  "strict_geometry_pass": false,
+  "cap_clearance_pass": true,
+  "GLB_ROI_mapping": {
+    "NaifrogContinuousSkin": {
+      "matching_tolerance_m": 1e-06,
+      "vertices": 315081,
+      "matched_vertices": 315081,
+      "triangles": 606610,
+      "matched_triangles": 606610,
+      "max_basis_error_m": 0.0,
+      "max_morph_delta_error_m": 0.0,
+      "ambiguous_source_identity_export_vertices": 0,
+      "ROI_source_triangles": 10000,
+      "ROI_matched_export_triangles": 10000,
+      "complete_same_topology_mapping": true
+    }
+  },
+  "SOURCE": {
+    "ROI_triangle_count": 10818,
+    "explicit_ROI_triangles": 10000,
+    "surrounding_one_ring_triangles": 818,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 3700
+    },
+    "elapsed_seconds": 147.99446892738342,
+    "states": 27,
+    "failing_crossing_states": 9,
+    "maximum_strict_intersections": 84,
+    "maximum_degenerate_triangles": 0,
+    "minimum_triangle_area_m2": 9.320796050772592e-08,
+    "maximum_basis_normal_reversed_triangles": 861,
+    "maximum_added_edge_dihedral_degrees": 112.6448955193096,
+    "maximum_new_over_90deg_edges_added_over_45deg": 191,
+    "minimum_eye_cap_gap_m": 0.002981785273797867,
+    "nominal_3mm_all_projected_overlaps": false,
+    "failure_examples": [
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 65
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 65
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "normal_reversed": 148,
+        "sharp_added_edges": 0
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "normal_reversed": 148,
+        "sharp_added_edges": 0
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 861,
+        "sharp_added_edges": 65
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 94
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 80
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 80
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 191
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 171
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 129
+      }
+    ]
+  },
+  "GLB": {
+    "ROI_triangle_count": 10483,
+    "explicit_ROI_triangles": 10000,
+    "surrounding_one_ring_triangles": 483,
+    "ROI_patch_triangle_counts": {
+      "1": 3150,
+      "2": 3150,
+      "3": 3700
+    },
+    "elapsed_seconds": 147.48370933532715,
+    "states": 27,
+    "failing_crossing_states": 9,
+    "maximum_strict_intersections": 84,
+    "maximum_degenerate_triangles": 0,
+    "minimum_triangle_area_m2": 1.318740047533406e-07,
+    "maximum_basis_normal_reversed_triangles": 861,
+    "maximum_added_edge_dihedral_degrees": 112.6448955193096,
+    "maximum_new_over_90deg_edges_added_over_45deg": 185,
+    "minimum_eye_cap_gap_m": 0.002981785273797867,
+    "nominal_3mm_all_projected_overlaps": false,
+    "failure_examples": [
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 59
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 59
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.0
+        },
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "normal_reversed": 148,
+        "sharp_added_edges": 0
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 0.5
+        },
+        "strict_intersections": 0,
+        "intersection_examples": [],
+        "normal_reversed": 148,
+        "sharp_added_edges": 0
+      },
+      {
+        "values": {
+          "Blink": 0.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 861,
+        "sharp_added_edges": 59
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 88
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 74
+      },
+      {
+        "values": {
+          "Blink": 0.5,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 74
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 185
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 0.5,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 165
+      },
+      {
+        "values": {
+          "Blink": 1.0,
+          "Focus": 1.0,
+          "Open": 1.0
+        },
+        "strict_intersections": 84,
+        "intersection_examples": [
+          {
+            "face_a": 288574,
+            "face_b": 605560,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605561,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605562,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605563,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          },
+          {
+            "face_a": 288574,
+            "face_b": 605565,
+            "kind": "strict_noncoplanar_crossing",
+            "patch_a": 0,
+            "patch_b": 3
+          }
+        ],
+        "normal_reversed": 713,
+        "sharp_added_edges": 123
+      }
+    ]
+  }
+}

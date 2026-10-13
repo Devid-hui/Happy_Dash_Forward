@@ -1,14 +1,13 @@
 extends Node3D
 ## Native skinned asset. Physics, target selection and navigation remain in hunter.gd.
-const MODEL_PATH := "res://assets/refined/nailong/nailong_lod0.glb"
-# Preserve the old envelope and include the reconstructed three-LOD pose union
-# with its 0.10m margin. Renderer and Director use this same conservative box.
+const MODEL_PATH := "res://assets/refined/naifrog/naifrog_lod0.glb"
+# Preserve the existing conservative envelope; the new three-LOD contract
+# checks posed geometry against this same renderer and Director box.
 const ANIMATION_BOUNDS := AABB(Vector3(-1.30, -0.13, -1.28), Vector3(2.59, 3.15, 2.46))
 const CLIPS := ["idle", "walk", "chase", "warn", "charge", "recover"]
 static var cached_model: PackedScene
 static var build_count := 0
 static var cached_lod_meshes: Array[Dictionary] = []
-static var cached_corneal_material: ShaderMaterial
 var animation_player: AnimationPlayer
 var skeleton: Skeleton3D
 var meshes: Array[MeshInstance3D] = []
@@ -20,13 +19,12 @@ var _last_phase := -1
 var _manual_pose := false
 var _head_bone := -1
 var _belly_bone := -1
-var _has_shared_eyelid_faces := false
 
 static func _prepare_asset() -> void:
 	if cached_model != null:
 		return
 	cached_model = load(MODEL_PATH) as PackedScene
-	assert(cached_model != null, "Native Nailong asset did not import")
+	assert(cached_model != null, "Native Naifrog asset did not import")
 	build_count += 1
 	# All instances and all distance meshes use the LOD0 material/texture resources.
 	var base := cached_model.instantiate()
@@ -48,7 +46,7 @@ static func _prepare_asset() -> void:
 	cached_lod_meshes.append(base_meshes)
 	base.free()
 	for level in [1, 2]:
-		var scene := load("res://assets/refined/nailong/nailong_lod%d.glb" % level) as PackedScene
+		var scene := load("res://assets/refined/naifrog/naifrog_lod%d.glb" % level) as PackedScene
 		var instance := scene.instantiate()
 		var lod_meshes: Dictionary = {}
 		for node in instance.find_children("*", "MeshInstance3D", true, false):
@@ -61,20 +59,6 @@ static func _prepare_asset() -> void:
 			lod_meshes[key] = part.mesh
 		cached_lod_meshes.append(lod_meshes)
 		instance.free()
-	# Godot's material importer approximates KHR transmission; retain a clear wet eye
-	# layer with native alpha and specular so it does not obscure the iris.
-	cached_corneal_material = ShaderMaterial.new()
-	var corneal_shader := Shader.new()
-	corneal_shader.code = """shader_type spatial;
-render_mode blend_add, depth_draw_never, cull_back;
-void fragment() {
-    ALBEDO = vec3(0.0);
-    ROUGHNESS = 0.018;
-    SPECULAR = 0.85;
-    ALPHA = 0.65;
-}
-"""
-	cached_corneal_material.shader = corneal_shader
 
 func _ready() -> void:
 	_build_model(self)
@@ -100,17 +84,14 @@ func _ready() -> void:
 func _build_model(root: Node3D) -> void:
 	_prepare_asset()
 	var model := cached_model.instantiate() as Node3D
-	model.name = "NailongAsset"
+	model.name = "NaifrogAsset"
 	root.add_child(model)
 	for node in model.find_children("*", "MeshInstance3D", true, false):
 		var part := node as MeshInstance3D
 		# This local box contains all bone poses. Director uses get_animation_bounds,
 		# not imported rest get_aabb(), for the separate view-preservation decision.
 		part.custom_aabb = ANIMATION_BOUNDS
-		if String(part.name).to_lower().contains("corneal"):
-			part.material_override = cached_corneal_material
 		meshes.append(part)
-		_has_shared_eyelid_faces = _has_shared_eyelid_faces or _is_shared_eyelid_face(part)
 	# Legacy static previews call _build_model without putting the builder in-tree.
 	# Give that entry the same neutral pose instead of the imported default pose.
 	var player := model.find_child("AnimationPlayer", true, false) as AnimationPlayer
@@ -168,41 +149,8 @@ func _apply_moving_recovery() -> void:
 	if _belly_bone >= 0:
 		var scale_value := skeleton.get_bone_pose_scale(_belly_bone)
 		skeleton.set_bone_pose_scale(_belly_bone, scale_value * Vector3(1 + .010 * breath, 1 + .016 * breath, 1 + .010 * breath))
-	# The shared Face boundary follows Body's authored Focus curve. Changing
-	# only Body separates their positions and normals during moving recovery.
-	if _has_shared_eyelid_faces:
-		return
-	for part in meshes:
-		# Joint eyelid targets already combine Blink with Focus. Applying the
-		# complete Focus endpoint again breaks the authored convex combination.
-		if _has_joint_lid_grid(part.mesh):
-			continue
-		for shape in part.mesh.get_blend_shape_count():
-			if part.mesh.get_blend_shape_name(shape) == "Focus":
-				part.set_blend_shape_value(shape, .22)
-
-func _has_joint_lid_grid(mesh: Mesh) -> bool:
-	var source := mesh as ArrayMesh
-	if source == null:
-		return false
-	var declared_grid := false
-	var has_blink := false
-	var has_focus := false
-	for shape in source.get_blend_shape_count():
-		var target := String(source.get_blend_shape_name(shape))
-		has_blink = has_blink or target == "Blink"
-		has_focus = has_focus or target == "Focus"
-		if target.length() == 11 and target.begins_with("LidB") and target.substr(7,1) == "F" and target.substr(4,3).is_valid_int() and target.substr(8,3).is_valid_int():
-			declared_grid = true
-	return declared_grid and has_blink and has_focus
-
-func _is_shared_eyelid_face(part: MeshInstance3D) -> bool:
-	if not String(part.name).begins_with("SharedEyelidFace_") or not _has_joint_lid_grid(part.mesh):
-		return false
-	for shape in part.mesh.get_blend_shape_count():
-		if part.mesh.get_blend_shape_name(shape) == "Open":
-			return true
-	return false
+	# Preserve the new asset's complete native facial expression curves.
+	# A single post-animation Focus override can separate connected features.
 
 func _update_lod() -> void:
 	var camera := get_viewport().get_camera_3d()

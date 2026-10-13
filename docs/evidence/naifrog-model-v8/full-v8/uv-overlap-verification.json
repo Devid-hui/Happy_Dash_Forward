@@ -1,0 +1,498 @@
+{
+  "schema": "naifrog-uv-overlap-v1",
+  "checked_at": "2026-10-13T04:28:41.888676+00:00",
+  "checker_path": "/Users/lpz/Documents/Happy_Dash_Forward/tools/naifrog_uv_verify.py",
+  "checker_sha256": "82d0e90f983f7a5c7bf688584cb5f7e9559011ba444cc8a48c037b0770ba3cd8",
+  "scope": "Within each selected raw mesh UV atlas; meshes and LODs are not compared to one another.",
+  "limitations": [
+    "No geometric self-intersection, animated skinning, image fidelity, or Godot verification.",
+    "Area magnitudes are float64 estimates; strict contact classification uses exact represented-coordinate integer predicates."
+  ],
+  "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/naifrog/model/naifrog_game_rig.blend",
+  "blender": "4.5.14 LTS",
+  "meshes": [
+    {
+      "method": "2D triangle AABB grid, exact dyadic-integer SAT contacts, Sutherland-Hodgman area",
+      "arithmetic": "Exact integer separating-axis classification on represented UVs; float64 intersection area, rational fallback for collapsed positive area.",
+      "input_uv_dtype": "float32",
+      "dyadic_scale_power": 31,
+      "area_epsilon": 0.0,
+      "positive_criterion": "intersection_area > area_epsilon",
+      "uv_triangle_count": 606058,
+      "zero_area_triangles": 0,
+      "uv_range_min": [
+        0.007812172174453735,
+        0.0078124916180968285
+      ],
+      "uv_range_max": [
+        0.9780603051185608,
+        0.9921852350234985
+      ],
+      "summed_triangle_area": 0.39777529918343413,
+      "positive_overlap_pairs": 24,
+      "cross_region_pairs": 0,
+      "within_region_pairs": 24,
+      "unlabelled_pairs": 0,
+      "region_pair_counts": [
+        {
+          "regions": [
+            4,
+            4
+          ],
+          "pairs": 7
+        },
+        {
+          "regions": [
+            5,
+            5
+          ],
+          "pairs": 17
+        }
+      ],
+      "pairs": [
+        {
+          "triangle_a": 518152,
+          "triangle_b": 518984,
+          "polygon_a": 259076,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 2.2063860752472538e-08,
+          "intersection_fraction_of_smaller_triangle": 0.11926889558970212,
+          "sample_uv": [
+            0.45815178246442156,
+            0.19745010501436966
+          ]
+        },
+        {
+          "triangle_a": 518152,
+          "triangle_b": 518985,
+          "polygon_a": 259076,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 2.379601714484853e-08,
+          "intersection_fraction_of_smaller_triangle": 0.12863227864514384,
+          "sample_uv": [
+            0.45809045062706283,
+            0.19741636466605328
+          ]
+        },
+        {
+          "triangle_a": 518152,
+          "triangle_b": 519010,
+          "polygon_a": 259076,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 9.532850634525584e-10,
+          "intersection_fraction_of_smaller_triangle": 0.007049604855611539,
+          "sample_uv": [
+            0.4580087045037969,
+            0.19766066619449563
+          ]
+        },
+        {
+          "triangle_a": 518152,
+          "triangle_b": 519011,
+          "polygon_a": 259076,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 5.861988629059817e-09,
+          "intersection_fraction_of_smaller_triangle": 0.12208700123182258,
+          "sample_uv": [
+            0.4579473992247587,
+            0.19772932581879446
+          ]
+        },
+        {
+          "triangle_a": 518152,
+          "triangle_b": 519013,
+          "polygon_a": 259076,
+          "polygon_b": 259506,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 7.890112690187414e-10,
+          "intersection_fraction_of_smaller_triangle": 0.004265096835020092,
+          "sample_uv": [
+            0.4580317374090044,
+            0.1976307942576471
+          ]
+        },
+        {
+          "triangle_a": 518153,
+          "triangle_b": 518984,
+          "polygon_a": 259076,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 3.850241075693121e-09,
+          "intersection_fraction_of_smaller_triangle": 0.020375184104337304,
+          "sample_uv": [
+            0.45826710699348544,
+            0.19725891997864445
+          ]
+        },
+        {
+          "triangle_a": 518153,
+          "triangle_b": 518985,
+          "polygon_a": 259076,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 3.7206619713996885e-08,
+          "intersection_fraction_of_smaller_triangle": 0.19689461300453256,
+          "sample_uv": [
+            0.4581495586110545,
+            0.19721826307945273
+          ]
+        },
+        {
+          "triangle_a": 518182,
+          "triangle_b": 519010,
+          "polygon_a": 259091,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 8.100077066268916e-09,
+          "intersection_fraction_of_smaller_triangle": 0.0599005951172535,
+          "sample_uv": [
+            0.4578792911066228,
+            0.1981317776967043
+          ]
+        },
+        {
+          "triangle_a": 518182,
+          "triangle_b": 519011,
+          "polygon_a": 259091,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 2.7474068473181486e-08,
+          "intersection_fraction_of_smaller_triangle": 0.5721994435302168,
+          "sample_uv": [
+            0.45785231381249203,
+            0.19799252804104955
+          ]
+        },
+        {
+          "triangle_a": 518183,
+          "triangle_b": 519011,
+          "polygon_a": 259091,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 8.35341093744844e-09,
+          "intersection_fraction_of_smaller_triangle": 0.17397558336338104,
+          "sample_uv": [
+            0.4578242999453287,
+            0.19788204239945736
+          ]
+        },
+        {
+          "triangle_a": 518184,
+          "triangle_b": 518984,
+          "polygon_a": 259092,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 1.3947435656590591e-08,
+          "intersection_fraction_of_smaller_triangle": 0.07986043101406913,
+          "sample_uv": [
+            0.45828741260352746,
+            0.19748217305287222
+          ]
+        },
+        {
+          "triangle_a": 518184,
+          "triangle_b": 519010,
+          "polygon_a": 259092,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 3.8970416555357983e-08,
+          "intersection_fraction_of_smaller_triangle": 0.2881887572840672,
+          "sample_uv": [
+            0.45813605664351287,
+            0.1981934653401612
+          ]
+        },
+        {
+          "triangle_a": 518184,
+          "triangle_b": 519013,
+          "polygon_a": 259092,
+          "polygon_b": 259506,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 8.377837386747904e-08,
+          "intersection_fraction_of_smaller_triangle": 0.47969943805069276,
+          "sample_uv": [
+            0.45823640344509914,
+            0.19790500640958636
+          ]
+        },
+        {
+          "triangle_a": 518185,
+          "triangle_b": 518984,
+          "polygon_a": 259092,
+          "polygon_b": 259492,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 2.6271304269413396e-08,
+          "intersection_fraction_of_smaller_triangle": 0.14535426855056524,
+          "sample_uv": [
+            0.45820154352498627,
+            0.1974930310110822
+          ]
+        },
+        {
+          "triangle_a": 518185,
+          "triangle_b": 519010,
+          "polygon_a": 259092,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 8.395696601554682e-08,
+          "intersection_fraction_of_smaller_triangle": 0.6208672074877912,
+          "sample_uv": [
+            0.45799297350344953,
+            0.19795993380697272
+          ]
+        },
+        {
+          "triangle_a": 518185,
+          "triangle_b": 519011,
+          "polygon_a": 259092,
+          "polygon_b": 259505,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 6.325378503478479e-09,
+          "intersection_fraction_of_smaller_triangle": 0.13173797187487532,
+          "sample_uv": [
+            0.45793355926930146,
+            0.1978284071103877
+          ]
+        },
+        {
+          "triangle_a": 518185,
+          "triangle_b": 519013,
+          "polygon_a": 259092,
+          "polygon_b": 259506,
+          "region_a": 5,
+          "region_b": 5,
+          "classification": "within_region",
+          "intersection_area": 3.4251962551929344e-08,
+          "intersection_fraction_of_smaller_triangle": 0.18950977508008623,
+          "sample_uv": [
+            0.4581066930072624,
+            0.19770115967552337
+          ]
+        },
+        {
+          "triangle_a": 204202,
+          "triangle_b": 205064,
+          "polygon_a": 102101,
+          "polygon_b": 102532,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 1.8582001851155e-08,
+          "intersection_fraction_of_smaller_triangle": 0.13611871118108207,
+          "sample_uv": [
+            0.5433311814353298,
+            0.19785655099650792
+          ]
+        },
+        {
+          "triangle_a": 204202,
+          "triangle_b": 205065,
+          "polygon_a": 102101,
+          "polygon_b": 102532,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 1.5799029780449825e-08,
+          "intersection_fraction_of_smaller_triangle": 0.33500610754690074,
+          "sample_uv": [
+            0.5433071889151587,
+            0.19805246607628482
+          ]
+        },
+        {
+          "triangle_a": 204204,
+          "triangle_b": 205064,
+          "polygon_a": 102102,
+          "polygon_b": 102532,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 5.115955421159431e-09,
+          "intersection_fraction_of_smaller_triangle": 0.03747590081877034,
+          "sample_uv": [
+            0.5432572543190246,
+            0.19765363978559083
+          ]
+        },
+        {
+          "triangle_a": 204204,
+          "triangle_b": 205066,
+          "polygon_a": 102102,
+          "polygon_b": 102533,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 2.431017660620109e-10,
+          "intersection_fraction_of_smaller_triangle": 0.0013473566023242095,
+          "sample_uv": [
+            0.5431974318991997,
+            0.19755327643809784
+          ]
+        },
+        {
+          "triangle_a": 204204,
+          "triangle_b": 205067,
+          "polygon_a": 102102,
+          "polygon_b": 102533,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 1.4448132176567183e-10,
+          "intersection_fraction_of_smaller_triangle": 0.0008007669625232182,
+          "sample_uv": [
+            0.5432030870770372,
+            0.19756376991141922
+          ]
+        },
+        {
+          "triangle_a": 204204,
+          "triangle_b": 205093,
+          "polygon_a": 102102,
+          "polygon_b": 102546,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 7.787443086701065e-08,
+          "intersection_fraction_of_smaller_triangle": 0.4316078417716744,
+          "sample_uv": [
+            0.543159025425419,
+            0.19731330465882707
+          ]
+        },
+        {
+          "triangle_a": 204205,
+          "triangle_b": 205064,
+          "polygon_a": 102102,
+          "polygon_b": 102532,
+          "region_a": 4,
+          "region_b": 4,
+          "classification": "within_region",
+          "intersection_area": 5.200727106836779e-10,
+          "intersection_fraction_of_smaller_triangle": 0.003809687872478272,
+          "sample_uv": [
+            0.5433143745691074,
+            0.19774621289661354
+          ]
+        }
+      ],
+      "reported_pairs_truncated": false,
+      "coverage": {
+        "complete": true,
+        "stop_reason": null,
+        "indexed_triangles": 606058,
+        "total_triangles": 606058,
+        "processed_grid_cells": 111198,
+        "total_nonempty_grid_cells": 111198,
+        "processed_large_triangles": 988,
+        "total_large_triangles": 988,
+        "candidate_pairs_examined": 1962394,
+        "note": "Complete requires indexing and exhausting every owned AABB candidate; bounded zero findings are not clearance."
+      },
+      "configuration": {
+        "grid_size": 512,
+        "large_triangle_cell_limit": 64,
+        "max_seconds": 120.0,
+        "max_candidates": 10000000,
+        "max_reported_pairs": 1000
+      },
+      "elapsed_seconds": 46.39722308299679,
+      "ok": false,
+      "status": "overlap",
+      "object": "NaifrogContinuousSkin",
+      "mesh_data": "NaifrogContinuousSkin",
+      "uv_layer": "NaifrogUV",
+      "uv_corner_count": 1212534,
+      "finite_corner_values": true,
+      "region_attribute": "NaiFrogUVRegion",
+      "region_triangle_counts": [
+        {
+          "region": 0,
+          "triangles": 201506
+        },
+        {
+          "region": 1,
+          "triangles": 2016
+        },
+        {
+          "region": 2,
+          "triangles": 2016
+        },
+        {
+          "region": 3,
+          "triangles": 2656
+        },
+        {
+          "region": 4,
+          "triangles": 62572
+        },
+        {
+          "region": 5,
+          "triangles": 62572
+        },
+        {
+          "region": 6,
+          "triangles": 96974
+        },
+        {
+          "region": 7,
+          "triangles": 96978
+        },
+        {
+          "region": 8,
+          "triangles": 1134
+        },
+        {
+          "region": 9,
+          "triangles": 1134
+        },
+        {
+          "region": 10,
+          "triangles": 1494
+        },
+        {
+          "region": 11,
+          "triangles": 75006
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "ok": false,
+  "status": "overlap"
+}

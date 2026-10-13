@@ -1,0 +1,18 @@
+{
+  "failure_source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/naifrog-native-contract/contract.txt",
+  "observed_failure": "six actual surfaces: PackedFloat64Array constructor cannot convert PackedFloat32Array argument to Array; cache then empty caused downstream sole/morph-zero assertions",
+  "classification": "test API conversion error; no asset geometry conclusion from this run",
+  "change": "three lines only: retain native PackedFloat32Array in _surface_cache and _measure; scalar accumulation remains GDScript float",
+  "sha256": "205c1f0ef97ffee6874a35c23607534444badf49b53a63df34f6f523e82840c7",
+  "bytes": 31212,
+  "thresholds_changed": false,
+  "engine_run_by_worker": false,
+  "runtime_verification": "pending root locked rerun",
+  "graph": {
+    "mode": "actual supported CLI",
+    "project": "happy-dash-forward-audit-20261012",
+    "generation": "2026-10-13T02:07:37Z",
+    "test_path_freshness": "not_tracked",
+    "action_taken": "read exact edited function source; new code requires root reindex; no direct MCP or clean-coverage completeness claim"
+  }
+}

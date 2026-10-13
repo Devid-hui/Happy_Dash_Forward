@@ -1,0 +1,26 @@
+[
+  {
+    "file": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod0.glb",
+    "sha256": "da3876500b36cdbb2d54b36508516480bb7001c10ae31c041c34bc16a07a24cc",
+    "float_accessors": 310,
+    "nonfinite_total": 0,
+    "failed_accessors": [],
+    "COLOR_0_present": false
+  },
+  {
+    "file": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod1.glb",
+    "sha256": "0cfacae5ce1ddecc36533dcdc98cc7712915a2f8dce10b6324b6cc0616fdefd8",
+    "float_accessors": 310,
+    "nonfinite_total": 0,
+    "failed_accessors": [],
+    "COLOR_0_present": false
+  },
+  {
+    "file": "/Users/lpz/Documents/Happy_Dash_Forward/assets/refined/naifrog/naifrog_lod2.glb",
+    "sha256": "f7222a4377792bbe75825ea43ae4053878ff7a112c67931f00b319c3b82aa78c",
+    "float_accessors": 310,
+    "nonfinite_total": 0,
+    "failed_accessors": [],
+    "COLOR_0_present": false
+  }
+]

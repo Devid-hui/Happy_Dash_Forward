@@ -1,0 +1,372 @@
+{
+  "purpose": "attribution of existing report diagnostic examples only; no new geometry method",
+  "state": {
+    "Blink": 1.0,
+    "Focus": 0.0,
+    "Open": 0.0
+  },
+  "maximum_added_dihedral_degrees": 58.8145437965337,
+  "diagnostic_edges": 126,
+  "examined_examples": [
+    {
+      "loop_triangles": [
+        602047,
+        602298
+      ],
+      "polygons": [
+        301023,
+        301149
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602049,
+        602300
+      ],
+      "polygons": [
+        301024,
+        301150
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602051,
+        602302
+      ],
+      "polygons": [
+        301025,
+        301151
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602053,
+        602304
+      ],
+      "polygons": [
+        301026,
+        301152
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602055,
+        602306
+      ],
+      "polygons": [
+        301027,
+        301153
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602057,
+        602308
+      ],
+      "polygons": [
+        301028,
+        301154
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602059,
+        602310
+      ],
+      "polygons": [
+        301029,
+        301155
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602061,
+        602312
+      ],
+      "polygons": [
+        301030,
+        301156
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602063,
+        602314
+      ],
+      "polygons": [
+        301031,
+        301157
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602065,
+        602316
+      ],
+      "polygons": [
+        301032,
+        301158
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602067,
+        602318
+      ],
+      "polygons": [
+        301033,
+        301159
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602069,
+        602320
+      ],
+      "polygons": [
+        301034,
+        301160
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602071,
+        602322
+      ],
+      "polygons": [
+        301035,
+        301161
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602073,
+        602324
+      ],
+      "polygons": [
+        301036,
+        301162
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602075,
+        602326
+      ],
+      "polygons": [
+        301037,
+        301163
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602077,
+        602328
+      ],
+      "polygons": [
+        301038,
+        301164
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602079,
+        602330
+      ],
+      "polygons": [
+        301039,
+        301165
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602081,
+        602332
+      ],
+      "polygons": [
+        301040,
+        301166
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602083,
+        602334
+      ],
+      "polygons": [
+        301041,
+        301167
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    },
+    {
+      "loop_triangles": [
+        602085,
+        602336
+      ],
+      "polygons": [
+        301042,
+        301168
+      ],
+      "patches": [
+        1,
+        1
+      ],
+      "sections": [
+        1,
+        2
+      ]
+    }
+  ]
+}

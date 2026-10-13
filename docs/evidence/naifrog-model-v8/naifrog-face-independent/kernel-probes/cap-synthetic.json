@@ -1,0 +1,59 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "depth": 0.007,
+      "expected": 0.003,
+      "result": {
+        "status": "pass",
+        "cap_triangles": 1,
+        "projected_overlap_triangle_pairs": 1,
+        "minimum_signed_normal_gap_m": 0.003,
+        "negative_gap_pairs": 0,
+        "nonpenetrating_with_numeric_tolerance": true,
+        "nominal_3mm_margin_met": true,
+        "minimum_example": {
+          "body_subset_triangle": 0,
+          "cap_subset_triangle": 0
+        },
+        "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+      }
+    },
+    {
+      "depth": 0.003,
+      "expected": -0.001,
+      "result": {
+        "status": "fail",
+        "cap_triangles": 1,
+        "projected_overlap_triangle_pairs": 1,
+        "minimum_signed_normal_gap_m": -0.001,
+        "negative_gap_pairs": 1,
+        "nonpenetrating_with_numeric_tolerance": false,
+        "nominal_3mm_margin_met": false,
+        "minimum_example": {
+          "body_subset_triangle": 0,
+          "cap_subset_triangle": 0
+        },
+        "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+      }
+    },
+    {
+      "depth": 0.004,
+      "expected": 0.0,
+      "result": {
+        "status": "pass",
+        "cap_triangles": 1,
+        "projected_overlap_triangle_pairs": 1,
+        "minimum_signed_normal_gap_m": 0.0,
+        "negative_gap_pairs": 0,
+        "nonpenetrating_with_numeric_tolerance": true,
+        "nominal_3mm_margin_met": false,
+        "minimum_example": {
+          "body_subset_triangle": 0,
+          "cap_subset_triangle": 0
+        },
+        "method": "exact affine height difference over projected polygon overlap; actual cap only; front annulus only"
+      }
+    }
+  ]
+}

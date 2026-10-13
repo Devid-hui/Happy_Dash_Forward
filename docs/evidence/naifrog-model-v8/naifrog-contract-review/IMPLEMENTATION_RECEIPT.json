@@ -1,0 +1,61 @@
+{
+  "scope": "Implementation/source review only. No engine/parser/import/geometry tests were executed in this worker task.",
+  "git_head": "17b34a52af23054998b8b715cb586ae250eb50b1",
+  "graph_evidence": {
+    "mode": "actual installed CLI, not direct MCP",
+    "project": "happy-dash-forward-audit-20261012",
+    "generation": "2026-10-13T02:07:37Z",
+    "coverage": "three supplied code paths metadata_match/no_recorded_issue; best effort; newly added test not indexed"
+  },
+  "inputs_and_new_files": [
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/tests/naifrog_model_contract.gd",
+      "bytes": 31212,
+      "sha256": "205c1f0ef97ffee6874a35c23607534444badf49b53a63df34f6f523e82840c7"
+    },
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/tests/naifrog_model_contract.tscn",
+      "bytes": 189,
+      "sha256": "905a326f560ae738a669b0b99f26450c7391eb312f26f601e50bfdf358f4d608"
+    },
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/tests/naifrog_model_contract.gd.uid",
+      "bytes": 20,
+      "sha256": "4fbf1e67e3f9733119862719e7e27b43afd7b48f5289b3e364e818c52469aae0"
+    },
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/tests/nailong_model_contract.gd",
+      "bytes": 8729,
+      "sha256": "0409f329cc7b9cc1754117aaaea35a6869e80ad45c48c5cbc97ad2480e7c344d"
+    },
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/scripts/enemies/hunter_visual.gd",
+      "bytes": 9556,
+      "sha256": "c435c0caaf72f06b475092d0a946e70a2d959df50ceff2396d39fe03ca78cd42"
+    },
+    {
+      "path": "/Users/lpz/Documents/Happy_Dash_Forward/tools/build_nailong_asset.py",
+      "bytes": 38949,
+      "sha256": "c5640cbd0f194c2faee695db3c4c9bbf82e123608fc9554d986e928237a35664"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/user-references/naifrog-primary-reference.png",
+      "bytes": 49506,
+      "sha256": "db9fe6d72f308bf6ce0cc730e30951e57edbcb6e32a7464fb2519fd94d5472a0"
+    }
+  ],
+  "new_test_files": [
+    "tests/naifrog_model_contract.gd",
+    "tests/naifrog_model_contract.tscn",
+    "tests/naifrog_model_contract.gd.uid"
+  ],
+  "root_confirmation": "res://assets/refined/naifrog/naifrog_lod{0,1,2}.glb; original actor API; stationary two feet, gait at least one foot",
+  "status": "test API weight-array conversion fixed; real native geometry verdict pending root rerun",
+  "parser_check": {
+    "reported_by": "parent /root",
+    "result": "previous revision headless --check-only exited 0 without SCRIPT ERROR/ERROR",
+    "engine_run_by_worker": false,
+    "latest_revision": "one exact-nonzero morph activation correction and authored-weight preservation assertion added after that parse; parent should reparse this final SHA"
+  },
+  "weight_array_fix_receipt": "WEIGHT_ARRAY_FIX_RECEIPT.json"
+}
