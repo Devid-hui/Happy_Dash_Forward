@@ -1,0 +1,25 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend",
+  "source_sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+  "body_object": "NailongSkin_Reconstructed",
+  "source_polygon_count": 1804153,
+  "source_corner_count": 5412459,
+  "polygon_identity": "Row is c3 post-mouth-cleanup SourcePolygonID; not a raw pre-cleanup polygon index",
+  "corner_identity": "Original vertex index matched within that original triangle, preserving UV seams and any corner order",
+  "exact_full_source_roundtrip": true,
+  "new_topology_policy": "SourcePolygonID=-1 returns NaN; the face owner must parameterize these triangles separately",
+  "bundle": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/body-source-corner-uv-transfer.npz",
+  "bundle_sha256": "0b5b537ba6bf6d3c8d7ca299119e1cfe79ed4668f30b65f5d93fa63a9f9e95ea",
+  "atlas_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/colour-island-local-atlas.npz",
+  "atlas_sha256": "8b8620dc0aeba2ea357ddfd60f0eeb948f2ae5bc124b0d8b74916d6fab99d5d9",
+  "source_geometry_sha256": "296eb921affa591b639f7c5d7c696bb3279c22b14b19bab399c99e076a93ffbb",
+  "transfer_function": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/transfer_uv_corners.py",
+  "transfer_function_sha256": "1f36210fef68902ff610cd7d73b800efdc74f25edb28cc31952c9d141de0fa47",
+  "synthetic_seam_and_corner_tests": {
+    "seam_vertex_keeps_face_specific_uv": true,
+    "cyclic_and_reversed_corners_preserved": true,
+    "undeclared_changed_triangle_rejected": true,
+    "new_topology_explicitly_unmapped": true,
+    "explicit_post_mouth_loop_mapping_matches_vertex_corner_mapping": true
+  }
+}

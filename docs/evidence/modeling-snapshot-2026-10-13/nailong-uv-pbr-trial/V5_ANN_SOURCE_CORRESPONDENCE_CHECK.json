@@ -1,0 +1,21 @@
+{
+  "source_geometry": "outputs/nailong-uv-pbr-trial/source-body-geometry.npz",
+  "source_geometry_sha256": "296eb921affa591b639f7c5d7c696bb3279c22b14b19bab399c99e076a93ffbb",
+  "source_c3_sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+  "sidecar": "outputs/nailong-face-topology-v5/cdt-source-mapping-uv-corners.json",
+  "sidecar_sha256": "2b731e045b45ad1aa9346a224212d8cfaae0fcbb8ad47a97fce3be3da2ae3e5a",
+  "sidecar_declared_target_source_sha256": "fccb544ab61b53de82b1e9676d70489431bf3464d5feb5362c87d37719eaf65f",
+  "sidecar_declared_identity": "The preserved fccb pre-fix source; ANN 7830 faces unaffected by topology-only poly 8311 repair. New triangles remain -1 source polygon.",
+  "ann_faces_checked": 7830,
+  "post_mouth_polygon_loop_identity_exact": true,
+  "all_original_triangle_corner_vertex_ids_match_actual_c3": true,
+  "transfer_function_self_test": {
+    "seam_vertex_keeps_face_specific_uv": true,
+    "cyclic_and_reversed_corners_preserved": true,
+    "undeclared_changed_triangle_rejected": true,
+    "new_topology_explicitly_unmapped": true,
+    "explicit_post_mouth_loop_mapping_matches_vertex_corner_mapping": true
+  },
+  "actual_uv_generated": false,
+  "scope": "Checks every declared original ANN correspondence against frozen c3 source geometry. Does not verify the changing V5 target geometry or create UVs for new radial/CDT triangles; final two-eye sidecar must be rebound."
+}

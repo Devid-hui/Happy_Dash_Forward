@@ -1,0 +1,26 @@
+[
+  {
+    "name": "chinese-nexprint",
+    "source_url": "https://www.nexprint.cn/zh/models/G6209717",
+    "checked_at": "2026-10-13T02:33:48.928049+00:00",
+    "status": 200,
+    "final_url": "https://www.nexprint.cn/zh/models/G6209717",
+    "bytes": 392425,
+    "sha256": "c053db79b1718469934acc81fbb8bb5321ba5f2b4078fa8ff0b913184083ae9e"
+  },
+  {
+    "name": "chinese-tripo",
+    "source_url": "https://studio.tripo3d.ai/3d-model/%E7%94%9F%E6%88%90%E4%B8%80%E5%8F%AA%E5%A5%B6%E8%9B%99-a1ddba2d-6b81-4f48-a718-6c1b2ce8ff68",
+    "checked_at": "2026-10-13T02:33:49.732934+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "chinese-makeronline",
+    "source_url": "https://www.makeronline.com/zh/model/%E5%A5%B6%E8%9B%99%C3%97%E8%B1%86%E5%8C%85%E8%BF%87%E4%B8%AD%E7%A7%8B%EF%BD%9C%E8%B1%86%E5%A5%B6CP%E6%9C%88%E9%A5%BC%E6%B5%AE%E9%9B%95%E6%91%86%E4%BB%B6/332624.html",
+    "checked_at": "2026-10-13T02:33:49.930360+00:00",
+    "status": 200,
+    "final_url": "https://www.makeronline.com/zh/model/%E5%A5%B6%E8%9B%99%C3%97%E8%B1%86%E5%8C%85%E8%BF%87%E4%B8%AD%E7%A7%8B%EF%BD%9C%E8%B1%86%E5%A5%B6CP%E6%9C%88%E9%A5%BC%E6%B5%AE%E9%9B%95%E6%91%86%E4%BB%B6/332624.html",
+    "bytes": 145600,
+    "sha256": "28e899cbae082359fbfd22b83d2ca87641c63e13c7bea3741ea16a8da84e1efc"
+  }
+]

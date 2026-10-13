@@ -1,0 +1,8 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+HAND MOTION ACTION flash frames=39
+HAND MOTION REVIEW COMPLETE: 39 actual 1080p frames
+RELEASED render; exact owned PID 53679 exit 0

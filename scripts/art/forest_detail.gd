@@ -1,106 +1,166 @@
 extends RefCounted
-const ORGANIC := preload("res://scripts/art/organic_mesh.gd")
+# Fused botanical masters, rolled leaf laminae and three shared geometry LODs.
+const ASSET_ROOT := "res://assets/refined/environment/"
+const NEAR_END := 9.0
+const MID_END := 53.0
+const SHADOW_CANOPY_LOD := "Far"
+static var tree_cache: Dictionary = {}
+static var _bark: Material
+static var _foliage: ShaderMaterial
+static var _motion_time := 0.0
 
-static func bark_material() -> ShaderMaterial:
+static func _texture(path: String) -> Texture2D:
+	return load(path) as Texture2D if ResourceLoader.exists(path) else null
+
+static func _pbr_texture(alias: String) -> Texture2D:
+	var manifest_path := ASSET_ROOT+"textures/PBR_TEXTURE_BINDINGS.json"
+	assert(FileAccess.file_exists(manifest_path),"Scanned PBR binding manifest is required")
+	var bindings := JSON.parse_string(FileAccess.get_file_as_string(manifest_path)) as Dictionary
+	assert(bindings.has(alias),"Missing verified material binding: "+alias)
+	var path: String = bindings[alias] if bindings[alias] is String else bindings[alias].path
+	if not path.begins_with("res://"):
+		path = "res://"+path if path.begins_with("assets/") else ASSET_ROOT+"textures/"+path
+	var texture := load(path) as Texture2D
+	assert(texture != null and texture.get_width() >= 4096,"Verified 4K scanned PBR is required: "+path)
+	return texture
+
+static func bark_material() -> Material:
+	if _bark: return _bark
+	var m := StandardMaterial3D.new()
+	m.albedo_color = Color(.68,.65,.57)
+	m.albedo_texture = _pbr_texture("bark_basecolor")
+	m.roughness_texture = _pbr_texture("bark_roughness")
+	m.roughness = .72
+	m.normal_enabled = true
+	m.normal_texture = _pbr_texture("bark_normal")
+	m.normal_scale = .86
+	m.uv1_triplanar = true; m.uv1_triplanar_sharpness = 5.0
+	# Poly Haven Bark Brown 02 is a one-metre scan, retaining real grain scale.
+	m.uv1_scale = Vector3.ONE; m.metallic_specular = .34
+	_bark = m; return _bark
+
+static func _foliage_material() -> ShaderMaterial:
+	if _foliage: return _foliage
 	var shader := Shader.new()
-	shader.code = """shader_type spatial;
-varying vec3 local_position;
-void vertex(){local_position=VERTEX;}
+	shader.code = """shader_type spatial; render_mode cull_disabled;
+uniform float motion_time = 0.0;
+uniform sampler2D leaf_color : source_color, filter_linear_mipmap, repeat_disable;
+uniform sampler2D leaf_normal : hint_normal, filter_linear_mipmap, repeat_disable;
+varying vec3 botanical_color;
+void vertex(){
+ botanical_color=COLOR.rgb;
+ vec3 world=(MODEL_MATRIX*vec4(VERTEX,1.)).xyz;
+ float crown=max(VERTEX.y-2.3,0.);
+ float wind=sin(motion_time*1.17+world.x*.19+world.z*.13)*.017;
+ float flutter=sin(motion_time*3.2+world.x*2.7+world.z*1.9)*.009;
+ // The petiole/lamina base is anchored to wood; flutter bends the leaf tip.
+ VERTEX.x+=(wind+flutter*UV.y)*crown*UV.y;
+ VERTEX.z+=sin(motion_time*.91+world.x*.1)*.007*crown*UV.y;
+}
 void fragment(){
- float grooves=sin(UV.x*110.0+sin(UV.y*27.0)*1.8);
- float flecks=fract(sin(dot(floor(local_position*32.0),vec3(13.1,71.7,31.4)))*43758.5);
- vec3 bark=mix(vec3(.085,.063,.045),vec3(.23,.19,.13),smoothstep(-.7,.6,grooves));
- float moss=(1.0-smoothstep(.1,1.4,local_position.y))*smoothstep(.25,.8,flecks);
- ALBEDO=mix(bark,vec3(.065,.12,.057),moss)*(0.82+flecks*.3);
- ROUGHNESS=.72;
- SPECULAR=.28;
- NORMAL_MAP=vec3(.5+.14*cos(UV.x*110.0),.5,.98);
+ vec3 leaf=texture(leaf_color,UV).rgb;
+ bool stalk=UV.x>1.5;
+ if(stalk){ALBEDO=botanical_color;ROUGHNESS=.70;SPECULAR=.20;NORMAL_MAP=vec3(.5,.5,1.);}
+ else{
+  vec3 tint=mix(vec3(.8),botanical_color/vec3(.19,.32,.065),.42);
+  // A waxy upper lamina and a paler matte underside read differently in grazing light.
+  ALBEDO=leaf*tint*(FRONT_FACING?1.:1.16);
+  ROUGHNESS=FRONT_FACING?.46:.68;SPECULAR=FRONT_FACING?.34:.22;
+  NORMAL_MAP=texture(leaf_normal,UV).rgb;NORMAL_MAP_DEPTH=.65;
+  BACKLIGHT=vec3(.08,.135,.026);
+ }
 }
 """
-	var material := ShaderMaterial.new()
-	material.shader = shader
-	return material
+	_foliage = ShaderMaterial.new(); _foliage.shader = shader
+	_foliage.set_shader_parameter("leaf_color",_texture(ASSET_ROOT + "leaf_venation_color.png"))
+	_foliage.set_shader_parameter("leaf_normal",_texture(ASSET_ROOT + "leaf_venation_normal.png"))
+	_foliage.set_shader_parameter("motion_time",_motion_time); return _foliage
 
-static var tree_cache: Dictionary = {}
+static func set_motion_time(value: float) -> void:
+	_motion_time = value
+	if _foliage: _foliage.set_shader_parameter("motion_time",value)
+
+static func _clone_meshes(imported: Node, root: Node3D, material: Material) -> void:
+	for child in imported.get_children():
+		if child is MeshInstance3D:
+			var part := MeshInstance3D.new(); part.name = child.name; part.mesh = child.mesh
+			part.transform = child.transform
+			part.material_override = _foliage_material() if "Canopy" in String(child.name) else material
+			var prefix := String(child.name)
+			if prefix.begins_with("Near"):
+				part.visibility_range_end = NEAR_END; part.visibility_range_end_margin = 2.0
+			elif prefix.begins_with("Mid"):
+				part.visibility_range_begin = NEAR_END; part.visibility_range_begin_margin = 2.0
+				part.visibility_range_end = MID_END; part.visibility_range_end_margin = 4.0
+			else:
+				part.visibility_range_begin = MID_END; part.visibility_range_begin_margin = 4.0
+				part.visibility_range_end = 145.0
+			# Alpha-blending two solid trunks makes the forest floor visible through
+			# the bark at the transition. Wood stays opaque; hysteresis prevents
+			# rapid switching while the leaf canopy retains its smooth fade.
+			part.visibility_range_fade_mode = GeometryInstance3D.VISIBILITY_RANGE_FADE_DISABLED if "Bark" in prefix else GeometryInstance3D.VISIBILITY_RANGE_FADE_SELF
+			# Three authored representations already provide LOD; importer-generated
+			# simplification must not split the narrow continuous trunk at distance.
+			part.lod_bias = 1000.0
+			part.extra_cull_margin = .55
+			# A high-density canopy must never enter a shadow pass. Camera LOD
+			# ranges alone are not a reliable shadow-geometry budget for a forest.
+			part.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+			root.add_child(part)
+			if prefix.begins_with("Mid"):
+				# One stable, shared representation prevents duplicate LOD shadows
+				# while retaining actual branch and leaf silhouettes under the lamp.
+				var shadow := MeshInstance3D.new()
+				shadow.name = prefix.replace("Mid","Shadow")
+				shadow.mesh = part.mesh; shadow.transform = part.transform
+				shadow.material_override = part.material_override
+				shadow.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_SHADOWS_ONLY
+				shadow.lod_bias = 1000.0; shadow.extra_cull_margin = .55
+				shadow.visibility_range_end = MID_END
+				shadow.visibility_range_end_margin = 4.0
+				shadow.visibility_range_fade_mode = GeometryInstance3D.VISIBILITY_RANGE_FADE_SELF
+				root.add_child(shadow)
+		else: _clone_meshes(child,root,material)
 
 static func _own_children(node: Node, owner_root: Node) -> void:
-	for child in node.get_children():
-		child.owner = owner_root
-		_own_children(child,owner_root)
+	for child in node.get_children(): child.owner = owner_root; _own_children(child,owner_root)
 
 static func build(seed_value: int, dead: bool, bark: Material) -> Node3D:
-	# 六种树形 × 活树/枯树。随机旋转与缩放保留环境变化，网格跨实例、跨重开共享。
-	var variant := posmod(seed_value,6)
-	var key := variant*2+int(dead)
+	var variant := posmod(seed_value,3 if dead else 6); var key := variant*2+int(dead)
 	if not tree_cache.has(key):
-		var tree := _build_uncached(variant*731+41,dead,bark)
-		_own_children(tree,tree)
-		var scene := PackedScene.new()
-		scene.pack(tree)
-		tree_cache[key] = scene
-		tree.free()
-	return tree_cache[key].instantiate() as Node3D
-
-static func _build_uncached(seed_value: int, dead: bool, bark: Material) -> Node3D:
-	var rng := RandomNumberGenerator.new()
-	rng.seed = seed_value
-	var root := Node3D.new()
-	root.name = "DetailedDeadTree" if dead else "DetailedForestTree"
-	var height := rng.randf_range(6.5,10.5)
-	var lean := Vector3(rng.randf_range(-.7,.7),0,rng.randf_range(-.7,.7))
-	var trunk_points: Array[Vector3] = []
-	var trunk_radii: Array[float] = []
-	for i in range(9):
-		var t := i/8.0
-		trunk_points.append(Vector3(0,height*t,0)+lean*t*t)
-		trunk_radii.append(lerpf(.38,.025,t)*(1.0+.08*sin(i*2.1)))
-	ORGANIC.part(root,ORGANIC.tube(trunk_points,trunk_radii,16,.11),bark,"RidgedTrunk")
-	for i in range(5):
-		var angle := TAU*i/5+rng.randf_range(-.2,.2)
-		var direction := Vector3(cos(angle),0,sin(angle))
-		var points: Array[Vector3] = [Vector3(0,.4,0),direction*.5+Vector3(0,.15,0),direction*1.05+Vector3(0,.06,0),direction*1.7]
-		var radii: Array[float] = [.20,.14,.075,.003]
-		ORGANIC.part(root,ORGANIC.tube(points,radii,10,.09),bark,"ExposedRoot")
-	var leaves := StandardMaterial3D.new()
-	leaves.albedo_color = Color(.095,.16,.095)
-	leaves.roughness = .9
-	leaves.cull_mode = BaseMaterial3D.CULL_DISABLED
-	for i in range(10):
-		var level := .32+i*.055
-		var origin := Vector3(0,height*level,0)+lean*level*level
-		var angle := i*2.399+rng.randf_range(-.3,.3)
-		var direction := Vector3(cos(angle),0,sin(angle))
-		var length := rng.randf_range(1.6,2.8)*(1.2-level*.5)
-		var tip := origin+direction*length+Vector3(0,.5,0)
-		var points: Array[Vector3] = [origin,origin+direction*length*.4+Vector3(0,-.16,0),tip,tip+direction*.3+Vector3(0,.45,0)]
-		var radii: Array[float] = [.12,.08,.034,.003]
-		ORGANIC.part(root,ORGANIC.tube(points,radii,10,.08),bark,"CurvedBranch")
-		for fork in [-1.0,1.0]:
-			var start := origin.lerp(tip,.68)
-			var end: Vector3 = tip+Vector3(-direction.z,0,direction.x)*fork*.65+Vector3(0,.4,0)
-			var twig_points: Array[Vector3] = [start,start.lerp(end,.6),end]
-			var twig_radii: Array[float] = [.045,.022,.002]
-			ORGANIC.part(root,ORGANIC.tube(twig_points,twig_radii,7),bark,"BranchFork")
+		var path := ASSET_ROOT + ("dead_tree_%d.glb" if dead else "broadleaf_tree_%d.glb") % (variant+1)
+		if not ResourceLoader.exists(path): path = ASSET_ROOT + ("dead_tree_1.glb" if dead else "broadleaf_tree_1.glb")
+		var packed := load(path) as PackedScene
+		assert(packed != null,"Detailed botanical asset must be imported: " + path)
+		var imported := packed.instantiate()
+		var root := Node3D.new(); root.name = "DetailedDeadTree" if dead else "DetailedForestTree"
+		_clone_meshes(imported,root,bark); imported.free()
+		# One visibility dependency chain makes opaque wood LODs exclusive.
+		# Independent begin/end hysteresis can hide both meshes when the first
+		# camera frame starts inside the margin, or draw both while reversing.
+		var near_bark := root.get_node("NearBark") as MeshInstance3D
+		var mid_bark := root.get_node("MidBark") as MeshInstance3D
+		near_bark.visibility_range_end = 0.0; near_bark.visibility_range_end_margin = 0.0
+		near_bark.visibility_parent = NodePath("../MidBark")
+		mid_bark.visibility_range_end = 0.0; mid_bark.visibility_range_end_margin = 0.0
+		mid_bark.visibility_parent = NodePath("../FarBark")
 		if not dead:
-			# 分叉针叶片打破圆团树冠的轮廓，闪电下能读到枝叶间隙。
-			var surface := SurfaceTool.new()
-			surface.begin(Mesh.PRIMITIVE_TRIANGLES)
-			for frond in range(36):
-				var angle_leaf := rng.randf_range(0,TAU)
-				var center := Vector3(rng.randf_range(-.65,.65),rng.randf_range(-.15,.25),rng.randf_range(-.65,.65))
-				var ray := Vector3(cos(angle_leaf),rng.randf_range(-.25,.05),sin(angle_leaf))*rng.randf_range(.45,1.0)
-				var width := Vector3(-ray.z,.05,ray.x).normalized()*.15
-				for vertex in [center-width,center+width,center+ray]:
-					surface.add_vertex(vertex)
-			surface.generate_normals()
-			var foliage := ORGANIC.part(root,surface.commit(),leaves,"NeedleSprays")
-			foliage.position = tip
-			foliage.scale = Vector3(1.6,1,1.6)
-
-	var body := StaticBody3D.new()
-	var collision := CollisionShape3D.new()
-	var shape := CylinderShape3D.new()
-	shape.radius = .37; shape.height = height
-	collision.shape = shape; collision.position.y = height*.5
-	body.add_child(collision); root.add_child(body)
-	return root
+			# Only the invisible shadow representation changes. All 10,080 near
+			# leaves and the authored middle/far visible crowns remain untouched.
+			(root.get_node("ShadowCanopy") as MeshInstance3D).mesh = (root.get_node(SHADOW_CANOPY_LOD+"Canopy") as MeshInstance3D).mesh
+		var envelope := JSON.parse_string(FileAccess.get_file_as_string(ASSET_ROOT+"PHYSICS_ENVELOPE.json")) as Dictionary
+		var height: float = envelope[path.get_file().get_basename()].collision_height
+		var body := StaticBody3D.new(); body.name = "TreeTrunkCollision"
+		var collision := CollisionShape3D.new(); collision.name = "CollisionShape3D"; var shape := CylinderShape3D.new()
+		shape.radius = .37; shape.height = height; collision.shape = shape; collision.position.y = height*.5
+		body.add_child(collision); root.add_child(body)
+		root.set_meta("asset_source",path); root.set_meta("mesh_batches",4 if dead else 8)
+		root.set_meta("visible_mesh_batches",3 if dead else 6)
+		root.set_meta("shadow_mesh_batches",1 if dead else 2)
+		root.set_meta("shadow_canopy_lod",SHADOW_CANOPY_LOD if not dead else "none")
+		root.set_meta("near_far_distance",MID_END); root.set_meta("near_mid_distance",NEAR_END)
+		root.set_meta("botanical_high_fidelity",true)
+		root.set_meta("dense_layered_crown",not dead)
+		_own_children(root,root)
+		var scene := PackedScene.new(); scene.pack(root); tree_cache[key] = scene; root.free()
+	return tree_cache[key].instantiate() as Node3D

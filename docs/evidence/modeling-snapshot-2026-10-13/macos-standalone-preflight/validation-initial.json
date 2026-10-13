@@ -1,0 +1,105 @@
+{
+  "scope": "Current development standalone export preflight; final new Nailong art and ordinary input acceptance pending.",
+  "template": {
+    "source_release": "https://github.com/godotengine/godot-builds/releases/tag/4.7.2-stable",
+    "asset_url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+    "expected_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "actual_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "asset_bytes": 1281349702,
+    "template_version": "4.7.2.stable",
+    "macos_template": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/godot-export-4.7.2/macos.zip",
+    "macos_sha256": "88df5e2e6fee99088699be66e6d42e4da4fb0c5619d054297d755a49558a4792",
+    "macos_bytes": 123597580,
+    "macos_entries": [
+      "macos_template.app/",
+      "macos_template.app/Contents/",
+      "macos_template.app/Contents/Info.plist",
+      "macos_template.app/Contents/PkgInfo",
+      "macos_template.app/Contents/Resources/",
+      "macos_template.app/Contents/Resources/PrivacyInfo.xcprivacy",
+      "macos_template.app/Contents/Resources/icon.icns",
+      "macos_template.app/Contents/MacOS/",
+      "macos_template.app/Contents/MacOS/godot_macos_release.universal",
+      "macos_template.app/Contents/MacOS/godot_macos_debug.universal"
+    ],
+    "global_template_directory_modified": false,
+    "final_game_exported": false
+  },
+  "production_new_character": false,
+  "final_delivery": false,
+  "started": 1791853394.6571782,
+  "archive_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/isolated-archive.json",
+  "export": {
+    "exit": 0,
+    "errors": [],
+    "log": "export.log"
+  },
+  "preset_restored": true,
+  "inputs_unchanged": true,
+  "changed_input_paths": [],
+  "bundle": {
+    "info": {
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleExecutable": "The Midnight Academy- The Rainfield",
+      "CFBundleName": "The Midnight Academy: The Rainfield",
+      "CFBundleDisplayName": "The Midnight Academy: The Rainfield",
+      "CFBundleIconFile": "icon.icns",
+      "CFBundleIdentifier": "com.midnightacademy.rainfield",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundlePackageType": "APPL",
+      "CFBundleShortVersionString": "0.1.0",
+      "CFBundleSignature": "",
+      "CFBundleVersion": "0.1.0",
+      "DTPlatformBuild": "14C18",
+      "DTPlatformName": "macosx",
+      "DTPlatformVersion": "13.1",
+      "DTSDKBuild": "22C55",
+      "DTSDKName": "macosx13.1",
+      "DTXcode": "1420",
+      "DTXcodeBuild": "14C18",
+      "NSHumanReadableCopyright": "",
+      "CFBundleSupportedPlatforms": [
+        "MacOSX"
+      ],
+      "NSPrincipalClass": "NSApplication",
+      "LSApplicationCategoryType": "public.app-category.games",
+      "LSArchitecturePriority": [
+        "arm64",
+        "x86_64"
+      ],
+      "LSMinimumSystemVersionByArchitecture": {
+        "arm64": "13.00",
+        "x86_64": "11.00"
+      },
+      "NSHighResolutionCapable": true
+    },
+    "executable": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/TheMidnightAcademy-preflight.app/Contents/MacOS/The Midnight Academy- The Rainfield",
+    "sha256": "c8be3b565c6cde26bb70c0ec96996aae72bba824a0c9005166a52b15d6596f7f",
+    "executable_permission": true,
+    "files": [
+      "Contents/Info.plist",
+      "Contents/PkgInfo",
+      "Contents/_CodeSignature/CodeResources",
+      "Contents/MacOS/The Midnight Academy- The Rainfield",
+      "Contents/Resources/icon.icns",
+      "Contents/Resources/The Midnight Academy- The Rainfield.pck",
+      "Contents/Resources/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "standalone_menu_startup": {
+    "exit": 0,
+    "errors": [],
+    "log": "standalone-menu.log"
+  },
+  "standalone_resource_load": {
+    "exit": -15,
+    "errors": [],
+    "log": "standalone-resources.log"
+  },
+  "codesign_verify": {
+    "exit": 0,
+    "errors": [],
+    "log": "codesign-verify.log"
+  },
+  "finished": 1791853552.2251022
+}

@@ -1,0 +1,2667 @@
+{
+  "blender": "4.5.14 LTS",
+  "candidate_file": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend",
+  "cpu_only": true,
+  "samples": [
+    {
+      "blink": 0.0,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.05,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00531724732342271,
+          "front_cornea_samples": 94
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00531724732342271,
+          "front_cornea_samples": 94
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.1,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006813893431653455,
+          "front_cornea_samples": 200
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499875089665296,
+          "front_cornea_samples": 33
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006813893431653455,
+          "front_cornea_samples": 200
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499875089665296,
+          "front_cornea_samples": 33
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.15000000000000002,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006459866644887209,
+          "front_cornea_samples": 322
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006425389849998715,
+          "front_cornea_samples": 94
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006459866644887209,
+          "front_cornea_samples": 322
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006425389849998715,
+          "front_cornea_samples": 94
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.2,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006688747990589731,
+          "front_cornea_samples": 442
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499865773149157,
+          "front_cornea_samples": 118
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006688747990589731,
+          "front_cornea_samples": 442
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499865773149157,
+          "front_cornea_samples": 118
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.25,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0065333935828856765,
+          "front_cornea_samples": 556
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006444220077007194,
+          "front_cornea_samples": 132
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0065333935828856765,
+          "front_cornea_samples": 556
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006444220077007194,
+          "front_cornea_samples": 132
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.30000000000000004,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006176261228243733,
+          "front_cornea_samples": 643
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499899235352658,
+          "front_cornea_samples": 169
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006334790980584982,
+          "front_cornea_samples": 643
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499899235352658,
+          "front_cornea_samples": 169
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.35000000000000003,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0047780964081783,
+          "front_cornea_samples": 731
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0064566534468785694,
+          "front_cornea_samples": 191
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0049407058084924025,
+          "front_cornea_samples": 731
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0064566534468785694,
+          "front_cornea_samples": 191
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.4,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0372868407581994,
+          "front_cornea_clearance_min_m": 0.004362564799874389,
+          "front_cornea_samples": 810
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499895355698359,
+          "front_cornea_samples": 236
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.044077122019693,
+          "front_cornea_clearance_min_m": 0.0044135446259770126,
+          "front_cornea_samples": 810
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499895355698359,
+          "front_cornea_samples": 236
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.45,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0439823944708981,
+          "front_cornea_clearance_min_m": 0.0035105255564757453,
+          "front_cornea_samples": 883
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006464650538334297,
+          "front_cornea_samples": 269
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0489849588225453,
+          "front_cornea_clearance_min_m": 0.0035862830599852668,
+          "front_cornea_samples": 883
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006464710142979072,
+          "front_cornea_samples": 269
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.5,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0139162433576285,
+          "front_cornea_clearance_min_m": 0.003970055672317841,
+          "front_cornea_samples": 946
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499932781283816,
+          "front_cornea_samples": 303
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0186146229355961,
+          "front_cornea_clearance_min_m": 0.003991033770592901,
+          "front_cornea_samples": 946
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499932781283816,
+          "front_cornea_samples": 303
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.55,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0244314345611334,
+          "front_cornea_clearance_min_m": 0.0033527883869467036,
+          "front_cornea_samples": 1001
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006470252235165259,
+          "front_cornea_samples": 338
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0291913777826942,
+          "front_cornea_clearance_min_m": 0.003371742663985278,
+          "front_cornea_samples": 1001
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006470252235165259,
+          "front_cornea_samples": 338
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.6000000000000001,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.002189925496256,
+          "front_cornea_clearance_min_m": 0.003823498854951161,
+          "front_cornea_samples": 1051
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499937066800272,
+          "front_cornea_samples": 374
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.004265808300976,
+          "front_cornea_clearance_min_m": 0.0038341464078818993,
+          "front_cornea_samples": 1051
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499937066800272,
+          "front_cornea_samples": 374
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.65,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0073828359934847,
+          "front_cornea_clearance_min_m": 0.003314518477322237,
+          "front_cornea_samples": 1106
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006474209755814559,
+          "front_cornea_samples": 405
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.012052645680354,
+          "front_cornea_clearance_min_m": 0.0033306117314115926,
+          "front_cornea_samples": 1106
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006474209755814559,
+          "front_cornea_samples": 405
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.7000000000000001,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0030801066046704,
+          "front_cornea_clearance_min_m": 0.003748779185368167,
+          "front_cornea_samples": 1149
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499908153229325,
+          "front_cornea_samples": 437
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0020679022111034,
+          "front_cornea_clearance_min_m": 0.0037557529288068875,
+          "front_cornea_samples": 1149
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499908153229325,
+          "front_cornea_samples": 437
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.75,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9965730112436146,
+          "front_cornea_clearance_min_m": 0.0033505497981754792,
+          "front_cornea_samples": 1185
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00647713915701826,
+          "front_cornea_samples": 461
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.000729425034272,
+          "front_cornea_clearance_min_m": 0.0033618746806828035,
+          "front_cornea_samples": 1185
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00647713915701826,
+          "front_cornea_samples": 461
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.8,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0051618117742278,
+          "front_cornea_clearance_min_m": 0.003703706941068392,
+          "front_cornea_samples": 1226
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499932370714425,
+          "front_cornea_samples": 502
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.005357647892854,
+          "front_cornea_clearance_min_m": 0.003708617011161889,
+          "front_cornea_samples": 1226
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499932370714425,
+          "front_cornea_samples": 502
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.8500000000000001,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9904132797281658,
+          "front_cornea_clearance_min_m": 0.003375936183952822,
+          "front_cornea_samples": 1264
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00647944140368529,
+          "front_cornea_samples": 520
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9938145687757949,
+          "front_cornea_clearance_min_m": 0.003384459648155703,
+          "front_cornea_samples": 1264
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00647944140368529,
+          "front_cornea_samples": 520
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.9,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0115352309396948,
+          "front_cornea_clearance_min_m": 0.0036731728938587333,
+          "front_cornea_samples": 1299
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499928622948224,
+          "front_cornea_samples": 555
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0098258095071866,
+          "front_cornea_clearance_min_m": 0.0036770471957691337,
+          "front_cornea_samples": 1299
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499928622948224,
+          "front_cornea_samples": 555
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.9500000000000001,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.98725861938218,
+          "front_cornea_clearance_min_m": 0.0033730828420951335,
+          "front_cornea_samples": 1327
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006481231738863135,
+          "front_cornea_samples": 583
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9893087916302558,
+          "front_cornea_clearance_min_m": 0.0033802353994681804,
+          "front_cornea_samples": 1327
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006481231738863135,
+          "front_cornea_samples": 583
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 1.0,
+      "focus": 0,
+      "face_focus": 0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0047274464262077,
+          "front_cornea_clearance_min_m": 0.003650060415913246,
+          "front_cornea_samples": 1350
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0034518482789316,
+          "front_cornea_clearance_min_m": 0.0036532194620863415,
+          "front_cornea_samples": 1350
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.0,
+      "face_focus": 0.0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.1,
+      "face_focus": 0.1,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.003963026263225548,
+          "front_cornea_samples": 66
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.003963026263225548,
+          "front_cornea_samples": 66
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.2,
+      "face_focus": 0.2,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0031633373895938394,
+          "front_cornea_samples": 139
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0031633373895938394,
+          "front_cornea_samples": 139
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.30000000000000004,
+      "face_focus": 0.30000000000000004,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0036809102173372002,
+          "front_cornea_samples": 245
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0036809102173372002,
+          "front_cornea_samples": 245
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.4,
+      "face_focus": 0.4,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00508737954938033,
+          "front_cornea_samples": 347
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006437847872366624,
+          "front_cornea_samples": 21
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00508737954938033,
+          "front_cornea_samples": 347
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006437847872366624,
+          "front_cornea_samples": 21
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.5,
+      "face_focus": 0.5,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006688820541075222,
+          "front_cornea_samples": 453
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499837426696861,
+          "front_cornea_samples": 42
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006688820541075222,
+          "front_cornea_samples": 453
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499837426696861,
+          "front_cornea_samples": 42
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.6000000000000001,
+      "face_focus": 0.6000000000000001,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006281878082088543,
+          "front_cornea_samples": 556
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006454203522599519,
+          "front_cornea_samples": 64
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006281878082088543,
+          "front_cornea_samples": 556
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006454203522599519,
+          "front_cornea_samples": 64
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.7000000000000001,
+      "face_focus": 0.7000000000000001,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.031649038971133,
+          "front_cornea_clearance_min_m": 0.0021249108474422672,
+          "front_cornea_samples": 664
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006433606925063528,
+          "front_cornea_samples": 76
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.038572102736314,
+          "front_cornea_clearance_min_m": 0.002706434428608227,
+          "front_cornea_samples": 664
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006433606925063528,
+          "front_cornea_samples": 76
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.8,
+      "face_focus": 0.8,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9942769963450823,
+          "front_cornea_clearance_min_m": -0.003571365572403471,
+          "front_cornea_samples": 768
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006434634086164779,
+          "front_cornea_samples": 86
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.001467249318199,
+          "front_cornea_clearance_min_m": -0.0029195380685981534,
+          "front_cornea_samples": 768
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006434634086164779,
+          "front_cornea_samples": 86
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 0.9,
+      "face_focus": 0.9,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.957782003120538,
+          "front_cornea_clearance_min_m": -0.014145515827906099,
+          "front_cornea_samples": 872
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00645745603528266,
+          "front_cornea_samples": 94
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9653224903978394,
+          "front_cornea_clearance_min_m": -0.012692201856741765,
+          "front_cornea_samples": 872
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00645745603528266,
+          "front_cornea_samples": 94
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0,
+      "focus": 1.0,
+      "face_focus": 1.0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9223428375804126,
+          "front_cornea_clearance_min_m": -0.020483066836811947,
+          "front_cornea_samples": 983
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499848850796902,
+          "front_cornea_samples": 102
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9301568368279354,
+          "front_cornea_clearance_min_m": -0.01864151460466047,
+          "front_cornea_samples": 983
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499848850796902,
+          "front_cornea_samples": 102
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.0,
+      "focus": 0.72,
+      "face_focus": 0.72,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.024102489786551,
+          "front_cornea_clearance_min_m": 0.0011175268120711028,
+          "front_cornea_samples": 689
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0064315011745922435,
+          "front_cornea_samples": 80
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.031075063822475,
+          "front_cornea_clearance_min_m": 0.0015929688777854426,
+          "front_cornea_samples": 689
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0064315011745922435,
+          "front_cornea_samples": 80
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.1,
+      "focus": 0.648,
+      "face_focus": 0.648,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0291005687353303,
+          "front_cornea_clearance_min_m": 0.000305322331084581,
+          "front_cornea_samples": 831
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.004635921853827212,
+          "front_cornea_samples": 116
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0393890934224208,
+          "front_cornea_clearance_min_m": 0.001332785426119137,
+          "front_cornea_samples": 831
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0061929908638567325,
+          "front_cornea_samples": 116
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.2,
+      "focus": 0.576,
+      "face_focus": 0.576,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0138255309587267,
+          "front_cornea_clearance_min_m": -0.0041764046416594555,
+          "front_cornea_samples": 940
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0014147426172196479,
+          "front_cornea_samples": 169
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0262400362364892,
+          "front_cornea_clearance_min_m": -0.002340730661763205,
+          "front_cornea_samples": 940
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.002728127524733598,
+          "front_cornea_samples": 169
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.30000000000000004,
+      "focus": 0.504,
+      "face_focus": 0.504,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9881422020121277,
+          "front_cornea_clearance_min_m": -0.008648833017941816,
+          "front_cornea_samples": 1028
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.001331992752164204,
+          "front_cornea_samples": 228
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0014027118530289,
+          "front_cornea_clearance_min_m": -0.006591615919091741,
+          "front_cornea_samples": 1028
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00194411106083977,
+          "front_cornea_samples": 228
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.4,
+      "focus": 0.432,
+      "face_focus": 0.432,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9432161190996982,
+          "front_cornea_clearance_min_m": -0.01491529252204346,
+          "front_cornea_samples": 1100
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0024080465480133826,
+          "front_cornea_samples": 291
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9550687760657974,
+          "front_cornea_clearance_min_m": -0.01285389835033706,
+          "front_cornea_samples": 1100
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0029790397465731403,
+          "front_cornea_samples": 291
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.5,
+      "focus": 0.36,
+      "face_focus": 0.36,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9036046138190641,
+          "front_cornea_clearance_min_m": -0.021696196056824615,
+          "front_cornea_samples": 1161
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0035103301868297113,
+          "front_cornea_samples": 350
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9134836840570736,
+          "front_cornea_clearance_min_m": -0.01969134561245952,
+          "front_cornea_samples": 1161
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.004048423418000499,
+          "front_cornea_samples": 350
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.6000000000000001,
+      "focus": 0.2879999999999999,
+      "face_focus": 0.2879999999999999,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.8972051001671998,
+          "front_cornea_clearance_min_m": -0.027996530725990253,
+          "front_cornea_samples": 1208
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.004615497456769612,
+          "front_cornea_samples": 411
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9041468226061701,
+          "front_cornea_clearance_min_m": -0.02561425228360744,
+          "front_cornea_samples": 1208
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.005083371473074424,
+          "front_cornea_samples": 411
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.7000000000000001,
+      "focus": 0.21599999999999994,
+      "face_focus": 0.21599999999999994,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9149947021905944,
+          "front_cornea_clearance_min_m": -0.009468158919852147,
+          "front_cornea_samples": 1252
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.005693787031631565,
+          "front_cornea_samples": 451
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9169593171775324,
+          "front_cornea_clearance_min_m": -0.009417176243825955,
+          "front_cornea_samples": 1252
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006096153793928001,
+          "front_cornea_samples": 451
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.8,
+      "focus": 0.14399999999999996,
+      "face_focus": 0.14399999999999996,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.942022953287654,
+          "front_cornea_clearance_min_m": -0.003843428580996888,
+          "front_cornea_samples": 1299
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006208924545729321,
+          "front_cornea_samples": 508
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.942673877694166,
+          "front_cornea_clearance_min_m": -0.003841759650943177,
+          "front_cornea_samples": 1299
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006264773596414309,
+          "front_cornea_samples": 508
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.9,
+      "focus": 0.07199999999999998,
+      "face_focus": 0.07199999999999998,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9861369594562452,
+          "front_cornea_clearance_min_m": 0.0008903530213232218,
+          "front_cornea_samples": 1327
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006366563691740345,
+          "front_cornea_samples": 565
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9859336602482396,
+          "front_cornea_clearance_min_m": 0.0009035852524633585,
+          "front_cornea_samples": 1327
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006393120872787831,
+          "front_cornea_samples": 565
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 1.0,
+      "focus": 0.0,
+      "face_focus": 0.0,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0047274464262077,
+          "front_cornea_clearance_min_m": 0.003650060415913246,
+          "front_cornea_samples": 1350
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0034518482789316,
+          "front_cornea_clearance_min_m": 0.0036532194620863415,
+          "front_cornea_samples": 1350
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.0,
+      "focus": 0.17,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.003235899506724268,
+          "front_cornea_samples": 116
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.003235899506724268,
+          "front_cornea_samples": 116
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": null,
+          "front_cornea_samples": 0
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.1,
+      "focus": 0.15300000000000002,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.007361751924743373,
+          "front_cornea_samples": 359
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0062265510430412905,
+          "front_cornea_samples": 76
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.007361751924743373,
+          "front_cornea_samples": 359
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006628896325947147,
+          "front_cornea_samples": 76
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.2,
+      "focus": 0.136,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.007931373377372236,
+          "front_cornea_samples": 568
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006354596582322168,
+          "front_cornea_samples": 126
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.007931373377372236,
+          "front_cornea_samples": 568
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006638803814985988,
+          "front_cornea_samples": 126
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.30000000000000004,
+      "focus": 0.119,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0467108696145206,
+          "front_cornea_clearance_min_m": 0.002243239393100207,
+          "front_cornea_samples": 746
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0061317399869088894,
+          "front_cornea_samples": 181
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553054766559458,
+          "front_cornea_clearance_min_m": 0.00288545540980869,
+          "front_cornea_samples": 746
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006233842743409134,
+          "front_cornea_samples": 181
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.4,
+      "focus": 0.10200000000000001,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9995191463432128,
+          "front_cornea_clearance_min_m": -0.0010166778369589497,
+          "front_cornea_samples": 889
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00619789251827186,
+          "front_cornea_samples": 244
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0078758134102632,
+          "front_cornea_clearance_min_m": -0.00083687525151747,
+          "front_cornea_samples": 889
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006241880746116099,
+          "front_cornea_samples": 244
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.5,
+      "focus": 0.085,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9679815058651517,
+          "front_cornea_clearance_min_m": -0.0020226641639559595,
+          "front_cornea_samples": 1013
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006272339697320926,
+          "front_cornea_samples": 311
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9740469207381662,
+          "front_cornea_clearance_min_m": -0.001973654932609848,
+          "front_cornea_samples": 1013
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0063090561585025665,
+          "front_cornea_samples": 311
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.6000000000000001,
+      "focus": 0.06799999999999999,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9544170169852915,
+          "front_cornea_clearance_min_m": -0.0017733702708289693,
+          "front_cornea_samples": 1110
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0063345664695947735,
+          "front_cornea_samples": 380
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9578183293294241,
+          "front_cornea_clearance_min_m": -0.001741600995163686,
+          "front_cornea_samples": 1110
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006363951559469041,
+          "front_cornea_samples": 380
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.7000000000000001,
+      "focus": 0.05099999999999999,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9528792874642192,
+          "front_cornea_clearance_min_m": -0.0030897664426036203,
+          "front_cornea_samples": 1197
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006386809612858258,
+          "front_cornea_samples": 441
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9541608784977342,
+          "front_cornea_clearance_min_m": -0.003086320994635099,
+          "front_cornea_samples": 1197
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006407597061527112,
+          "front_cornea_samples": 441
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.8,
+      "focus": 0.033999999999999996,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9531306228785532,
+          "front_cornea_clearance_min_m": -0.0032242823102611373,
+          "front_cornea_samples": 1269
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.00643084485730313,
+          "front_cornea_samples": 502
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.95346394781073,
+          "front_cornea_clearance_min_m": -0.0032186794736522506,
+          "front_cornea_samples": 1269
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.0064441995311266135,
+          "front_cornea_samples": 502
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 0.9,
+      "focus": 0.016999999999999998,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9670072276278159,
+          "front_cornea_clearance_min_m": -0.0019234231811960717,
+          "front_cornea_samples": 1329
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006468467419104098,
+          "front_cornea_samples": 561
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9667954023738773,
+          "front_cornea_clearance_min_m": -0.0019133499962290306,
+          "front_cornea_samples": 1329
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006474688224398132,
+          "front_cornea_samples": 561
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "blink": 1.0,
+      "focus": 0.0,
+      "face_focus": 0.18,
+      "lids": {
+        "UpperEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.960689368351698,
+          "front_cornea_clearance_min_m": -0.0024770285577726285,
+          "front_cornea_samples": 1382
+        },
+        "LowerEyelid_left": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        },
+        "UpperEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 0.9591759605049435,
+          "front_cornea_clearance_min_m": -0.00246811723699471,
+          "front_cornea_samples": 1382
+        },
+        "LowerEyelid_right": {
+          "finite": true,
+          "minimum_ellipsoid_radius": 1.0553998516871634,
+          "front_cornea_clearance_min_m": 0.006499923893003378,
+          "front_cornea_samples": 601
+        }
+      },
+      "globes": {
+        "ReconstructedSclera_left": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ReconstructedSclera_right": {
+          "local_geometry_max_delta_m": 0.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "bone_count": 24,
+  "source_body_counts": {
+    "vertices": 916134,
+    "polygons": 1832296
+  },
+  "body_expression_delta_max_difference_m": {
+    "Open": 0.0,
+    "Focus": 5.960464477539063e-08
+  },
+  "body_topology_unchanged": true,
+  "minimum_cornea_clearance_m": -0.027996530725990253,
+  "independent_globe_unchanged": true,
+  "all_lids_clear_cornea": false,
+  "visual_sample_count": 17
+}

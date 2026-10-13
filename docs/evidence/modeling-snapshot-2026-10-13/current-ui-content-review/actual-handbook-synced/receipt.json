@@ -1,0 +1,163 @@
+{
+  "device": "Apple M4 Pro (Apple9)",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "entries": [
+    {
+      "ability": "lamp",
+      "actual_product_text": "谱灯 / Spectrum Lamp · 基础\n电能可以转为光能；光具有动量，但现实中便携灯具的光压极小。\n基础装备，不占技能槽。照明与集中爆发共用电量；爆发释放当前全部储能，击退强度随释放电量变化。大幅击退追猎者属于游戏夸张。\n代价：照明持续耗电，爆发至少需要 12 电量，释放后电量清零并短暂干扰视线；关灯且不处于加速时，释放后的短暂等待结束后才缓慢回充。\n本局参数：照明12 m，爆发10 m；释放当前储能，视线干扰0.8秒。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/lamp-level1.png",
+      "rect": "[P: (444.0, 550.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "afterimage",
+      "actual_product_text": "雷痕 / Retinal Epitaph · 基础\n视觉后像：强光刺激停止后，感光系统仍短暂保留旧影像。\n在闪电后保留敌人的旧屏幕位置；它不会跟随目标。强化延长后像持续时间。\n代价：消耗 8 点体力；冷却 8 秒。\n本局参数：后像保留2.5秒；记录闪电时的旧位置，不追踪移动目标。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/afterimage-level1.png",
+      "rect": "[P: (444.0, 679.0), S: (1024.0, 167.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "echo",
+      "actual_product_text": "还声 / The Returning Voice · 基础\n回声定位：发声并接收反射声波，可粗略判断距离与形状。\n发出脉冲，标亮研究记录；追猎者仍持续锁定玩家。强化延长标亮、缩短短暂听觉干扰与冷却。\n代价：施放后有短暂听觉干扰；基础冷却 8 秒。\n本局参数：报告标亮7秒；听觉干扰4秒，冷却8秒。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/echo-level1.png",
+      "rect": "[P: (444.0, 679.0), S: (1024.0, 167.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "luminol",
+      "actual_product_text": "蓝色供词 / Luminol Confession · 基础\n鲁米诺在氧化剂与血红素催化下可发生化学发光。\n显影仍有效的普通与盐反应痕迹；暴雨会冲淡痕迹。强化延长显影、提高盐反应蓝光；游戏中的反应痕迹不等于现实检测结论。\n代价：每次消耗一份有限试剂；冷却 8 秒。\n本局参数：有效痕迹显影8秒；雨水仍会冲淡痕迹。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/luminol-level1.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "mire",
+      "actual_product_text": "不许停步之泥 / The Unyielding Mire · 基础\n剪切增稠悬浮液在较快形变下表观黏度上升。\n铺设泥区，减缓经过的追猎者并阻止其开始冲刺；玩家低速移动时也会受阻，高速移动时不受这项减速。这些效果是游戏设定，不能作为真实流变规律；强化扩大范围并延长持续。\n代价：玩家低速移动时也会受阻；雨水会稀释泥区，基础冷却 8 秒。\n本局参数：泥区半径2.4 m，初始持续11秒；慢行的玩家也会受阻。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/mire-level1.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "salt",
+      "actual_product_text": "盐之誓约 / Covenant of Salt · 基础\n渗透压来自半透膜两侧溶质浓度差。\n盐阵短暂减缓具有湿润组织的追猎者；瞬时生物脱水属于游戏夸张。强化扩大范围、延长持续；精修减少自身脱水。\n代价：消耗体力与水分；雨水会稀释盐阵，进阶的体力代价更高。\n本局参数：盐阵半径2.4 m，初始持续11秒；仍有自身脱水代价。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/salt-level1.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "filter",
+      "actual_product_text": "剥噪 / Spectral Absolution · 基础\n傅里叶分析把复杂信号分解为不同频率成分。\n削弱雨声并保留所选频段；按 F 选择低、中或高频。敌人、脚步与雷声不受此滤波影响。强化延长持续并缩短冷却。\n代价：其余频段的雨声信息也会减弱；基础持续 10 秒、冷却 8 秒。\n本局参数：雨声滤波持续10秒，冷却8秒；保留所选频段。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/filter-level1.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "daylight",
+      "actual_product_text": "蓄昼 / Captured Daylight · 基础\n光伏效应：半导体吸收光能后产生可移动的电荷，内部电场使电荷分离，从而产生电流。闪电光不能为随身设备提供游戏表现的巨大能量。\n装备后在闪电时被动捕光，为共享电池充能；主动耗电短时加速。高速运动和大量闪电捕能属于游戏夸张。\n代价：每次加速耗 25 共享电量，冷却 8 秒，并产生可控的视听干扰与短促步态偏移；减弱画面干扰不会取消资源代价。\n本局参数：每次最多捕光18电量，电池上限100；加速2.4秒，移动速度提高28%。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/daylight-level1.png",
+      "rect": "[P: (444.0, 611.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "pulse",
+      "actual_product_text": "乱频 / Disordered Pulse · 基础\n脉冲调制通过组织脉冲的时序、宽度或频率传递或控制信号；例如 PWM 以脉宽占周期的比例调节输出。调制本身不会让便携灯产生强力击退。\n主动切换谱灯的集中爆发／短促点射；照明仍独立控制。按次点射可击退追猎者，强力光压与噪声引发的感官紊乱属于游戏夸张。\n代价：点射按次消耗共享电量、累积噪声；噪声产生可控的视听干扰与短促步态偏移。\n本局参数：点射范围12 m，间隔0.34秒；单次噪声13点。",
+      "level": 1,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/pulse-level1.png",
+      "rect": "[P: (444.0, 611.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "lamp",
+      "actual_product_text": "谱灯 / Spectrum Lamp · 精修\n电能可以转为光能；光具有动量，但现实中便携灯具的光压极小。\n基础装备，不占技能槽。照明与集中爆发共用电量；爆发释放当前全部储能，击退强度随释放电量变化。大幅击退追猎者属于游戏夸张。\n代价：照明持续耗电，爆发至少需要 12 电量，释放后电量清零并短暂干扰视线；关灯且不处于加速时，释放后的短暂等待结束后才缓慢回充。\n本局参数：照明15→18 m，爆发12→14 m；爆发范围扩大、击退增强，视线干扰0.6→0.4秒。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/lamp-level3.png",
+      "rect": "[P: (444.0, 550.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "afterimage",
+      "actual_product_text": "雷痕 / Retinal Epitaph · 精修\n视觉后像：强光刺激停止后，感光系统仍短暂保留旧影像。\n在闪电后保留敌人的旧屏幕位置；它不会跟随目标。强化延长后像持续时间。\n代价：消耗 8 点体力；冷却 8 秒。\n本局参数：后像保留3.5→5.0秒；更久看清闪电时的旧位置，仍不追踪移动目标。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/afterimage-level3.png",
+      "rect": "[P: (444.0, 679.0), S: (1024.0, 167.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "echo",
+      "actual_product_text": "还声 / The Returning Voice · 精修\n回声定位：发声并接收反射声波，可粗略判断距离与形状。\n发出脉冲，标亮研究记录；追猎者仍持续锁定玩家。强化延长标亮、缩短短暂听觉干扰与冷却。\n代价：施放后有短暂听觉干扰；基础冷却 8 秒。\n本局参数：报告标亮10→14秒；听觉干扰3→2秒，冷却7→6秒。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/echo-level3.png",
+      "rect": "[P: (444.0, 679.0), S: (1024.0, 167.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "luminol",
+      "actual_product_text": "蓝色供词 / Luminol Confession · 精修\n鲁米诺在氧化剂与血红素催化下可发生化学发光。\n显影仍有效的普通与盐反应痕迹；暴雨会冲淡痕迹。强化延长显影、提高盐反应蓝光；游戏中的反应痕迹不等于现实检测结论。\n代价：每次消耗一份有限试剂；冷却 8 秒。\n本局参数：有效痕迹显影12→16秒；盐反应痕迹的蓝光更清楚。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/luminol-level3.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "mire",
+      "actual_product_text": "不许停步之泥 / The Unyielding Mire · 精修\n剪切增稠悬浮液在较快形变下表观黏度上升。\n铺设泥区，减缓经过的追猎者并阻止其开始冲刺；玩家低速移动时也会受阻，高速移动时不受这项减速。这些效果是游戏设定，不能作为真实流变规律；强化扩大范围并延长持续。\n代价：玩家低速移动时也会受阻；雨水会稀释泥区，基础冷却 8 秒。\n本局参数：泥区半径3.1→3.7 m，初始持续14→17秒；覆盖更大区域。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/mire-level3.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "salt",
+      "actual_product_text": "盐之誓约 / Covenant of Salt · 精修\n渗透压来自半透膜两侧溶质浓度差。\n盐阵短暂减缓具有湿润组织的追猎者；瞬时生物脱水属于游戏夸张。强化扩大范围、延长持续；精修减少自身脱水。\n代价：消耗体力与水分；雨水会稀释盐阵，进阶的体力代价更高。\n本局参数：盐阵半径3.0→3.5 m，初始持续14→17秒。自身脱水减轻。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/salt-level3.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "filter",
+      "actual_product_text": "剥噪 / Spectral Absolution · 精修\n傅里叶分析把复杂信号分解为不同频率成分。\n削弱雨声并保留所选频段；按 F 选择低、中或高频。敌人、脚步与雷声不受此滤波影响。强化延长持续并缩短冷却。\n代价：其余频段的雨声信息也会减弱；基础持续 10 秒、冷却 8 秒。\n本局参数：雨声滤波持续13→16秒，冷却7→6秒；更久保留所选频段。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/filter-level3.png",
+      "rect": "[P: (444.0, 645.0), S: (1024.0, 201.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "daylight",
+      "actual_product_text": "蓄昼 / Captured Daylight · 精修\n光伏效应：半导体吸收光能后产生可移动的电荷，内部电场使电荷分离，从而产生电流。闪电光不能为随身设备提供游戏表现的巨大能量。\n装备后在闪电时被动捕光，为共享电池充能；主动耗电短时加速。高速运动和大量闪电捕能属于游戏夸张。\n代价：每次加速耗 25 共享电量，冷却 8 秒，并产生可控的视听干扰与短促步态偏移；减弱画面干扰不会取消资源代价。\n本局参数：每次最多捕光25→32电量，电池上限100；加速3.2→4.0秒，提速更明显。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/daylight-level3.png",
+      "rect": "[P: (444.0, 611.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    },
+    {
+      "ability": "pulse",
+      "actual_product_text": "乱频 / Disordered Pulse · 精修\n脉冲调制通过组织脉冲的时序、宽度或频率传递或控制信号；例如 PWM 以脉宽占周期的比例调节输出。调制本身不会让便携灯产生强力击退。\n主动切换谱灯的集中爆发／短促点射；照明仍独立控制。按次点射可击退追猎者，强力光压与噪声引发的感官紊乱属于游戏夸张。\n代价：点射按次消耗共享电量、累积噪声；噪声产生可控的视听干扰与短促步态偏移。\n本局参数：点射15→18 m，间隔0.30→0.26秒；击退增强，单次噪声更少。",
+      "level": 3,
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/pulse-level3.png",
+      "rect": "[P: (444.0, 611.0), S: (1024.0, 235.0)]",
+      "scroll_rect": "[P: (444.0, 418.0), S: (1032.0, 428.0)]"
+    }
+  ],
+  "nine_abilities_at_base_and_precision": true,
+  "renderer": "forward_plus",
+  "scope": "Controlled actual World.toggle_handbook and real product entries; physics frozen and focus override from existing ReviewWorld; not ordinary input or final character acceptance"
+}

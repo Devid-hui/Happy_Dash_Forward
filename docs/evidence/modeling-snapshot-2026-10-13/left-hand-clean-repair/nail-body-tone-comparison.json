@@ -1,0 +1,7 @@
+{
+  "scope": "same source CPU light/camera view, fixed palm-body crop x650 y660 width100 height70 outside all nail masks",
+  "pixels": 7000,
+  "max_channel_delta_8bit": 0,
+  "mean_channel_delta_8bit": 0.0,
+  "colour_only_correction": true
+}

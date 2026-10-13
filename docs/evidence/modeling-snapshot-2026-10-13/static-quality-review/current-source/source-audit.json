@@ -1,0 +1,543 @@
+[
+  {
+    "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/power_tower.blend",
+    "sha256": "407b9cfb8128b0f31302edb58c98b679ad57b09f8b06777e47f9ca88ecf8a2b4",
+    "source_unchanged": true,
+    "objects": [
+      {
+        "name": "StructuralSteelAngles",
+        "vertices": 5664,
+        "polygons": 5428,
+        "triangles_from_polygons": 11092,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Galvanised tower steel"
+        ]
+      },
+      {
+        "name": "ConcreteFooting",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Wet foundation concrete"
+        ]
+      },
+      {
+        "name": "JointPlatesAndFasteners",
+        "vertices": 88320,
+        "polygons": 83216,
+        "triangles_from_polygons": 176096,
+        "uv_layers": [
+          "UVMap",
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered tower joints",
+          "Galvanised tower steel"
+        ]
+      },
+      {
+        "name": "ConcreteFooting.001",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Wet foundation concrete.001"
+        ]
+      },
+      {
+        "name": "ConcreteFooting.002",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Wet foundation concrete.002"
+        ]
+      },
+      {
+        "name": "ConcreteFooting.003",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Wet foundation concrete.003"
+        ]
+      },
+      {
+        "name": "Insulators",
+        "vertices": 195904,
+        "polygons": 191296,
+        "triangles_from_polygons": 391680,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Glazed porcelain insulators",
+          "Galvanised tower steel"
+        ]
+      },
+      {
+        "name": "SaggingCable",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.001",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.002",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.003",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.004",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.005",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.006",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "SaggingCable.007",
+        "vertices": 1220,
+        "polygons": 1202,
+        "triangles_from_polygons": 2436,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Weathered stranded cable"
+        ]
+      },
+      {
+        "name": "InspectionLadder",
+        "vertices": 10048,
+        "polygons": 9200,
+        "triangles_from_polygons": 19976,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Galvanised tower steel"
+        ]
+      },
+      {
+        "name": "WarningPlate",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Weathered tower joints"
+        ]
+      },
+      {
+        "name": "HighVoltageWarning",
+        "vertices": 624,
+        "polygons": 432,
+        "triangles_from_polygons": 588,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Glazed porcelain insulators"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "name": "galvanised_tower_steel_basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "sRGB",
+        "packed": true
+      },
+      {
+        "name": "galvanised_tower_steel_normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "galvanised_tower_steel_roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "weathered_tower_joints_basecolor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "sRGB",
+        "packed": true
+      },
+      {
+        "name": "weathered_tower_joints_normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "weathered_tower_joints_roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      }
+    ],
+    "diagnostic_render": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/static-quality-review/current-source/power_tower-current-source.png",
+    "renderer": "Blender Cycles CPU; not Godot or native playthrough"
+  },
+  {
+    "source": "/Users/lpz/Documents/Happy_Dash_Forward/source_assets/research_report.blend",
+    "sha256": "d706be01be212a10d31bcf6dad87e00d1c68814c4ad2675bd1eed636ac169cc3",
+    "source_unchanged": true,
+    "objects": [
+      {
+        "name": "Pages",
+        "vertices": 737280,
+        "polygons": 737136,
+        "triangles_from_polygons": 1474272,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Aged field paper"
+        ]
+      },
+      {
+        "name": "FrontCover",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Waterproof bound research cloth"
+        ]
+      },
+      {
+        "name": "BackCover",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Waterproof bound research cloth"
+        ]
+      },
+      {
+        "name": "Spine",
+        "vertices": 12000,
+        "polygons": 11998,
+        "triangles_from_polygons": 23996,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Waterproof bound research cloth"
+        ]
+      },
+      {
+        "name": "SewnSignatures",
+        "vertices": 3920,
+        "polygons": 3850,
+        "triangles_from_polygons": 7820,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Notebook binding thread"
+        ]
+      },
+      {
+        "name": "FoilAndCornerGuards",
+        "vertices": 576,
+        "polygons": 588,
+        "triangles_from_polygons": 1128,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "FieldTitle",
+        "vertices": 544,
+        "polygons": 376,
+        "triangles_from_polygons": 512,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "ScienceSubtitle",
+        "vertices": 1252,
+        "polygons": 899,
+        "triangles_from_polygons": 1212,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "ArchiveReference",
+        "vertices": 692,
+        "polygons": 487,
+        "triangles_from_polygons": 660,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "EngravedOpticsEmblem",
+        "vertices": 4608,
+        "polygons": 4608,
+        "triangles_from_polygons": 9216,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "SpectrumLine",
+        "vertices": 180,
+        "polygons": 170,
+        "triangles_from_polygons": 356,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "SpectrumLine.001",
+        "vertices": 180,
+        "polygons": 170,
+        "triangles_from_polygons": 356,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "SpectrumLine.002",
+        "vertices": 180,
+        "polygons": 170,
+        "triangles_from_polygons": 356,
+        "uv_layers": [
+          "Authored UV"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "IndexTab",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Embossed notebook foil"
+        ]
+      },
+      {
+        "name": "ElasticClosure",
+        "vertices": 96,
+        "polygons": 98,
+        "triangles_from_polygons": 188,
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Wet elastic closure"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "name": "aged_field_paper_basecolor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "sRGB",
+        "packed": true
+      },
+      {
+        "name": "aged_field_paper_normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "aged_field_paper_roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "waterproof_bound_research_cloth_basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "sRGB",
+        "packed": true
+      },
+      {
+        "name": "waterproof_bound_research_cloth_normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      },
+      {
+        "name": "waterproof_bound_research_cloth_roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "source": "FILE",
+        "colorspace": "Non-Color",
+        "packed": true
+      }
+    ],
+    "diagnostic_render": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/static-quality-review/current-source/research_report-current-source.png",
+    "renderer": "Blender Cycles CPU; not Godot or native playthrough"
+  }
+]

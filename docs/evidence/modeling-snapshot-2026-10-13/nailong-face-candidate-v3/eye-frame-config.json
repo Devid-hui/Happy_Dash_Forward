@@ -1,0 +1,52 @@
+{
+  "landmarks": {
+    "face_eye_frames": {
+      "left": {
+        "center": [
+          -0.32605670392513275,
+          0.75,
+          2.1627700328826904
+        ],
+        "radii": [
+          0.109,
+          0.069,
+          0.11
+        ],
+        "head_surface_fit": [
+          0.8248829680583253,
+          0.06796501136839393,
+          -0.05294972746918938,
+          -0.014230522920913405,
+          -0.0019556118797201525,
+          0.008289985069053662
+        ]
+      },
+      "right": {
+        "center": [
+          0.32605670392513275,
+          0.75,
+          2.1627700328826904
+        ],
+        "radii": [
+          0.109,
+          0.069,
+          0.11
+        ],
+        "head_surface_fit": [
+          0.8253317911785738,
+          -0.06635893839006105,
+          -0.05218139383706773,
+          -0.012961747948865844,
+          0.003703744657440971,
+          0.008201730029244304
+        ]
+      }
+    },
+    "mouth_backwall_recolor": false,
+    "clear_eye_aperture": true,
+    "preserve_eye_head_surface": true,
+    "oral_lining": false,
+    "measured_oral_bag": true
+  },
+  "reference": "Pair-averaged from the actual full-resolution reconstructed surface; avoid unequal eye widths and LOD refitting."
+}

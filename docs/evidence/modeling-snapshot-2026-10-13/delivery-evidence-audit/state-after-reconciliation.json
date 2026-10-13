@@ -1,0 +1,429 @@
+{
+  "goal": "four-stage-modeling",
+  "status": "active",
+  "repository": "/Users/lpz/Documents/Happy_Dash_Forward",
+  "branch": "codex/four-stage-modeling",
+  "baseline": "d4ac3bcdae9c6c1d361bab742b917b6b3c2fff27",
+  "stage": 2,
+  "stage_status": [
+    "implemented_contract_and_native_layout_verified",
+    "high_density_static_and_hand_sources_present_final_scene_art_review_pending",
+    "gameplay_core_implemented_hand_motion_locally_verified_final_scene_pending",
+    "reworking_nailong_after_user_reference_rejection"
+  ],
+  "engine": "/Users/lpz/Documents/Codex/2026-10-12/git-github-com-devid-hui-happy/work/audit/runtime/Godot.app/Contents/MacOS/Godot",
+  "last_verified": "2026-10-13T01:03:46.651447+00:00",
+  "notes": [
+    "UIcontract plus native9screens at1920x1080 verified",
+    "Real World progression 24checks passed after stale-callback fix",
+    "Archive 92checks and independent process restart4+3 passed",
+    "Official portableBlender4.5.14 SHA256 verified",
+    "Stage2 assets released; final full-game input/performance still pending",
+    "Do not treat triangle counts or prior self-review as commercial quality acceptance"
+  ],
+  "quality_bar": "User requires directly usable detailed commercial-quality modeling; early medium batch rejected, current high-density assets require final art and integrated-scene review.",
+  "last_verified_integration": {
+    "spectrum_gameplay": {
+      "checks": 37,
+      "engine": "4.7.2",
+      "errors": 0,
+      "ordinary_human_input": false
+    },
+    "progression_world": {
+      "checks": 24,
+      "engine": "4.7.2",
+      "errors": 0
+    },
+    "broader_suite_first": {
+      "passed": [
+        "hunter rules",
+        "progression147",
+        "skills175",
+        "world24",
+        "spectrum34",
+        "UI",
+        "static",
+        "environment",
+        "equipment",
+        "restart-write",
+        "restart-read"
+      ],
+      "failed": [
+        "smoke old model-name fixture",
+        "deferred UI focus after screen removal"
+      ],
+      "repairs": "changed smoke to actual new fused-tree/collider checks; focus now checks live attached visible control before grabbing",
+      "targeted_rechecks": "smoke and audit re-run clean PASS after fixes",
+      "historical": true
+    },
+    "art_quality": "Current frozen hand locally verified; trees user accepted; latest static source/UV/texture facts audited. Final overall commercial art not accepted. New Nailong eye geometry and UV/PBR still being revised.",
+    "native_performance": {
+      "rain_walk_mean_fps": 34.6488173925514,
+      "five_near_chase_mean_fps": 61.9595428280711,
+      "lightning_burst_mean_fps": 45.8535056915664,
+      "controlled_workload": true,
+      "input_hashes_unchanged": true,
+      "runtime_errors": [],
+      "sixty_fps_required": false,
+      "receipt": "outputs/performance-natural-hand-far-shadow/validation.json",
+      "ordinary_playthrough": false
+    },
+    "hunter_animated_edges": "six real skinned/morphed poses × four orientations × four edges at1920x1080, actual full-population recycle protection, clean PASS",
+    "native_scene_review": "13 actualWorld1080 captures clean exit but diagnostic only; first2 blocked by focus pause/HUD refresh; harness fixed, recapture required; user rejected character/hands",
+    "native_input_partial": {
+      "driver": "cua_repl native macOS GUI automation",
+      "observer_action_injection": false,
+      "engine": "4.7.2",
+      "device": "Apple M4 Pro",
+      "rendering": "Metal4 / Forward+",
+      "captured_frames": 7,
+      "checks": {
+        "native1080": true,
+        "three_slots_and_fourth_refused": true,
+        "death_screen": true,
+        "retry_resets_and_native_Esc_pauses": true,
+        "native_Tab_handbook_while_paused": true,
+        "native_pause_freezes_world": true,
+        "return_menu_clears_world_and_pause": true
+      },
+      "all_checks_pass": true,
+      "runtime_exit": 0,
+      "human_playthrough": false,
+      "visual_acceptance": false,
+      "performance_measured": false,
+      "limits": [
+        "Historical input run preceded latest hand/forest revisions; final overall art and new character remain unaccepted.",
+        "No full escape path or three-report native-input acceptance in this session.",
+        "Old Main.screen remained selection during World; observer snapshots preserve original bytes, source fixed afterward to gameplay.",
+        "Base-level handbook displayed redundant 1-to-1 arrows, fixed afterward and separate core tests re-run."
+      ]
+    },
+    "export_snapshot": "Historical2026-10-12T16:16Z ZIP/PCK and46isolated loads passed. Exactofficial4.7.2 macOS template now verified; currentapp preflight in progress, finalnewcharacter app/export pending.",
+    "spectrum_audio_revision": {
+      "expected_checks": 37,
+      "status": "latest frozen 06e36f74/e7834dfc PASS37 with zero script/engine errors"
+    },
+    "research_progression_core_checks": 156,
+    "full_suite_after_hand_clean_repair": {
+      "scene_passes": 12,
+      "scene_total": 13,
+      "archive_restart_write_read": true,
+      "runtime_inputs_unchanged": true,
+      "failed_scene": "nailong skin animation",
+      "failures": 4,
+      "reason": "formal old Nailong lacks current real mouth/open/mid/far morph contract",
+      "validation": "outputs/left-hand-clean-repair/integration-suite/validation.json",
+      "not_all_pass": true
+    },
+    "native_route_current": {
+      "status": "input_verification_pending_mac_unlock",
+      "attempt1": "real menu/three-slot loadout observed; multi-nonmodifier key rejected by CUA, remained at origin, five-hunter capture at game_clock5.412834; no escape acceptance",
+      "attempt2": "read-only observer now records numeric yaw/xyz/hits/stamina/outcome and press/release/timeline; engine loaded clean but CUA Mac-locked failure prevented input",
+      "tool_limitation": "Mac is locked and automatic unlock could not unlock it",
+      "user_request_pending": "manual unlock requested asynchronously",
+      "observer_actions_injected": false,
+      "art_stage_continues": true,
+      "evidence": [
+        "outputs/native-escape-input-interim/",
+        "outputs/native-escape-input-second/"
+      ]
+    },
+    "nailong_v3_isolated": {
+      "native_checks": 100063,
+      "numerical_checks": 7878,
+      "failures": [],
+      "vertices_evaluated": 40551840,
+      "pose_samples": 185,
+      "actual_triangle_counts": [
+        881467,
+        254964,
+        87277
+      ],
+      "bounds_rule": {
+        "margin_m": 0.1,
+        "rounding": "floor min / ceil max to centimeters",
+        "rounded_min": [
+          -1.3,
+          -0.1,
+          -1.28
+        ],
+        "rounded_max": [
+          1.29,
+          2.86,
+          1.18
+        ],
+        "size": [
+          2.59,
+          2.96,
+          2.46
+        ]
+      },
+      "smallest_native_triangle_probe_gap_m": 0.001145096724536332,
+      "max_anatomical_joint_length_error_m": 1.440611481773324e-07,
+      "headless_only": true,
+      "production_replaced": false,
+      "result": "outputs/nailong-runtime-isolated/PATCHED_RESULT.json",
+      "patch": "outputs/nailong-runtime-isolated/hunter-visual-isolated.patch",
+      "visual_C_ring_remaining": true
+    },
+    "hand_receipt_current_frozen": true,
+    "production_hunter_adapter": {
+      "status": "implemented_and_targeted_regression_pass",
+      "source_sha256": "d6f668aaeaa1ccaa7f8d915948d9c2317849a6e95f46939fd2868b5bb44b699b",
+      "formal_models_replaced": false,
+      "bounds_position": [
+        -1.3,
+        -0.13,
+        -1.28
+      ],
+      "bounds_size": [
+        2.59,
+        3.15,
+        2.46
+      ],
+      "old_envelope_preserved": true,
+      "checks": [
+        "hunter_rules",
+        "audit_regressions",
+        "smoke"
+      ],
+      "validation": "outputs/nailong-runtime-isolated/production-adapter-checks/validation.json"
+    },
+    "current_static_source_audit": {
+      "source_files_unchanged": true,
+      "tower_source_polygon_triangles": 619860,
+      "tower_glb_unique_triangles": 83268,
+      "report_source_polygon_triangles": 1520636,
+      "report_glb_unique_triangles": 125512,
+      "source_uv_layers_present": true,
+      "source_texture_sizes": [
+        2048,
+        4096
+      ],
+      "rendering": "CyclesCPU1200x900 diagnostics; not native",
+      "report": "outputs/static-quality-review/README.md",
+      "report_glb_sha256": "dcf61d25c5d8fbcc7aaffb941193f67884ee709198b5918cb763066ec2ea010a"
+    }
+  },
+  "latest_user_steering": {
+    "time_local": "2026-10-13",
+    "request": "左手整体畸形，依公开源文件和教程修成流畅自然；拇指整链向前、指腹贴器具、肘低于腕肩。用户取消60FPS硬门槛。",
+    "references": "work/nailong/user-references/reference-manifest.json",
+    "acceptance": "prior new Nailong candidate rejected; preserve native integration contracts but redo form, face, paws and soft material to supplied standard",
+    "hands_and_weapon": "True left/right chirality and neutral original-weight binding repaired in frozen06e36f74 source; left thumb whole chain forward, pad to tool and elbow below wrist/shoulder locally verified; final user visual acceptance and ordinary gameplay pending.",
+    "leaf_crown": "User accepts dense tree silhouette; visible10080/5040/1680leaf geometry retained. Existing shadow and opaque-bark improvements measured in controlled workload; no60FPS gate.",
+    "authoring_current": {
+      "character": "Frozen c3 high-density source/24bones/6clips/3LOD passed isolated runtime technical checks; formalactor bounds/grid adapter implemented and3targeted regressionsPASS. V5 CDT eye transition under independent101Blink review; final dualeyes/Focus, UV/PBR and formalasset replacement pending.",
+      "hands_weapon": "中立皮肤+成熟权重重建；651手部、静态/37谱灯契约及236原生动作帧通过，同版源与三档GLB冻结。",
+      "foliage": "Visible10080/5040/1680leaf geometry preserved; shadow proxy and opaque-bark LOD improvements have valid controlled1080 measurement, final integrated scene pending."
+    },
+    "nailong_resources": "User rejected Sketchfab toy scan. Local TRELLIS v1 MPS inference completed; c3f08b4b real high-density source+threeGLBs+sixclips frozen in isolated v3. Public Rain source informs active eye-topology-v5 repair; no rejected scan adopted.",
+    "performance_requirement": "2026-10-13 explicit user: 可以不用必须60帧. Stable60FPS is no longer an acceptance requirement. Stop performance-only optimization; retain already completed shadow and opaque-tree improvements and record measurements honestly.",
+    "current_priority": "最新06e36f74左手整体重建已写入生产并局部原生验证；继续奶龙眼皮/眼窝/口腔和最终全场景、整局、交付包闭环。",
+    "hand_reference_research": {
+      "report": "outputs/hand-reference-research/RECOMMENDATION.md",
+      "blender_base_meshes": "Official1.4.1 CC0 bundle downloaded, actualhanddata/UV/Multires/license metadata examined and geometry rendered; unrigged reference, not finalgameasset.",
+      "hands01": "4 CC0 morph targets applied before hand extraction at conservative weights; source preserved, shape displacement recorded.",
+      "norms": "CCOHS/NIOSH neutral wrist and powergrip geometry, originalanatomy/rigging papers and Blender manuals; guidelines separated from project art judgments."
+    },
+    "modeling_workflow": "所有后续建模优化先查开源模型及源文件和指导教程，核对许可/可用性，实际检查，再复用、改造或制作。见docs/implementation/MODELING_RESOURCE_FIRST.md。",
+    "left_arm_research": {
+      "rain": "Official CC-BY4 pack downloaded and inspected in Blender with autoexec disabled; no lamp clip",
+      "godot": "4.7.2 official solver and adjusted IK demo downloaded and read",
+      "motion": "New two-segment candidate captured158native1080 frames; all measured limb-length errors<0.000001m; uservisualacceptance pending"
+    },
+    "shoulder_elbow_revision": {
+      "status": "native candidate verified; latest feedback requests hand-pose curvature",
+      "contract_checks": {
+        "hand": 552,
+        "spectrum_headless": 37,
+        "static": "pass"
+      },
+      "native_three_view_frames": 236,
+      "native_frames_resolution": [
+        1920,
+        1080
+      ],
+      "capture_input_hashes_unchanged": true,
+      "validation": "outputs/shoulder-elbow-refinement/final/validation.json",
+      "left_steady_elbow_flexion_deg": [
+        60.8,
+        63.74
+      ],
+      "ordinary_human_gameplay": false
+    },
+    "hand_curvature_current": {
+      "status": "integrated and locally verified, user visual acceptance pending",
+      "result": "outputs/hand-natural-curve/FINAL.md",
+      "validation": "outputs/hand-natural-curve/final-motion/validation.json",
+      "left_palm_roll_degrees": -18,
+      "right_palm_roll_degrees": 6,
+      "native_frames": 236,
+      "hand_contract_checks": 552,
+      "maximum_dynamic_wrist_degrees": 48.5975540956386,
+      "source_main_lamp_deepest_inside_mm": 0.391,
+      "remaining_tool_contact_mm": "luminol/mud localized2–2.43; not all-tool zero-intersection acceptance",
+      "rejected_candidates": [
+        "candidate1 cross fingers",
+        "candidate2 deep handle penetration"
+      ],
+      "current_good_source": "source-final-receipt.json; final-motion/frozen-inputs.json for latest runtime",
+      "sixty_fps_required": false,
+      "superseded_by": "06e36f74整体自然度重建，见 left_hand_clean_repair；旧微调仅历史记录。"
+    },
+    "left_thumb_micro_revision": {
+      "cmc_degrees": 6,
+      "kept": "palm18deg, otherdigits,right hand,arm rig/runtime",
+      "tool_compensation_degrees": -2,
+      "native_still_views": 3,
+      "native_flash_frames": 39,
+      "hand_checks": 552,
+      "report": "outputs/left-thumb-angle/FINAL.md",
+      "user_visual_acceptance": false,
+      "superseded_by": "User clarified overall thumb pad facing wrong. Independent mesh normals and39.33mm2 near-shell nail area confirm side/nail contact. Do not treat old6deg microadjustment as visual acceptance."
+    },
+    "thumb_forward_requirement": "CMC带整根拇指沿真实枪口轴向前伸，MCP/IP轻弧连续；不能仅将指尖前移或把末节横扭。保留指腹接触、指甲朝外和自然虎口体积。",
+    "left_hand_clean_repair": {
+      "status": "implemented_and_locally_verified",
+      "source_sha256": "06e36f74a2abbb3dda173b070c3431ed6a15d4f4d872958242597a3eab5e08dd",
+      "glb_sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+      "report": "outputs/left-hand-clean-repair/FINAL.md",
+      "validation": "outputs/left-hand-clean-repair/native-final/validation.json",
+      "hand_contract_checks": 651,
+      "spectrum_checks": 37,
+      "native_motion_frames": 236,
+      "native_closeups": 3,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "steady_left_elbow_flexion_degrees": [
+        60.7627,
+        63.8381
+      ],
+      "maximum_dynamic_wrist_degrees": 54.0385989,
+      "tool_strict_nonadjacent_crossings": {
+        "luminol": 0,
+        "salt": 0,
+        "mud": 0
+      },
+      "salt_overlap_max_mm": {
+        "weld_seam": 0.63199,
+        "bag_body": 0.071961
+      },
+      "right_source_unchanged": true,
+      "capture_input_hashes_unchanged": true,
+      "human_playthrough": false,
+      "user_visual_acceptance": false,
+      "full_four_stage_goal_complete": false
+    },
+    "nailong_candidate_v3": {
+      "frozen": {
+        "status": "Frozen isolated candidate; ready for runtime harness, final commercial art acceptance pending.",
+        "receipt": {
+          "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-candidate-v3/FINAL_RECEIPT.json",
+          "bytes": 86869,
+          "sha256": "f203bd8e57b1762b3a584ed3c9d9d626a567fa89c91468b5503429fdec9e88d3"
+        },
+        "source": {
+          "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend",
+          "bytes": 104764853,
+          "sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c"
+        },
+        "lods": [
+          {
+            "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod0.glb",
+            "bytes": 76573612,
+            "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+            "level": 0
+          },
+          {
+            "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod1.glb",
+            "bytes": 36802576,
+            "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+            "level": 1
+          },
+          {
+            "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod2.glb",
+            "bytes": 29096272,
+            "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+            "level": 2
+          }
+        ]
+      },
+      "triangles": [
+        881467,
+        254964,
+        87277
+      ],
+      "clips": 6,
+      "bones": 24,
+      "source_body_triangles": 1804153,
+      "production_replaced": false,
+      "final_art_accepted": false,
+      "remaining_art": "closed side-view C-shaped eyelid/eye-socket transition",
+      "receipt": "outputs/nailong-face-candidate-v3/FINAL_RECEIPT.json",
+      "runtime_current": "隔离最小适配PASS：24骨六clip/五实例/185实际姿态/40551840顶点评估无失败；joint眼皮保作者凸组合、全shared render/director bounds扩大。非图形验收，生产仍旧版。",
+      "further_source_revision_scope": "V5 constrained-Delaunay common-edge single eye removes visible radial lines in actual root-reviewed front/side images. Independent101Blink reports one Closed radial triangle8311negative; original thresholds retained and local fix in progress, no dual-eye expansion until repeatPASS.",
+      "uv_pbr_status": "Actual source and GLB mainBody/lids/oral lack UV; currentSourceVCOL/PBRfactors retained. Isolated xatlas UV+4Kbake work in progress, not complete. Real4.5 small colourspace/glTF probe passed; worker holds newuvpbr directory only.",
+      "v5_review": "outputs/nailong-face-topology-v5/shared-eye-cdt-transition/; independent technical review is pending local corrective rerun",
+      "uv_live_process_last_verified": {
+        "pid": 56177,
+        "elapsed": "35:21",
+        "cpu_percent": 398.3,
+        "rss_kib": 1439008,
+        "command": "work/nailong/uv-pbr-trial/runtime/bin/python outputs/nailong-uv-pbr-trial/generate_body_atlas.py",
+        "result_available": false,
+        "restart_needed": false
+      }
+    }
+  },
+  "current_art_revision_20261013": {
+    "baseline_performance": "Actual1080 baseline rain13.47FPS/five-near26.91/flash24.61, valid controlled workload not ordinary playtest.",
+    "shadow_first_comparison": "INVALID: concurrent hand script update during benchmark. Do not reuse44.03/50.91/45.41 FPS as accepted comparison.",
+    "remaining": "奶龙造型/眼皮/口腔与六动作正式接入；最终场景/整局路线/回归/重新导出。左手最新局部已验证，商业美术不由契约或面数自动认可。",
+    "valid_measured_performance": {
+      "rain_walk_mean_fps": 34.6488173925514,
+      "five_near_chase_mean_fps": 61.9595428280711,
+      "lightning_burst_mean_fps": 45.8535056915664,
+      "controlled_workload": true,
+      "input_hashes_unchanged": true,
+      "runtime_errors": [],
+      "sixty_fps_required": false,
+      "receipt": "outputs/performance-natural-hand-far-shadow/validation.json"
+    }
+  },
+  "last_goal_turn_classification": "progress: actualCDT eye images reviewed, independent residual Closed flip identified and local corrective pass active; exactofficial macOS export template verified, current standalonepreflight launched; staleGOAL/state facts reconciled. Full goal remainsactive.",
+  "goal_turn_audit": {
+    "previous_goal_turn": "progress/evidence: root reviewed actual latest faired-sheet fourCPU images, chose further normal/colour diagnostic before expansion; real BodyUV pipeline probes passed and whole atlas confirmed live PID56177 with CPU496.4%",
+    "this_goal_turn": "progress: actualCDT eye images reviewed, independent residual Closed flip identified and local corrective pass active; exactofficial macOS export template verified, current standalonepreflight launched; staleGOAL/state facts reconciled. Full goal remainsactive.",
+    "native_blocker": "Mac locked confirmed again with CUA inventory; no repeat unlock question",
+    "blocked_status_applicable": false,
+    "reason": "Model topology, actual UV solver and standalone export can make meaningful progress; Mac lock only blocks ordinary GUI input."
+  },
+  "export_template_preparation": {
+    "source_release": "https://github.com/godotengine/godot-builds/releases/tag/4.7.2-stable",
+    "asset_url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+    "expected_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "actual_asset_sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "asset_bytes": 1281349702,
+    "template_version": "4.7.2.stable",
+    "macos_template": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/runtime/godot-export-4.7.2/macos.zip",
+    "macos_sha256": "88df5e2e6fee99088699be66e6d42e4da4fb0c5619d054297d755a49558a4792",
+    "macos_bytes": 123597580,
+    "macos_entries": [
+      "macos_template.app/",
+      "macos_template.app/Contents/",
+      "macos_template.app/Contents/Info.plist",
+      "macos_template.app/Contents/PkgInfo",
+      "macos_template.app/Contents/Resources/",
+      "macos_template.app/Contents/Resources/PrivacyInfo.xcprivacy",
+      "macos_template.app/Contents/Resources/icon.icns",
+      "macos_template.app/Contents/MacOS/",
+      "macos_template.app/Contents/MacOS/godot_macos_release.universal",
+      "macos_template.app/Contents/MacOS/godot_macos_debug.universal"
+    ],
+    "global_template_directory_modified": false,
+    "final_game_exported": false
+  }
+}

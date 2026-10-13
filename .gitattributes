@@ -1,0 +1,15 @@
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Preserve the upstream license verbatim, including its Markdown underline and spaces.
+source_assets/reference_cc0/makehuman-LICENSE.md conflict-marker-size=32 whitespace=-blank-at-eol
+# Captured upstream pages and historical receipts retain their exact original bytes.
+source_assets/naifrog/reference_research/source-pages/** -whitespace
+docs/evidence/** -whitespace
+tools/modeling_archive_20261013/** -whitespace

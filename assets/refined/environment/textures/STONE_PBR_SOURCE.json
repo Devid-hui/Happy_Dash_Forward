@@ -1,0 +1,32 @@
+{
+  "source_page": "https://polyhaven.com/a/rock_3",
+  "license": "CC0",
+  "authors": "Rob Tuytel",
+  "maps": [
+    {
+      "path": "assets/refined/environment/textures/stone_basecolor.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rock_3/rock_3_diff_4k.jpg",
+      "bytes": 11713423,
+      "md5": "e0627d2d53d97b27cc5e5f0fa243261e",
+      "sha256": "33ed8439be30d8d7ad75c7feb786056cd092f0b7d50153947c2d85a47dfad3d0"
+    },
+    {
+      "path": "assets/refined/environment/textures/stone_normal.png",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/rock_3/rock_3_nor_gl_4k.png",
+      "bytes": 30167151,
+      "md5": "d11ca4af1a391feca0d243598a17287b",
+      "sha256": "3de61390f49ff5a147b264f09227c091248e540c914131ba147f449737098474",
+      "format": "lossless PNG OpenGL normal"
+    },
+    {
+      "path": "assets/refined/environment/textures/stone_roughness.jpg",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rock_3/rock_3_rough_4k.jpg",
+      "bytes": 4860501,
+      "md5": "19708e3defeb96c432c09ccd6e99f92f",
+      "sha256": "f934ce4a34d0c78e4eb8e0fddf1330639a6dea47f58bb0b675d3ce3b262efc43"
+    }
+  ],
+  "download_api": "https://api.polyhaven.com/files/rock_3",
+  "note": "External scanned material, not original authored texture. Geometry is authored separately.",
+  "physical_width_m": 1.5
+}

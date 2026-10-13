@@ -1,0 +1,74 @@
+{
+  "generator": "tools/build_nailong_asset.py",
+  "blender": "4.5.14 LTS",
+  "reference": "User supplied reference-1.png to reference-4.png, green-eyed common form only",
+  "coordinate_system": "Godot Y up, -Z facing",
+  "license": "Original authored mesh and maps; character IP belongs to its owner.",
+  "clips": {
+    "idle": {
+      "duration": 3.2,
+      "frames": 96,
+      "root_motion": false
+    },
+    "walk": {
+      "duration": 1.0,
+      "frames": 30,
+      "root_motion": false
+    },
+    "chase": {
+      "duration": 0.68,
+      "frames": 20,
+      "root_motion": false
+    },
+    "warn": {
+      "duration": 0.8,
+      "frames": 24,
+      "root_motion": false
+    },
+    "charge": {
+      "duration": 0.5,
+      "frames": 15,
+      "root_motion": false
+    },
+    "recover": {
+      "duration": 2.0,
+      "frames": 60,
+      "root_motion": false
+    }
+  },
+  "source_skin_triangles": 1807587,
+  "bones": 24,
+  "lod0_triangles": 307593,
+  "bounds_rest_blender": {
+    "min": [
+      -1.03,
+      -1.01,
+      -0.025
+    ],
+    "max": [
+      1.03,
+      0.66,
+      2.83
+    ]
+  },
+  "bounds_animation_godot": {
+    "position": [
+      -1.25,
+      -0.2,
+      -1.32
+    ],
+    "size": [
+      2.5,
+      3.22,
+      2.55
+    ]
+  },
+  "reference_metrics": {
+    "eye_diameter_head_width": 0.125,
+    "pupil_iris_radius": 0.8875,
+    "body_mouth_aperture": true,
+    "pink_palm_sole_pads": true
+  },
+  "lod1_triangles": 98341,
+  "lod2_triangles": 34892
+}

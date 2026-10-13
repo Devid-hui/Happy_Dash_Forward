@@ -1,0 +1,26 @@
+project: happy-dash-forward-audit-20261012
+signal: best_effort
+indexed_at: 2026-10-12T23:23:43Z
+metadata:
+  generation: 2026-10-12T23:23:43Z
+  index_mode: full
+  recorded_at: 2026-10-12T23:23:43Z
+  recording_status: complete
+  ignored_files_stored: 278
+  ignored_files_total: 278
+  hash_records_complete: true
+  coverage_version: 3
+  generation_matches: true
+paths: 2  (cols: requested_path path status freshness recommended_action coverage)
+  tools/reconstructed_nailong_face.py tools/reconstructed_nailong_face.py no_recorded_issue metadata_changed read_source_and_reindex []
+  tools/bind_reconstructed_nailong.py tools/bind_reconstructed_nailong.py no_recorded_issue metadata_match use_graph_with_best_effort_caveat []
+path_total: 2
+path_returned: 2
+path_has_more: false
+scopes: 0
+scope_total: 0
+scope_returned: 0
+scope_truncated: false
+has_more: false
+caveat: "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+

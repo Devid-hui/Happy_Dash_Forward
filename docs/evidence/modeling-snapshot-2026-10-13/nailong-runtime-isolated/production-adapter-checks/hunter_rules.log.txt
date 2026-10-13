@@ -1,0 +1,12 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HUNTER ANIMATED EDGES idle checked at1080p
+HUNTER ANIMATED EDGES walk checked at1080p
+HUNTER ANIMATED EDGES chase checked at1080p
+HUNTER ANIMATED EDGES warn checked at1080p
+HUNTER ANIMATED EDGES charge checked at1080p
+HUNTER ANIMATED EDGES recover checked at1080p
+HUNTER RULES PASS: reverse movement, five independent hunters, global chase, charge/rest/audio, forward collision-safe recycle, model-frustum edges, health and positioned replacement
+RELEASED render; exact owned PID 59387 exit 0

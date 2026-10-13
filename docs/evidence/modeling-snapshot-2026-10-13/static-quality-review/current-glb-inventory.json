@@ -1,0 +1,49 @@
+{
+  "scope": "Actual raw GLB JSON/accessors; unique-primitive counts are not simultaneous drawn-geometry or art acceptance",
+  "assets": [
+    {
+      "name": "power_tower",
+      "sha256": "ee57de4c7cb40a0f49a96c9b06fe81355f0bca46e46017dff57d5cb8e833f58b",
+      "triangles_unique_primitives": 83268,
+      "primitives": 20,
+      "uv0_primitives": 20,
+      "normal_primitives": 20,
+      "materials": 8,
+      "image_count": 6,
+      "pbr_materials": 8
+    },
+    {
+      "name": "research_report",
+      "sha256": "dcf61d25c5d8fbcc7aaffb941193f67884ee709198b5918cb763066ec2ea010a",
+      "triangles_unique_primitives": 125512,
+      "primitives": 15,
+      "uv0_primitives": 15,
+      "normal_primitives": 15,
+      "materials": 5,
+      "image_count": 6,
+      "pbr_materials": 5
+    },
+    {
+      "name": "abandoned_car",
+      "sha256": "e1c5a01c6a9756a357616e07979991f6b5a110e895d3c710c303642291ee6c7d",
+      "triangles_unique_primitives": 529190,
+      "primitives": 94,
+      "uv0_primitives": 94,
+      "normal_primitives": 94,
+      "materials": 12,
+      "image_count": 15,
+      "pbr_materials": 12
+    },
+    {
+      "name": "field_equipment",
+      "sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+      "triangles_unique_primitives": 229800,
+      "primitives": 39,
+      "uv0_primitives": 39,
+      "normal_primitives": 39,
+      "materials": 15,
+      "image_count": 16,
+      "pbr_materials": 15
+    }
+  ]
+}

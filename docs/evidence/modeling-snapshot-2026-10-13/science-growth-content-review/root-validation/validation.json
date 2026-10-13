@@ -1,0 +1,43 @@
+{
+  "results": {
+    "progression_contract": {
+      "exit": 0,
+      "errors": [],
+      "pass_lines": [
+        "PROGRESSION CONTRACT PASS: 160 checks; report transactions, 9 ability routes, 3 report choices, archive reload, corruption preservation, independent run fusions"
+      ],
+      "expected_marker_present": true
+    },
+    "progression_world": {
+      "exit": 0,
+      "errors": [],
+      "pass_lines": [
+        "PROGRESSION WORLD PASS: 24 checks across real collection, pause/focus/handbook, choice idempotency, exit and new-run archive"
+      ],
+      "expected_marker_present": true
+    },
+    "spectrum_gameplay_contract": {
+      "exit": 0,
+      "errors": [],
+      "pass_lines": [
+        "SPECTRUM GAMEPLAY PASS: 37 real-resource, physics-ray, collision-occlusion, cone, knockback, sound, movement, pause and input checks"
+      ],
+      "expected_marker_present": true
+    }
+  },
+  "inputs_unchanged": true,
+  "source_sha256": {
+    "scripts/core/game_state.gd": "b40beb3ffa6370d5fe8c0c7d89e5e5cf4eddb9ba9b5100b3db8513d0b1accd77",
+    "scripts/core/main.gd": "b4654233f1cfa3f3b7488a45ce4f5d1a69ac506f920e14829b36c09161697dec",
+    "scripts/world/world.gd": "86398a4c84138c78c249138f129696a3cbd3c0fa0d7ea16ee015bb45eba0ae6d",
+    "scripts/ui/hud_controller.gd": "dd00eba7f976d5f0b9110a233f7a3000ba4a65ff15e62e6c9a7b81f3723bea1c",
+    "scripts/player/player.gd": "bdf3324900ce778a14bb0b5fef08762140d4ec7a6e3da2c591e9854fea0359aa",
+    "scripts/enemies/hunter.gd": "353e62e6071eba27eada9db2bb6c31149d1e8efc2df31520e631809bf7b064b9",
+    "tests/progression_contract.gd": "001c821314050e1d2b21c5d154f6901399186b0690eab00b989603707a3892b7",
+    "tests/progression_world.gd": "e8bb75d01d814ae4379b71c60354e46b575991690db8fc297fe5fba1f3adf07e",
+    "tests/spectrum_gameplay_contract.gd": "5eeefa44fc398820a58ef1d7d8c5fe3309f11cb0e82ed48b9ec530ce37774e54"
+  },
+  "gameplay_physics_or_balance_changed": false,
+  "ordinary_input_verified": false,
+  "full_suite_replaces_previous12of13": false
+}

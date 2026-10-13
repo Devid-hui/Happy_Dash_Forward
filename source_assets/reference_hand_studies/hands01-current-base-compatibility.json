@@ -1,0 +1,46 @@
+[
+  {
+    "name": "jujube_knobby_knuckles.target",
+    "source_vertex_count": 19158,
+    "all_indices_valid": true,
+    "nonzero": 340,
+    "nonzero_on_right_hand_side": 170,
+    "nonzero_on_left_hand_side": 170,
+    "nonzero_elsewhere": 0,
+    "maximum_displacement_in_meters_at_our_scale": 0.006108191221630181,
+    "not_applied_to_game": true
+  },
+  {
+    "name": "mindfront_hand_fingers_correction.target",
+    "source_vertex_count": 19158,
+    "all_indices_valid": true,
+    "nonzero": 538,
+    "nonzero_on_right_hand_side": 269,
+    "nonzero_on_left_hand_side": 269,
+    "nonzero_elsewhere": 0,
+    "maximum_displacement_in_meters_at_our_scale": 0.0029698484809834997,
+    "not_applied_to_game": true
+  },
+  {
+    "name": "mindfront_hand_hypothenar.target",
+    "source_vertex_count": 19158,
+    "all_indices_valid": true,
+    "nonzero": 120,
+    "nonzero_on_right_hand_side": 60,
+    "nonzero_on_left_hand_side": 60,
+    "nonzero_elsewhere": 0,
+    "maximum_displacement_in_meters_at_our_scale": 0.003849675310984032,
+    "not_applied_to_game": true
+  },
+  {
+    "name": "mindfront_hand_thenar_eminence.target",
+    "source_vertex_count": 19158,
+    "all_indices_valid": true,
+    "nonzero": 20,
+    "nonzero_on_right_hand_side": 10,
+    "nonzero_on_left_hand_side": 10,
+    "nonzero_elsewhere": 0,
+    "maximum_displacement_in_meters_at_our_scale": 0.0010954451150103322,
+    "not_applied_to_game": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "scope": "Single-eye source geometry acceptance for conditional isolated dual-eye/Focus/6clip expansion, not final asset or commercial art acceptance",
+  "source_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-single-eye-cdt-corner-fixed.blend",
+  "source_sha256": "737f13ca0af9a7becf75a9d2401f765c04c4ff24f7508be2cb8a9dd964d0bb62",
+  "review_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-topology-v5/shared-cdt-fixed-review.json",
+  "review_sha256": "9dce9040360b620551ac600e8470ad81b3c0673871cb59af6b68d0e46191ed82",
+  "conditions": {
+    "both_source_SHA_before_after_match_expected_identity": true,
+    "all_five_shape_coordinate_arrays_bitwise_unchanged": true,
+    "ANN_CDT_290_and_CDT_radial_128_real_shared_edges": true,
+    "no_nonmanifold_edges": true,
+    "all_101_states_finite": true,
+    "no_negative_Y_triangles_in_ANN_CDT_radial_at_original_threshold": true,
+    "no_area_degeneracy_below_original_1e_minus_12_m2_threshold": true,
+    "no_quad_projected_self_crossing": true,
+    "no_strict_non_neighbor_3D_intersections": true,
+    "no_strict_non_neighbor_XZ_projected_overlaps": true,
+    "outer_418_vertices_and_362_neighbors_fixed": true,
+    "actual_outer_corner_normal_motion_vs_Basis_below_1e_minus_5_degrees": true,
+    "actual_outer_corner_vs_original_Body_below_probe_0_05_degree_tolerance": true
+  },
+  "sampling_count": 101,
+  "limitations": [
+    "Read-only geometry audit of the saved single-eye .blend, including a 101-state native piecewise-linear Blink sweep. No renderer, GLB export, Godot, game runtime, Focus combinations, or six-clip acceptance.",
+    "Armature modifiers are disabled in the background process to isolate intrinsic shape geometry and corner normals; shape source coordinates are compared directly.",
+    "Negative +Y normals and projected crossings identify radial orientation issues; original source annulus can have its own non-planar geometry.",
+    "Relative sliver threshold is 1e-4 times the state radial triangle median area; absolute degeneracy threshold is 1e-12 square metres.",
+    "3D intersection checks cover this Face mesh only, exclude triangles sharing a vertex, and count strict transverse penetrations or coplanar interior overlap at 1e-8 m tolerance. They do not cover inter-object contacts with Body, Globe, or oral assets, and exclude boundary-only touching."
+  ],
+  "renderer_this_review": false,
+  "relative_radial_normals_over90_degrees": "Maximum41 during closure retained in raw review; positiveY and strict crossings checked separately",
+  "dual_eye_Focus_six_clips_GLB_Godot_verified": false,
+  "formal_models_replaced": false,
+  "root_conditional_expansion_authorized": true
+}

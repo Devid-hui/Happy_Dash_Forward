@@ -1,0 +1,1164 @@
+[
+  {
+    "name": "idle",
+    "duplicated_target_path_pairs": [
+      {
+        "node": 14,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "scale",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "idle_pose",
+    "duplicated_target_path_pairs": [
+      {
+        "node": 14,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "scale",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "jump",
+    "duplicated_target_path_pairs": []
+  },
+  {
+    "name": "land",
+    "duplicated_target_path_pairs": []
+  },
+  {
+    "name": "tpose",
+    "duplicated_target_path_pairs": []
+  },
+  {
+    "name": "walk",
+    "duplicated_target_path_pairs": [
+      {
+        "node": 14,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "scale",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "walk_pose_1",
+    "duplicated_target_path_pairs": [
+      {
+        "node": 14,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 14,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 14,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 0,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 0,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 0,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 3,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 3,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 3,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 2,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 2,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 2,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 1,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 1,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 1,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 6,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 6,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 6,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 5,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 5,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 5,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 4,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 4,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 4,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 7,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 7,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 7,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 10,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 10,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 10,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 9,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 9,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 9,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 8,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 8,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 8,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 13,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 13,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 13,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 12,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 12,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 12,
+        "path": "scale",
+        "count": 4
+      },
+      {
+        "node": 11,
+        "path": "translation",
+        "count": 4
+      },
+      {
+        "node": 11,
+        "path": "rotation",
+        "count": 4
+      },
+      {
+        "node": 11,
+        "path": "scale",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name": "walk_pose_2",
+    "duplicated_target_path_pairs": [
+      {
+        "node": 14,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 14,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 0,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 3,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 2,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 1,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 6,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 5,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 4,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 7,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 10,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 9,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 8,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 13,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 12,
+        "path": "scale",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "translation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "rotation",
+        "count": 2
+      },
+      {
+        "node": 11,
+        "path": "scale",
+        "count": 2
+      }
+    ]
+  }
+]

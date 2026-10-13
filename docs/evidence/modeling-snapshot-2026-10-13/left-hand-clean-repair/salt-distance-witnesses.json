@@ -1,0 +1,43 @@
+{
+  "receipt": {
+    "closed_components": 4,
+    "open_components_excluded": 13,
+    "orientation_corrections": 0,
+    "inside_test": "component AABB and ray parity; closest face normal is not used as an inside test"
+  },
+  "witnesses": [
+    {
+      "vertex": 90476,
+      "point": [
+        -0.022663477808237076,
+        0.12349818646907806,
+        -0.05986495316028595
+      ],
+      "original_signed_mm": -4.17286716401577,
+      "nearest_distance_mm": 4.17286716401577,
+      "nearest_point": [
+        -0.019466876983642578,
+        0.12081591784954071,
+        -0.05986495688557625
+      ],
+      "nearest_normal": [
+        -0.7660441398620605,
+        0.6427879333496094,
+        0.0
+      ],
+      "seven_ray_signed_mm": [
+        4.17286716401577,
+        4.17286716401577,
+        4.17286716401577,
+        4.17286716401577,
+        4.17286716401577,
+        4.17286716401577,
+        4.17286716401577
+      ],
+      "inside_aabb_components": [
+        0,
+        3
+      ]
+    }
+  ]
+}

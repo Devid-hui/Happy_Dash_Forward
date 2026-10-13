@@ -1,0 +1,724 @@
+WorkerThreadPool: 12 threads, 3 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+SDL: Init OK!
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: /Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/standalone_resource_probe.gd remapped: /Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/standalone_resource_probe.gd
+Completed load for: '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/standalone_resource_probe.gd' remapped '/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/standalone_resource_probe.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/core/game_state.gdc remapped: res://scripts/core/game_state.gdc
+Completed load for: 'res://scripts/core/game_state.gd' remapped 'res://scripts/core/game_state.gdc' at thread -1
+Loaded system CA certificates
+Loading resource: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn remapped: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+Loading resource: res://scripts/core/main.gdc remapped: res://scripts/core/main.gdc
+Loading resource: res://assets/audio/rain_loop.ogg remapped: res://assets/audio/rain_loop.ogg
+Loading resource: res://.godot/imported/rain_loop.ogg-8f60ffcb3ecc388ee6875066cc667fc4.oggvorbisstr remapped: res://.godot/imported/rain_loop.ogg-8f60ffcb3ecc388ee6875066cc667fc4.oggvorbisstr
+Completed load for: 'res://assets/audio/rain_loop.ogg' remapped 'res://assets/audio/rain_loop.ogg' at thread -1
+Loading resource: res://assets/audio/canopy_rain_loop.ogg remapped: res://assets/audio/canopy_rain_loop.ogg
+Loading resource: res://.godot/imported/canopy_rain_loop.ogg-dbff7f2a1f553eb00b533a0a1b1e0135.oggvorbisstr remapped: res://.godot/imported/canopy_rain_loop.ogg-dbff7f2a1f553eb00b533a0a1b1e0135.oggvorbisstr
+Completed load for: 'res://assets/audio/canopy_rain_loop.ogg' remapped 'res://assets/audio/canopy_rain_loop.ogg' at thread -1
+Loading resource: res://.godot/exported/133200997/export-776256abbc14b53e0be9ae9afdd1c783-nailong_default.res remapped: res://.godot/exported/133200997/export-776256abbc14b53e0be9ae9afdd1c783-nailong_default.res
+Loading resource: res://scripts/enemies/hunter_stats.gdc remapped: res://scripts/enemies/hunter_stats.gdc
+Completed load for: 'res://scripts/enemies/hunter_stats.gd' remapped 'res://scripts/enemies/hunter_stats.gdc' at thread -1
+Completed load for: 'res://resources/enemies/nailong_default.tres' remapped 'res://.godot/exported/133200997/export-776256abbc14b53e0be9ae9afdd1c783-nailong_default.res' at thread -1
+Completed load for: 'res://scripts/core/main.gd' remapped 'res://scripts/core/main.gdc' at thread -1
+Completed load for: 'res://scenes/main.tscn' remapped 'res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg remapped: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg
+Loading resource: res://.godot/imported/bark_brown_02_diff_4k.jpg-f786f5c502893d35a75f969dbda8733c.ctex remapped: res://.godot/imported/bark_brown_02_diff_4k.jpg-f786f5c502893d35a75f969dbda8733c.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg' remapped 'res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png remapped: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png
+Loading resource: res://.godot/imported/bark_brown_02_nor_gl_4k.png-336e0ad2da2085e0b44f70e8579cfc1c.ctex remapped: res://.godot/imported/bark_brown_02_nor_gl_4k.png-336e0ad2da2085e0b44f70e8579cfc1c.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png' remapped 'res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg remapped: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg
+Loading resource: res://.godot/imported/bark_brown_02_rough_4k.jpg-254223adc22aa271017251e8fc3eeeaf.ctex remapped: res://.godot/imported/bark_brown_02_rough_4k.jpg-254223adc22aa271017251e8fc3eeeaf.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg' remapped 'res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg remapped: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg
+Loading resource: res://.godot/imported/forest_floor_diff_4k.jpg-adf2e382f7093fb0ba97398ab08ea2ca.ctex remapped: res://.godot/imported/forest_floor_diff_4k.jpg-adf2e382f7093fb0ba97398ab08ea2ca.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_diff_4k.jpg' remapped 'res://assets/refined/environment/textures/forest_floor_diff_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png remapped: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png
+Loading resource: res://.godot/imported/forest_floor_nor_gl_4k.png-6a08621c35d6a76230c0f57e7ea2b290.ctex remapped: res://.godot/imported/forest_floor_nor_gl_4k.png-6a08621c35d6a76230c0f57e7ea2b290.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png' remapped 'res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg remapped: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg
+Loading resource: res://.godot/imported/forest_floor_rough_4k.jpg-7c79351f56e1b63369a4f68b90b525e1.ctex remapped: res://.godot/imported/forest_floor_rough_4k.jpg-7c79351f56e1b63369a4f68b90b525e1.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_rough_4k.jpg' remapped 'res://assets/refined/environment/textures/forest_floor_rough_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_basecolor.jpg remapped: res://assets/refined/environment/textures/stone_basecolor.jpg
+Loading resource: res://.godot/imported/stone_basecolor.jpg-02f4b4a0854b0014abd78082e4943ad6.ctex remapped: res://.godot/imported/stone_basecolor.jpg-02f4b4a0854b0014abd78082e4943ad6.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_basecolor.jpg' remapped 'res://assets/refined/environment/textures/stone_basecolor.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_normal.png remapped: res://assets/refined/environment/textures/stone_normal.png
+Loading resource: res://.godot/imported/stone_normal.png-9a4f81b671ed12da84c886e6f47d4e77.ctex remapped: res://.godot/imported/stone_normal.png-9a4f81b671ed12da84c886e6f47d4e77.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_normal.png' remapped 'res://assets/refined/environment/textures/stone_normal.png' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_roughness.jpg remapped: res://assets/refined/environment/textures/stone_roughness.jpg
+Loading resource: res://.godot/imported/stone_roughness.jpg-5f1f6312230a442bf4c30dc135e22c32.ctex remapped: res://.godot/imported/stone_roughness.jpg-5f1f6312230a442bf4c30dc135e22c32.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_roughness.jpg' remapped 'res://assets/refined/environment/textures/stone_roughness.jpg' at thread -1
+Loading resource: res://assets/refined/abandoned_car.glb remapped: res://assets/refined/abandoned_car.glb
+Loading resource: res://.godot/imported/abandoned_car.glb-5f0319b36b49bc53ab72f1f76cca8ef8.scn remapped: res://.godot/imported/abandoned_car.glb-5f0319b36b49bc53ab72f1f76cca8ef8.scn
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_basecolor.png-3f981b018f6aaeafe8ed4900891ee025.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_basecolor.png-3f981b018f6aaeafe8ed4900891ee025.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_roughness.png-c0a0ac80e182e0e0aee0235c959de19d.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_roughness.png-c0a0ac80e182e0e0aee0235c959de19d.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_normal.png-6cb8b93173fac1ad59f36c8a2139eead.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_normal.png-6cb8b93173fac1ad59f36c8a2139eead.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_basecolor.png-58edb0567208d8c529a916624121c689.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_basecolor.png-58edb0567208d8c529a916624121c689.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_roughness.png-bb24dd6f6f2f2d58d705d28cf88a9d31.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_roughness.png-bb24dd6f6f2f2d58d705d28cf88a9d31.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_normal.png-7b85b13384481b083651e25506ad41ee.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_normal.png-7b85b13384481b083651e25506ad41ee.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_basecolor.png-1dc334d5a2b8019d4ed0a0043846a7d4.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_basecolor.png-1dc334d5a2b8019d4ed0a0043846a7d4.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_roughness.png-b02a754fd5f0ab1554e3187e24a55520.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_roughness.png-b02a754fd5f0ab1554e3187e24a55520.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_normal.png-289e4ba9f449f4226ddcacbea2e42363.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_normal.png-289e4ba9f449f4226ddcacbea2e42363.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_basecolor.png-7f49e84b6f4021f5a02a6fe08699c7ad.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_basecolor.png-7f49e84b6f4021f5a02a6fe08699c7ad.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_roughness.png-a8ca4decb19f0745a660fb488f9d682e.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_roughness.png-a8ca4decb19f0745a660fb488f9d682e.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_normal.png-be4f919ee2f25ffbb60e5b2c8f835ef3.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_normal.png-be4f919ee2f25ffbb60e5b2c8f835ef3.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_basecolor.png-9bb31b0f12e816d0cf0ce3248d800e01.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_basecolor.png-9bb31b0f12e816d0cf0ce3248d800e01.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_roughness.png-2188411e43585ae37b5325632c0e9c77.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_roughness.png-2188411e43585ae37b5325632c0e9c77.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_normal.png-4bc156d35ffa9cc85224916df6a947ae.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_normal.png-4bc156d35ffa9cc85224916df6a947ae.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png' at thread -1
+Completed load for: 'res://assets/refined/abandoned_car.glb' remapped 'res://assets/refined/abandoned_car.glb' at thread -1
+Loading resource: res://assets/refined/field_equipment.glb remapped: res://assets/refined/field_equipment.glb
+Loading resource: res://.godot/imported/field_equipment.glb-befd1137ba9b6a3778b755b516f38d75.scn remapped: res://.godot/imported/field_equipment.glb-befd1137ba9b6a3778b755b516f38d75.scn
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_basecolor.png-fd2c2e25484b57aa2a9c088fbd10f930.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_basecolor.png-fd2c2e25484b57aa2a9c088fbd10f930.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_roughness.png-14bc0aa01883c621ada3c95011178bfb.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_roughness.png-14bc0aa01883c621ada3c95011178bfb.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_normal.png-9715e49e8fec243e6230bbd14537ac86.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_normal.png-9715e49e8fec243e6230bbd14537ac86.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_basecolor.png remapped: res://assets/refined/field_equipment_machined_aluminium_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_basecolor.png-9b3bed6592b915698ac0975ed855c040.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_basecolor.png-9b3bed6592b915698ac0975ed855c040.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_basecolor.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_roughness.png remapped: res://assets/refined/field_equipment_machined_aluminium_roughness.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_roughness.png-c8d5f1659baa5a6c27f9b77c2334b6a8.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_roughness.png-c8d5f1659baa5a6c27f9b77c2334b6a8.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_roughness.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_normal.png remapped: res://assets/refined/field_equipment_machined_aluminium_normal.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_normal.png-40c325b380906659f2a3ec9c077246de.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_normal.png-40c325b380906659f2a3ec9c077246de.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_normal.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_basecolor.png-7fb026f1c9126edcdac44fcb5007b746.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_basecolor.png-7fb026f1c9126edcdac44fcb5007b746.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_roughness.png-3fe74c4ab42fda0727d19ff07e5eb140.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_roughness.png-3fe74c4ab42fda0727d19ff07e5eb140.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_normal.png-ecd2b322f4a65a92049390664d3c9fb4.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_normal.png-ecd2b322f4a65a92049390664d3c9fb4.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png-90733e454567f2862ec9eda4a4952b09.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png-90733e454567f2862ec9eda4a4952b09.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_roughness.png-6fddcf383388ef778aa38da5bb3f8350.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_roughness.png-6fddcf383388ef778aa38da5bb3f8350.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_normal.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_normal.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_normal.png-0ce92c5f694701dd318bbfbc1619a471.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_normal.png-0ce92c5f694701dd318bbfbc1619a471.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_normal.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_basecolor.png-9113b34c7bfaeadcc70b310be52b69ca.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_basecolor.png-9113b34c7bfaeadcc70b310be52b69ca.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_roughness.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_roughness.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_roughness.png-a232a0d3c7c0cd0010e2bd1e2b250c00.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_roughness.png-a232a0d3c7c0cd0010e2bd1e2b250c00.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_roughness.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_normal.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_normal.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_normal.png-fd28a8747370238ede6b72cc66382003.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_normal.png-fd28a8747370238ede6b72cc66382003.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_normal.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor.png-3f9605c15003dd1ef6fa294a95123e6b.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor.png-3f9605c15003dd1ef6fa294a95123e6b.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/field_equipment.glb' remapped 'res://assets/refined/field_equipment.glb' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2.glb remapped: res://assets/refined/abandoned_car_lod2.glb
+Loading resource: res://.godot/imported/abandoned_car_lod2.glb-d3332e943c28eeebaf758ad4bc7c2de6.scn remapped: res://.godot/imported/abandoned_car_lod2.glb-d3332e943c28eeebaf758ad4bc7c2de6.scn
+Loading resource: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png remapped: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png-491f8261125b8b51b5bc9e99d2874033.ctex remapped: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png-491f8261125b8b51b5bc9e99d2874033.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_roughness.png remapped: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_roughness.png-d9afa51e395d8b5c5665d296baa08fe0.ctex remapped: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_roughness.png-d9afa51e395d8b5c5665d296baa08fe0.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_roughness.png' remapped 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_normal.png remapped: res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_normal.png-66a09d22858d49428614a571008daa13.ctex remapped: res://.godot/imported/abandoned_car_lod2_oxidised_automotive_steel_normal.png-66a09d22858d49428614a571008daa13.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_normal.png' remapped 'res://assets/refined/abandoned_car_lod2_oxidised_automotive_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png remapped: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png-39154e63535e74654b0f2b85c2a2f12e.ctex remapped: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png-39154e63535e74654b0f2b85c2a2f12e.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png remapped: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png-a58306547874050f9517426cd24b442a.ctex remapped: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png-a58306547874050f9517426cd24b442a.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png' remapped 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png remapped: res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png-bb1280fe76d1cc4bb693fc6e8ea7f5c1.ctex remapped: res://.godot/imported/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png-bb1280fe76d1cc4bb693fc6e8ea7f5c1.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png' remapped 'res://assets/refined/abandoned_car_lod2_aged_olive_automotive_lacquer_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png remapped: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png-080fa5c40ff3fd68e9dd941894f3952e.ctex remapped: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png-080fa5c40ff3fd68e9dd941894f3952e.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png remapped: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png-cefc34a510b4268c141be835fa37d6c1.ctex remapped: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png-cefc34a510b4268c141be835fa37d6c1.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png' remapped 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_normal.png remapped: res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_normal.png-123ea0843c5bb1f3fd53c40a7fdc39bd.ctex remapped: res://.godot/imported/abandoned_car_lod2_exposed_chassis_corrosion_normal.png-123ea0843c5bb1f3fd53c40a7fdc39bd.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_normal.png' remapped 'res://assets/refined/abandoned_car_lod2_exposed_chassis_corrosion_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_basecolor.png remapped: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_basecolor.png-9d28917724a4338fad8dc2a7a5104aa0.ctex remapped: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_basecolor.png-9d28917724a4338fad8dc2a7a5104aa0.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_roughness.png remapped: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_roughness.png-74ea2247c9c7371f954118f897693c76.ctex remapped: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_roughness.png-74ea2247c9c7371f954118f897693c76.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_roughness.png' remapped 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_normal.png remapped: res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_normal.png-21bf13bd72b9e4d48b18d1938348dd09.ctex remapped: res://.godot/imported/abandoned_car_lod2_worn_textile_upholstery_normal.png-21bf13bd72b9e4d48b18d1938348dd09.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_normal.png' remapped 'res://assets/refined/abandoned_car_lod2_worn_textile_upholstery_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_basecolor.png remapped: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_basecolor.png-88fa1d7f4148a4f8ef288dd7ba53393c.ctex remapped: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_basecolor.png-88fa1d7f4148a4f8ef288dd7ba53393c.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_roughness.png remapped: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_roughness.png-7dd67ba0f8489662a746f958299351cc.ctex remapped: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_roughness.png-7dd67ba0f8489662a746f958299351cc.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_roughness.png' remapped 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_normal.png remapped: res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_normal.png-e39b7472684e841480b4b0f5970bc011.ctex remapped: res://.godot/imported/abandoned_car_lod2_weathered_tyre_compound_normal.png-e39b7472684e841480b4b0f5970bc011.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_normal.png' remapped 'res://assets/refined/abandoned_car_lod2_weathered_tyre_compound_normal.png' at thread -1
+Completed load for: 'res://assets/refined/abandoned_car_lod2.glb' remapped 'res://assets/refined/abandoned_car_lod2.glb' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1.glb remapped: res://assets/refined/abandoned_car_lod1.glb
+Loading resource: res://.godot/imported/abandoned_car_lod1.glb-3b271cd9c92895f3afcca4b29ad66883.scn remapped: res://.godot/imported/abandoned_car_lod1.glb-3b271cd9c92895f3afcca4b29ad66883.scn
+Loading resource: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png remapped: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png-30aa9918d1e7cb93d033498a8abc3bb4.ctex remapped: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png-30aa9918d1e7cb93d033498a8abc3bb4.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_roughness.png remapped: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_roughness.png-d128a0f865a27fe79f5f4c2efa188d8f.ctex remapped: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_roughness.png-d128a0f865a27fe79f5f4c2efa188d8f.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_roughness.png' remapped 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_normal.png remapped: res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_normal.png-fa76599a55b36d48adfdd3de4827891a.ctex remapped: res://.godot/imported/abandoned_car_lod1_oxidised_automotive_steel_normal.png-fa76599a55b36d48adfdd3de4827891a.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_normal.png' remapped 'res://assets/refined/abandoned_car_lod1_oxidised_automotive_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png remapped: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png-b85b302b30e84ecb56d422f77700954d.ctex remapped: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png-b85b302b30e84ecb56d422f77700954d.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png remapped: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png-df4004987f9ef281c99146ed0a8ded24.ctex remapped: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png-df4004987f9ef281c99146ed0a8ded24.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png' remapped 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png remapped: res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png-9947c6a6471220705d32ad10087e619f.ctex remapped: res://.godot/imported/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png-9947c6a6471220705d32ad10087e619f.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png' remapped 'res://assets/refined/abandoned_car_lod1_aged_olive_automotive_lacquer_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png remapped: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png-ee640430bd9aa0fe0839b9a9f67ca90c.ctex remapped: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png-ee640430bd9aa0fe0839b9a9f67ca90c.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png remapped: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png-ba589c40cf2b9e4497906ed20112d762.ctex remapped: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png-ba589c40cf2b9e4497906ed20112d762.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png' remapped 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_normal.png remapped: res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_normal.png-70bde5cf8cd2edeb01a85ab7691fa21a.ctex remapped: res://.godot/imported/abandoned_car_lod1_exposed_chassis_corrosion_normal.png-70bde5cf8cd2edeb01a85ab7691fa21a.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_normal.png' remapped 'res://assets/refined/abandoned_car_lod1_exposed_chassis_corrosion_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_basecolor.png remapped: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_basecolor.png-ba0ee2ab48ff956a899dc38fbed2c281.ctex remapped: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_basecolor.png-ba0ee2ab48ff956a899dc38fbed2c281.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_roughness.png remapped: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_roughness.png-839e83a872b6cf0263021b03b58f5494.ctex remapped: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_roughness.png-839e83a872b6cf0263021b03b58f5494.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_roughness.png' remapped 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_normal.png remapped: res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_normal.png-2f5b400dc5762075d031532e2361c2a3.ctex remapped: res://.godot/imported/abandoned_car_lod1_worn_textile_upholstery_normal.png-2f5b400dc5762075d031532e2361c2a3.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_normal.png' remapped 'res://assets/refined/abandoned_car_lod1_worn_textile_upholstery_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_basecolor.png remapped: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_basecolor.png-aaf16be3a12d3f42c7b2541201fa72cf.ctex remapped: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_basecolor.png-aaf16be3a12d3f42c7b2541201fa72cf.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_basecolor.png' remapped 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_roughness.png remapped: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_roughness.png-bc459e37e54ac4f9bf41b19d37566fb5.ctex remapped: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_roughness.png-bc459e37e54ac4f9bf41b19d37566fb5.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_roughness.png' remapped 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_normal.png remapped: res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_normal.png
+Loading resource: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_normal.png-9e9164e6692ad2392ee0bac598bfc589.ctex remapped: res://.godot/imported/abandoned_car_lod1_weathered_tyre_compound_normal.png-9e9164e6692ad2392ee0bac598bfc589.ctex
+Completed load for: 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_normal.png' remapped 'res://assets/refined/abandoned_car_lod1_weathered_tyre_compound_normal.png' at thread -1
+Completed load for: 'res://assets/refined/abandoned_car_lod1.glb' remapped 'res://assets/refined/abandoned_car_lod1.glb' at thread -1
+Loading resource: res://assets/refined/research_report.glb remapped: res://assets/refined/research_report.glb
+Loading resource: res://.godot/imported/research_report.glb-a88fcf3d7502a58a826ac60ba957fcfd.scn remapped: res://.godot/imported/research_report.glb-a88fcf3d7502a58a826ac60ba957fcfd.scn
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_basecolor.png-d0631eed0b35579f2b209b22b93ed2d2.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_basecolor.png-d0631eed0b35579f2b209b22b93ed2d2.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png' at thread -1
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_roughness.png-335e95554d511f935e919690a94a86f1.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_roughness.png-335e95554d511f935e919690a94a86f1.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png' at thread -1
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_normal.png-a5b0d75548d7c17d8a6ec447b29f127a.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_normal.png-a5b0d75548d7c17d8a6ec447b29f127a.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_basecolor.png remapped: res://assets/refined/research_report_aged_field_paper_basecolor.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_basecolor.png-aca1d057f7e52c8478a61f9c27b7867a.ctex remapped: res://.godot/imported/research_report_aged_field_paper_basecolor.png-aca1d057f7e52c8478a61f9c27b7867a.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_basecolor.png' remapped 'res://assets/refined/research_report_aged_field_paper_basecolor.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_roughness.png remapped: res://assets/refined/research_report_aged_field_paper_roughness.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_roughness.png-fb719814c86e60e6e5a754260fc9397d.ctex remapped: res://.godot/imported/research_report_aged_field_paper_roughness.png-fb719814c86e60e6e5a754260fc9397d.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_roughness.png' remapped 'res://assets/refined/research_report_aged_field_paper_roughness.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_normal.png remapped: res://assets/refined/research_report_aged_field_paper_normal.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_normal.png-394670b7a249fcb38785057f5e93b052.ctex remapped: res://.godot/imported/research_report_aged_field_paper_normal.png-394670b7a249fcb38785057f5e93b052.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_normal.png' remapped 'res://assets/refined/research_report_aged_field_paper_normal.png' at thread -1
+Completed load for: 'res://assets/refined/research_report.glb' remapped 'res://assets/refined/research_report.glb' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2.glb remapped: res://assets/refined/field_equipment_lod2.glb
+Loading resource: res://.godot/imported/field_equipment_lod2.glb-65ca0d30757a583201cdc489a72224db.scn remapped: res://.godot/imported/field_equipment_lod2.glb-65ca0d30757a583201cdc489a72224db.scn
+Loading resource: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_basecolor.png remapped: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_basecolor.png-ce5ab37c60f5f76bf515ec8ce2212b52.ctex remapped: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_basecolor.png-ce5ab37c60f5f76bf515ec8ce2212b52.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_basecolor.png' remapped 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_roughness.png remapped: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_roughness.png-c962259ffb80bc239dd0211f8891e555.ctex remapped: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_roughness.png-c962259ffb80bc239dd0211f8891e555.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_roughness.png' remapped 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_normal.png remapped: res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_normal.png-83619038cb3c268d1017a5cb1cbf15a5.ctex remapped: res://.godot/imported/field_equipment_lod2_field_graphite_coated_metal_normal.png-83619038cb3c268d1017a5cb1cbf15a5.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_normal.png' remapped 'res://assets/refined/field_equipment_lod2_field_graphite_coated_metal_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_machined_aluminium_basecolor.png remapped: res://assets/refined/field_equipment_lod2_machined_aluminium_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod2_machined_aluminium_basecolor.png-bfb156e9b7b68c77b95d494724db6183.ctex remapped: res://.godot/imported/field_equipment_lod2_machined_aluminium_basecolor.png-bfb156e9b7b68c77b95d494724db6183.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_machined_aluminium_basecolor.png' remapped 'res://assets/refined/field_equipment_lod2_machined_aluminium_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_machined_aluminium_roughness.png remapped: res://assets/refined/field_equipment_lod2_machined_aluminium_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod2_machined_aluminium_roughness.png-f0a872db9650b1179328725a072bcd60.ctex remapped: res://.godot/imported/field_equipment_lod2_machined_aluminium_roughness.png-f0a872db9650b1179328725a072bcd60.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_machined_aluminium_roughness.png' remapped 'res://assets/refined/field_equipment_lod2_machined_aluminium_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_machined_aluminium_normal.png remapped: res://assets/refined/field_equipment_lod2_machined_aluminium_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod2_machined_aluminium_normal.png-75302206ea22a7d8ad33c1581b3a8914.ctex remapped: res://.godot/imported/field_equipment_lod2_machined_aluminium_normal.png-75302206ea22a7d8ad33c1581b3a8914.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_machined_aluminium_normal.png' remapped 'res://assets/refined/field_equipment_lod2_machined_aluminium_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png remapped: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png-3f4c9240710f31434624e8176c9bd8ed.ctex remapped: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png-3f4c9240710f31434624e8176c9bd8ed.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png' remapped 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_roughness.png remapped: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_roughness.png-89a5cfc5574ce76fc233c7d3fa54e0c4.ctex remapped: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_roughness.png-89a5cfc5574ce76fc233c7d3fa54e0c4.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_roughness.png' remapped 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_normal.png remapped: res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_normal.png-f2ab5907f87bc1846875d3aeb30510b9.ctex remapped: res://.godot/imported/field_equipment_lod2_grip_vulcanised_rubber_normal.png-f2ab5907f87bc1846875d3aeb30510b9.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_normal.png' remapped 'res://assets/refined/field_equipment_lod2_grip_vulcanised_rubber_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png remapped: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png
+Loading resource: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png-42165003c069233399f04a410db858ce.ctex remapped: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png-42165003c069233399f04a410db858ce.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png' remapped 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor_left_nail_blend.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_roughness.png remapped: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_roughness.png-0fe1abae23bf0ba00702bad0117ae991.ctex remapped: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_roughness.png-0fe1abae23bf0ba00702bad0117ae991.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_roughness.png' remapped 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_normal.png remapped: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_normal.png-cd233bbc922bde5a3ef1732b72b3ff34.ctex remapped: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_normal.png-cd233bbc922bde5a3ef1732b72b3ff34.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_normal.png' remapped 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_tailored_storm_shell_basecolor.png remapped: res://assets/refined/field_equipment_lod2_tailored_storm_shell_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_basecolor.png-ce40f06817fa2bffe786c9ac47952ab0.ctex remapped: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_basecolor.png-ce40f06817fa2bffe786c9ac47952ab0.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_basecolor.png' remapped 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_tailored_storm_shell_roughness.png remapped: res://assets/refined/field_equipment_lod2_tailored_storm_shell_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_roughness.png-21cae48c727f927687bdac8ccc425e1b.ctex remapped: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_roughness.png-21cae48c727f927687bdac8ccc425e1b.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_roughness.png' remapped 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_tailored_storm_shell_normal.png remapped: res://assets/refined/field_equipment_lod2_tailored_storm_shell_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_normal.png-7f24d269e29f44f9871b6ca92f746d3b.ctex remapped: res://.godot/imported/field_equipment_lod2_tailored_storm_shell_normal.png-7f24d269e29f44f9871b6ca92f746d3b.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_normal.png' remapped 'res://assets/refined/field_equipment_lod2_tailored_storm_shell_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor.png remapped: res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_basecolor.png-fd399888e38976576004a997f8af071a.ctex remapped: res://.godot/imported/field_equipment_lod2_anatomical_warm_skin_basecolor.png-fd399888e38976576004a997f8af071a.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor.png' remapped 'res://assets/refined/field_equipment_lod2_anatomical_warm_skin_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/field_equipment_lod2.glb' remapped 'res://assets/refined/field_equipment_lod2.glb' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1.glb remapped: res://assets/refined/field_equipment_lod1.glb
+Loading resource: res://.godot/imported/field_equipment_lod1.glb-86f0ab9ed1c7b58a7d6d44d67a7550ff.scn remapped: res://.godot/imported/field_equipment_lod1.glb-86f0ab9ed1c7b58a7d6d44d67a7550ff.scn
+Loading resource: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_basecolor.png remapped: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_basecolor.png-10da8c540ab17683922becb0e55e8e06.ctex remapped: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_basecolor.png-10da8c540ab17683922becb0e55e8e06.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_basecolor.png' remapped 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_roughness.png remapped: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_roughness.png-594c31da77e405a60f170bf962c88bee.ctex remapped: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_roughness.png-594c31da77e405a60f170bf962c88bee.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_roughness.png' remapped 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_normal.png remapped: res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_normal.png-b8809046e76695d76da29d6a1606b214.ctex remapped: res://.godot/imported/field_equipment_lod1_field_graphite_coated_metal_normal.png-b8809046e76695d76da29d6a1606b214.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_normal.png' remapped 'res://assets/refined/field_equipment_lod1_field_graphite_coated_metal_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_machined_aluminium_basecolor.png remapped: res://assets/refined/field_equipment_lod1_machined_aluminium_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod1_machined_aluminium_basecolor.png-3fa612076066c4ac733503283b92d015.ctex remapped: res://.godot/imported/field_equipment_lod1_machined_aluminium_basecolor.png-3fa612076066c4ac733503283b92d015.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_machined_aluminium_basecolor.png' remapped 'res://assets/refined/field_equipment_lod1_machined_aluminium_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_machined_aluminium_roughness.png remapped: res://assets/refined/field_equipment_lod1_machined_aluminium_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod1_machined_aluminium_roughness.png-4dfbb55addc535f74aa31155a2e911a0.ctex remapped: res://.godot/imported/field_equipment_lod1_machined_aluminium_roughness.png-4dfbb55addc535f74aa31155a2e911a0.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_machined_aluminium_roughness.png' remapped 'res://assets/refined/field_equipment_lod1_machined_aluminium_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_machined_aluminium_normal.png remapped: res://assets/refined/field_equipment_lod1_machined_aluminium_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod1_machined_aluminium_normal.png-dce63cbe4a7d0db25856c39dd30f8ad4.ctex remapped: res://.godot/imported/field_equipment_lod1_machined_aluminium_normal.png-dce63cbe4a7d0db25856c39dd30f8ad4.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_machined_aluminium_normal.png' remapped 'res://assets/refined/field_equipment_lod1_machined_aluminium_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png remapped: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png-30fe5db9b9ac7de8e891e0dc4c66fcfa.ctex remapped: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png-30fe5db9b9ac7de8e891e0dc4c66fcfa.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png' remapped 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_roughness.png remapped: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_roughness.png-034eafa78d9480d790c4e1de6242cf02.ctex remapped: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_roughness.png-034eafa78d9480d790c4e1de6242cf02.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_roughness.png' remapped 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_normal.png remapped: res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_normal.png-251da9ca1ba28b7051a623860596dbbe.ctex remapped: res://.godot/imported/field_equipment_lod1_grip_vulcanised_rubber_normal.png-251da9ca1ba28b7051a623860596dbbe.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_normal.png' remapped 'res://assets/refined/field_equipment_lod1_grip_vulcanised_rubber_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png remapped: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png
+Loading resource: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png-8d8b44d8718c1e0e3e5eb10f9d739df0.ctex remapped: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png-8d8b44d8718c1e0e3e5eb10f9d739df0.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png' remapped 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor_left_nail_blend.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_roughness.png remapped: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_roughness.png-a860e79a5e365d13b44202361a2802e3.ctex remapped: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_roughness.png-a860e79a5e365d13b44202361a2802e3.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_roughness.png' remapped 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_normal.png remapped: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_normal.png-ae4c39b59b7f0f0c8e8b8124974efbc2.ctex remapped: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_normal.png-ae4c39b59b7f0f0c8e8b8124974efbc2.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_normal.png' remapped 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_tailored_storm_shell_basecolor.png remapped: res://assets/refined/field_equipment_lod1_tailored_storm_shell_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_basecolor.png-6a303c4cfc4004dd96be97e14d3776d6.ctex remapped: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_basecolor.png-6a303c4cfc4004dd96be97e14d3776d6.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_basecolor.png' remapped 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_tailored_storm_shell_roughness.png remapped: res://assets/refined/field_equipment_lod1_tailored_storm_shell_roughness.png
+Loading resource: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_roughness.png-f5a4b9bc8bd67041c36d5ef8c37ab850.ctex remapped: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_roughness.png-f5a4b9bc8bd67041c36d5ef8c37ab850.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_roughness.png' remapped 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_tailored_storm_shell_normal.png remapped: res://assets/refined/field_equipment_lod1_tailored_storm_shell_normal.png
+Loading resource: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_normal.png-702f0b450e25e50a59be1f250e0f9ff9.ctex remapped: res://.godot/imported/field_equipment_lod1_tailored_storm_shell_normal.png-702f0b450e25e50a59be1f250e0f9ff9.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_normal.png' remapped 'res://assets/refined/field_equipment_lod1_tailored_storm_shell_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor.png remapped: res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_basecolor.png-0b34104efd373238560ba42ad6115f1d.ctex remapped: res://.godot/imported/field_equipment_lod1_anatomical_warm_skin_basecolor.png-0b34104efd373238560ba42ad6115f1d.ctex
+Completed load for: 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor.png' remapped 'res://assets/refined/field_equipment_lod1_anatomical_warm_skin_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/field_equipment_lod1.glb' remapped 'res://assets/refined/field_equipment_lod1.glb' at thread -1
+Loading resource: res://assets/refined/power_tower.glb remapped: res://assets/refined/power_tower.glb
+Loading resource: res://.godot/imported/power_tower.glb-f0504c29d634c78424cffb137d592570.scn remapped: res://.godot/imported/power_tower.glb-f0504c29d634c78424cffb137d592570.scn
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_basecolor.png-3505b394bfce8536132cbf9c81d99e37.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_basecolor.png-3505b394bfce8536132cbf9c81d99e37.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_roughness.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_roughness.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_roughness.png-2d1cbe3acce85ad399b42eb015a2748a.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_roughness.png-2d1cbe3acce85ad399b42eb015a2748a.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_roughness.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_normal.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_normal.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_normal.png-d69bd45b4d13e848902fa185a643679e.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_normal.png-d69bd45b4d13e848902fa185a643679e.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_normal.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_basecolor.png remapped: res://assets/refined/power_tower_weathered_tower_joints_basecolor.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_basecolor.png-2d96c7fdad8bcdb1a01682ac0a889ff0.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_basecolor.png-2d96c7fdad8bcdb1a01682ac0a889ff0.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_basecolor.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_basecolor.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_roughness.png remapped: res://assets/refined/power_tower_weathered_tower_joints_roughness.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_roughness.png-67dcae9fc7254102b0611a3d21eb09c3.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_roughness.png-67dcae9fc7254102b0611a3d21eb09c3.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_roughness.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_roughness.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_normal.png remapped: res://assets/refined/power_tower_weathered_tower_joints_normal.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_normal.png-198f236c1753c4f0298241202535ef8e.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_normal.png-198f236c1753c4f0298241202535ef8e.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_normal.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_normal.png' at thread -1
+Completed load for: 'res://assets/refined/power_tower.glb' remapped 'res://assets/refined/power_tower.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2.glb remapped: res://assets/refined/nailong/nailong_lod2.glb
+Loading resource: res://.godot/imported/nailong_lod2.glb-5189da847788ddbaa39068becfb66e48.scn remapped: res://.godot/imported/nailong_lod2.glb-5189da847788ddbaa39068becfb66e48.scn
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_basecolor.png-37c39e7304bc0c050bbc7b312f3fe412.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_basecolor.png-37c39e7304bc0c050bbc7b312f3fe412.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_roughness.png-dd36ce33a4528b91695ac0131c6f8ba3.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_roughness.png-dd36ce33a4528b91695ac0131c6f8ba3.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_normal.png-ebaa1ce5d0a042c0c65229a631b26e62.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_normal.png-ebaa1ce5d0a042c0c65229a631b26e62.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_iris_basecolor.png-be89159f9dc264c05b78b9fd09beb74e.ctex remapped: res://.godot/imported/nailong_lod2_nailong_iris_basecolor.png-be89159f9dc264c05b78b9fd09beb74e.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod2.glb' remapped 'res://assets/refined/nailong/nailong_lod2.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0.glb remapped: res://assets/refined/nailong/nailong_lod0.glb
+Loading resource: res://.godot/imported/nailong_lod0.glb-43c9cbd310e7fafb0d3bf2cf3a8f29a8.scn remapped: res://.godot/imported/nailong_lod0.glb-43c9cbd310e7fafb0d3bf2cf3a8f29a8.scn
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_basecolor.png-46497fbcd6850fb4bc434f226ccb3c5f.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_basecolor.png-46497fbcd6850fb4bc434f226ccb3c5f.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_roughness.png-1993ccda5e57d994ec4bbad07bd9ae8a.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_roughness.png-1993ccda5e57d994ec4bbad07bd9ae8a.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_normal.png-6cca4a1a069e24710e7e8bbc8a6fe18f.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_normal.png-6cca4a1a069e24710e7e8bbc8a6fe18f.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_iris_basecolor.png-828f63e943d39df0dc8b12831dc25419.ctex remapped: res://.godot/imported/nailong_lod0_nailong_iris_basecolor.png-828f63e943d39df0dc8b12831dc25419.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod0.glb' remapped 'res://assets/refined/nailong/nailong_lod0.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1.glb remapped: res://assets/refined/nailong/nailong_lod1.glb
+Loading resource: res://.godot/imported/nailong_lod1.glb-8b6694bf93eb4ca3fed2e3f18196fc1b.scn remapped: res://.godot/imported/nailong_lod1.glb-8b6694bf93eb4ca3fed2e3f18196fc1b.scn
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_basecolor.png-7e6d1eae10fb7bb4c747b05aa7ef6955.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_basecolor.png-7e6d1eae10fb7bb4c747b05aa7ef6955.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_roughness.png-0909d815cfdfe60bbcaab32a0fe9521c.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_roughness.png-0909d815cfdfe60bbcaab32a0fe9521c.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_normal.png-4831db13c32a76a1158a4afea157da38.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_normal.png-4831db13c32a76a1158a4afea157da38.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_iris_basecolor.png-31ba4fba3cb3f49c7988de866dd13b5a.ctex remapped: res://.godot/imported/nailong_lod1_nailong_iris_basecolor.png-31ba4fba3cb3f49c7988de866dd13b5a.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod1.glb' remapped 'res://assets/refined/nailong/nailong_lod1.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_4.glb remapped: res://assets/refined/environment/broadleaf_tree_4.glb
+Loading resource: res://.godot/imported/broadleaf_tree_4.glb-b8615dd8b1322df3a003012a3f7f7865.scn remapped: res://.godot/imported/broadleaf_tree_4.glb-b8615dd8b1322df3a003012a3f7f7865.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_4.glb' remapped 'res://assets/refined/environment/broadleaf_tree_4.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_5.glb remapped: res://assets/refined/environment/broadleaf_tree_5.glb
+Loading resource: res://.godot/imported/broadleaf_tree_5.glb-bd33806e40c3457106a3a49741fc0d29.scn remapped: res://.godot/imported/broadleaf_tree_5.glb-bd33806e40c3457106a3a49741fc0d29.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_5.glb' remapped 'res://assets/refined/environment/broadleaf_tree_5.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_6.glb remapped: res://assets/refined/environment/broadleaf_tree_6.glb
+Loading resource: res://.godot/imported/broadleaf_tree_6.glb-b8d946190eb38b8aa3faeb4a130205c0.scn remapped: res://.godot/imported/broadleaf_tree_6.glb-b8d946190eb38b8aa3faeb4a130205c0.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_6.glb' remapped 'res://assets/refined/environment/broadleaf_tree_6.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_2.glb remapped: res://assets/refined/environment/broadleaf_tree_2.glb
+Loading resource: res://.godot/imported/broadleaf_tree_2.glb-33a3436aec51b97e7e42eb6381983851.scn remapped: res://.godot/imported/broadleaf_tree_2.glb-33a3436aec51b97e7e42eb6381983851.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_2.glb' remapped 'res://assets/refined/environment/broadleaf_tree_2.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_3.glb remapped: res://assets/refined/environment/broadleaf_tree_3.glb
+Loading resource: res://.godot/imported/broadleaf_tree_3.glb-7c6226f49ec5fce52957603c0dd93c8d.scn remapped: res://.godot/imported/broadleaf_tree_3.glb-7c6226f49ec5fce52957603c0dd93c8d.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_3.glb' remapped 'res://assets/refined/environment/broadleaf_tree_3.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_1.glb remapped: res://assets/refined/environment/broadleaf_tree_1.glb
+Loading resource: res://.godot/imported/broadleaf_tree_1.glb-a8cadbcac15b6fc8c873b48dc5a87144.scn remapped: res://.godot/imported/broadleaf_tree_1.glb-a8cadbcac15b6fc8c873b48dc5a87144.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_1.glb' remapped 'res://assets/refined/environment/broadleaf_tree_1.glb' at thread -1
+Loading resource: res://assets/refined/environment/forest_understory_kit.glb remapped: res://assets/refined/environment/forest_understory_kit.glb
+Loading resource: res://.godot/imported/forest_understory_kit.glb-2a5d7403e1efeed828ce15e482bc0e66.scn remapped: res://.godot/imported/forest_understory_kit.glb-2a5d7403e1efeed828ce15e482bc0e66.scn
+Completed load for: 'res://assets/refined/environment/forest_understory_kit.glb' remapped 'res://assets/refined/environment/forest_understory_kit.glb' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_1.glb remapped: res://assets/refined/environment/dead_tree_1.glb
+Loading resource: res://.godot/imported/dead_tree_1.glb-8adb7dd5d62808604a2f4a675f86e751.scn remapped: res://.godot/imported/dead_tree_1.glb-8adb7dd5d62808604a2f4a675f86e751.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_1.glb' remapped 'res://assets/refined/environment/dead_tree_1.glb' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_3.glb remapped: res://assets/refined/environment/dead_tree_3.glb
+Loading resource: res://.godot/imported/dead_tree_3.glb-56b85511b9bddb49861a2b879b5741a4.scn remapped: res://.godot/imported/dead_tree_3.glb-56b85511b9bddb49861a2b879b5741a4.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_3.glb' remapped 'res://assets/refined/environment/dead_tree_3.glb' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_2.glb remapped: res://assets/refined/environment/dead_tree_2.glb
+Loading resource: res://.godot/imported/dead_tree_2.glb-81606caa37ed4a3aa25892bd5b706ca4.scn remapped: res://.godot/imported/dead_tree_2.glb-81606caa37ed4a3aa25892bd5b706ca4.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_2.glb' remapped 'res://assets/refined/environment/dead_tree_2.glb' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg remapped: res://assets/refined/environment/textures/forest_floor_diff_4k.jpg
+Loading resource: res://.godot/imported/forest_floor_diff_4k.jpg-adf2e382f7093fb0ba97398ab08ea2ca.ctex remapped: res://.godot/imported/forest_floor_diff_4k.jpg-adf2e382f7093fb0ba97398ab08ea2ca.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_diff_4k.jpg' remapped 'res://assets/refined/environment/textures/forest_floor_diff_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png remapped: res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png
+Loading resource: res://.godot/imported/forest_floor_nor_gl_4k.png-6a08621c35d6a76230c0f57e7ea2b290.ctex remapped: res://.godot/imported/forest_floor_nor_gl_4k.png-6a08621c35d6a76230c0f57e7ea2b290.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png' remapped 'res://assets/refined/environment/textures/forest_floor_nor_gl_4k.png' at thread -1
+Loading resource: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg remapped: res://assets/refined/environment/textures/forest_floor_rough_4k.jpg
+Loading resource: res://.godot/imported/forest_floor_rough_4k.jpg-7c79351f56e1b63369a4f68b90b525e1.ctex remapped: res://.godot/imported/forest_floor_rough_4k.jpg-7c79351f56e1b63369a4f68b90b525e1.ctex
+Completed load for: 'res://assets/refined/environment/textures/forest_floor_rough_4k.jpg' remapped 'res://assets/refined/environment/textures/forest_floor_rough_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/forest_understory_kit.glb remapped: res://assets/refined/environment/forest_understory_kit.glb
+Loading resource: res://.godot/imported/forest_understory_kit.glb-2a5d7403e1efeed828ce15e482bc0e66.scn remapped: res://.godot/imported/forest_understory_kit.glb-2a5d7403e1efeed828ce15e482bc0e66.scn
+Completed load for: 'res://assets/refined/environment/forest_understory_kit.glb' remapped 'res://assets/refined/environment/forest_understory_kit.glb' at thread -1
+Loading resource: res://assets/refined/environment/leaf_venation_color.png remapped: res://assets/refined/environment/leaf_venation_color.png
+Loading resource: res://.godot/imported/leaf_venation_color.png-1cd959b9110b15584b30800d7090015b.ctex remapped: res://.godot/imported/leaf_venation_color.png-1cd959b9110b15584b30800d7090015b.ctex
+Completed load for: 'res://assets/refined/environment/leaf_venation_color.png' remapped 'res://assets/refined/environment/leaf_venation_color.png' at thread -1
+Loading resource: res://assets/refined/environment/leaf_venation_normal.png remapped: res://assets/refined/environment/leaf_venation_normal.png
+Loading resource: res://.godot/imported/leaf_venation_normal.png-fdb2934a29b93f8ee3501a1af6d46282.ctex remapped: res://.godot/imported/leaf_venation_normal.png-fdb2934a29b93f8ee3501a1af6d46282.ctex
+Completed load for: 'res://assets/refined/environment/leaf_venation_normal.png' remapped 'res://assets/refined/environment/leaf_venation_normal.png' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_basecolor.jpg remapped: res://assets/refined/environment/textures/stone_basecolor.jpg
+Loading resource: res://.godot/imported/stone_basecolor.jpg-02f4b4a0854b0014abd78082e4943ad6.ctex remapped: res://.godot/imported/stone_basecolor.jpg-02f4b4a0854b0014abd78082e4943ad6.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_basecolor.jpg' remapped 'res://assets/refined/environment/textures/stone_basecolor.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_roughness.jpg remapped: res://assets/refined/environment/textures/stone_roughness.jpg
+Loading resource: res://.godot/imported/stone_roughness.jpg-5f1f6312230a442bf4c30dc135e22c32.ctex remapped: res://.godot/imported/stone_roughness.jpg-5f1f6312230a442bf4c30dc135e22c32.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_roughness.jpg' remapped 'res://assets/refined/environment/textures/stone_roughness.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/stone_normal.png remapped: res://assets/refined/environment/textures/stone_normal.png
+Loading resource: res://.godot/imported/stone_normal.png-9a4f81b671ed12da84c886e6f47d4e77.ctex remapped: res://.godot/imported/stone_normal.png-9a4f81b671ed12da84c886e6f47d4e77.ctex
+Completed load for: 'res://assets/refined/environment/textures/stone_normal.png' remapped 'res://assets/refined/environment/textures/stone_normal.png' at thread -1
+Loading resource: res://assets/refined/power_tower.glb remapped: res://assets/refined/power_tower.glb
+Loading resource: res://.godot/imported/power_tower.glb-f0504c29d634c78424cffb137d592570.scn remapped: res://.godot/imported/power_tower.glb-f0504c29d634c78424cffb137d592570.scn
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_basecolor.png-3505b394bfce8536132cbf9c81d99e37.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_basecolor.png-3505b394bfce8536132cbf9c81d99e37.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_roughness.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_roughness.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_roughness.png-2d1cbe3acce85ad399b42eb015a2748a.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_roughness.png-2d1cbe3acce85ad399b42eb015a2748a.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_roughness.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/power_tower_galvanised_tower_steel_normal.png remapped: res://assets/refined/power_tower_galvanised_tower_steel_normal.png
+Loading resource: res://.godot/imported/power_tower_galvanised_tower_steel_normal.png-d69bd45b4d13e848902fa185a643679e.ctex remapped: res://.godot/imported/power_tower_galvanised_tower_steel_normal.png-d69bd45b4d13e848902fa185a643679e.ctex
+Completed load for: 'res://assets/refined/power_tower_galvanised_tower_steel_normal.png' remapped 'res://assets/refined/power_tower_galvanised_tower_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_basecolor.png remapped: res://assets/refined/power_tower_weathered_tower_joints_basecolor.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_basecolor.png-2d96c7fdad8bcdb1a01682ac0a889ff0.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_basecolor.png-2d96c7fdad8bcdb1a01682ac0a889ff0.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_basecolor.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_basecolor.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_roughness.png remapped: res://assets/refined/power_tower_weathered_tower_joints_roughness.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_roughness.png-67dcae9fc7254102b0611a3d21eb09c3.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_roughness.png-67dcae9fc7254102b0611a3d21eb09c3.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_roughness.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_roughness.png' at thread -1
+Loading resource: res://assets/refined/power_tower_weathered_tower_joints_normal.png remapped: res://assets/refined/power_tower_weathered_tower_joints_normal.png
+Loading resource: res://.godot/imported/power_tower_weathered_tower_joints_normal.png-198f236c1753c4f0298241202535ef8e.ctex remapped: res://.godot/imported/power_tower_weathered_tower_joints_normal.png-198f236c1753c4f0298241202535ef8e.ctex
+Completed load for: 'res://assets/refined/power_tower_weathered_tower_joints_normal.png' remapped 'res://assets/refined/power_tower_weathered_tower_joints_normal.png' at thread -1
+Completed load for: 'res://assets/refined/power_tower.glb' remapped 'res://assets/refined/power_tower.glb' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg remapped: res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg
+Loading resource: res://.godot/imported/bark_brown_02_diff_4k.jpg-f786f5c502893d35a75f969dbda8733c.ctex remapped: res://.godot/imported/bark_brown_02_diff_4k.jpg-f786f5c502893d35a75f969dbda8733c.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg' remapped 'res://assets/refined/environment/textures/bark_brown_02_diff_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg remapped: res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg
+Loading resource: res://.godot/imported/bark_brown_02_rough_4k.jpg-254223adc22aa271017251e8fc3eeeaf.ctex remapped: res://.godot/imported/bark_brown_02_rough_4k.jpg-254223adc22aa271017251e8fc3eeeaf.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg' remapped 'res://assets/refined/environment/textures/bark_brown_02_rough_4k.jpg' at thread -1
+Loading resource: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png remapped: res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png
+Loading resource: res://.godot/imported/bark_brown_02_nor_gl_4k.png-336e0ad2da2085e0b44f70e8579cfc1c.ctex remapped: res://.godot/imported/bark_brown_02_nor_gl_4k.png-336e0ad2da2085e0b44f70e8579cfc1c.ctex
+Completed load for: 'res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png' remapped 'res://assets/refined/environment/textures/bark_brown_02_nor_gl_4k.png' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_2.glb remapped: res://assets/refined/environment/dead_tree_2.glb
+Loading resource: res://.godot/imported/dead_tree_2.glb-81606caa37ed4a3aa25892bd5b706ca4.scn remapped: res://.godot/imported/dead_tree_2.glb-81606caa37ed4a3aa25892bd5b706ca4.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_2.glb' remapped 'res://assets/refined/environment/dead_tree_2.glb' at thread -1
+Loading resource: res://assets/refined/abandoned_car.glb remapped: res://assets/refined/abandoned_car.glb
+Loading resource: res://.godot/imported/abandoned_car.glb-5f0319b36b49bc53ab72f1f76cca8ef8.scn remapped: res://.godot/imported/abandoned_car.glb-5f0319b36b49bc53ab72f1f76cca8ef8.scn
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_basecolor.png-3f981b018f6aaeafe8ed4900891ee025.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_basecolor.png-3f981b018f6aaeafe8ed4900891ee025.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_roughness.png-c0a0ac80e182e0e0aee0235c959de19d.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_roughness.png-c0a0ac80e182e0e0aee0235c959de19d.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png remapped: res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png
+Loading resource: res://.godot/imported/abandoned_car_oxidised_automotive_steel_normal.png-6cb8b93173fac1ad59f36c8a2139eead.ctex remapped: res://.godot/imported/abandoned_car_oxidised_automotive_steel_normal.png-6cb8b93173fac1ad59f36c8a2139eead.ctex
+Completed load for: 'res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png' remapped 'res://assets/refined/abandoned_car_oxidised_automotive_steel_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_basecolor.png-58edb0567208d8c529a916624121c689.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_basecolor.png-58edb0567208d8c529a916624121c689.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_roughness.png-bb24dd6f6f2f2d58d705d28cf88a9d31.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_roughness.png-bb24dd6f6f2f2d58d705d28cf88a9d31.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png remapped: res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png
+Loading resource: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_normal.png-7b85b13384481b083651e25506ad41ee.ctex remapped: res://.godot/imported/abandoned_car_aged_olive_automotive_lacquer_normal.png-7b85b13384481b083651e25506ad41ee.ctex
+Completed load for: 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png' remapped 'res://assets/refined/abandoned_car_aged_olive_automotive_lacquer_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_basecolor.png-1dc334d5a2b8019d4ed0a0043846a7d4.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_basecolor.png-1dc334d5a2b8019d4ed0a0043846a7d4.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_roughness.png-b02a754fd5f0ab1554e3187e24a55520.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_roughness.png-b02a754fd5f0ab1554e3187e24a55520.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png remapped: res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png
+Loading resource: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_normal.png-289e4ba9f449f4226ddcacbea2e42363.ctex remapped: res://.godot/imported/abandoned_car_exposed_chassis_corrosion_normal.png-289e4ba9f449f4226ddcacbea2e42363.ctex
+Completed load for: 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png' remapped 'res://assets/refined/abandoned_car_exposed_chassis_corrosion_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_basecolor.png-7f49e84b6f4021f5a02a6fe08699c7ad.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_basecolor.png-7f49e84b6f4021f5a02a6fe08699c7ad.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_roughness.png-a8ca4decb19f0745a660fb488f9d682e.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_roughness.png-a8ca4decb19f0745a660fb488f9d682e.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png remapped: res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png
+Loading resource: res://.godot/imported/abandoned_car_worn_textile_upholstery_normal.png-be4f919ee2f25ffbb60e5b2c8f835ef3.ctex remapped: res://.godot/imported/abandoned_car_worn_textile_upholstery_normal.png-be4f919ee2f25ffbb60e5b2c8f835ef3.ctex
+Completed load for: 'res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png' remapped 'res://assets/refined/abandoned_car_worn_textile_upholstery_normal.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_basecolor.png-9bb31b0f12e816d0cf0ce3248d800e01.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_basecolor.png-9bb31b0f12e816d0cf0ce3248d800e01.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_basecolor.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_roughness.png-2188411e43585ae37b5325632c0e9c77.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_roughness.png-2188411e43585ae37b5325632c0e9c77.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_roughness.png' at thread -1
+Loading resource: res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png remapped: res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png
+Loading resource: res://.godot/imported/abandoned_car_weathered_tyre_compound_normal.png-4bc156d35ffa9cc85224916df6a947ae.ctex remapped: res://.godot/imported/abandoned_car_weathered_tyre_compound_normal.png-4bc156d35ffa9cc85224916df6a947ae.ctex
+Completed load for: 'res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png' remapped 'res://assets/refined/abandoned_car_weathered_tyre_compound_normal.png' at thread -1
+Completed load for: 'res://assets/refined/abandoned_car.glb' remapped 'res://assets/refined/abandoned_car.glb' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_3.glb remapped: res://assets/refined/environment/dead_tree_3.glb
+Loading resource: res://.godot/imported/dead_tree_3.glb-56b85511b9bddb49861a2b879b5741a4.scn remapped: res://.godot/imported/dead_tree_3.glb-56b85511b9bddb49861a2b879b5741a4.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_3.glb' remapped 'res://assets/refined/environment/dead_tree_3.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_5.glb remapped: res://assets/refined/environment/broadleaf_tree_5.glb
+Loading resource: res://.godot/imported/broadleaf_tree_5.glb-bd33806e40c3457106a3a49741fc0d29.scn remapped: res://.godot/imported/broadleaf_tree_5.glb-bd33806e40c3457106a3a49741fc0d29.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_5.glb' remapped 'res://assets/refined/environment/broadleaf_tree_5.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_4.glb remapped: res://assets/refined/environment/broadleaf_tree_4.glb
+Loading resource: res://.godot/imported/broadleaf_tree_4.glb-b8615dd8b1322df3a003012a3f7f7865.scn remapped: res://.godot/imported/broadleaf_tree_4.glb-b8615dd8b1322df3a003012a3f7f7865.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_4.glb' remapped 'res://assets/refined/environment/broadleaf_tree_4.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_3.glb remapped: res://assets/refined/environment/broadleaf_tree_3.glb
+Loading resource: res://.godot/imported/broadleaf_tree_3.glb-7c6226f49ec5fce52957603c0dd93c8d.scn remapped: res://.godot/imported/broadleaf_tree_3.glb-7c6226f49ec5fce52957603c0dd93c8d.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_3.glb' remapped 'res://assets/refined/environment/broadleaf_tree_3.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_1.glb remapped: res://assets/refined/environment/broadleaf_tree_1.glb
+Loading resource: res://.godot/imported/broadleaf_tree_1.glb-a8cadbcac15b6fc8c873b48dc5a87144.scn remapped: res://.godot/imported/broadleaf_tree_1.glb-a8cadbcac15b6fc8c873b48dc5a87144.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_1.glb' remapped 'res://assets/refined/environment/broadleaf_tree_1.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_6.glb remapped: res://assets/refined/environment/broadleaf_tree_6.glb
+Loading resource: res://.godot/imported/broadleaf_tree_6.glb-b8d946190eb38b8aa3faeb4a130205c0.scn remapped: res://.godot/imported/broadleaf_tree_6.glb-b8d946190eb38b8aa3faeb4a130205c0.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_6.glb' remapped 'res://assets/refined/environment/broadleaf_tree_6.glb' at thread -1
+Loading resource: res://assets/refined/environment/dead_tree_1.glb remapped: res://assets/refined/environment/dead_tree_1.glb
+Loading resource: res://.godot/imported/dead_tree_1.glb-8adb7dd5d62808604a2f4a675f86e751.scn remapped: res://.godot/imported/dead_tree_1.glb-8adb7dd5d62808604a2f4a675f86e751.scn
+Completed load for: 'res://assets/refined/environment/dead_tree_1.glb' remapped 'res://assets/refined/environment/dead_tree_1.glb' at thread -1
+Loading resource: res://assets/refined/environment/broadleaf_tree_2.glb remapped: res://assets/refined/environment/broadleaf_tree_2.glb
+Loading resource: res://.godot/imported/broadleaf_tree_2.glb-33a3436aec51b97e7e42eb6381983851.scn remapped: res://.godot/imported/broadleaf_tree_2.glb-33a3436aec51b97e7e42eb6381983851.scn
+Completed load for: 'res://assets/refined/environment/broadleaf_tree_2.glb' remapped 'res://assets/refined/environment/broadleaf_tree_2.glb' at thread -1
+Loading resource: res://assets/refined/field_equipment.glb remapped: res://assets/refined/field_equipment.glb
+Loading resource: res://.godot/imported/field_equipment.glb-befd1137ba9b6a3778b755b516f38d75.scn remapped: res://.godot/imported/field_equipment.glb-befd1137ba9b6a3778b755b516f38d75.scn
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_basecolor.png-fd2c2e25484b57aa2a9c088fbd10f930.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_basecolor.png-fd2c2e25484b57aa2a9c088fbd10f930.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_roughness.png-14bc0aa01883c621ada3c95011178bfb.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_roughness.png-14bc0aa01883c621ada3c95011178bfb.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png remapped: res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png
+Loading resource: res://.godot/imported/field_equipment_field_graphite_coated_metal_normal.png-9715e49e8fec243e6230bbd14537ac86.ctex remapped: res://.godot/imported/field_equipment_field_graphite_coated_metal_normal.png-9715e49e8fec243e6230bbd14537ac86.ctex
+Completed load for: 'res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png' remapped 'res://assets/refined/field_equipment_field_graphite_coated_metal_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_basecolor.png remapped: res://assets/refined/field_equipment_machined_aluminium_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_basecolor.png-9b3bed6592b915698ac0975ed855c040.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_basecolor.png-9b3bed6592b915698ac0975ed855c040.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_basecolor.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_roughness.png remapped: res://assets/refined/field_equipment_machined_aluminium_roughness.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_roughness.png-c8d5f1659baa5a6c27f9b77c2334b6a8.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_roughness.png-c8d5f1659baa5a6c27f9b77c2334b6a8.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_roughness.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_machined_aluminium_normal.png remapped: res://assets/refined/field_equipment_machined_aluminium_normal.png
+Loading resource: res://.godot/imported/field_equipment_machined_aluminium_normal.png-40c325b380906659f2a3ec9c077246de.ctex remapped: res://.godot/imported/field_equipment_machined_aluminium_normal.png-40c325b380906659f2a3ec9c077246de.ctex
+Completed load for: 'res://assets/refined/field_equipment_machined_aluminium_normal.png' remapped 'res://assets/refined/field_equipment_machined_aluminium_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_basecolor.png-7fb026f1c9126edcdac44fcb5007b746.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_basecolor.png-7fb026f1c9126edcdac44fcb5007b746.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_roughness.png-3fe74c4ab42fda0727d19ff07e5eb140.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_roughness.png-3fe74c4ab42fda0727d19ff07e5eb140.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png remapped: res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png
+Loading resource: res://.godot/imported/field_equipment_grip_vulcanised_rubber_normal.png-ecd2b322f4a65a92049390664d3c9fb4.ctex remapped: res://.godot/imported/field_equipment_grip_vulcanised_rubber_normal.png-ecd2b322f4a65a92049390664d3c9fb4.ctex
+Completed load for: 'res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png' remapped 'res://assets/refined/field_equipment_grip_vulcanised_rubber_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png-90733e454567f2862ec9eda4a4952b09.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png-90733e454567f2862ec9eda4a4952b09.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor_left_nail_blend.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_roughness.png-6fddcf383388ef778aa38da5bb3f8350.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_roughness.png-6fddcf383388ef778aa38da5bb3f8350.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_normal.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_normal.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_normal.png-0ce92c5f694701dd318bbfbc1619a471.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_normal.png-0ce92c5f694701dd318bbfbc1619a471.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_normal.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_basecolor.png-9113b34c7bfaeadcc70b310be52b69ca.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_basecolor.png-9113b34c7bfaeadcc70b310be52b69ca.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_basecolor.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_roughness.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_roughness.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_roughness.png-a232a0d3c7c0cd0010e2bd1e2b250c00.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_roughness.png-a232a0d3c7c0cd0010e2bd1e2b250c00.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_roughness.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_roughness.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_tailored_storm_shell_normal.png remapped: res://assets/refined/field_equipment_tailored_storm_shell_normal.png
+Loading resource: res://.godot/imported/field_equipment_tailored_storm_shell_normal.png-fd28a8747370238ede6b72cc66382003.ctex remapped: res://.godot/imported/field_equipment_tailored_storm_shell_normal.png-fd28a8747370238ede6b72cc66382003.ctex
+Completed load for: 'res://assets/refined/field_equipment_tailored_storm_shell_normal.png' remapped 'res://assets/refined/field_equipment_tailored_storm_shell_normal.png' at thread -1
+Loading resource: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png remapped: res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png
+Loading resource: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor.png-3f9605c15003dd1ef6fa294a95123e6b.ctex remapped: res://.godot/imported/field_equipment_anatomical_warm_skin_basecolor.png-3f9605c15003dd1ef6fa294a95123e6b.ctex
+Completed load for: 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png' remapped 'res://assets/refined/field_equipment_anatomical_warm_skin_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/field_equipment.glb' remapped 'res://assets/refined/field_equipment.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0.glb remapped: res://assets/refined/nailong/nailong_lod0.glb
+Loading resource: res://.godot/imported/nailong_lod0.glb-43c9cbd310e7fafb0d3bf2cf3a8f29a8.scn remapped: res://.godot/imported/nailong_lod0.glb-43c9cbd310e7fafb0d3bf2cf3a8f29a8.scn
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_basecolor.png-46497fbcd6850fb4bc434f226ccb3c5f.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_basecolor.png-46497fbcd6850fb4bc434f226ccb3c5f.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_roughness.png-1993ccda5e57d994ec4bbad07bd9ae8a.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_roughness.png-1993ccda5e57d994ec4bbad07bd9ae8a.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_skin_normal.png-6cca4a1a069e24710e7e8bbc8a6fe18f.ctex remapped: res://.godot/imported/nailong_lod0_nailong_skin_normal.png-6cca4a1a069e24710e7e8bbc8a6fe18f.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod0_nailong_iris_basecolor.png-828f63e943d39df0dc8b12831dc25419.ctex remapped: res://.godot/imported/nailong_lod0_nailong_iris_basecolor.png-828f63e943d39df0dc8b12831dc25419.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod0_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod0.glb' remapped 'res://assets/refined/nailong/nailong_lod0.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1.glb remapped: res://assets/refined/nailong/nailong_lod1.glb
+Loading resource: res://.godot/imported/nailong_lod1.glb-8b6694bf93eb4ca3fed2e3f18196fc1b.scn remapped: res://.godot/imported/nailong_lod1.glb-8b6694bf93eb4ca3fed2e3f18196fc1b.scn
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_basecolor.png-7e6d1eae10fb7bb4c747b05aa7ef6955.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_basecolor.png-7e6d1eae10fb7bb4c747b05aa7ef6955.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_roughness.png-0909d815cfdfe60bbcaab32a0fe9521c.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_roughness.png-0909d815cfdfe60bbcaab32a0fe9521c.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_skin_normal.png-4831db13c32a76a1158a4afea157da38.ctex remapped: res://.godot/imported/nailong_lod1_nailong_skin_normal.png-4831db13c32a76a1158a4afea157da38.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod1_nailong_iris_basecolor.png-31ba4fba3cb3f49c7988de866dd13b5a.ctex remapped: res://.godot/imported/nailong_lod1_nailong_iris_basecolor.png-31ba4fba3cb3f49c7988de866dd13b5a.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod1_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod1.glb' remapped 'res://assets/refined/nailong/nailong_lod1.glb' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2.glb remapped: res://assets/refined/nailong/nailong_lod2.glb
+Loading resource: res://.godot/imported/nailong_lod2.glb-5189da847788ddbaa39068becfb66e48.scn remapped: res://.godot/imported/nailong_lod2.glb-5189da847788ddbaa39068becfb66e48.scn
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_basecolor.png-37c39e7304bc0c050bbc7b312f3fe412.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_basecolor.png-37c39e7304bc0c050bbc7b312f3fe412.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_basecolor.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_roughness.png-dd36ce33a4528b91695ac0131c6f8ba3.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_roughness.png-dd36ce33a4528b91695ac0131c6f8ba3.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_roughness.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_skin_normal.png-ebaa1ce5d0a042c0c65229a631b26e62.ctex remapped: res://.godot/imported/nailong_lod2_nailong_skin_normal.png-ebaa1ce5d0a042c0c65229a631b26e62.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_skin_normal.png' at thread -1
+Loading resource: res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png remapped: res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png
+Loading resource: res://.godot/imported/nailong_lod2_nailong_iris_basecolor.png-be89159f9dc264c05b78b9fd09beb74e.ctex remapped: res://.godot/imported/nailong_lod2_nailong_iris_basecolor.png-be89159f9dc264c05b78b9fd09beb74e.ctex
+Completed load for: 'res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png' remapped 'res://assets/refined/nailong/nailong_lod2_nailong_iris_basecolor.png' at thread -1
+Completed load for: 'res://assets/refined/nailong/nailong_lod2.glb' remapped 'res://assets/refined/nailong/nailong_lod2.glb' at thread -1
+Loading resource: res://assets/refined/research_report.glb remapped: res://assets/refined/research_report.glb
+Loading resource: res://.godot/imported/research_report.glb-a88fcf3d7502a58a826ac60ba957fcfd.scn remapped: res://.godot/imported/research_report.glb-a88fcf3d7502a58a826ac60ba957fcfd.scn
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_basecolor.png-d0631eed0b35579f2b209b22b93ed2d2.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_basecolor.png-d0631eed0b35579f2b209b22b93ed2d2.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_basecolor.png' at thread -1
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_roughness.png-335e95554d511f935e919690a94a86f1.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_roughness.png-335e95554d511f935e919690a94a86f1.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_roughness.png' at thread -1
+Loading resource: res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png remapped: res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png
+Loading resource: res://.godot/imported/research_report_waterproof_bound_research_cloth_normal.png-a5b0d75548d7c17d8a6ec447b29f127a.ctex remapped: res://.godot/imported/research_report_waterproof_bound_research_cloth_normal.png-a5b0d75548d7c17d8a6ec447b29f127a.ctex
+Completed load for: 'res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png' remapped 'res://assets/refined/research_report_waterproof_bound_research_cloth_normal.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_basecolor.png remapped: res://assets/refined/research_report_aged_field_paper_basecolor.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_basecolor.png-aca1d057f7e52c8478a61f9c27b7867a.ctex remapped: res://.godot/imported/research_report_aged_field_paper_basecolor.png-aca1d057f7e52c8478a61f9c27b7867a.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_basecolor.png' remapped 'res://assets/refined/research_report_aged_field_paper_basecolor.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_roughness.png remapped: res://assets/refined/research_report_aged_field_paper_roughness.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_roughness.png-fb719814c86e60e6e5a754260fc9397d.ctex remapped: res://.godot/imported/research_report_aged_field_paper_roughness.png-fb719814c86e60e6e5a754260fc9397d.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_roughness.png' remapped 'res://assets/refined/research_report_aged_field_paper_roughness.png' at thread -1
+Loading resource: res://assets/refined/research_report_aged_field_paper_normal.png remapped: res://assets/refined/research_report_aged_field_paper_normal.png
+Loading resource: res://.godot/imported/research_report_aged_field_paper_normal.png-394670b7a249fcb38785057f5e93b052.ctex remapped: res://.godot/imported/research_report_aged_field_paper_normal.png-394670b7a249fcb38785057f5e93b052.ctex
+Completed load for: 'res://assets/refined/research_report_aged_field_paper_normal.png' remapped 'res://assets/refined/research_report_aged_field_paper_normal.png' at thread -1
+Completed load for: 'res://assets/refined/research_report.glb' remapped 'res://assets/refined/research_report.glb' at thread -1
+EXPORT_AUDIT_NATIVE_LOAD_FAILED=0
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

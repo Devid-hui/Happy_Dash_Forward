@@ -1,0 +1,246 @@
+{
+  "left": {
+    "idle": {
+      "samples": 13,
+      "max_upper_length_error_m": 0.0,
+      "max_fore_length_error_m": 5.96046447753906e-08,
+      "shoulder_span_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visible_wrist_max_speed_m_s": 0.0,
+      "visible_elbow_flexion_deg": [
+        53.5973748877791,
+        53.5973748877791
+      ],
+      "steady_elbow_flexion_deg": [
+        53.5973748877791,
+        53.5973748877791
+      ],
+      "support_hidden_after_action": true
+    },
+    "shot": {
+      "samples": 15,
+      "max_upper_length_error_m": 0.0,
+      "max_fore_length_error_m": 5.96046447753906e-08,
+      "shoulder_span_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visible_wrist_max_speed_m_s": 0.0,
+      "visible_elbow_flexion_deg": [
+        53.5973748877791,
+        53.5973748877791
+      ],
+      "steady_elbow_flexion_deg": [
+        53.5973748877791,
+        53.5973748877791
+      ],
+      "support_hidden_after_action": true
+    },
+    "flash": {
+      "samples": 39,
+      "max_upper_length_error_m": 1.78813934326172e-07,
+      "max_fore_length_error_m": 1.49011611938477e-07,
+      "shoulder_span_m": [
+        0.02000027894973802,
+        0.016000151634216003,
+        0.02999973297119099
+      ],
+      "visible_wrist_max_speed_m_s": 1.2599107772615274,
+      "visible_elbow_flexion_deg": [
+        60.76270861470208,
+        80.7014857718557
+      ],
+      "steady_elbow_flexion_deg": [
+        60.76270861470208,
+        63.838126149811046
+      ],
+      "support_hidden_after_action": true
+    },
+    "luminol": {
+      "samples": 30,
+      "max_upper_length_error_m": 1.78813934326172e-07,
+      "max_fore_length_error_m": 1.78813934326172e-07,
+      "shoulder_span_m": [
+        0.020000249147415022,
+        0.01600003242492698,
+        0.02999973297119099
+      ],
+      "visible_wrist_max_speed_m_s": 1.356333257202151,
+      "visible_elbow_flexion_deg": [
+        80.7014857718557,
+        91.17513244897563
+      ],
+      "steady_elbow_flexion_deg": [
+        90.89484173832128,
+        90.89710187008367
+      ],
+      "support_hidden_after_action": true
+    },
+    "salt": {
+      "samples": 33,
+      "max_upper_length_error_m": 2.08616256713867e-07,
+      "max_fore_length_error_m": 1.49011611938477e-07,
+      "shoulder_span_m": [
+        0.020000115036965,
+        0.01600003242492698,
+        0.02999973297119099
+      ],
+      "visible_wrist_max_speed_m_s": 1.1933420526052254,
+      "visible_elbow_flexion_deg": [
+        80.7014857718557,
+        92.19740682540488
+      ],
+      "steady_elbow_flexion_deg": [
+        91.88494081560113,
+        91.88537979910474
+      ],
+      "support_hidden_after_action": true
+    },
+    "mud": {
+      "samples": 28,
+      "max_upper_length_error_m": 2.38418579101562e-07,
+      "max_fore_length_error_m": 1.19209289550781e-07,
+      "shoulder_span_m": [
+        0.019999966025353005,
+        0.016000151634216003,
+        0.02999997138976998
+      ],
+      "visible_wrist_max_speed_m_s": 1.6125455529515818,
+      "visible_elbow_flexion_deg": [
+        80.7014857718557,
+        86.94002098397804
+      ],
+      "steady_elbow_flexion_deg": [
+        85.53343165666872,
+        85.54239593106146
+      ],
+      "support_hidden_after_action": true
+    }
+  },
+  "right": {
+    "idle": {
+      "samples": 13,
+      "max_upper_length_error_m": 5.96046447753906e-08,
+      "max_fore_length_error_m": 7.45058059692383e-08,
+      "shoulder_span_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "visible_wrist_max_speed_m_s": 0.0,
+      "visible_elbow_flexion_deg": [
+        60.73683989759323,
+        60.73683989759323
+      ],
+      "steady_elbow_flexion_deg": [
+        60.73683989759323,
+        60.73683989759323
+      ],
+      "support_hidden_after_action": true
+    },
+    "shot": {
+      "samples": 15,
+      "max_upper_length_error_m": 1.78813934326172e-07,
+      "max_fore_length_error_m": 8.94069671630859e-08,
+      "shoulder_span_m": [
+        0.0069760382175440006,
+        0.003986597061156977,
+        0.011959075927734396
+      ],
+      "visible_wrist_max_speed_m_s": 0.39235031360592326,
+      "visible_elbow_flexion_deg": [
+        60.73683989759323,
+        75.9950381862552
+      ],
+      "steady_elbow_flexion_deg": [
+        60.73683989759323,
+        75.9950381862552
+      ],
+      "support_hidden_after_action": true
+    },
+    "flash": {
+      "samples": 39,
+      "max_upper_length_error_m": 2.38418579101562e-07,
+      "max_fore_length_error_m": 2.23517417907715e-07,
+      "shoulder_span_m": [
+        0.006991982460022028,
+        0.00399553775787298,
+        0.0119867324829101
+      ],
+      "visible_wrist_max_speed_m_s": 0.0920519365317603,
+      "visible_elbow_flexion_deg": [
+        56.91736987911442,
+        61.62074889973479
+      ],
+      "steady_elbow_flexion_deg": [
+        56.91736987911442,
+        60.73683989759323
+      ],
+      "support_hidden_after_action": true
+    },
+    "luminol": {
+      "samples": 30,
+      "max_upper_length_error_m": 2.38418579101562e-07,
+      "max_fore_length_error_m": 1.9371509552002e-07,
+      "shoulder_span_m": [
+        0.006994277238846047,
+        0.0039967298507689875,
+        0.011990547180175802
+      ],
+      "visible_wrist_max_speed_m_s": 0.3641801662337111,
+      "visible_elbow_flexion_deg": [
+        60.73683989759323,
+        66.85031463307305
+      ],
+      "steady_elbow_flexion_deg": [
+        60.73683989759323,
+        66.85031463307305
+      ],
+      "support_hidden_after_action": true
+    },
+    "salt": {
+      "samples": 33,
+      "max_upper_length_error_m": 2.38418579101562e-07,
+      "max_fore_length_error_m": 1.63912773132324e-07,
+      "shoulder_span_m": [
+        0.006998032331467008,
+        0.003998875617980985,
+        0.011996746063232401
+      ],
+      "visible_wrist_max_speed_m_s": 0.3230050709785981,
+      "visible_elbow_flexion_deg": [
+        60.73683989759323,
+        66.8507726107166
+      ],
+      "steady_elbow_flexion_deg": [
+        60.73683989759323,
+        66.8507726107166
+      ],
+      "support_hidden_after_action": true
+    },
+    "mud": {
+      "samples": 28,
+      "max_upper_length_error_m": 2.38418579101562e-07,
+      "max_fore_length_error_m": 1.78813934326172e-07,
+      "shoulder_span_m": [
+        0.006999790668487049,
+        0.003999948501585998,
+        0.011999607086181599
+      ],
+      "visible_wrist_max_speed_m_s": 0.3889592791672152,
+      "visible_elbow_flexion_deg": [
+        60.73683989759323,
+        66.85092746386047
+      ],
+      "steady_elbow_flexion_deg": [
+        60.73683989759323,
+        66.85092746386047
+      ],
+      "support_hidden_after_action": true
+    }
+  }
+}

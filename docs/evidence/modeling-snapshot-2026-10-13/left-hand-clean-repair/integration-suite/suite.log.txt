@@ -1,0 +1,44 @@
+Godot 4.7.2.stable.official.ed1daf0bf
+PASS import (1.34s)
+PASS runner self-test: rejected SCRIPT ERROR with exit 0 and a PASS marker (0.15s)
+PASS smoke (13.51s)
+PASS hunter rules (11.05s)
+PASS audit regressions (14.07s)
+PASS research progression (0.15s)
+PASS skill dispatch (0.14s)
+PASS report world flow (8.33s)
+PASS spectrum gameplay (8.05s)
+PASS native UI (0.66s)
+PASS static asset integration (4.80s)
+PASS environment geometry (3.95s)
+PASS equipment vehicle geometry (2.54s)
+PASS hand anatomy and grip motion (1.36s)
+FAIL nailong skin animation: process exited 1 (2.26s)
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Primary skin, real mouth interior, lips, tongue and eyelids contain native facial morphs
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/nailong_model_contract.gd:10)
+       [1] _run (res://tests/nailong_model_contract.gd:35)
+ERROR: Warning drives real skin/cavity/lip/tongue opening tracks
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/nailong_model_contract.gd:10)
+       [1] _run (res://tests/nailong_model_contract.gd:55)
+ERROR: Distance mouth retains a meaningful closed-to-open skin delta: LOD1
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/nailong_model_contract.gd:10)
+       [1] _expect_opening_geometry (res://tests/nailong_model_contract.gd:140)
+       [2] _run (res://tests/nailong_model_contract.gd:69)
+ERROR: Distance mouth retains a meaningful closed-to-open skin delta: LOD2
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] expect (res://tests/nailong_model_contract.gd:10)
+       [1] _expect_opening_geometry (res://tests/nailong_model_contract.gd:140)
+       [2] _run (res://tests/nailong_model_contract.gd:72)
+NAILONG_SKINNED_POSE_BOUNDS [P: (-1.047322, -0.01126, -0.828552), S: (2.095597, 2.83359, 1.79041)]
+NAILONG_MODEL_CONTRACT checks=324 failures=4 tris=265784/83984/28861
+PASS archive process restart write (0.14s)
+PASS archive process restart read (0.15s)

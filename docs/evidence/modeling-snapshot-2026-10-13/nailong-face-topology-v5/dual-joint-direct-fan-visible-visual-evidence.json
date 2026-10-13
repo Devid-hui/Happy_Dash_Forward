@@ -1,0 +1,40 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-direct-fan-linear.blend",
+  "source_sha256": "2b8016d6929bba31b0e5f04df4a8e975b45698dbe0fdbfbc40c899506c95b1f4",
+  "source_Focus_alias_displacement": {
+    "SharedEyelidFace_left": {
+      "max_m": 0.08106352388858795,
+      "median_m": 0.003629197832196951,
+      "p95_m": 0.06362967751920223,
+      "changed_vertices_above_1mm": 5042
+    },
+    "SharedEyelidFace_right": {
+      "max_m": 0.08106352388858795,
+      "median_m": 0.003516207914799452,
+      "p95_m": 0.062559325248003,
+      "changed_vertices_above_1mm": 5040
+    }
+  },
+  "clip_samples": [
+    {
+      "clip": "warn",
+      "seconds": 0.78,
+      "BodyFocus": 0.7490364909172058,
+      "BodyOpen": 0.8189465999603271
+    },
+    {
+      "clip": "charge",
+      "seconds": 0.25,
+      "BodyFocus": 0.6000000238418579,
+      "BodyOpen": 0.47999998927116394
+    },
+    {
+      "clip": "idle",
+      "seconds": 1.792,
+      "BodyFocus": 0.0,
+      "BodyOpen": 0.0508003793656826
+    }
+  ],
+  "CPU_only": true,
+  "not_expression_art_pass": true
+}

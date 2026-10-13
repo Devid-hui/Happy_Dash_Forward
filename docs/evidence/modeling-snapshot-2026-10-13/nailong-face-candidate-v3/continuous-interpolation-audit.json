@@ -1,0 +1,67 @@
+{
+  "method": "Convex clearance minimum on every actual LINEAR sampler interval; boundaries and derivative zero, 28 bisection iterations; cap q<=0.81.",
+  "scope": "Rest/head coordinates. All interpolation times for every actual lid vertex and triangle centroid/edge midpoint; not a proof over unsampled triangle interior, arbitrary blends or native skin/material behavior.",
+  "files": [
+    {
+      "file": "nailong_lod0.glb",
+      "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+      "actual_weight_intervals_checked": 1156,
+      "eligible_spatial_interval_pairs": 2131279,
+      "internal_stationary_minima_checked": 345306,
+      "minimum_cornea_clearance_m": 0.003424570903847326,
+      "clear": true,
+      "worst": {
+        "minimum_m": 0.003424570903847326,
+        "fraction": 0.21129195897399536,
+        "spatial_sample_index": 9742,
+        "eligible_samples": 8814,
+        "internal_stationary_minima": 614,
+        "mesh": "LowerEyelid_left.001",
+        "clip": "idle",
+        "interval_index": 64,
+        "time_s": 1.83866601774719
+      }
+    },
+    {
+      "file": "nailong_lod1.glb",
+      "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+      "actual_weight_intervals_checked": 1156,
+      "eligible_spatial_interval_pairs": 1420650,
+      "internal_stationary_minima_checked": 230102,
+      "minimum_cornea_clearance_m": 0.0032986511862223575,
+      "clear": true,
+      "worst": {
+        "minimum_m": 0.0032986511862223575,
+        "fraction": 0.5398171003907919,
+        "spatial_sample_index": 6506,
+        "eligible_samples": 5901,
+        "internal_stationary_minima": 399,
+        "mesh": "LowerEyelid_left.002",
+        "clip": "idle",
+        "interval_index": 62,
+        "time_s": 1.8136752929474291
+      }
+    },
+    {
+      "file": "nailong_lod2.glb",
+      "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+      "actual_weight_intervals_checked": 1156,
+      "eligible_spatial_interval_pairs": 1419049,
+      "internal_stationary_minima_checked": 229790,
+      "minimum_cornea_clearance_m": 0.0032986076638642477,
+      "clear": true,
+      "worst": {
+        "minimum_m": 0.0032986076638642477,
+        "fraction": 0.5394468884915113,
+        "spatial_sample_index": 6506,
+        "eligible_samples": 5901,
+        "internal_stationary_minima": 395,
+        "mesh": "LowerEyelid_left.003",
+        "clip": "idle",
+        "interval_index": 62,
+        "time_s": 1.8136659142637515
+      }
+    }
+  ],
+  "all_continuous_lid_samples_clear": true
+}

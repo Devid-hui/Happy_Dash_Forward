@@ -1,0 +1,428 @@
+[
+  {
+    "source": "work/naifrog/resource-research/research-receipt.json",
+    "repo": "source_assets/naifrog/reference_research/research-receipt.json",
+    "sha256": "d8abd051830adaefe893110d35df1f360e866e249f60cfa3c795c1495ad91774",
+    "bytes": 13373
+  },
+  {
+    "source": "work/naifrog/resource-research/tutorial-primary-research.md",
+    "repo": "source_assets/naifrog/reference_research/tutorial-primary-research.md",
+    "sha256": "b43a3ec6baedfe3789851348a543d34aa3575b74bdda25fcd177a334b2e507b8",
+    "bytes": 9863
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-glb-inspection.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-glb-inspection.json",
+    "sha256": "f91a0f4aa68c03230c1f93ab7b789dde4d3e3abeb6bd5d66f719a72fa5964b99",
+    "bytes": 1978
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-first-export-static.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-first-export-static.txt",
+    "sha256": "b0b73fdc63f5b59ab91ed697f3bd2667fcdb68777a4357ce7ec28914294737a3",
+    "bytes": 1017
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-source-preview.png",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-source-preview.png",
+    "sha256": "31fa0232472b6184ee68d304841da6e97c5cf879145dbfd182defa150d8d7c0c",
+    "bytes": 450513
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-export-checks.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-export-checks.json",
+    "sha256": "dba52358d768fe195c9d0910278df7c8b310d578bdb18be8b00ca33af3225540",
+    "bytes": 1292
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-first-export-static.glb",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-first-export-static.glb",
+    "sha256": "f2b3514bd1c8d3bae16888eb83cca3965c761de224b12a7dac1542ed4b41170d",
+    "bytes": 23740
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-first-export-static-inspection.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-first-export-static-inspection.json",
+    "sha256": "d1c821189eeb1761d85849eacb3d8c9c371457076f1fd48c59a9167f5f27c34f",
+    "bytes": 898
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-second-export-animation-duplicates.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-second-export-animation-duplicates.txt",
+    "sha256": "70c34dbcb776adaa16b757c9a3f5e781ce7a2ffc823000521f24e944097a321d",
+    "bytes": 1945
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-gltf-export.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-gltf-export.txt",
+    "sha256": "a75b8c6d15722b7121d3ff97f81876accd92a588ffc8ab202c1ebc086d4626f4",
+    "bytes": 1945
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-second-export-animation-duplicates-inspection.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-second-export-animation-duplicates-inspection.json",
+    "sha256": "7963f43ce6cbe93ad05ce7f7f1b895eb407a1e51e04bcd358b9ddc505984786a",
+    "bytes": 1979
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-second-export-animation-duplicates.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-second-export-animation-duplicates.json",
+    "sha256": "72b225ca2f51b3b5f5ffc91dd09780e8de6829baf8190ccd1e160292042c9f45",
+    "bytes": 19336
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-second-export-animation-duplicates.glb",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-second-export-animation-duplicates.glb",
+    "sha256": "b11aa9f90fa8056d5b9b2cab0dff7b82ae6b0835ec1c8462f1260e3f391da0e2",
+    "bytes": 149552
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-inspection.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-inspection.txt",
+    "sha256": "289ed1e138f39ee9f04e09b206383e325438ee1f5688a0aaf7d92b7f1f6d74af",
+    "bytes": 462
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-inspection.json",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-inspection.json",
+    "sha256": "8ab059a201cd97c7870585ff1f69e2334b81e191e8a4f0ea9e64c0a803bebc02",
+    "bytes": 34991
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-research.glb",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-research.glb",
+    "sha256": "8cbe3338c07907c7d808804d5599915763fa7ede0894e2d9e327bc0b1cea0c76",
+    "bytes": 132820
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/blender-gltf-options.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/blender-gltf-options.txt",
+    "sha256": "7d2b59c82523c3a1be0ca7de51249a6d98f8051e04437457555aee092b140ba7",
+    "bytes": 834
+  },
+  {
+    "source": "work/naifrog/resource-research/inspections/opengameart-frog-source-preview.log",
+    "repo": "source_assets/naifrog/reference_research/inspections/opengameart-frog-source-preview.txt",
+    "sha256": "ce8e94f0b37cdfbb85d7d5e695983dbef424902aadd49055224e36d61823409e",
+    "bytes": 5747
+  },
+  {
+    "source": "work/naifrog/resource-research/scripts/inspect_glb.py",
+    "repo": "source_assets/naifrog/reference_research/scripts/inspect_glb.py",
+    "sha256": "133e173ca9d94e8863c1a9172c5c942e5bf2a2fb9618cbc185be06887a648fea",
+    "bytes": 1552
+  },
+  {
+    "source": "work/naifrog/resource-research/scripts/render_source_preview.py",
+    "repo": "source_assets/naifrog/reference_research/scripts/render_source_preview.py",
+    "sha256": "e691b5e2c5f43b8590d54a984f9a66ab5088b8435b483dd767b55333f9e594de",
+    "bytes": 2180
+  },
+  {
+    "source": "work/naifrog/resource-research/scripts/export_source_sample.py",
+    "repo": "source_assets/naifrog/reference_research/scripts/export_source_sample.py",
+    "sha256": "6577c3856a7e33ff93a0d6feee91d612af50d190a5c31a098a3eb9f244893911",
+    "bytes": 1014
+  },
+  {
+    "source": "work/naifrog/resource-research/scripts/inspect_blend.py",
+    "repo": "source_assets/naifrog/reference_research/scripts/inspect_blend.py",
+    "sha256": "947b861dca65a2217280e6031e50893b5fa6d93482434637a5c620be93d896af",
+    "bytes": 6339
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-frog-tutorial-text.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-frog-tutorial-text.txt",
+    "sha256": "a126ba2cc68294e25f45e20cd040dc68e6b56f01135c09d0e977b2aa2434355f",
+    "bytes": 2578
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/crowfriend-youtube-metadata.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/crowfriend-youtube-metadata.json",
+    "sha256": "6b2cd2de01b4a9630cfea60e44051e4f7c79cf5f9a1967f7793232cb62c56595",
+    "bytes": 1985194
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/quaternius-download-folder.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/quaternius-download-folder.html",
+    "sha256": "2be2304bee3a05a530bfe649b47641d3cf280887e1d9d49d580c42f08f3645e4",
+    "bytes": 6558
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-frog.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-frog.html",
+    "sha256": "55083783c5c7974bd72fee4d30ba089729099f4803fc1d5527c2a94c28d1177a",
+    "bytes": 72054
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blendswap-download-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blendswap-download-links.json",
+    "sha256": "af50a73eb6c8dc99c07810d6257b4c07d324ef25ee10c9c1e696283a36fe24ba",
+    "bytes": 2278
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/opengameart-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/opengameart-links.json",
+    "sha256": "5996592e2ce44b801f075b3c4bed5517547fe7dbaff71c74830c36d4dfa55475",
+    "bytes": 6117
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blender45-gltf.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blender45-gltf.html",
+    "sha256": "ba89b5fee80f8471a9c7b1a34b1b87de580da4108229eb6f2f5bb1db441976b4",
+    "bytes": 490244
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blenderstudy-youtube-metadata.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blenderstudy-youtube-metadata.json",
+    "sha256": "bea846b4c3cd90ad377623d246bbbb4ed4dc75a15e4027540f721b78ec59d040",
+    "bytes": 1091805
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/quaternius-animals.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/quaternius-animals.html",
+    "sha256": "cff83a95676549b244a26626a77e630d9ac8d95b0348f5e2e2c53ca821af4391",
+    "bytes": 15479
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-advanced.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-advanced.html",
+    "sha256": "a37c1dd01cdc418b75b48349921a9c5cd3529fec77e51513ae655b2fd5f227ec",
+    "bytes": 1300563
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/quaternius-blends-folder.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/quaternius-blends-folder.html",
+    "sha256": "b4076be5c82fefbb83f9ad0a9f877ef1c9ad0602236e4baeb5e941103659968b",
+    "bytes": 10079
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/crowfriend-discovery-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/crowfriend-discovery-links.json",
+    "sha256": "8d81843b133ce72e0f83a7148a241ccc34c724384715846c03d574cce2430d98",
+    "bytes": 7464
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-export.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-export.txt",
+    "sha256": "8c7b62163eff0c33aceb26d3bea06f26c2b3febd6b385a57204fd55999121373",
+    "bytes": 3882
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-sketchfab.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-sketchfab.html",
+    "sha256": "38ffe47556f0d70ae544fb2cc2ab93318109bf78d07c7354a338949bf8612ef7",
+    "bytes": 103207
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blender45-gltf.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blender45-gltf.txt",
+    "sha256": "d952bb936a572e70b7954fd6e448d600c16469be64eefa37b553c6a994b12628",
+    "bytes": 39301
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-advanced.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-advanced.txt",
+    "sha256": "941282afc97f757ba61808846c1e49fd6d6e8e66c88e999ff15a403de3a329a5",
+    "bytes": 10260
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blendswap-download.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blendswap-download.html",
+    "sha256": "8862ac029022b9d6631146eedf7efd0233e0459d6f74d11dcb3e7f326692d90a",
+    "bytes": 46391
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-blend-file.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-blend-file.html",
+    "sha256": "91afa5da43a9198a63f39cabea48168e473537219bec52fd88750e34c90c82b1",
+    "bytes": 68919
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/southernshotty-youtube.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/southernshotty-youtube.html",
+    "sha256": "c48169190339c9be1acf86dc5bc6f20fd62ec952653f2984024e00dc9ca553c3",
+    "bytes": 1385751
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-formats.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-formats.html",
+    "sha256": "41d509189892c89011ab385ca806b4af9c49d6a76f9a6c64da6e139f108b7fdc",
+    "bytes": 1295693
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/crowfriend-youtube.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/crowfriend-youtube.html",
+    "sha256": "28ec7ca9017bfcebae519b6f27485c8afd67aa5a5c7c7623d269d55b045425f5",
+    "bytes": 1635466
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/crowfriend-discovery.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/crowfriend-discovery.html",
+    "sha256": "61df1873a31d8d90d8ce95f22dc503272b2d95b9ae057a3b08e8e21d69d295d7",
+    "bytes": 428994
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-import.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-import.txt",
+    "sha256": "f3faf3e1ee16cef24eb3aa5804420b1397e6b22349d4c9e37f1a21000258ccb2",
+    "bytes": 17726
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-project-files-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-project-files-links.json",
+    "sha256": "ba22ff5c149f693c5c2f9d64f95032f3a6f99a403adbc5072140b1dff45b6f9c",
+    "bytes": 4682
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-sketchfab-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-sketchfab-links.json",
+    "sha256": "0cf6ae2a976f61eab664c24275626f2da76466fa9ceaed6e483c7541d84b09a0",
+    "bytes": 8665
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-blend-file-tutorial-text.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-blend-file-tutorial-text.txt",
+    "sha256": "05626eb0041d3872757aae4eb8c6a07736246f23e2c9fc01e7d2b3ffa4b332e2",
+    "bytes": 2688
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blendswap.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blendswap.html",
+    "sha256": "af1d71cae986caa93f27aa76c648109b4733752fe52f92625f7813aa6de7efa9",
+    "bytes": 84073
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blenderstudy-youtube.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blenderstudy-youtube.html",
+    "sha256": "ad10605e94f8b0357abdd5d57ffc96f64f816be24aa0c4d745426e691fa7d88b",
+    "bytes": 1233499
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-assets.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-assets.html",
+    "sha256": "79c290a2eb6c0b4db33a525c2af97b1d9f63283622aad4ba852b077475eb648d",
+    "bytes": 68207
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-export.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-export.html",
+    "sha256": "4e348a6ac28d8b465e1b5c727cce1f7ee0baa6a212a3d8589a59c476a31ab414",
+    "bytes": 1288210
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-assets-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-assets-links.json",
+    "sha256": "c366711bc2333cd09230b2441e51a79c83fac9a1808bb2bc7f69eb9bf770a841",
+    "bytes": 3233
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/chinese-nexprint.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/chinese-nexprint.html",
+    "sha256": "c053db79b1718469934acc81fbb8bb5321ba5f2b4078fa8ff0b913184083ae9e",
+    "bytes": 392425
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-blend-file-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-blend-file-links.json",
+    "sha256": "c36eaed2aa8abf67830edb275986f6c1950b0c59571d76497023079cb962c2c7",
+    "bytes": 8882
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/motionmiracles-project-files.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/motionmiracles-project-files.html",
+    "sha256": "0e5271f51ec039d2b09053a8ab1010e5b0a105ef57876d16f36392bd2fde528a",
+    "bytes": 71950
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/opengameart.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/opengameart.html",
+    "sha256": "ec13a153b09a713ee0d707751fec833c722024ac1021364aaae8caaa19145ad6",
+    "bytes": 25511
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/yule-frog-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/yule-frog-links.json",
+    "sha256": "328f4fffb2cd317b96c456e7b8115f11dd66db8bce0e0b9e024027364c7dee04",
+    "bytes": 9281
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/southernshotty-youtube-metadata.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/southernshotty-youtube-metadata.json",
+    "sha256": "834648033c67242c6833f5f60409f44b95415a949a38e316baf91830fbfb8dca",
+    "bytes": 1412771
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/blendswap-links.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/blendswap-links.json",
+    "sha256": "b3179c226bcc4ecb25346f602965b6d598021a5f1292ef1e58e7ba923873c565",
+    "bytes": 5737
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/chinese-resource-fetch-receipts.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/chinese-resource-fetch-receipts.json",
+    "sha256": "f1feac0dba6ee21288478a8dcafa887dc5a668f3950939955bd5e8d809ffd2ba",
+    "bytes": 1290
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/chinese-makeronline.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/chinese-makeronline.html",
+    "sha256": "28e899cbae082359fbfd22b83d2ca87641c63e13c7bea3741ea16a8da84e1efc",
+    "bytes": 145600
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-import.html",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-import.html",
+    "sha256": "9c86e4b0e5b36373a96c69e9adadd3ece327fbcb551d6e2527fa1645b36f2bc2",
+    "bytes": 1312772
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/godot45-formats.txt",
+    "repo": "source_assets/naifrog/reference_research/source-pages/godot45-formats.txt",
+    "sha256": "9173ea742c04d6b2582120dca1db563dc02b54a99979d883d10ef2cf741af834",
+    "bytes": 8483
+  },
+  {
+    "source": "work/naifrog/resource-research/source-pages/tutorial-video-primary-verification.json",
+    "repo": "source_assets/naifrog/reference_research/source-pages/tutorial-video-primary-verification.json",
+    "sha256": "bccc24f4e77889e7c7c14565e114fa30179fee4dd455d1e9ac2c5ed0a039640f",
+    "bytes": 10732
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/SOURCE-LICENSE.md",
+    "repo": "source_assets/naifrog/reference_research/downloads/SOURCE-LICENSE.md",
+    "sha256": "21f2832f646f44ecd7ca1742f1b79747b070bff16baa1d0b7d6020a8e116733c",
+    "bytes": 1524
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/opengameart-frog-download-receipt.json",
+    "repo": "source_assets/naifrog/reference_research/downloads/opengameart-frog-download-receipt.json",
+    "sha256": "7e363c694d944cea6a9ba7fd9d554a8a9d1086bb738be780ae8af9796f63d6d8",
+    "bytes": 604
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/opengameart-frog.tar.gz",
+    "repo": "source_assets/naifrog/reference_research/downloads/opengameart-frog.tar.gz",
+    "sha256": "4b72b3f4eceb0b15fa8d4f464007a059fc0c2ab6f22b5965230762db614655e8",
+    "bytes": 191703
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/opengameart-frog/frog/frog.blend",
+    "repo": "source_assets/naifrog/reference_research/downloads/opengameart-frog/frog/frog.blend",
+    "sha256": "4bfe5c678529558db3acade949160fe912f2ca4a49d3427fc9c4ece27a307a39",
+    "bytes": 1003983
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/opengameart-frog/frog/frog.png",
+    "repo": "source_assets/naifrog/reference_research/downloads/opengameart-frog/frog/frog.png",
+    "sha256": "5aff62401856b5171fdd954956ccae30dbaed230a98e481abfbc81603c5eafb8",
+    "bytes": 3357
+  },
+  {
+    "source": "work/naifrog/resource-research/downloads/opengameart-frog/frog/gimp/frog.xcf",
+    "repo": "source_assets/naifrog/reference_research/downloads/opengameart-frog/frog/gimp/frog.xcf",
+    "sha256": "10f042d9bccde4c2327a2b83bed9a867190b4dec2cdcbc28285a38b20dece227",
+    "bytes": 38108
+  }
+]

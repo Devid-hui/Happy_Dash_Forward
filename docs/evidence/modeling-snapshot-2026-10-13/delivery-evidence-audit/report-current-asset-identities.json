@@ -1,0 +1,22 @@
+{
+  "source_assets/field_equipment.blend": {
+    "sha256": "06e36f74a2abbb3dda173b070c3431ed6a15d4f4d872958242597a3eab5e08dd",
+    "bytes": 145692048
+  },
+  "assets/refined/field_equipment.glb": {
+    "sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+    "bytes": 136352780
+  },
+  "assets/refined/power_tower.glb": {
+    "sha256": "ee57de4c7cb40a0f49a96c9b06fe81355f0bca46e46017dff57d5cb8e833f58b",
+    "bytes": 27262504
+  },
+  "assets/refined/research_report.glb": {
+    "sha256": "dcf61d25c5d8fbcc7aaffb941193f67884ee709198b5918cb763066ec2ea010a",
+    "bytes": 38672580
+  },
+  "assets/refined/abandoned_car.glb": {
+    "sha256": "e1c5a01c6a9756a357616e07979991f6b5a110e895d3c710c303642291ee6c7d",
+    "bytes": 99884908
+  }
+}

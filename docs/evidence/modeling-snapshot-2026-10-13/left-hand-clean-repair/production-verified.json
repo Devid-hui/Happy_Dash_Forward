@@ -1,0 +1,159 @@
+{
+  "right_unchanged_proof": {
+    "neutral_vertex_max_delta_m": 0.0,
+    "evaluated_world_vertex_max_delta_m": 0.0,
+    "root_matrix_max_delta": 0.0,
+    "weight_stream_identical": true,
+    "bone_rest_max_delta": 0.0,
+    "bone_pose_max_delta": 0.0
+  },
+  "glb": {
+    "assets/refined/field_equipment.glb": {
+      "LeftSupport": {
+        "vertices": 46829,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.08120221876579865,
+          -0.10779169589997258,
+          -0.16456951650590973
+        ],
+        "default_deformed_bounds_max": [
+          0.05060810463500944,
+          0.0010444981951672483,
+          -0.011735695138343931
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.00013051606947556138,
+          "p95": 4.862534069616231e-06,
+          "mean": 1.7651530558293009e-06
+        },
+        "colour_0_present": true,
+        "colour_range": [
+          0.5,
+          0.7726879119873047
+        ],
+        "neutral_bind_flag": true
+      },
+      "RightGrip": {
+        "vertices": 46824,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.034561506323501266,
+          -0.13123773599490676,
+          -0.04384453003835656
+        ],
+        "default_deformed_bounds_max": [
+          0.05816166213372074,
+          -0.03170859590902864,
+          0.11463330596609646
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.00025374145479872823,
+          "p95": 8.059581523411885e-06,
+          "mean": 2.537661571590646e-06
+        },
+        "colour_0_present": false,
+        "colour_range": null,
+        "neutral_bind_flag": null
+      }
+    },
+    "assets/refined/field_equipment_lod1.glb": {
+      "LeftSupport": {
+        "vertices": 20492,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.08120221876579865,
+          -0.10779169589997258,
+          -0.164572940902085
+        ],
+        "default_deformed_bounds_max": [
+          0.05060957137314591,
+          0.0010488832475183535,
+          -0.011735695138343931
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.0001564265403430909,
+          "p95": 1.4896222728566497e-05,
+          "mean": 6.570618544493431e-06
+        },
+        "colour_0_present": true,
+        "colour_range": [
+          0.43805739283561707,
+          0.7660235166549683
+        ],
+        "neutral_bind_flag": true
+      },
+      "RightGrip": {
+        "vertices": 20492,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.03456324231831827,
+          -0.13124050761023362,
+          -0.04384453003835656
+        ],
+        "default_deformed_bounds_max": [
+          0.05815817636319115,
+          -0.03170859590902864,
+          0.11463330596609646
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.0001688481861492619,
+          "p95": 1.5087537303770659e-05,
+          "mean": 6.9455980209537244e-06
+        },
+        "colour_0_present": false,
+        "colour_range": null,
+        "neutral_bind_flag": null
+      }
+    },
+    "assets/refined/field_equipment_lod2.glb": {
+      "LeftSupport": {
+        "vertices": 8455,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.08120221876579865,
+          -0.10778530365910324,
+          -0.16457600457350896
+        ],
+        "default_deformed_bounds_max": [
+          0.05058016499034937,
+          0.0010438472771754775,
+          -0.011735695138343931
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.00027661718195304275,
+          "p95": 3.4765616874210536e-05,
+          "mean": 1.4921785315759352e-05
+        },
+        "colour_0_present": true,
+        "colour_range": [
+          0.4681151211261749,
+          0.7593228816986084
+        ],
+        "neutral_bind_flag": true
+      },
+      "RightGrip": {
+        "vertices": 8438,
+        "finite": true,
+        "default_deformed_bounds_min": [
+          -0.034556086151337144,
+          -0.1312381017532053,
+          -0.04385162534824745
+        ],
+        "default_deformed_bounds_max": [
+          0.058171291989763806,
+          -0.03170859590902864,
+          0.11463289624669401
+        ],
+        "source_high_surface_distance_m_every_fifth": {
+          "max": 0.00016330578364431858,
+          "p95": 3.1553924782201644e-05,
+          "mean": 1.4929524855678157e-05
+        },
+        "colour_0_present": false,
+        "colour_range": null,
+        "neutral_bind_flag": null
+      }
+    }
+  }
+}

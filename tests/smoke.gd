@@ -26,7 +26,9 @@ func run_smoke() -> void:
 		assert(book.has_node("InteractionLabel") and book.has_meta("landmark_name"))
 	assert(world.get_node("Landmark_car").find_children("Wheel*","MeshInstance3D",false,false).size() == 4)
 	assert(world.get_node("Landmark_tower").find_children("SaggingCable*","MeshInstance3D",false,false).size() == 8)
-	assert(world.get_node("Landmark_tree").has_node("BleachedTrunk"))
+	var landmark_tree: Node3D = world.get_node("Landmark_tree")
+	assert(landmark_tree.has_node("DetailedDeadTree"),"landmark uses the refined fused botanical asset")
+	assert(landmark_tree.find_children("*","StaticBody3D",true,false).size() == 1,"the visual upgrade preserves exactly the original landmark collider")
 	assert(not world.research_hint().is_empty())
 	world.toggle_handbook()
 	assert(is_instance_valid(world.hud_controller.handbook_panel), "research handbook should open")
@@ -35,28 +37,37 @@ func run_smoke() -> void:
 	assert(get_tree().paused, "pause should freeze gameplay")
 	world.toggle_pause()
 	assert(not get_tree().paused, "resume should unpause gameplay")
-	GameState.equipped = ["afterimage", "echo", "luminol", "mire", "salt", "filter"]
+	# Exercise all original effects using legal three-slot fixtures; a six-slot
+	# assignment is no longer a valid loadout in the actual game contract.
+	GameState.equipped = ["afterimage", "echo", "filter"]
 	world.player.afterimage_ready = true
 	world.player.afterimage_window = 5.0
-	for slot in range(6): world.player.use_slot(slot)
-	assert(world.luminol_charges == 2, "luminol should consume reagent")
-	assert(world.fields.size() == 2, "mire and salt should create fields")
+	for slot in range(3): world.player.use_slot(slot)
 	world.player.filter_time = 5.0
 	world.player.skill_manager.cooldowns["echo"] = 0.0
 	world.player.use_slot(1)
-	world.player.skill_manager.cooldowns["echo"] = 0.0
+	GameState.equipped = ["echo", "mire", "salt"]
 	world.player.use_slot(1)
+	world.player.use_slot(2)
+	assert(world.fields.size() == 2, "mire and salt should create fields")
+	world.player.skill_manager.cooldowns["echo"] = 0.0
+	world.player.use_slot(0)
+	GameState.equipped = ["echo", "luminol", "salt"]
 	world.hunter_nodes[0].global_position = world.player.global_position
 	world._apply_fields()
 	world.player.skill_manager.cooldowns["luminol"] = 0.0
-	world.player.use_slot(2)
+	world.player.use_slot(1)
+	assert(world.luminol_charges == 2, "luminol should consume reagent")
 	assert(world.fusion_manager.discovered.size() == 4, "all four fusion conditions should be discoverable")
 	world.player.afterimage_ready = false
+	GameState.equipped = ["afterimage", "echo", "mire"]
 	world.player.skill_manager.cast_slot(0)
 	assert(world.player.skill_manager.cooldowns.has("afterimage"), "afterimage cooldown should start after success")
 	for objective in world.objective_nodes.duplicate():
 		world.player.global_position = objective.global_position
 		world.interact()
+		assert(world.is_gameplay_blocked(), "research collection must await a deliberate choice")
+		world.confirm_upgrade(GameState.upgrade_options()[0].id)
 	assert(world.collected == 3, "all research records should be collectible")
 	assert(world.hunter_nodes.size() == 5, "third record should preserve five hunters")
 	world.player.global_position = world.exit_node.global_position

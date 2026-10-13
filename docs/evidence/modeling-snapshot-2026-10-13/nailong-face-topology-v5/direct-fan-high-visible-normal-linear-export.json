@@ -1,0 +1,91 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-direct-fan-body-synced.blend",
+  "source_sha256": "d5433884ec79045f4c3ecd9ea2a4a01434558cacb2a1af87897567e6027e77af",
+  "export_audit": {
+    "float_accessor_values_checked": 32410774,
+    "all_float_accessors_finite": true,
+    "native_animation_names": [
+      "charge",
+      "chase",
+      "idle",
+      "recover",
+      "walk",
+      "warn"
+    ],
+    "joint_counts": [
+      24
+    ],
+    "triangles": 1804441,
+    "exported_vertices": 904888,
+    "mesh_count": 12,
+    "color_attributes": [
+      {
+        "type": 5126,
+        "min": 0.0,
+        "max": 1.0
+      },
+      {
+        "type": 5126,
+        "min": 0.004000000189989805,
+        "max": 0.23378756642341614
+      },
+      {
+        "type": 5126,
+        "min": 0.004000000189989805,
+        "max": 0.23378756642341614
+      },
+      {
+        "type": 5126,
+        "min": 0.0013000000035390258,
+        "max": 0.41999998688697815
+      },
+      {
+        "type": 5126,
+        "min": 0.005902312230318785,
+        "max": 1.0
+      },
+      {
+        "type": 5126,
+        "min": 0.00820960197597742,
+        "max": 0.9911022186279297
+      }
+    ],
+    "sha256": "54e545319a71657f4a60423de5f08d59e17401590e639d1db4e1630474b2e6c9",
+    "bytes": 119905916
+  },
+  "standard_after_normal_extraction_hook_removed_helpers": [
+    {
+      "mesh": "MLS surface before voxel resampling",
+      "material": "Eye transition normal fan alpha zero",
+      "target_count": 2
+    },
+    {
+      "mesh": "Shared left face and eyelid joint patch",
+      "material": "Eye transition normal fan alpha zero",
+      "target_count": 121
+    },
+    {
+      "mesh": "Shared right face and eyelid joint patch",
+      "material": "Eye transition normal fan alpha zero",
+      "target_count": 121
+    }
+  ],
+  "linear_NORMAL_boundary_repairs": [
+    {
+      "mesh": "Shared left face and eyelid joint patch",
+      "side": "left",
+      "actual_export_boundary_vertices": 418,
+      "same_Body_linear_Normal_law_for_all_targets": true
+    },
+    {
+      "mesh": "Shared right face and eyelid joint patch",
+      "side": "right",
+      "actual_export_boundary_vertices": 459,
+      "same_Body_linear_Normal_law_for_all_targets": true
+    }
+  ],
+  "official_exporter_file_unmodified": true,
+  "preferences_unmodified": true,
+  "formal_unchanged": true,
+  "not_final_LOD_or_art_acceptance": true
+}

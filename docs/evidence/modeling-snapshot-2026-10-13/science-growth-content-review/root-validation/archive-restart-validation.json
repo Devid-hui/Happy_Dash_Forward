@@ -1,0 +1,18 @@
+{
+  "--restart-write": {
+    "exit": 0,
+    "errors": [],
+    "marker": true,
+    "pass_lines": [
+      "RESTART CONTRACT PASS --restart-write: 4 checks"
+    ]
+  },
+  "--restart-read": {
+    "exit": 0,
+    "errors": [],
+    "marker": true,
+    "pass_lines": [
+      "RESTART CONTRACT PASS --restart-read: 3 checks"
+    ]
+  }
+}

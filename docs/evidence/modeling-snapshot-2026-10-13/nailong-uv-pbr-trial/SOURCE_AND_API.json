@@ -1,0 +1,1174 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend",
+  "source_sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+  "blender": "4.5.14 LTS",
+  "objects": {
+    "LowerEyelid_left": {
+      "vertices": 3201,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Color",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "LowerEyelid_left original facial BRDF",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.47999998927116394,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": ""
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "LowerEyelid_right": {
+      "vertices": 3201,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Color",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "LowerEyelid_right original facial BRDF",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.47999998927116394,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": ""
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "NailongSkin_Reconstructed": {
+      "vertices": 916134,
+      "polygons": 1804153,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Color",
+          "domain": "CORNER",
+          "type": "BYTE_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Nailong_GS_linear_color",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.47999998927116394,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": ""
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Independent native skeleton",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedCorneal_left": {
+      "vertices": 3073,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed transparent cornea left",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.02500000037252903,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedCorneal_right": {
+      "vertices": 3073,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed transparent cornea right",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.02500000037252903,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedIris_left": {
+      "vertices": 3073,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "IrisFiberColor",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Reconstructed left layered green iris",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.3100000023841858,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": "IrisFiberColor"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedIris_right": {
+      "vertices": 3073,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "IrisFiberColor",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Reconstructed right layered green iris",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.3100000023841858,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": "IrisFiberColor"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedOralLining": {
+      "vertices": 3073,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Measured oral mucosa",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Measured dark oral interior",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.7799999713897705,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": "Measured oral mucosa"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Independent native skeleton",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedPupil_left": {
+      "vertices": 1537,
+      "polygons": 1536,
+      "uv_layers": [],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed left pupil",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.2199999988079071,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedPupil_right": {
+      "vertices": 1537,
+      "polygons": 1536,
+      "uv_layers": [],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed right pupil",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.2199999988079071,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedSclera_left": {
+      "vertices": 2978,
+      "polygons": 3072,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 12096,
+          "finite": true,
+          "min": [
+            0.0,
+            5.960464477539063e-08
+          ],
+          "max": [
+            1.0,
+            1.0
+          ],
+          "not_empty": true
+        }
+      ],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed left sclera",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "ReconstructedSclera_right": {
+      "vertices": 2978,
+      "polygons": 3072,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 12096,
+          "finite": true,
+          "min": [
+            0.0,
+            5.960464477539063e-08
+          ],
+          "max": [
+            1.0,
+            1.0
+          ],
+          "not_empty": true
+        }
+      ],
+      "color_attributes": [],
+      "materials": [
+        {
+          "name": "Reconstructed right sclera",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.2800000011920929,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "UpperEyelid_left": {
+      "vertices": 3201,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Color",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "UpperEyelid_left original facial BRDF",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.47999998927116394,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": ""
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    },
+    "UpperEyelid_right": {
+      "vertices": 3201,
+      "polygons": 3072,
+      "uv_layers": [],
+      "color_attributes": [
+        {
+          "name": "Color",
+          "domain": "POINT",
+          "type": "FLOAT_COLOR"
+        }
+      ],
+      "materials": [
+        {
+          "name": "UpperEyelid_right original facial BRDF",
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "roughness": 0.47999998927116394,
+              "metallic": 0.0
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Color Attribute",
+              "type": "ShaderNodeVertexColor",
+              "layer_name": ""
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                "Principled BSDF",
+                "BSDF"
+              ],
+              "to": [
+                "Material Output",
+                "Surface"
+              ]
+            },
+            {
+              "from": [
+                "Color Attribute",
+                "Color"
+              ],
+              "to": [
+                "Principled BSDF",
+                "Base Color"
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "Native independent eye skin",
+          "type": "ARMATURE"
+        }
+      ]
+    }
+  },
+  "installed_operator_capabilities": {
+    "unwrap": {
+      "method": {
+        "type": "ENUM",
+        "default": "CONFORMAL",
+        "description": "Unwrapping method (Angle Based usually gives better results than Conformal, while being somewhat slower)",
+        "enum": [
+          "ANGLE_BASED",
+          "CONFORMAL",
+          "MINIMUM_STRETCH"
+        ]
+      },
+      "fill_holes": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Virtually fill holes in mesh before unwrapping, to better avoid overlaps and preserve symmetry",
+        "enum": null
+      },
+      "correct_aspect": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "Map UVs taking aspect ratio of the image associated with the material into account",
+        "enum": null
+      },
+      "use_subsurf_data": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Map UVs taking vertex position after Subdivision Surface modifier has been applied",
+        "enum": null
+      },
+      "margin_method": {
+        "type": "ENUM",
+        "default": "SCALED",
+        "description": "",
+        "enum": [
+          "SCALED",
+          "ADD",
+          "FRACTION"
+        ]
+      },
+      "margin": {
+        "type": "FLOAT",
+        "default": "0.0010000000474974513",
+        "description": "Space between islands",
+        "enum": null
+      },
+      "no_flip": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Prevent flipping UV's, flipping may lower distortion depending on the position of pins",
+        "enum": null
+      },
+      "iterations": {
+        "type": "INT",
+        "default": "10",
+        "description": "Number of iterations when \"Minimum Stretch\" method is used",
+        "enum": null
+      },
+      "use_weights": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Whether to take into account per-vertex importance weights",
+        "enum": null
+      },
+      "weight_group": {
+        "type": "STRING",
+        "default": "uv_importance",
+        "description": "Vertex group name for importance weights (modulating the deform)",
+        "enum": null
+      },
+      "weight_factor": {
+        "type": "FLOAT",
+        "default": "1.0",
+        "description": "How much influence the weightmap has for weighted parameterization, 0 being no influence",
+        "enum": null
+      }
+    },
+    "smart_project": {
+      "angle_limit": {
+        "type": "FLOAT",
+        "default": "1.1519173383712769",
+        "description": "Lower for more projection groups, higher for less distortion",
+        "enum": null
+      },
+      "margin_method": {
+        "type": "ENUM",
+        "default": "SCALED",
+        "description": "",
+        "enum": [
+          "SCALED",
+          "ADD",
+          "FRACTION"
+        ]
+      },
+      "rotate_method": {
+        "type": "ENUM",
+        "default": "AXIS_ALIGNED_Y",
+        "description": "",
+        "enum": [
+          "AXIS_ALIGNED",
+          "AXIS_ALIGNED_X",
+          "AXIS_ALIGNED_Y"
+        ]
+      },
+      "island_margin": {
+        "type": "FLOAT",
+        "default": "0.0",
+        "description": "Margin to reduce bleed from adjacent islands",
+        "enum": null
+      },
+      "area_weight": {
+        "type": "FLOAT",
+        "default": "0.0",
+        "description": "Weight projection's vector by faces with larger areas",
+        "enum": null
+      },
+      "correct_aspect": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "Map UVs taking aspect ratio of the image associated with the material into account",
+        "enum": null
+      },
+      "scale_to_bounds": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Scale UV coordinates to bounds after unwrapping",
+        "enum": null
+      }
+    },
+    "bake": {
+      "type": {
+        "type": "ENUM",
+        "default": "COMBINED",
+        "description": "Type of pass to bake, some of them may not be supported by the current render engine",
+        "enum": [
+          "COMBINED",
+          "AO",
+          "SHADOW",
+          "POSITION",
+          "NORMAL",
+          "UV",
+          "ROUGHNESS",
+          "EMIT",
+          "ENVIRONMENT",
+          "DIFFUSE",
+          "GLOSSY",
+          "TRANSMISSION"
+        ]
+      },
+      "pass_filter": {
+        "type": "ENUM",
+        "default": "",
+        "description": "Filter to combined, diffuse, glossy, transmission and subsurface passes",
+        "enum": [
+          "NONE",
+          "EMIT",
+          "DIRECT",
+          "INDIRECT",
+          "COLOR",
+          "DIFFUSE",
+          "GLOSSY",
+          "TRANSMISSION"
+        ]
+      },
+      "filepath": {
+        "type": "STRING",
+        "default": "",
+        "description": "Image filepath to use when saving externally",
+        "enum": null
+      },
+      "width": {
+        "type": "INT",
+        "default": "512",
+        "description": "Horizontal dimension of the baking map (external only)",
+        "enum": null
+      },
+      "height": {
+        "type": "INT",
+        "default": "512",
+        "description": "Vertical dimension of the baking map (external only)",
+        "enum": null
+      },
+      "margin": {
+        "type": "INT",
+        "default": "16",
+        "description": "Extends the baked result as a post process filter",
+        "enum": null
+      },
+      "margin_type": {
+        "type": "ENUM",
+        "default": "EXTEND",
+        "description": "Which algorithm to use to generate the margin",
+        "enum": [
+          "ADJACENT_FACES",
+          "EXTEND"
+        ]
+      },
+      "use_selected_to_active": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Bake shading on the surface of selected objects to the active object",
+        "enum": null
+      },
+      "max_ray_distance": {
+        "type": "FLOAT",
+        "default": "0.0",
+        "description": "The maximum ray distance for matching points between the active and selected objects. If zero, there is no limit",
+        "enum": null
+      },
+      "cage_extrusion": {
+        "type": "FLOAT",
+        "default": "0.0",
+        "description": "Inflate the active object by the specified distance for baking. This helps matching to points nearer to the outside of the selected object meshes",
+        "enum": null
+      },
+      "cage_object": {
+        "type": "STRING",
+        "default": "",
+        "description": "Object to use as cage, instead of calculating the cage from the active object with cage extrusion",
+        "enum": null
+      },
+      "normal_space": {
+        "type": "ENUM",
+        "default": "TANGENT",
+        "description": "Choose normal space for baking",
+        "enum": [
+          "OBJECT",
+          "TANGENT"
+        ]
+      },
+      "normal_r": {
+        "type": "ENUM",
+        "default": "POS_X",
+        "description": "Axis to bake in red channel",
+        "enum": [
+          "POS_X",
+          "POS_Y",
+          "POS_Z",
+          "NEG_X",
+          "NEG_Y",
+          "NEG_Z"
+        ]
+      },
+      "normal_g": {
+        "type": "ENUM",
+        "default": "POS_Y",
+        "description": "Axis to bake in green channel",
+        "enum": [
+          "POS_X",
+          "POS_Y",
+          "POS_Z",
+          "NEG_X",
+          "NEG_Y",
+          "NEG_Z"
+        ]
+      },
+      "normal_b": {
+        "type": "ENUM",
+        "default": "POS_Z",
+        "description": "Axis to bake in blue channel",
+        "enum": [
+          "POS_X",
+          "POS_Y",
+          "POS_Z",
+          "NEG_X",
+          "NEG_Y",
+          "NEG_Z"
+        ]
+      },
+      "target": {
+        "type": "ENUM",
+        "default": "IMAGE_TEXTURES",
+        "description": "Where to output the baked map",
+        "enum": [
+          "IMAGE_TEXTURES",
+          "VERTEX_COLORS"
+        ]
+      },
+      "save_mode": {
+        "type": "ENUM",
+        "default": "INTERNAL",
+        "description": "Where to save baked image textures",
+        "enum": [
+          "INTERNAL",
+          "EXTERNAL"
+        ]
+      },
+      "use_clear": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Clear images before baking (only for internal saving)",
+        "enum": null
+      },
+      "use_cage": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Cast rays to active object from a cage",
+        "enum": null
+      },
+      "use_split_materials": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Split baked maps per material, using material name in output file (external only)",
+        "enum": null
+      },
+      "use_automatic_name": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Automatically name the output file with the pass type",
+        "enum": null
+      },
+      "uv_layer": {
+        "type": "STRING",
+        "default": "",
+        "description": "UV layer to override active",
+        "enum": null
+      }
+    },
+    "export_gltf": {
+      "export_texcoords": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "Export UVs (texture coordinates) with meshes",
+        "enum": null
+      },
+      "export_tangents": {
+        "type": "BOOLEAN",
+        "default": "False",
+        "description": "Export vertex tangents with meshes",
+        "enum": null
+      },
+      "export_materials": {
+        "type": "ENUM",
+        "default": "EXPORT",
+        "description": "Export materials",
+        "enum": [
+          "EXPORT",
+          "PLACEHOLDER",
+          "VIEWPORT",
+          "NONE"
+        ]
+      },
+      "export_vertex_color": {
+        "type": "ENUM",
+        "default": "MATERIAL",
+        "description": "How to export vertex color",
+        "enum": [
+          "MATERIAL",
+          "ACTIVE",
+          "NAME",
+          "NONE"
+        ]
+      },
+      "export_all_vertex_colors": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "Export all vertex colors, even if not used by any material. If no Vertex Color is used in the mesh materials, a fake COLOR_0 will be created, in order to keep material unchanged",
+        "enum": null
+      },
+      "export_active_vertex_color_when_no_material": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "When there is no material on object, export active vertex color",
+        "enum": null
+      },
+      "export_force_sampling": {
+        "type": "BOOLEAN",
+        "default": "True",
+        "description": "Apply sampling to all animations",
+        "enum": null
+      },
+      "export_animation_mode": {
+        "type": "ENUM",
+        "default": "ACTIONS",
+        "description": "Export Animation mode",
+        "enum": [
+          "ACTIONS",
+          "ACTIVE_ACTIONS",
+          "BROADCAST",
+          "NLA_TRACKS",
+          "SCENE"
+        ]
+      },
+      "export_merge_animation": {
+        "type": "ENUM",
+        "default": "ACTION",
+        "description": "Merge Animations",
+        "enum": [
+          "NLA_TRACK",
+          "ACTION",
+          "NONE"
+        ]
+      }
+    }
+  }
+}

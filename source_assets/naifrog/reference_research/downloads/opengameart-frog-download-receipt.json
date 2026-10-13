@@ -1,0 +1,32 @@
+{
+  "source_url": "https://opengameart.org/sites/default/files/frog.tar_0.gz",
+  "bytes": 191703,
+  "sha256": "4b72b3f4eceb0b15fa8d4f464007a059fc0c2ab6f22b5965230762db614655e8",
+  "members": [
+    {
+      "name": "frog/gimp/frog.xcf",
+      "bytes": 38108,
+      "type": "0"
+    },
+    {
+      "name": "frog",
+      "bytes": 0,
+      "type": "5"
+    },
+    {
+      "name": "frog/frog.png",
+      "bytes": 3357,
+      "type": "0"
+    },
+    {
+      "name": "frog/frog.blend",
+      "bytes": 1003983,
+      "type": "0"
+    },
+    {
+      "name": "frog/gimp",
+      "bytes": 0,
+      "type": "5"
+    }
+  ]
+}

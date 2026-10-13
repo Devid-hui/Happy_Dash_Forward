@@ -1,0 +1,7786 @@
+{
+  "baseline": "third-pass/nailong_lod0.glb",
+  "candidate": "nailong_lod0.glb",
+  "bone_channels_checked": 432,
+  "missing_channels": [],
+  "maximum_component_difference": 2.748664655882749e-07,
+  "channels": [
+    {
+      "key": [
+        "charge",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 7.429380437240507e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 3.725290298461914e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 6.295338517148252e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 4.365921134341644e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 4.365921134341644e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.30037420831286e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 9.057760230746226e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.8906264886986435e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 7.090236664453187e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.4800851419471961e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 9.700936232093227e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.4800851419471961e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 9.700936232093227e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464455334602e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464466436832e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.4678689680414081e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 3.7247946220453354e-09,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464466436832e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 6.10796663802482e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 6.10796663802482e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "charge",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.5333333611488342
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322443206464e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322443206464e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.4901161221603232e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.4901161221603232e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 3.7332684943436334e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.086162567138672e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 3.7332684943436334e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.086162567138672e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.746686156296363e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.220446049250313e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.661836908084524e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.8906264886986435e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.7881393443719418e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.2208464692252683e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 9.474597106873262e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.2208464692252683e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 9.474597106873262e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.734723475976807e-18,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9568114595646122e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9568114595646122e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.3877787807814457e-17,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464488641293e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 8.940696721859709e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.586556292222489e-09,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 8.940696717696373e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 8.4957474333347e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 8.4957474333347e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "chase",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.699999988079071
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.4901161221603232e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.3796722486565977e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.3796722486565977e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.490262568903944e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.828041433782346e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.490262568903944e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.828041433782346e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.062125645385109e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 5.1315215188196817e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.7591519352322393e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.8906264886986435e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.7881393443719418e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.6503850730487102e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.40282155020644e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.0166440489456364e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.40282155020644e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.0166440489456364e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.734723475976807e-18,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 5.551115123125783e-17,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 6.517784728599096e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 6.517784728599096e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.4838305598119383e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 5.960464488641293e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.060053219820617e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 8.940696717696373e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.8790658912480893e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.8790658912480893e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.7460248630539752e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.450580596923828e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 2.7460248630539752e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "idle",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "new_range": [
+        0.03333333507180214,
+        3.2333333492279053
+      ],
+      "max_component_difference": 7.450580596923828e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.379672248656597e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.379672248656597e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.232116236289272e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.748664655882749e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.232116236289272e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.748664655882749e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.5173425939081255e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 6.592984824749237e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 4.080619855906242e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 3.2586442932913684e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.4325493680189538e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 3.2586442932913684e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.4325493680189538e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 6.517784726864373e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 6.517784726864373e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.586556292222489e-09,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.8790658884725318e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.8790658884725318e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.7903028276821118e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 2.7903028276821118e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "recover",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        2.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.96046448031462e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 4.656612873077393e-10,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 4.656612873077393e-10,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 4.656612873077393e-10,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.192092896062924e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 4.656612873077393e-10,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.192092896062924e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 6.787383732831387e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 6.787383732831387e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 3.678429247311321e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.7881393438168303e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 3.678429247311321e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.7881393438168303e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.551115123125783e-17,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1102230246251565e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.6705424183148807e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.890626516454219e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.4781207258174334e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.960464488641293e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.4043200141932175e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.4781207258174334e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.960464488641293e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.4043200141932175e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.734723475976807e-18,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.912502904128811e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.980232241545089e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.912502904128811e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.980232241545089e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 7.39999279908421e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928966180355e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 8.940696721859709e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 3.7247946220453354e-09,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.9186875083464514e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 2.9186875083464514e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 8.4957474333347e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.192092896062924e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 8.4957474333347e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "walk",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "new_range": [
+        0.03333333507180214,
+        1.0333333015441895
+      ],
+      "max_component_difference": 1.192092896062924e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "belly",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 6.938893903907228e-18,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "belly",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.384185791015625e-07,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "belly",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 6.705522537231445e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "brow_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.4901161193847656e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "eye_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.4901161193847656e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.3796722486565977e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.3796722486565977e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "foot_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.4901161193847656e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 5.127298385865231e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.086162567138672e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 5.127298385865231e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "forearm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.086162567138672e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "head",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 4.337774878182543e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "head",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "head",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.34337980739474e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "jaw",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.220446049250313e-16,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "jaw",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "jaw",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 6.437747579468578e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "neck",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 4.080619855906242e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "neck",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "neck",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.2381643656477213e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.6391277313232422e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.2381643656477213e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "palm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.6391277313232422e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "pelvis",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.734723475976807e-18,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "pelvis",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "pelvis",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "root",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "root",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "root",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 0.0,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 6.517784728599096e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 6.517784728599096e-09,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "shin_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.9802322387695312e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "spine",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 3.594160917497202e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "spine",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "spine",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "tail",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 3.7247946220453354e-09,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "tail",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "tail",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 8.940696716308594e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.8790658912480893e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 2.8790658912480893e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 5.960464477539063e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "thigh_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 3.084577571144109e-08,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_left",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 7.809695085070345e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_left",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_left",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_right",
+        "rotation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 7.809695085070345e-08,
+      "old_interpolation": "LINEAR",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_right",
+        "scale"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.1920928955078125e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    },
+    {
+      "key": [
+        "warn",
+        "upper_arm_right",
+        "translation"
+      ],
+      "old_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "new_range": [
+        0.03333333507180214,
+        0.8333333134651184
+      ],
+      "max_component_difference": 1.7881393432617188e-07,
+      "old_interpolation": "STEP",
+      "new_interpolation": "LINEAR"
+    }
+  ],
+  "scope": "Actual exported bone channels and their time ranges; quaternion q/-q equivalence and glTF linear/slerp evaluation."
+}

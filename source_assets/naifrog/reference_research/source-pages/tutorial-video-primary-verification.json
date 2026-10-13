@@ -1,0 +1,221 @@
+{
+  "checkedAt": "2026-10-13T02:33:21.697864+00:00",
+  "viewingStatus": "page metadata and chapter markers only; no video playback or complete viewing",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=0aLCOJWvuc4",
+      "author": "Crowfriend Games",
+      "title": "Blender to Godot from Scratch",
+      "durationSeconds": 7629,
+      "publishDate": "2025-09-03T05:00:01-07:00",
+      "description": "Check the chapter marks to skip around.\n\nThis video shows the entire process of modeling a frog in Blender from scratch, rigging, animating, and bringing it into Godot with an animation tree. The entire process is shown in real time and takes about two hours — AND YOU CAN TOO!\n\nI COULD REALLY USE YOUR SUPPORT! Wishlist my game The Mailroom - an upcoming horror job simulator where you work in the mailroom of a regional office of Hell in Modesto, California.\nhttps://store.steampowered.com/app/3965430/The_Mailroom/\n\n00:00:00 Intro and reference\n00:00:36 Deleting the cube and modeling it\n00:02:55 Finding the shape\n00:09:39 It's a frog!?\n00:13:23 The butt is just the top of the lgs\n00:14:32 Hind legs\n00:16:15 Hind legs take 2\n00:26:44 What have I done\n00:29:48 Skeleton/Armature/Bones time\n00:37:30 Weight painting\n00:42:44 Adjusting proportions\n00:54:52 The frog has legs!\n00:58:18 Arms\n01:12:54 That's not so bad!\n01:15:40 Animations/poses\n01:17:38 Godot time\n01:19:21 It imported correctly!\n01:22:07 A little rant about being frustrated learning new things\n01:23:45 Animation Tree setup\n01:26:41 Consulting the documentation\n01:34:45 UV unwrapping\n01:49:03 An aside about The Mailroom (go wishlist it)\n01:50:15 Code\n01:52:08 Textures\n01:58:26 Normal map\n02:04:37 More code\n02:06:09 Playtest!\n\nThanks for watching!",
+      "chapters": [
+        {
+          "title": "Intro and reference",
+          "startMs": 0,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Deleting the cube and modeling it",
+          "startMs": 36000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Finding the shape",
+          "startMs": 175000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "It's a frog!?",
+          "startMs": 579000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "The butt is just the top of the lgs",
+          "startMs": 803000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Hind legs",
+          "startMs": 872000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Hind legs take 2",
+          "startMs": 975000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "What have I done",
+          "startMs": 1604000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Skeleton/Armature/Bones time",
+          "startMs": 1788000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Weight painting",
+          "startMs": 2250000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Adjusting proportions",
+          "startMs": 2564000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "The frog has legs!",
+          "startMs": 3292000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Arms",
+          "startMs": 3498000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "That's not so bad!",
+          "startMs": 4374000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Animations/poses",
+          "startMs": 4540000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Godot time",
+          "startMs": 4658000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "It imported correctly!",
+          "startMs": 4761000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "A little rant about being frustrated learning new things",
+          "startMs": 4927000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Animation Tree setup",
+          "startMs": 5025000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Consulting the documentation",
+          "startMs": 5201000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "UV unwrapping",
+          "startMs": 5685000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "An aside about The Mailroom (go wishlist it)",
+          "startMs": 6543000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Code",
+          "startMs": 6615000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Textures",
+          "startMs": 6728000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Normal map",
+          "startMs": 7106000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "More code",
+          "startMs": 7477000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        },
+        {
+          "title": "Playtest!",
+          "startMs": 7569000,
+          "panelTargetId": "engagement-panel-macro-markers-description-chapters"
+        }
+      ],
+      "primaryFetch": "urllib direct YouTube watch HTML",
+      "htmlSha256": "28ec7ca9017bfcebae519b6f27485c8afd67aa5a5c7c7623d269d55b045425f5"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t6uP7VKiIgI",
+      "author": "Blender Study",
+      "title": "Modeling a frog character - Blender Tutorial",
+      "durationSeconds": 1452,
+      "publishDate": "2020-07-05T06:06:06-07:00",
+      "description": "In this tutorial, we'll learn how to model and render a frog character.\n\nThe reference image used in this tutorial can be found here.\n\nhttps://pixabay.com/illustrations/character-smile-icons-adorable-5172030\n\nPlease use the following tutorial to copy my Blender settings for Open Image Denoise, Filmic, Curves, transparent background and so on.\n\nhttps://www.youtube.com/watch?v=9Cd4SHnisP0\n\nBe sure to visit my channel to watch more tutorial videos like this one.\n\nhttps://www.youtube.com/channel/UCLtuLmuevwxQzkn6SMR6kZQ/videos \n\nPlease like and subscribe, If you have enjoyed watching this tutorial.",
+      "chapters": [],
+      "primaryFetch": "urllib direct YouTube watch HTML",
+      "htmlSha256": "ad10605e94f8b0357abdd5d57ffc96f64f816be24aa0c4d745426e691fa7d88b"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NN4xM3dQKtg",
+      "author": "SouthernShotty",
+      "title": "Blender 3D - EASY Low Poly Frog Character Rig",
+      "durationSeconds": 1083,
+      "publishDate": "2020-08-27T04:00:09-07:00",
+      "description": "Subscribe for more Blender 3D tutorials and content. Let me know what you would like to see next in the comments below! Project files and more available on Patreon.\n\nCourse Link: https://skl.sh/30TRhVo\n\nFree Color Palette: https://drive.google.com/file/d/1LfPV_hfbWmukVIfhj7m6NiTvgiK7No_n/view?usp=sharing\n-----------------------------------------------------------------------------------------------------------\nPatreon: https://www.patreon.com/southernshotty\nInstagram: https://www.instagram.com/southernshotty/\nTwitter: https://twitter.com/SouthernShotty\nSkillshare: https://www.skillshare.com/user/southernshotty\n-----------------------------------------------------------------------------------------------------------\nAffiliate Links:\nSkillshare: https://skl.sh/2ETpY3j\nMusic: https://bit.ly/37lXrzF\nStock Footage: https://bit.ly/2TPwQr6\nCG Boost Courses: https://bit.ly/2Gt1yOE\n-----------------------------------------------------------------------------------------------------------\nTag me in your artwork on Instagram for a chance to be featured at the end of the next video",
+      "chapters": [
+        {
+          "title": "Introduction",
+          "startMs": 0,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Modeling the frog body",
+          "startMs": 30640,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Modeling the feet",
+          "startMs": 213120,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Modeling the eyes",
+          "startMs": 344479,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Texturing setup",
+          "startMs": 549028,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Applying colors",
+          "startMs": 636794,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Detailing the texture",
+          "startMs": 752359,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Creating shape keys",
+          "startMs": 888991,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        },
+        {
+          "title": "Animating the frog",
+          "startMs": 981257,
+          "panelTargetId": "engagement-panel-macro-markers-auto-chapters"
+        }
+      ],
+      "primaryFetch": "urllib direct YouTube watch HTML",
+      "htmlSha256": "c48169190339c9be1acf86dc5bc6f20fd62ec952653f2984024e00dc9ca553c3"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend",
+  "scope": "Actual FaceSurface BVH front rays. Original center may be the fused source-eye mound; final center is the deliberately recessed aperture. Local annular fit is an approximate cheek reference, not an ideal anatomical face plane.",
+  "eyes": {
+    "left": {
+      "globe_center": [
+        -0.32605670392513275,
+        0.75,
+        2.1627700328826904
+      ],
+      "globe_radii": [
+        0.109,
+        0.069,
+        0.11
+      ],
+      "actual_sclera_peak_y": 0.8190000057220459,
+      "actual_cornea_peak_y": 0.8258000016212463,
+      "annular_fit_reference_center_y": 0.8248829680583253,
+      "actual_center_and_rim_rays": [
+        {
+          "radius_in_eye_radii": 0,
+          "angle": 0.0,
+          "x": -0.32605670392513275,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8090057373046875,
+          "actual_original_face_y": 0.8315184116363525,
+          "globe_peak_minus_final_face_m": 0.009994268417358398,
+          "globe_peak_minus_original_face_m": -0.01251840591430664
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 0.0,
+          "x": -0.18435670392513276,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8533985614776611,
+          "actual_original_face_y": 0.8533985614776611,
+          "globe_peak_minus_final_face_m": -0.034398555755615234,
+          "globe_peak_minus_original_face_m": -0.034398555755615234
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 0.7853981633974483,
+          "x": -0.22585967303099896,
+          "z": 2.2638863025923666,
+          "actual_final_face_y": 0.8238725662231445,
+          "actual_original_face_y": 0.8238725662231445,
+          "globe_peak_minus_final_face_m": -0.004872560501098633,
+          "globe_peak_minus_original_face_m": -0.004872560501098633
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 1.5707963267948966,
+          "x": -0.32605670392513275,
+          "z": 2.3057700328826902,
+          "actual_final_face_y": 0.7706351280212402,
+          "actual_original_face_y": 0.7706351280212402,
+          "globe_peak_minus_final_face_m": 0.048364877700805664,
+          "globe_peak_minus_original_face_m": 0.048364877700805664
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 2.356194490192345,
+          "x": -0.42625373481926654,
+          "z": 2.2638863025923666,
+          "actual_final_face_y": 0.7192904949188232,
+          "actual_original_face_y": 0.7192904949188232,
+          "globe_peak_minus_final_face_m": 0.09970951080322266,
+          "globe_peak_minus_original_face_m": 0.09970951080322266
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 3.141592653589793,
+          "x": -0.46775670392513274,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.7099134922027588,
+          "actual_original_face_y": 0.7099134922027588,
+          "globe_peak_minus_final_face_m": 0.10908651351928711,
+          "globe_peak_minus_original_face_m": 0.10908651351928711
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 3.9269908169872414,
+          "x": -0.42625373481926654,
+          "z": 2.0616537631730143,
+          "actual_final_face_y": 0.7865839004516602,
+          "actual_original_face_y": 0.7865839004516602,
+          "globe_peak_minus_final_face_m": 0.03241610527038574,
+          "globe_peak_minus_original_face_m": 0.03241610527038574
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 4.71238898038469,
+          "x": -0.32605670392513275,
+          "z": 2.0197700328826906,
+          "actual_final_face_y": 0.9007163047790527,
+          "actual_original_face_y": 0.9007163047790527,
+          "globe_peak_minus_final_face_m": -0.08171629905700684,
+          "globe_peak_minus_original_face_m": -0.08171629905700684
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 5.497787143782138,
+          "x": -0.225859673030999,
+          "z": 2.0616537631730143,
+          "actual_final_face_y": 0.9072701930999756,
+          "actual_original_face_y": 0.9072701930999756,
+          "globe_peak_minus_final_face_m": -0.08827018737792969,
+          "globe_peak_minus_original_face_m": -0.08827018737792969
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 0.0,
+          "x": -0.12985670392513274,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8864078521728516,
+          "actual_original_face_y": 0.8864078521728516,
+          "globe_peak_minus_final_face_m": -0.06740784645080566,
+          "globe_peak_minus_original_face_m": -0.06740784645080566
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 0.7853981633974483,
+          "x": -0.1873223534563321,
+          "z": 2.302777175557627,
+          "actual_final_face_y": 0.8354735374450684,
+          "actual_original_face_y": 0.8354735374450684,
+          "globe_peak_minus_final_face_m": -0.01647353172302246,
+          "globe_peak_minus_original_face_m": -0.01647353172302246
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 1.5707963267948966,
+          "x": -0.32605670392513275,
+          "z": 2.3607700328826904,
+          "actual_final_face_y": 0.754533052444458,
+          "actual_original_face_y": 0.754533052444458,
+          "globe_peak_minus_final_face_m": 0.06446695327758789,
+          "globe_peak_minus_original_face_m": 0.06446695327758789
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 2.356194490192345,
+          "x": -0.46479105439393337,
+          "z": 2.302777175557627,
+          "actual_final_face_y": 0.6764044761657715,
+          "actual_original_face_y": 0.6764044761657715,
+          "globe_peak_minus_final_face_m": 0.14259552955627441,
+          "globe_peak_minus_original_face_m": 0.14259552955627441
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 3.141592653589793,
+          "x": -0.5222567039251328,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.6529686450958252,
+          "actual_original_face_y": 0.6529686450958252,
+          "globe_peak_minus_final_face_m": 0.1660313606262207,
+          "globe_peak_minus_original_face_m": 0.1660313606262207
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 3.9269908169872414,
+          "x": -0.4647910543939334,
+          "z": 2.022762890207754,
+          "actual_final_face_y": 0.8026077747344971,
+          "actual_original_face_y": 0.8026077747344971,
+          "globe_peak_minus_final_face_m": 0.016392230987548828,
+          "globe_peak_minus_original_face_m": 0.016392230987548828
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 4.71238898038469,
+          "x": -0.3260567039251328,
+          "z": 1.9647700328826905,
+          "actual_final_face_y": 0.9425547122955322,
+          "actual_original_face_y": 0.9425547122955322,
+          "globe_peak_minus_final_face_m": -0.12355470657348633,
+          "globe_peak_minus_original_face_m": -0.12355470657348633
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 5.497787143782138,
+          "x": -0.18732235345633216,
+          "z": 2.022762890207754,
+          "actual_final_face_y": 0.9856669902801514,
+          "actual_original_face_y": 0.9856669902801514,
+          "globe_peak_minus_final_face_m": -0.16666698455810547,
+          "globe_peak_minus_original_face_m": -0.16666698455810547
+        }
+      ],
+      "globe_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "right": {
+      "globe_center": [
+        0.32605670392513275,
+        0.75,
+        2.1627700328826904
+      ],
+      "globe_radii": [
+        0.109,
+        0.069,
+        0.11
+      ],
+      "actual_sclera_peak_y": 0.8190000057220459,
+      "actual_cornea_peak_y": 0.8258000016212463,
+      "annular_fit_reference_center_y": 0.8253317911785738,
+      "actual_center_and_rim_rays": [
+        {
+          "radius_in_eye_radii": 0,
+          "angle": 0.0,
+          "x": 0.32605670392513275,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8090026378631592,
+          "actual_original_face_y": 0.8360695838928223,
+          "globe_peak_minus_final_face_m": 0.009997367858886719,
+          "globe_peak_minus_original_face_m": -0.017069578170776367
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 0.0,
+          "x": 0.46775670392513274,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.7133538722991943,
+          "actual_original_face_y": 0.7133538722991943,
+          "globe_peak_minus_final_face_m": 0.10564613342285156,
+          "globe_peak_minus_original_face_m": 0.10564613342285156
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 0.7853981633974483,
+          "x": 0.42625373481926654,
+          "z": 2.2638863025923666,
+          "actual_final_face_y": 0.7264156341552734,
+          "actual_original_face_y": 0.7264156341552734,
+          "globe_peak_minus_final_face_m": 0.09258437156677246,
+          "globe_peak_minus_original_face_m": 0.09258437156677246
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 1.5707963267948966,
+          "x": 0.32605670392513275,
+          "z": 2.3057700328826902,
+          "actual_final_face_y": 0.7723102569580078,
+          "actual_original_face_y": 0.7723102569580078,
+          "globe_peak_minus_final_face_m": 0.046689748764038086,
+          "globe_peak_minus_original_face_m": 0.046689748764038086
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 2.356194490192345,
+          "x": 0.22585967303099896,
+          "z": 2.2638863025923666,
+          "actual_final_face_y": 0.8204789161682129,
+          "actual_original_face_y": 0.8204789161682129,
+          "globe_peak_minus_final_face_m": -0.0014789104461669922,
+          "globe_peak_minus_original_face_m": -0.0014789104461669922
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 3.141592653589793,
+          "x": 0.18435670392513276,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8519184589385986,
+          "actual_original_face_y": 0.8519184589385986,
+          "globe_peak_minus_final_face_m": -0.032918453216552734,
+          "globe_peak_minus_original_face_m": -0.032918453216552734
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 3.9269908169872414,
+          "x": 0.22585967303099896,
+          "z": 2.0616537631730143,
+          "actual_final_face_y": 0.9110047817230225,
+          "actual_original_face_y": 0.9110047817230225,
+          "globe_peak_minus_final_face_m": -0.09200477600097656,
+          "globe_peak_minus_original_face_m": -0.09200477600097656
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 4.71238898038469,
+          "x": 0.32605670392513275,
+          "z": 2.0197700328826906,
+          "actual_final_face_y": 0.898507833480835,
+          "actual_original_face_y": 0.898507833480835,
+          "globe_peak_minus_final_face_m": -0.07950782775878906,
+          "globe_peak_minus_original_face_m": -0.07950782775878906
+        },
+        {
+          "radius_in_eye_radii": 1.3,
+          "angle": 5.497787143782138,
+          "x": 0.42625373481926654,
+          "z": 2.0616537631730143,
+          "actual_final_face_y": 0.782548189163208,
+          "actual_original_face_y": 0.782548189163208,
+          "globe_peak_minus_final_face_m": 0.03645181655883789,
+          "globe_peak_minus_original_face_m": 0.03645181655883789
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 0.0,
+          "x": 0.5222567039251328,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.6624562740325928,
+          "actual_original_face_y": 0.6624562740325928,
+          "globe_peak_minus_final_face_m": 0.15654373168945312,
+          "globe_peak_minus_original_face_m": 0.15654373168945312
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 0.7853981633974483,
+          "x": 0.4647910543939334,
+          "z": 2.302777175557627,
+          "actual_final_face_y": 0.6834330558776855,
+          "actual_original_face_y": 0.6834330558776855,
+          "globe_peak_minus_final_face_m": 0.13556694984436035,
+          "globe_peak_minus_original_face_m": 0.13556694984436035
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 1.5707963267948966,
+          "x": 0.32605670392513275,
+          "z": 2.3607700328826904,
+          "actual_final_face_y": 0.7567946910858154,
+          "actual_original_face_y": 0.7567946910858154,
+          "globe_peak_minus_final_face_m": 0.06220531463623047,
+          "globe_peak_minus_original_face_m": 0.06220531463623047
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 2.356194490192345,
+          "x": 0.18732235345633214,
+          "z": 2.302777175557627,
+          "actual_final_face_y": 0.8337841033935547,
+          "actual_original_face_y": 0.8337841033935547,
+          "globe_peak_minus_final_face_m": -0.014784097671508789,
+          "globe_peak_minus_original_face_m": -0.014784097671508789
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 3.141592653589793,
+          "x": 0.12985670392513274,
+          "z": 2.1627700328826904,
+          "actual_final_face_y": 0.8866047859191895,
+          "actual_original_face_y": 0.8866047859191895,
+          "globe_peak_minus_final_face_m": -0.06760478019714355,
+          "globe_peak_minus_original_face_m": -0.06760478019714355
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 3.9269908169872414,
+          "x": 0.18732235345633208,
+          "z": 2.022762890207754,
+          "actual_final_face_y": 0.9883692264556885,
+          "actual_original_face_y": 0.9883692264556885,
+          "globe_peak_minus_final_face_m": -0.16936922073364258,
+          "globe_peak_minus_original_face_m": -0.16936922073364258
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 4.71238898038469,
+          "x": 0.3260567039251327,
+          "z": 1.9647700328826905,
+          "actual_final_face_y": 0.9418916702270508,
+          "actual_original_face_y": 0.9418916702270508,
+          "globe_peak_minus_final_face_m": -0.12289166450500488,
+          "globe_peak_minus_original_face_m": -0.12289166450500488
+        },
+        {
+          "radius_in_eye_radii": 1.8,
+          "angle": 5.497787143782138,
+          "x": 0.4647910543939333,
+          "z": 2.022762890207754,
+          "actual_final_face_y": 0.8003334999084473,
+          "actual_original_face_y": 0.8003334999084473,
+          "globe_peak_minus_final_face_m": 0.018666505813598633,
+          "globe_peak_minus_original_face_m": 0.018666505813598633
+        }
+      ],
+      "globe_object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

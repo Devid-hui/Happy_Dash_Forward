@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-13T01:16:24.846217+00:00",
+  "scope": "Read-only R19 baseline evidence; recommendations are not implementation",
+  "review_sha256": "3bc7109be3374b0a83a5aff20e560f7153dec2a219150049d0b6b2be37288010",
+  "source_snapshot_identity_matches_review_receipt": true,
+  "evidence": {
+    "outputs/science-growth-content-review/coverage-args.json": "8fd0c98ee3fcecf7d99452ed52f04c5ee6e649666aee4e5e87a5dda3770ab76f",
+    "outputs/science-growth-content-review/graph-runtime-search.json": "fb0deca2bc1d15ce3521bd05c9d7490b15985dff8c379875a8a80d7870c66a81",
+    "outputs/science-growth-content-review/graph-cast-trace.json": "f17e5842a3cb15f52f3fccff1e223220757a7149dba78b6dbf324dd77faafade",
+    "outputs/science-growth-content-review/README.md": "3bc7109be3374b0a83a5aff20e560f7153dec2a219150049d0b6b2be37288010",
+    "outputs/science-growth-content-review/graph-ability-search.json": "cf02c929e018e32c843e93300963c7050ae884875883cca77d772b3ce9678313",
+    "outputs/science-growth-content-review/SOURCE_VALUES_RECEIPT.json": "ca77713a40fa5ab04849ea238cccbfcbc0b6758e2fed9363e5b153ed373e83f9",
+    "outputs/science-growth-content-review/graph-lamp-trace.json": "02074867d62e8436cdcde45020171d39ab833342205b6425de27be0a65d3e6d8",
+    "outputs/science-growth-content-review/graph-hunter-mire-snippet.json": "450041c299de6a91b5b1e3198d63ec47dae71eaa8dd86ea2ea933ec80019bca3",
+    "outputs/science-growth-content-review/graph-coverage.json": "0869598fd834ce5d44702d784fe1099332640a86ab3e4b82c408cbc14cd99c9b",
+    "outputs/science-growth-content-review/graph-cost-snippet.json": "ae409142135eb6fc3c1b6ab72a090fc9132d68adb9e28f0177a588d776be7334"
+  },
+  "source_snapshots": {
+    "outputs/science-growth-content-review/reviewed-source/scripts/core/game_state.gd": "b0fd38d5085be679f435003913cb4fbfde8df4574e508fbcd6697f024463a865",
+    "outputs/science-growth-content-review/reviewed-source/scripts/core/research_manager.gd": "9c492370e33b83c026496d1bf4638dc2bf535d825f19a5ef9c94a2ec35de45a1",
+    "outputs/science-growth-content-review/reviewed-source/scripts/ui/hud_controller.gd": "097d4021529dc56efcdb6d0de61dfffae72e0786705b5390c2917c8186b5554c",
+    "outputs/science-growth-content-review/reviewed-source/scripts/skills/skill_manager.gd": "f56f8ae9572060caa8ca6ff405e09014da6e5d3984288ce52bf60b05e63cefff",
+    "outputs/science-growth-content-review/reviewed-source/scripts/skills/fusion_manager.gd": "cf03ef44c110f55bd0876c7065d71cd95921bdb33620ae878855088c99ca1320",
+    "outputs/science-growth-content-review/reviewed-source/scripts/player/player.gd": "bdf3324900ce778a14bb0b5fef08762140d4ec7a6e3da2c591e9854fea0359aa",
+    "outputs/science-growth-content-review/reviewed-source/scripts/world/world.gd": "10cbd297897f4697ea2c625ba05fdb009a60de67770d4cf7d5e4ce6a010a8c27",
+    "outputs/science-growth-content-review/reviewed-source/scripts/world/storm_controller.gd": "54ec8a7d65884183b9c55e4d2d831f14afd8a5ca096977343bf31be690ffced2",
+    "outputs/science-growth-content-review/reviewed-source/scripts/enemies/hunter.gd": "353e62e6071eba27eada9db2bb6c31149d1e8efc2df31520e631809bf7b064b9",
+    "outputs/science-growth-content-review/reviewed-source/scripts/player/field_equipment.gd": "ade57121eb2ced1fdae292c0adb1b0f408603f482b97c23ca298a6592578d30e"
+  }
+}

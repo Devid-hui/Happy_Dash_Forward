@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SMOKE PASS: menu selection, six skills, research, five hunters, and victory
+RELEASED render; exact owned PID 59402 exit 0

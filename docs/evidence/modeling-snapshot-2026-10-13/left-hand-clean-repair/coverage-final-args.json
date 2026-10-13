@@ -1,0 +1,21 @@
+{
+  "project": "happy-dash-forward-audit-20261012",
+  "paths": [
+    "tools/makehuman_hand.py",
+    "tools/hand_surface_detail.py",
+    "tools/build_anatomical_spectra.py",
+    "scripts/player/field_equipment.gd",
+    "tests/hand_anatomy_contract.gd",
+    "tests/hand_motion_review.gd",
+    "tests/left_thumb_review.gd",
+    "tools/build_high_fidelity_assets.py",
+    "tools/arm_sleeve_profile.py",
+    "tests/anatomical_spectra_preview.gd",
+    "tests/run_tests.py",
+    "tools/reconstructed_nailong_face.py",
+    "tools/bind_reconstructed_nailong.py"
+  ],
+  "diagnostics": "full",
+  "format": "json",
+  "path_limit": 20
+}

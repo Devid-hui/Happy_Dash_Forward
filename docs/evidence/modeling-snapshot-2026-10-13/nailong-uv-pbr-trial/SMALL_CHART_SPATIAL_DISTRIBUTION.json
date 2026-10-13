@@ -1,0 +1,233 @@
+{
+  "bin_size_m": 0.25,
+  "chart_center_definition": "Measured per-chart bbox center, not sampled surface centroid",
+  "small_charts_le_10tri": 39825,
+  "top_25_spatial_bins_by_3d_area": [
+    {
+      "bbox_bin_min": [
+        0.25,
+        0.25,
+        1.25
+      ],
+      "charts": 362,
+      "world_area_m2": 0.019662588288479377
+    },
+    {
+      "bbox_bin_min": [
+        -0.5,
+        -0.5,
+        1.0
+      ],
+      "charts": 354,
+      "world_area_m2": 0.019608838961187692
+    },
+    {
+      "bbox_bin_min": [
+        0.25,
+        -0.5,
+        1.0
+      ],
+      "charts": 370,
+      "world_area_m2": 0.019224315463418986
+    },
+    {
+      "bbox_bin_min": [
+        0.25,
+        0.25,
+        2.5
+      ],
+      "charts": 405,
+      "world_area_m2": 0.018385790950401795
+    },
+    {
+      "bbox_bin_min": [
+        0.25,
+        0.5,
+        2.25
+      ],
+      "charts": 319,
+      "world_area_m2": 0.01745214300491028
+    },
+    {
+      "bbox_bin_min": [
+        -0.75,
+        -0.25,
+        0.75
+      ],
+      "charts": 351,
+      "world_area_m2": 0.017430196828858966
+    },
+    {
+      "bbox_bin_min": [
+        -0.25,
+        0.5,
+        2.5
+      ],
+      "charts": 369,
+      "world_area_m2": 0.017314645542535523
+    },
+    {
+      "bbox_bin_min": [
+        -0.5,
+        0.25,
+        1.25
+      ],
+      "charts": 343,
+      "world_area_m2": 0.017126771145812392
+    },
+    {
+      "bbox_bin_min": [
+        0.25,
+        0.0,
+        2.5
+      ],
+      "charts": 375,
+      "world_area_m2": 0.01700412370754876
+    },
+    {
+      "bbox_bin_min": [
+        -0.75,
+        0.0,
+        0.75
+      ],
+      "charts": 317,
+      "world_area_m2": 0.01699429354372188
+    },
+    {
+      "bbox_bin_min": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "charts": 338,
+      "world_area_m2": 0.016924707716899794
+    },
+    {
+      "bbox_bin_min": [
+        -0.75,
+        0.25,
+        2.0
+      ],
+      "charts": 302,
+      "world_area_m2": 0.01678687210723369
+    },
+    {
+      "bbox_bin_min": [
+        -0.25,
+        0.5,
+        1.0
+      ],
+      "charts": 324,
+      "world_area_m2": 0.016322174350386208
+    },
+    {
+      "bbox_bin_min": [
+        -0.25,
+        -0.25,
+        2.5
+      ],
+      "charts": 387,
+      "world_area_m2": 0.016232321629761567
+    },
+    {
+      "bbox_bin_min": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "charts": 337,
+      "world_area_m2": 0.016207021956397435
+    },
+    {
+      "bbox_bin_min": [
+        0.0,
+        -0.5,
+        2.0
+      ],
+      "charts": 287,
+      "world_area_m2": 0.015958399980236224
+    },
+    {
+      "bbox_bin_min": [
+        -0.5,
+        0.25,
+        1.0
+      ],
+      "charts": 291,
+      "world_area_m2": 0.015912807047592643
+    },
+    {
+      "bbox_bin_min": [
+        0.0,
+        0.5,
+        2.5
+      ],
+      "charts": 351,
+      "world_area_m2": 0.015872355587173044
+    },
+    {
+      "bbox_bin_min": [
+        -0.25,
+        0.5,
+        0.75
+      ],
+      "charts": 299,
+      "world_area_m2": 0.01583057170363314
+    },
+    {
+      "bbox_bin_min": [
+        0.5,
+        0.0,
+        0.75
+      ],
+      "charts": 292,
+      "world_area_m2": 0.015808681566428732
+    },
+    {
+      "bbox_bin_min": [
+        0.5,
+        -0.25,
+        0.75
+      ],
+      "charts": 324,
+      "world_area_m2": 0.01571981536250734
+    },
+    {
+      "bbox_bin_min": [
+        0.5,
+        0.25,
+        2.25
+      ],
+      "charts": 315,
+      "world_area_m2": 0.01570040565245452
+    },
+    {
+      "bbox_bin_min": [
+        -0.25,
+        -0.5,
+        1.75
+      ],
+      "charts": 281,
+      "world_area_m2": 0.0156061462703979
+    },
+    {
+      "bbox_bin_min": [
+        0.0,
+        -0.5,
+        1.25
+      ],
+      "charts": 265,
+      "world_area_m2": 0.01552616188041224
+    },
+    {
+      "bbox_bin_min": [
+        0.25,
+        -0.5,
+        1.25
+      ],
+      "charts": 301,
+      "world_area_m2": 0.015428167827614015
+    }
+  ],
+  "scope": "Read-only spatial distribution; bins do not prove inner/exterior visibility"
+}

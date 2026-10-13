@@ -1,0 +1,123 @@
+{
+  "known_original_linear_vertex_rgba": [
+    0.7200000286102295,
+    0.44999998807907104,
+    0.03999999910593033,
+    1.0
+  ],
+  "baked_image_colorspace": "sRGB",
+  "image_is_float": false,
+  "image_pixels_api_center_rgba": [
+    0.8666667342185974,
+    0.7019608020782471,
+    0.2196078598499298,
+    1.0
+  ],
+  "exports": {
+    "True": {
+      "sha256": "2fe8db736c707d1926e34ccdd4f04c1165f4ef16e3fee891bb2cc4c8bb644740",
+      "attributes": {
+        "POSITION": 0,
+        "NORMAL": 1,
+        "TEXCOORD_0": 2,
+        "COLOR_0": 3,
+        "COLOR_1": 4
+      },
+      "material": {
+        "doubleSided": true,
+        "name": "real emitter bake",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.47999998927116394
+        }
+      },
+      "images": [
+        {
+          "bufferView": 6,
+          "mimeType": "image/png",
+          "name": "probe-known-srgb"
+        }
+      ],
+      "COLOR_0_minmax": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "COLOR_1_minmax": [
+        [
+          0.7199969481956207,
+          0.4500038147554742,
+          0.03999389639124132,
+          1.0
+        ],
+        [
+          0.7199969481956207,
+          0.4500038147554742,
+          0.03999389639124132,
+          1.0
+        ]
+      ]
+    },
+    "False": {
+      "sha256": "818da8b402ab2dec2bbfda5f0550c4c2ae43b25d8ad37a0d9e02c4b048d04876",
+      "attributes": {
+        "POSITION": 0,
+        "NORMAL": 1,
+        "TEXCOORD_0": 2
+      },
+      "material": {
+        "doubleSided": true,
+        "name": "real emitter bake",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.47999998927116394
+        }
+      },
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/png",
+          "name": "probe-known-srgb"
+        }
+      ]
+    }
+  },
+  "scope": "Real installed 4.5.14 emission bake; file bytes analysed independently with Pillow next. Target Texture is sole BaseColor input, source VC remains in mesh but is disconnected.",
+  "file_byte_independent_read": {
+    "png_center_srgb": [
+      0.8666666666666667,
+      0.7019607843137254,
+      0.2196078431372549
+    ],
+    "decoded_linear": [
+      0.7230551289219693,
+      0.45078578283822346,
+      0.03954623527673284
+    ],
+    "original_linear": [
+      0.7200000286102295,
+      0.44999998807907104,
+      0.03999999910593033
+    ],
+    "max_quantization_error_linear": 0.0030551003117398334,
+    "byte_image_pixels_api_is_srgb_encoded": true,
+    "chosen_export_vertex_color": "MATERIAL",
+    "chosen_export_all_vertex_colors": false,
+    "double_multiply_avoided_by_body_no_COLOR_0": true
+  }
+}

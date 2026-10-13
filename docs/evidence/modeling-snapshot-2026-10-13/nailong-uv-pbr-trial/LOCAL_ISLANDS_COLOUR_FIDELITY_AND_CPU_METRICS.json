@@ -1,0 +1,518 @@
+{
+  "texture": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/uv-pbr-trial/nailong_body_basecolor_4k_local_islands.png",
+  "texture_sha256": "eda85641c59eb533e8afc03d16092aa440ebad5ebc04099707179122363ab623",
+  "actual_dimensions": [
+    4096,
+    4096
+  ],
+  "nonconstant_encoded_rgb_std": [
+    109.38653973078519,
+    87.54523124970476,
+    43.965954218822056
+  ],
+  "original_vertex_color_to_real_texture_triangle_centroid_samples": 100000,
+  "color_comparison_space": "Decode PNG sRGB to linear before bilinear filtering and compare with original linear corner RGB interpolation",
+  "absolute_linear_rgb_error_mean": [
+    0.0009223771598801474,
+    0.0007737267466080864,
+    0.00032005258834586414
+  ],
+  "absolute_linear_rgb_error_percentiles": {
+    "p50": 0.0013921096304660876,
+    "p90": 0.002826091303214054,
+    "p95": 0.0031995459877948037,
+    "p99": 0.003981892143863701,
+    "p100": 0.04338709870031847
+  },
+  "strict_interior_valid_texture_pixel_count": 5250634,
+  "valid_surface_texel_encoded_rgb_std": [
+    14.074595319316476,
+    27.14308731290474,
+    28.98100002757208
+  ],
+  "source_linear_corner_rgb_std": [
+    0.09110990911722183,
+    0.12114913761615753,
+    0.06757279485464096
+  ],
+  "alpha_is_opaque_also_in_unused_canvas": false,
+  "sample_error_thresholds": {
+    "0.01": {
+      "samples": 77,
+      "sample_fraction": 0.00077,
+      "sampled_world_area_fraction": 0.0005190193369447065,
+      "sampled_uv_area_fraction": 0.00044001470616791664
+    },
+    "0.03": {
+      "samples": 1,
+      "sample_fraction": 1e-05,
+      "sampled_world_area_fraction": 1.1257127696408143e-05,
+      "sampled_uv_area_fraction": 2.2588160005581675e-06
+    },
+    "0.1": {
+      "samples": 0,
+      "sample_fraction": 0.0,
+      "sampled_world_area_fraction": 0.0,
+      "sampled_uv_area_fraction": 0.0
+    },
+    "0.3": {
+      "samples": 0,
+      "sample_fraction": 0.0,
+      "sampled_world_area_fraction": 0.0,
+      "sampled_uv_area_fraction": 0.0
+    },
+    "0.8": {
+      "samples": 0,
+      "sample_fraction": 0.0,
+      "sampled_world_area_fraction": 0.0,
+      "sampled_uv_area_fraction": 0.0
+    }
+  },
+  "worst_sample_records": [
+    {
+      "source_polygon_id": 1249588,
+      "error_norm_linear": 0.04338709870031847,
+      "expected_linear_rgb": [
+        0.47222599387168884,
+        0.22747834026813507,
+        0.053438451141119
+      ],
+      "sampled_linear_rgb": [
+        0.5085760514775788,
+        0.2511374975321017,
+        0.05460375077578607
+      ],
+      "uv_centroid": [
+        0.7417322993278503,
+        0.36666926741600037
+      ],
+      "source_world_area_m2": 1.7337639688673505e-05,
+      "triangle_area_in_texture_pixels": 0.6876084208488464
+    },
+    {
+      "source_polygon_id": 1304332,
+      "error_norm_linear": 0.029090387796676356,
+      "expected_linear_rgb": [
+        0.5520116090774536,
+        0.12743769586086273,
+        0.0284260381013155
+      ],
+      "sampled_linear_rgb": [
+        0.524962915574788,
+        0.11673167690142355,
+        0.028426039504420793
+      ],
+      "uv_centroid": [
+        0.4381725788116455,
+        0.6607244610786438
+      ],
+      "source_world_area_m2": 5.22011108234602e-07,
+      "triangle_area_in_texture_pixels": 0.14162996411323547
+    },
+    {
+      "source_polygon_id": 1364893,
+      "error_norm_linear": 0.028219439930265097,
+      "expected_linear_rgb": [
+        0.8281087279319763,
+        0.5754287838935852,
+        0.12129377573728561
+      ],
+      "sampled_linear_rgb": [
+        0.8049248865714438,
+        0.5595995596711136,
+        0.11841593796176375
+      ],
+      "uv_centroid": [
+        0.21242117881774902,
+        0.5756322741508484
+      ],
+      "source_world_area_m2": 1.774403791221194e-05,
+      "triangle_area_in_texture_pixels": 3.0113696455955505
+    },
+    {
+      "source_polygon_id": 881777,
+      "error_norm_linear": 0.027162696953192837,
+      "expected_linear_rgb": [
+        0.6444942355155945,
+        0.5333322882652283,
+        0.2865864932537079
+      ],
+      "sampled_linear_rgb": [
+        0.6514056374198242,
+        0.5239522612903862,
+        0.262049587918266
+      ],
+      "uv_centroid": [
+        0.3398576080799103,
+        0.6738322377204895
+      ],
+      "source_world_area_m2": 5.476600170563126e-06,
+      "triangle_area_in_texture_pixels": 0.928885355591774
+    },
+    {
+      "source_polygon_id": 1261920,
+      "error_norm_linear": 0.025991537368220814,
+      "expected_linear_rgb": [
+        0.644367516040802,
+        0.3172987103462219,
+        0.06370580196380615
+      ],
+      "sampled_linear_rgb": [
+        0.6205894595470807,
+        0.3068060027029496,
+        0.06396489742465093
+      ],
+      "uv_centroid": [
+        0.7491745948791504,
+        0.3670007288455963
+      ],
+      "source_world_area_m2": 1.6074457227978405e-05,
+      "triangle_area_in_texture_pixels": 0.8331451863050461
+    },
+    {
+      "source_polygon_id": 1765628,
+      "error_norm_linear": 0.025632361441634995,
+      "expected_linear_rgb": [
+        0.7861247062683105,
+        0.5108934044837952,
+        0.09084171056747437
+      ],
+      "sampled_linear_rgb": [
+        0.7687487625386916,
+        0.49210377329368926,
+        0.0894119230589499
+      ],
+      "uv_centroid": [
+        0.3362337648868561,
+        0.055188801139593124
+      ],
+      "source_world_area_m2": 3.5321761152883327e-06,
+      "triangle_area_in_texture_pixels": 0.5308765545487404
+    },
+    {
+      "source_polygon_id": 1257088,
+      "error_norm_linear": 0.023364508535085593,
+      "expected_linear_rgb": [
+        0.7861247658729553,
+        0.47161564230918884,
+        0.05619537830352783
+      ],
+      "sampled_linear_rgb": [
+        0.8082743007167225,
+        0.4790265325320581,
+        0.05680943969737505
+      ],
+      "uv_centroid": [
+        0.7498900294303894,
+        0.36370551586151123
+      ],
+      "source_world_area_m2": 1.562243738845961e-05,
+      "triangle_area_in_texture_pixels": 1.0325044989585876
+    },
+    {
+      "source_polygon_id": 1251991,
+      "error_norm_linear": 0.022758428168244957,
+      "expected_linear_rgb": [
+        0.783552885055542,
+        0.48911890387535095,
+        0.06313665211200714
+      ],
+      "sampled_linear_rgb": [
+        0.7858570414100412,
+        0.48996816666838994,
+        0.08576220556140471
+      ],
+      "uv_centroid": [
+        0.023700110614299774,
+        0.4700392782688141
+      ],
+      "source_world_area_m2": 1.0231343933333417e-05,
+      "triangle_area_in_texture_pixels": 0.8563858503475785
+    },
+    {
+      "source_polygon_id": 1598790,
+      "error_norm_linear": 0.02215909997567142,
+      "expected_linear_rgb": [
+        0.76350998878479,
+        0.4836719036102295,
+        0.1382756531238556
+      ],
+      "sampled_linear_rgb": [
+        0.7799815592899589,
+        0.49422760331052984,
+        0.12786939151547141
+      ],
+      "uv_centroid": [
+        0.6711695790290833,
+        0.2516614496707916
+      ],
+      "source_world_area_m2": 1.584924661739367e-05,
+      "triangle_area_in_texture_pixels": 2.7905532121658325
+    },
+    {
+      "source_polygon_id": 670946,
+      "error_norm_linear": 0.021278140404501295,
+      "expected_linear_rgb": [
+        0.8688425421714783,
+        0.5803698897361755,
+        0.17319373786449432
+      ],
+      "sampled_linear_rgb": [
+        0.8798508968534362,
+        0.5923429456196228,
+        0.18691311536792848
+      ],
+      "uv_centroid": [
+        0.33180204033851624,
+        0.38213595747947693
+      ],
+      "source_world_area_m2": 1.6422645490970187e-05,
+      "triangle_area_in_texture_pixels": 2.8563591688871384
+    },
+    {
+      "source_polygon_id": 1752292,
+      "error_norm_linear": 0.02028590953611989,
+      "expected_linear_rgb": [
+        0.8148617744445801,
+        0.5333183407783508,
+        0.1239379271864891
+      ],
+      "sampled_linear_rgb": [
+        0.8023913202622738,
+        0.5197675534642962,
+        0.11543016241753282
+      ],
+      "uv_centroid": [
+        0.3321041464805603,
+        0.052498262375593185
+      ],
+      "source_world_area_m2": 4.234418813059287e-06,
+      "triangle_area_in_texture_pixels": 0.6335683586075902
+    },
+    {
+      "source_polygon_id": 1251989,
+      "error_norm_linear": 0.02011101663686177,
+      "expected_linear_rgb": [
+        0.8097183108329773,
+        0.5213837027549744,
+        0.6281608939170837
+      ],
+      "sampled_linear_rgb": [
+        0.8075404177134202,
+        0.5212116318566429,
+        0.6081688914327436
+      ],
+      "uv_centroid": [
+        0.02340688556432724,
+        0.46992310881614685
+      ],
+      "source_world_area_m2": 1.2181767555224475e-05,
+      "triangle_area_in_texture_pixels": 1.0456866258755326
+    },
+    {
+      "source_polygon_id": 1752911,
+      "error_norm_linear": 0.02002380296939609,
+      "expected_linear_rgb": [
+        0.8096436858177185,
+        0.5292941927909851,
+        0.11537753790616989
+      ],
+      "sampled_linear_rgb": [
+        0.7965057672291608,
+        0.515501682414325,
+        0.10920384873134506
+      ],
+      "uv_centroid": [
+        0.027834361419081688,
+        0.2402515560388565
+      ],
+      "source_world_area_m2": 5.396882380396307e-06,
+      "triangle_area_in_texture_pixels": 1.0276370141655207
+    },
+    {
+      "source_polygon_id": 1762757,
+      "error_norm_linear": 0.020020500863651,
+      "expected_linear_rgb": [
+        0.7758224606513977,
+        0.473531574010849,
+        0.09758736938238144
+      ],
+      "sampled_linear_rgb": [
+        0.7790994060166383,
+        0.49278410252394983,
+        0.0931803034925951
+      ],
+      "uv_centroid": [
+        0.32909122109413147,
+        0.05581490322947502
+      ],
+      "source_world_area_m2": 3.6256119241141116e-06,
+      "triangle_area_in_texture_pixels": 0.4878110261633992
+    },
+    {
+      "source_polygon_id": 444536,
+      "error_norm_linear": 0.020007069541363463,
+      "expected_linear_rgb": [
+        0.5593665242195129,
+        0.12057901173830032,
+        0.021570295095443726
+      ],
+      "sampled_linear_rgb": [
+        0.540805851015632,
+        0.11316500710373015,
+        0.020666537865727874
+      ],
+      "uv_centroid": [
+        0.31438174843788147,
+        0.22820262610912323
+      ],
+      "source_world_area_m2": 1.731805495524128e-05,
+      "triangle_area_in_texture_pixels": 3.2155787982046604
+    },
+    {
+      "source_polygon_id": 1595106,
+      "error_norm_linear": 0.01943053399432111,
+      "expected_linear_rgb": [
+        0.7991029620170593,
+        0.5028864741325378,
+        0.10227352380752563
+      ],
+      "sampled_linear_rgb": [
+        0.7980582846579509,
+        0.5020897539235236,
+        0.12165958935544904
+      ],
+      "uv_centroid": [
+        0.6455394625663757,
+        0.2909817397594452
+      ],
+      "source_world_area_m2": 1.626533027491838e-05,
+      "triangle_area_in_texture_pixels": 2.8674835860729218
+    },
+    {
+      "source_polygon_id": 1758304,
+      "error_norm_linear": 0.019074592351249604,
+      "expected_linear_rgb": [
+        0.573291003704071,
+        0.4143235385417938,
+        0.1747976392507553
+      ],
+      "sampled_linear_rgb": [
+        0.5820640439950591,
+        0.4077966547142433,
+        0.1591683838327672
+      ],
+      "uv_centroid": [
+        0.6466726660728455,
+        0.4946399927139282
+      ],
+      "source_world_area_m2": 5.002017928718854e-06,
+      "triangle_area_in_texture_pixels": 0.9554862380027771
+    },
+    {
+      "source_polygon_id": 1778957,
+      "error_norm_linear": 0.018047942940514736,
+      "expected_linear_rgb": [
+        0.8122451901435852,
+        0.5374956727027893,
+        0.1079319417476654
+      ],
+      "sampled_linear_rgb": [
+        0.8011120424432979,
+        0.5235802933342615,
+        0.10507826277174435
+      ],
+      "uv_centroid": [
+        0.6994326114654541,
+        0.595515787601471
+      ],
+      "source_world_area_m2": 4.6126536623717904e-06,
+      "triangle_area_in_texture_pixels": 0.18958735466003418
+    },
+    {
+      "source_polygon_id": 1779805,
+      "error_norm_linear": 0.017978424917388287,
+      "expected_linear_rgb": [
+        0.8096436858177185,
+        0.5335409641265869,
+        0.10551431030035019
+      ],
+      "sampled_linear_rgb": [
+        0.7983439951044148,
+        0.5199027746601277,
+        0.10242553378353869
+      ],
+      "uv_centroid": [
+        0.6992888450622559,
+        0.595610499382019
+      ],
+      "source_world_area_m2": 4.519593642315173e-06,
+      "triangle_area_in_texture_pixels": 0.17264196276664734
+    },
+    {
+      "source_polygon_id": 1257830,
+      "error_norm_linear": 0.017910455902878437,
+      "expected_linear_rgb": [
+        0.5550652742385864,
+        0.2758682072162628,
+        0.06641410291194916
+      ],
+      "sampled_linear_rgb": [
+        0.567679686853206,
+        0.2885820869999267,
+        0.06654932821883193
+      ],
+      "uv_centroid": [
+        0.7453327775001526,
+        0.3676673471927643
+      ],
+      "source_world_area_m2": 2.0260538683224698e-05,
+      "triangle_area_in_texture_pixels": 0.8820980787277222
+    }
+  ],
+  "error_scope": "Centroid comparisons include extreme subpixel/thin-triangle interpolation failures; percentiles do not hide maximum. Whole-body same-source CPU views are a separate visual comparison.",
+  "cpu_image_pairs": [
+    {
+      "view": "body-front",
+      "mean_absolute_display_rgb_difference": 3.719235089869281e-05,
+      "p99_absolute_display_rgb_difference": 0.0,
+      "maximum_display_rgb_difference": 0.02352941176470591,
+      "source_camera_lights_seed_and_geometry_identical": true
+    },
+    {
+      "view": "body-back",
+      "mean_absolute_display_rgb_difference": 2.8639450571895422e-05,
+      "p99_absolute_display_rgb_difference": 0.0,
+      "maximum_display_rgb_difference": 0.04313725490196077,
+      "source_camera_lights_seed_and_geometry_identical": true
+    },
+    {
+      "view": "face-65deg",
+      "mean_absolute_display_rgb_difference": 0.00011760876225490197,
+      "p99_absolute_display_rgb_difference": 0.0039215686274509665,
+      "maximum_display_rgb_difference": 0.05490196078431375,
+      "source_camera_lights_seed_and_geometry_identical": true
+    },
+    {
+      "view": "body-oblique",
+      "mean_absolute_display_rgb_difference": 3.417330473856209e-05,
+      "p99_absolute_display_rgb_difference": 0.0,
+      "maximum_display_rgb_difference": 0.02352941176470591,
+      "source_camera_lights_seed_and_geometry_identical": true
+    },
+    {
+      "view": "face-front",
+      "mean_absolute_display_rgb_difference": 0.00012972643484477123,
+      "p99_absolute_display_rgb_difference": 0.0039215686274509665,
+      "maximum_display_rgb_difference": 0.05882352941176469,
+      "source_camera_lights_seed_and_geometry_identical": true
+    },
+    {
+      "view": "mouth-open",
+      "mean_absolute_display_rgb_difference": 0.00012375217013888888,
+      "p99_absolute_display_rgb_difference": 0.0039215686274509665,
+      "maximum_display_rgb_difference": 0.05098039215686273,
+      "source_camera_lights_seed_and_geometry_identical": true
+    }
+  ]
+}

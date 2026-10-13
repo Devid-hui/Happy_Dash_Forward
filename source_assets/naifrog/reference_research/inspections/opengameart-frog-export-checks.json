@@ -1,0 +1,49 @@
+{
+  "structural_checks_passed": true,
+  "full_khronos_validator_run": false,
+  "godot_import_run": false,
+  "animation_target_checks": {
+    "idle": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "idle_pose": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "jump": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "land": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "tpose": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "walk": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "walk_pose_1": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    },
+    "walk_pose_2": {
+      "channels": 45,
+      "unique_target_path_pairs": 45,
+      "duplicate_target_paths": false
+    }
+  },
+  "original_blend_sha256": "4bfe5c678529558db3acade949160fe912f2ca4a49d3427fc9c4ece27a307a39",
+  "glb_sha256": "8cbe3338c07907c7d808804d5599915763fa7ede0894e2d9e327bc0b1cea0c76"
+}

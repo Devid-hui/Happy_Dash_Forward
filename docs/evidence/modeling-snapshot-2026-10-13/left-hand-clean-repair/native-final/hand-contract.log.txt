@@ -1,0 +1,8 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+HAND REST WRIST RightGrip degrees=12.5542864067762
+HAND REST WRIST LeftSupport degrees=13.4752725295553
+HAND ANATOMY PASS: 651 checks; max dynamic wrist degrees=54.0385989016866
+RELEASED render; exact owned PID 53649 exit 0

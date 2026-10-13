@@ -1,0 +1,103 @@
+{
+  "file": "work/naifrog/resource-research/inspections/opengameart-frog-research.glb",
+  "bytes": 149552,
+  "sha256": "b11aa9f90fa8056d5b9b2cab0dff7b82ae6b0835ec1c8462f1260e3f391da0e2",
+  "header": {
+    "magic": "glTF",
+    "version": 2,
+    "declared_bytes": 149552
+  },
+  "skins": [
+    {
+      "name": "frog_armature",
+      "joints": 15
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.007",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "JOINTS_0": 3,
+            "WEIGHTS_0": 4
+          },
+          "indices_count": 1800,
+          "vertex_count": 478
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "channels": 90,
+      "samplers": 45,
+      "duration_seconds": 1
+    },
+    {
+      "name": "idle_pose",
+      "channels": 90,
+      "samplers": 45,
+      "duration_seconds": 0.041666666666666664
+    },
+    {
+      "name": "jump",
+      "channels": 45,
+      "samplers": 45,
+      "duration_seconds": 0.5
+    },
+    {
+      "name": "land",
+      "channels": 45,
+      "samplers": 45,
+      "duration_seconds": 0.5
+    },
+    {
+      "name": "tpose",
+      "channels": 45,
+      "samplers": 45,
+      "duration_seconds": 0.041666666666666664
+    },
+    {
+      "name": "walk",
+      "channels": 90,
+      "samplers": 45,
+      "duration_seconds": 1
+    },
+    {
+      "name": "walk_pose_1",
+      "channels": 180,
+      "samplers": 45,
+      "duration_seconds": 0.041666666666666664
+    },
+    {
+      "name": "walk_pose_2",
+      "channels": 90,
+      "samplers": 45,
+      "duration_seconds": 0.041666666666666664
+    }
+  ],
+  "images": [
+    {
+      "name": "frog",
+      "mimeType": "image/png",
+      "embedded": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "frog",
+      "fields": [
+        "alphaMode",
+        "doubleSided",
+        "extensions",
+        "name",
+        "pbrMetallicRoughness"
+      ]
+    }
+  ]
+}

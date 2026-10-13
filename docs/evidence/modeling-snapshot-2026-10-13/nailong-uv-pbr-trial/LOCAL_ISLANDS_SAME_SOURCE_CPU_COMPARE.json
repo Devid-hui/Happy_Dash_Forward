@@ -1,0 +1,80 @@
+{
+  "candidate": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/uv-pbr-trial/body_uv_4k_local_islands_candidate.blend",
+  "same_geometry_lights_camera_seed_and_pose": true,
+  "difference": "Only primary body Base Color source; other BRDF parameters unchanged",
+  "cpu_samples": 16,
+  "images": [
+    {
+      "mode": "before-vcol",
+      "view": "body-front",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/body-front.png",
+      "sha256": "670f9b105a6f226913b8de76a93bd24413e558c1260b69a8e70d24af0e035d35"
+    },
+    {
+      "mode": "before-vcol",
+      "view": "body-oblique",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/body-oblique.png",
+      "sha256": "4023ffa25cf60a87907a9d79f5abc65b9a21a76dec5379580c2515b53ee2ab8c"
+    },
+    {
+      "mode": "before-vcol",
+      "view": "body-back",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/body-back.png",
+      "sha256": "e6bb586a808e6e5cb56749aaffb7c3605342d14b6347ee38eb9d9010b506d5a0"
+    },
+    {
+      "mode": "before-vcol",
+      "view": "face-front",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/face-front.png",
+      "sha256": "c8896afd7c3c6469332964aabfbb682ff59837faab9cabe142aa8346e198fd55"
+    },
+    {
+      "mode": "before-vcol",
+      "view": "face-65deg",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/face-65deg.png",
+      "sha256": "7f840f350dc115455f38575971c9a27ff858889071a6447dc82fa73668dcaa54"
+    },
+    {
+      "mode": "before-vcol",
+      "view": "mouth-open",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/before-vcol/mouth-open.png",
+      "sha256": "3d9704a3dae5abe95a694f2a47ee612beb73fdf769edd96aa11b3a6fbc21d918"
+    },
+    {
+      "mode": "after-texture",
+      "view": "body-front",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/body-front.png",
+      "sha256": "220224cb9d8c016091ac987ed3c03c6769654deb3b50d661a894ed699d490015"
+    },
+    {
+      "mode": "after-texture",
+      "view": "body-oblique",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/body-oblique.png",
+      "sha256": "82e6cd91a685ab1e9bd692400415fd7af5f318ad7fa6cfa01f7b6179a957379a"
+    },
+    {
+      "mode": "after-texture",
+      "view": "body-back",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/body-back.png",
+      "sha256": "0d151fb1801091c451a92f2b86eb2b333ab933cdc85fa6c4b0e52062ce15a73d"
+    },
+    {
+      "mode": "after-texture",
+      "view": "face-front",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/face-front.png",
+      "sha256": "2984ca8e7c1a6155b9c8d4c0f72aea519d0de2a2d1c22e2086ca54f49453b53e"
+    },
+    {
+      "mode": "after-texture",
+      "view": "face-65deg",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/face-65deg.png",
+      "sha256": "bcda68a2d975ac8f690b0b2a6f5515099aa4175dd49c3ddb72f5e624f50b3ce6"
+    },
+    {
+      "mode": "after-texture",
+      "view": "mouth-open",
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/compare-local-islands/after-texture/mouth-open.png",
+      "sha256": "e3633a11bbad52982c28fd768eee491c2ce5644262d2d686a256c395b361c67d"
+    }
+  ]
+}

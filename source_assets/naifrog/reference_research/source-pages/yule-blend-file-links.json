@@ -1,0 +1,470 @@
+[
+  {
+    "tag": "a",
+    "href": "/"
+  },
+  {
+    "tag": "a",
+    "href": "/films/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/"
+  },
+  {
+    "tag": "a",
+    "href": "/tools/"
+  },
+  {
+    "tag": "a",
+    "href": "/blog/"
+  },
+  {
+    "tag": "a",
+    "href": "/search/"
+  },
+  {
+    "tag": "a",
+    "href": "/oauth/login"
+  },
+  {
+    "tag": "a",
+    "href": "/join/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.blender.org/download/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.blender.org/download/releases/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://projects.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://code.blender.org/roadmap/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://developer.blender.org/docs/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://studio.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://studio.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://docs.blender.org/manual/en/latest/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://opendata.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://conference.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://fund.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://fund.blender.org/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.blender.org/about/donations/?utm_medium=nav-global"
+  },
+  {
+    "tag": "a",
+    "href": "/training/customizing-material-assets/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/facial-rigging/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/story-tools/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio[menu][type]=course#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio[menu][type]=documentation#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio[menu][type]=production lesson#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio[menu][type]=workshop#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio%5Bquery%5D=animation#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio%5Bquery%5D=geometry%20nodes#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio%5Bquery%5D=lighting#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio[query]=rendering#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio%5Bquery%5D=rigging#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/training/?studio%5Bquery%5D=shading#all-training"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/cowboi/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/overgrown/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/singularity/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/wing-it/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/impulse-purchase/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/storm/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/dogwalk/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/gold/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/"
+  },
+  {
+    "tag": "a",
+    "href": "/search/?type=asset&media_type=file"
+  },
+  {
+    "tag": "a",
+    "href": "/search/?query=library&type=asset&tags[0]=library"
+  },
+  {
+    "tag": "a",
+    "href": "/vault/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/chapter/simple-coin/",
+    "title": "Simple Coin"
+  },
+  {
+    "tag": "a"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/introduction_/",
+    "title": "Introduction"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/basic-coin/",
+    "title": "Basic Coin"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/adding-text/",
+    "title": "Adding Text"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/engraving/",
+    "title": "Engraving"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/finishing-touches/",
+    "title": "Finishing Touches"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/blend-file/",
+    "title": "Blend File"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/chapter/two-sided-coin/",
+    "title": "Two Sided Coin"
+  },
+  {
+    "tag": "a"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/making-two-sides/",
+    "title": "Making Two Sides"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/final-version/",
+    "title": "Final Version"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/blend-file_/",
+    "title": "Blend File"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/chapter/yule-frog/",
+    "title": "Yule Frog"
+  },
+  {
+    "tag": "a"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/basic-shape/",
+    "title": "Basic Shape"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/eyes/",
+    "title": "Eyes"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/legs/",
+    "title": "Legs"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/hat/",
+    "title": "Hat"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/sculpt-feet/",
+    "title": "Sculpt Feet"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/sculpt-mouth/",
+    "title": "Sculpt Mouth"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/attachs-legs/",
+    "title": "Attachs Legs"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/attach-eyelids/",
+    "title": "Attach Eyelids"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/finishing-touches_/",
+    "title": "Finishing Touches"
+  },
+  {
+    "tag": "a",
+    "href": "/training/3d-printing/yule-frog-blend-file/",
+    "title": "Yule Frog Blend File"
+  },
+  {
+    "tag": "a",
+    "href": "/oauth/login"
+  },
+  {
+    "tag": "a",
+    "href": "/join/"
+  },
+  {
+    "tag": "a",
+    "href": "https://creativecommons.org/licenses/by/4.0/",
+    "title": "You are free to share and adapt this content - but you must give attribution to Blender Studio."
+  },
+  {
+    "tag": "a",
+    "href": "https://projects.blender.org/studio/blender-studio/issues/new"
+  },
+  {
+    "tag": "a",
+    "href": "/join/"
+  },
+  {
+    "tag": "a",
+    "href": "/films/"
+  },
+  {
+    "tag": "a",
+    "href": "/projects/"
+  },
+  {
+    "tag": "a",
+    "href": "/training/"
+  },
+  {
+    "tag": "a",
+    "href": "/blog/"
+  },
+  {
+    "tag": "a",
+    "href": "/teams/"
+  },
+  {
+    "tag": "a",
+    "href": "/pipeline/"
+  },
+  {
+    "tag": "a",
+    "href": "https://extensions.blender.org/add-ons/cloudrig/"
+  },
+  {
+    "tag": "a",
+    "href": "/blog/kitsu-addon-for-blender/"
+  },
+  {
+    "tag": "a",
+    "href": "https://extensions.blender.org/add-ons/brushstroke-tools/"
+  },
+  {
+    "tag": "a",
+    "href": "https://extensions.blender.org/team/blender-studio/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/critter-evolved/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/critter/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/one/"
+  },
+  {
+    "tag": "a",
+    "href": "/characters/space-creatures/"
+  },
+  {
+    "tag": "a",
+    "href": "/"
+  },
+  {
+    "tag": "a",
+    "href": "/terms-and-conditions"
+  },
+  {
+    "tag": "a",
+    "href": "/privacy"
+  },
+  {
+    "tag": "a",
+    "href": "/contact"
+  },
+  {
+    "tag": "a",
+    "href": "/remixing/"
+  },
+  {
+    "tag": "a",
+    "href": "/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.youtube.com/@BlenderStudio",
+    "title": "Blender Studio's Official YouTube channel"
+  },
+  {
+    "tag": "a",
+    "href": "https://bsky.app/profile/studio.blender.org",
+    "title": "Follow Blender Studio on Bluesky"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.instagram.com/blender.studio.official/",
+    "title": "Follow Blender Studio on Instagram"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.facebook.com/BlenderStudioOfficial/",
+    "title": "Follow Blender Studio on Facebook"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.linkedin.com/showcase/blender-studio-official/",
+    "title": "Follow Blender Studio on LinkedIn"
+  },
+  {
+    "tag": "a",
+    "href": "https://mastodon.social/@BlenderStudio",
+    "title": "Follow Blender Studio on Mastodon"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.tiktok.com/@blender.studio.of",
+    "title": "Follow Blender Studio on TikTok"
+  },
+  {
+    "tag": "a",
+    "href": "https://space.bilibili.com/3546814074587443",
+    "title": "Follow Blender on Bilibili"
+  }
+]

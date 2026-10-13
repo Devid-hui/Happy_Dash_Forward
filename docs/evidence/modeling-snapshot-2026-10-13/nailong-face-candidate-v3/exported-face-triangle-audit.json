@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "file": "nailong_lod0.glb",
+      "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+      "sampled_states": 200,
+      "minimum_cornea_clearance_m": 0.0034321542776715704,
+      "clear": true,
+      "worst_state": {
+        "mesh": "LowerEyelid_left.001",
+        "blink": 1.0,
+        "focus": 0,
+        "minimum_clearance_m": 0.0034321542776715704,
+        "triangle_count": 6144,
+        "point_sample_count": 27777
+      },
+      "actual_animation_samples": 1776,
+      "actual_animation_minimum_clearance_m": 0.0034247138407131105,
+      "actual_animation_clear": true,
+      "worst_animation": {
+        "mesh": "LowerEyelid_left.001",
+        "clip": "idle",
+        "time": 1.8126665949821472,
+        "minimum_clearance_m": 0.0034247138407131105
+      }
+    },
+    {
+      "file": "nailong_lod1.glb",
+      "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+      "sampled_states": 200,
+      "minimum_cornea_clearance_m": 0.003304558328362868,
+      "clear": true,
+      "worst_state": {
+        "mesh": "LowerEyelid_left.002",
+        "blink": 0.9500000000000001,
+        "focus": 0,
+        "minimum_clearance_m": 0.003304558328362868,
+        "triangle_count": 4096,
+        "point_sample_count": 18529
+      },
+      "actual_animation_samples": 1776,
+      "actual_animation_minimum_clearance_m": 0.0032987001330745678,
+      "actual_animation_clear": true,
+      "worst_animation": {
+        "mesh": "LowerEyelid_left.002",
+        "clip": "idle",
+        "time": 1.8126665949821472,
+        "minimum_clearance_m": 0.0032987001330745678
+      }
+    },
+    {
+      "file": "nailong_lod2.glb",
+      "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+      "sampled_states": 200,
+      "minimum_cornea_clearance_m": 0.0033044987237180927,
+      "clear": true,
+      "worst_state": {
+        "mesh": "LowerEyelid_left.003",
+        "blink": 0.9500000000000001,
+        "focus": 0,
+        "minimum_clearance_m": 0.0033044987237180927,
+        "triangle_count": 4096,
+        "point_sample_count": 18529
+      },
+      "actual_animation_samples": 1776,
+      "actual_animation_minimum_clearance_m": 0.00329867033075218,
+      "actual_animation_clear": true,
+      "worst_animation": {
+        "mesh": "LowerEyelid_left.003",
+        "clip": "idle",
+        "time": 1.8126665949821472,
+        "minimum_clearance_m": 0.00329867033075218
+      }
+    }
+  ],
+  "scope": "Actual GLB morph geometry; vertex, triangle centroid and three edge midpoint samples. Rest/head coordinates; native material behavior still requires Godot.",
+  "all_exported_lids_clear": true
+}

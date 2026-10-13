@@ -6,7 +6,7 @@ func _ready() -> void:
 
 func run_checks() -> void:
 	seed(721)
-	get_tree().root.size = Vector2i(640,360)
+	get_tree().root.size = Vector2i(1920,1080)
 	GameState.game_over = false
 	var world := World.new()
 	add_child(world)
@@ -28,8 +28,10 @@ func run_checks() -> void:
 	assert(surrounds,"initial spawn must surround player instead of sharing one forward cone")
 	var Visual := preload("res://scripts/enemies/hunter_visual.gd")
 	assert(Visual.build_count == 1,"all instances must share one generated model")
-	var mesh_a: MeshInstance3D = world.hunter_nodes[0].get_node("VisualRoot").get_child(0).get_child(0)
-	var mesh_b: MeshInstance3D = world.hunter_nodes[1].get_node("VisualRoot").get_child(0).get_child(0)
+	world.hunter_nodes[0].get_node("VisualRoot").set_lod(0)
+	world.hunter_nodes[1].get_node("VisualRoot").set_lod(0)
+	var mesh_a: MeshInstance3D = world.hunter_nodes[0].get_node("VisualRoot").meshes[0]
+	var mesh_b: MeshInstance3D = world.hunter_nodes[1].get_node("VisualRoot").meshes[0]
 	assert(mesh_a.mesh == mesh_b.mesh,"mesh resources must be shared")
 	assert(hunter.stats != other.stats,"configuration copies must be independent")
 	hunter.stats.max_health = 120.0
@@ -171,47 +173,46 @@ func check_model_visibility(player: CharacterBody3D, hunter: CharacterBody3D, di
 	var camera: Camera3D = player.camera
 	camera.fov = 75.0
 	camera.look_at_from_position(Vector3(0,1.5,0),Vector3(0,1.5,-5))
-	hunter.global_position = Vector3(41.43,0,-30)
-	hunter.look_at(Vector3(0,0,0),Vector3.UP)
-	var missed_vertex := Vector3(40.76921,.218,-30.43514)
-	var closest_vertex_distance := INF
-	for vertex in model_world_vertices(hunter):
-		closest_vertex_distance = minf(closest_vertex_distance,vertex.distance_to(missed_vertex))
-	assert(closest_vertex_distance < .001,"the regression point must belong to the actual generated hunter mesh")
-	assert(camera.is_position_in_frustum(missed_vertex),"the original right-foot regression point must really enter the 640x360 frustum")
-	var old_sampling_visible := false
-	for height in [.2,1.35,2.65]:
-		for side in [-.5,0.0,.5]:
-			old_sampling_visible = old_sampling_visible or camera.is_position_in_frustum(hunter.global_position+Vector3(side,height,0))
-	assert(not old_sampling_visible,"the original point regression must exercise a gap in the old body sampling")
-	assert(director.is_in_view(hunter),"visible model feet must protect the hunter from teleporting")
-	var watched_positions: Array[Vector3] = []
-	for npc in director.hunters:
-		watched_positions.append(npc.global_position)
-		director.recycle_cooldowns[npc.get_instance_id()] = 0.0
-	director.scan_timer = 0.0
-	director.ambush_cooldown = 0.0
-	director._physics_process(.5)
-	for i in range(director.hunters.size()):
-		assert(director.hunters[i].global_position == watched_positions[i],"a visible model extremity must protect the entire actual recycle scan")
-	# 用真实网格顶点放置画面四边；不同朝向会改变手、脚和头的投影边界。
-	for angle in [0.0,45.0,90.0,180.0]:
-		hunter.rotation_degrees = Vector3(0,angle,0)
-		hunter.global_position = Vector3(0,0,-30)
-		var vertices := model_world_vertices(hunter)
-		assert(not vertices.is_empty())
-		for edge in range(4):
-			var extremity: Vector3 = vertices[0]
-			for vertex in vertices:
-				if (edge == 0 and vertex.x > extremity.x) or (edge == 1 and vertex.x < extremity.x) or (edge == 2 and vertex.y < extremity.y) or (edge == 3 and vertex.y > extremity.y):
-					extremity = vertex
-			var pixel: Vector2 = [Vector2(1,180),Vector2(639,180),Vector2(320,1),Vector2(320,359)][edge]
-			var anchor := camera.project_position(pixel,30.0)
-			var local_extremity := extremity-hunter.global_position
-			hunter.global_position = anchor-local_extremity
-			assert(camera.is_position_in_frustum(anchor),"edge fixture must include a real visible model vertex")
-			assert(director.is_in_view(hunter),"all model rotations and left/right/head/foot edges must be protected")
+	var visual: Node3D = hunter.get_node("VisualRoot")
+	visual.set_lod(0)
+	var legacy_sample_gaps := 0
+	# Former hardcoded feet belonged to the replaced mesh. Use actual deformed
+	# vertices, including facial morphs, to preserve that regression at 1080p.
+	for clip in ["idle","walk","chase","warn","charge","recover"]:
+		hunter.transform = Transform3D.IDENTITY
+		visual.set_preview_pose(clip,.19)
+		var local_vertices := model_world_vertices(hunter)
+		assert(not local_vertices.is_empty())
+		for angle in [0.0,45.0,90.0,180.0]:
+			hunter.rotation_degrees = Vector3(0,angle,0)
 			hunter.global_position = Vector3(0,0,-30)
+			var extremes: Array[Vector3] = []
+			for edge in range(4):
+				var extremity := hunter.basis*local_vertices[0]
+				for local_vertex in local_vertices:
+					var vertex := hunter.basis*local_vertex
+					if (edge == 0 and vertex.x > extremity.x) or (edge == 1 and vertex.x < extremity.x) or (edge == 2 and vertex.y < extremity.y) or (edge == 3 and vertex.y > extremity.y): extremity = vertex
+				extremes.append(extremity)
+			for edge in range(4):
+				var pixel: Vector2 = [Vector2(1,540),Vector2(1919,540),Vector2(960,1),Vector2(960,1079)][edge]
+				var anchor := camera.project_position(pixel,30.0)
+				hunter.global_position = anchor-extremes[edge]
+				assert(camera.is_position_in_frustum(anchor),"edge fixture places an actual skinned/morphed vertex inside the 1080p frustum")
+				assert(director.is_in_view(hunter),"every pose, rotation and limb/head edge must remain protected")
+				var old_sampling_visible := false
+				for height in [.2,1.35,2.65]:
+					for side in [-.5,0.0,.5]: old_sampling_visible = old_sampling_visible or camera.is_position_in_frustum(hunter.global_position+Vector3(side,height,0))
+				if not old_sampling_visible: legacy_sample_gaps += 1
+				var watched_positions: Array[Vector3] = []
+				for npc in director.hunters:
+					watched_positions.append(npc.global_position)
+					director.recycle_cooldowns[npc.get_instance_id()] = 0.0
+				director.scan_timer = 0.0
+				director.ambush_cooldown = 0.0
+				director._physics_process(.5)
+				for i in range(director.hunters.size()): assert(director.hunters[i].global_position == watched_positions[i],"a visible animated extremity protects the actual whole-population recycle scan")
+		print("HUNTER ANIMATED EDGES ",clip," checked at1080p")
+	assert(legacy_sample_gaps > 0,"the animated fixtures must still exercise the former nine-body-point visibility gap")
 	hunter.global_position = Vector3(90,0,-30)
 	assert(not director.is_in_view(hunter),"a model entirely outside the frustum must remain recyclable")
 	hunter.global_position = Vector3(0,0,-camera.near)
@@ -225,10 +226,37 @@ func check_model_visibility(player: CharacterBody3D, hunter: CharacterBody3D, di
 
 func model_world_vertices(hunter: Node3D) -> Array[Vector3]:
 	var vertices: Array[Vector3] = []
-	for part in hunter.get_node("VisualRoot").find_children("*","MeshInstance3D",true,false):
+	var visual: Node3D = hunter.get_node("VisualRoot")
+	var skeleton: Skeleton3D = visual.skeleton
+	skeleton.force_update_all_bone_transforms()
+	for part in visual.meshes:
+		var skin: Skin = part.skin
+		var transforms: Array[Transform3D] = []
+		for bind in skin.get_bind_count():
+			var bone := skin.get_bind_bone(bind)
+			if bone < 0: bone = skeleton.find_bone(skin.get_bind_name(bind))
+			transforms.append(skeleton.global_transform*skeleton.get_bone_global_pose(bone)*skin.get_bind_pose(bind))
 		for surface in range(part.mesh.get_surface_count()):
-			for vertex in part.mesh.surface_get_arrays(surface)[Mesh.ARRAY_VERTEX]:
-				vertices.append(part.global_transform*vertex)
+			var arrays: Array = part.mesh.surface_get_arrays(surface)
+			var positions: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX].duplicate()
+			var base := positions.duplicate()
+			var shapes: Array = part.mesh.surface_get_blend_shape_arrays(surface)
+			for shape in range(shapes.size()):
+				var value: float = part.get_blend_shape_value(shape)
+				if absf(value) < .00001: continue
+				var shape_vertices: PackedVector3Array = shapes[shape][Mesh.ARRAY_VERTEX]
+				for index in range(positions.size()):
+					var displacement := shape_vertices[index]
+					if part.mesh.blend_shape_mode == Mesh.BLEND_SHAPE_MODE_NORMALIZED: displacement -= base[index]
+					positions[index] += displacement*value
+			var bones: PackedInt32Array = arrays[Mesh.ARRAY_BONES]
+			var weights: PackedFloat32Array = arrays[Mesh.ARRAY_WEIGHTS]
+			for index in range(positions.size()):
+				var vertex := Vector3.ZERO
+				for influence in range(4):
+					var offset := index*4+influence
+					vertex += (transforms[bones[offset]]*positions[index])*weights[offset]
+				vertices.append(vertex)
 	return vertices
 
 func check_initial_death() -> void:

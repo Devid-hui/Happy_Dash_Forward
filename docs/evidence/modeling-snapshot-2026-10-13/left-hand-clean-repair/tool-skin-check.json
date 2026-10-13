@@ -1,0 +1,155 @@
+{
+  "luminol": {
+    "Thumb": {
+      "minimum_skin_mm": -0.25701732374727726,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 12816,
+      "sample_every": 4
+    },
+    "Index": {
+      "minimum_skin_mm": 4.156782291829586,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18486,
+      "sample_every": 4
+    },
+    "Middle": {
+      "minimum_skin_mm": 1.864626188762486,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18239,
+      "sample_every": 4
+    },
+    "Ring": {
+      "minimum_skin_mm": 0.12792376219294965,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18228,
+      "sample_every": 4
+    },
+    "Little": {
+      "minimum_skin_mm": -0.03459180879872292,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18476,
+      "sample_every": 4
+    },
+    "thumb_nail": {
+      "center": [
+        -0.035626620054244995,
+        0.1522465944290161,
+        -0.05715543031692505
+      ],
+      "normal": [
+        -0.5103996396064758,
+        0.8508533835411072,
+        -0.12466250360012054
+      ],
+      "outward_dot": 0.9379066805804115,
+      "nearest_distance_mm": 10.082327760756016
+    }
+  },
+  "salt": {
+    "Thumb": {
+      "minimum_skin_mm": 0.029868187993997708,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 12816,
+      "sample_every": 4
+    },
+    "Index": {
+      "minimum_skin_mm": 0.41630654595792294,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18486,
+      "sample_every": 4
+    },
+    "Middle": {
+      "minimum_skin_mm": 2.3419084027409554,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18239,
+      "sample_every": 4
+    },
+    "Ring": {
+      "minimum_skin_mm": 1.4991654315963387,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18228,
+      "sample_every": 4
+    },
+    "Little": {
+      "minimum_skin_mm": 0.4406434018164873,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18476,
+      "sample_every": 4
+    },
+    "thumb_nail": {
+      "center": [
+        -0.006767261773347855,
+        0.14623837172985077,
+        -0.05952662602066994
+      ],
+      "normal": [
+        -0.318334698677063,
+        0.9476463794708252,
+        -0.025088680908083916
+      ],
+      "outward_dot": 0.9404538148082793,
+      "nearest_distance_mm": 10.162086226046085
+    }
+  },
+  "mud": {
+    "Thumb": {
+      "minimum_skin_mm": -0.9412713698111475,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 12816,
+      "sample_every": 4
+    },
+    "Index": {
+      "minimum_skin_mm": 2.4138162843883038,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18486,
+      "sample_every": 4
+    },
+    "Middle": {
+      "minimum_skin_mm": 1.8838265677914023,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18239,
+      "sample_every": 4
+    },
+    "Ring": {
+      "minimum_skin_mm": 0.8721846388652921,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18228,
+      "sample_every": 4
+    },
+    "Little": {
+      "minimum_skin_mm": 2.9167989268898964,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18476,
+      "sample_every": 4
+    },
+    "thumb_nail": {
+      "center": [
+        -0.01741177774965763,
+        0.1464451104402542,
+        -0.05680817738175392
+      ],
+      "normal": [
+        -0.08799666166305542,
+        0.9932907819747925,
+        0.07503419369459152
+      ],
+      "outward_dot": 0.7058847883677366,
+      "nearest_distance_mm": 8.399839513003826
+    }
+  }
+}

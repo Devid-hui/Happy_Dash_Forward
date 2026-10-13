@@ -1,0 +1,27 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/body-before-face/source_assets/nailong/reconstructed_candidate/nailong_reconstructed_rig.blend",
+  "surrounding_vertices": 51103,
+  "coefficients": [
+    0.8630253581622884,
+    0.002366205073660862,
+    -0.10201933616049949,
+    -0.212712023660105,
+    -0.0013026739456147983,
+    -0.008052054520995973
+  ],
+  "fit_rms_m": 0.09089544654481384,
+  "eyes": {
+    "left": {
+      "surrounding_fit_head_y": 0.7673241500222527,
+      "current_center_y": 0.7897849183082579,
+      "proposed_center_y": 0.7223241500222527,
+      "front_cornea_standoff_from_fit_m": 0.030800000000000008
+    },
+    "right": {
+      "surrounding_fit_head_y": 0.7703482293886657,
+      "current_center_y": 0.7897849183082579,
+      "proposed_center_y": 0.7253482293886656,
+      "front_cornea_standoff_from_fit_m": 0.030800000000000008
+    }
+  }
+}

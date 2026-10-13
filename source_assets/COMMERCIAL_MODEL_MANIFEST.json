@@ -1,0 +1,39 @@
+{
+  "quality_status": "candidate pending visual acceptance",
+  "tool": "Blender 4.5 LTS",
+  "original_maps": true,
+  "assets": {
+    "field_equipment": {
+      "source_triangles": 772260,
+      "source": "source_assets/field_equipment.blend",
+      "runtime_triangles": 229800,
+      "runtime_lod1_triangles": 100365,
+      "runtime_lod2_triangles": 43264
+    },
+    "abandoned_car": {
+      "source_triangles": 3088632,
+      "source": "source_assets/abandoned_car.blend",
+      "runtime_triangles": 529190,
+      "runtime_lod1_triangles": 231404,
+      "runtime_lod2_triangles": 98084,
+      "exported_triangles": 529190,
+      "exported_sha256": "e1c5a01c6a9756a357616e07979991f6b5a110e895d3c710c303642291ee6c7d",
+      "exported_lod1_triangles": 231404,
+      "exported_lod1_sha256": "6694d5023f21892d339a3c20f9afd632c8f1897a030514348229042217aabd4d",
+      "exported_lod2_triangles": 98084,
+      "exported_lod2_sha256": "45bd9077e14d3b94484b923a1ea5a2774f84f960e6e40de16762c6b6bdaaca19"
+    },
+    "power_tower": {
+      "source_triangles": 619860,
+      "source": "source_assets/power_tower.blend",
+      "runtime_triangles": 83268,
+      "exported_triangles": 83268,
+      "exported_sha256": "ee57de4c7cb40a0f49a96c9b06fe81355f0bca46e46017dff57d5cb8e833f58b"
+    },
+    "research_report": {
+      "source_triangles": 1520636,
+      "source": "source_assets/research_report.blend",
+      "runtime_triangles": 125512
+    }
+  }
+}

@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+STATIC ASSETS PASS: merged forest/LOD, local cosmetic terrain batches, detailed landmarks/report, skinned grips and actual instrument actions
+RELEASED render; exact owned PID 53652 exit 0

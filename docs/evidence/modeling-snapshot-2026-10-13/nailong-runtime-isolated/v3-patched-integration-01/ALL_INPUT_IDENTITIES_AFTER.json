@@ -1,0 +1,16 @@
+{
+  "all_actual_inputs_match": true,
+  "checks": {
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/assets/refined/nailong/nailong_lod0.glb": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/assets/refined/nailong/nailong_lod1.glb": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/assets/refined/nailong/nailong_lod2.glb": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/scripts/enemies/hunter_visual.gd": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/project.godot": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/tests/runtime_contract.gd": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/tests/runtime_contract.tscn": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/tests/evaluate_native_dump.py": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project/run_isolated.py": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/MODEL_MANIFEST.json": true
+  }
+}

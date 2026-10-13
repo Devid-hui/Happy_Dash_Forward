@@ -1,0 +1,2042 @@
+{
+  "source_c3_sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+  "base_atlas_sha256": "0f3e20923ad1af458cd55b4dbf9a303a4b4fbcffb7fcd8bb920f263ccddb6300",
+  "atlas_dimensions": [
+    4096,
+    4096
+  ],
+  "atlas_count": 1,
+  "actual_source_face_and_corner_mapping_exact": true,
+  "repaired_measured_faces": 183,
+  "all_other_1803970_triangle_uv_corners_bit_exact": true,
+  "geometry_original_colour_basis_open_focus_weights_changed": false,
+  "uv_degenerate_triangles": 0,
+  "actual_triangle_uv_area_fraction": 0.3266228465471005,
+  "unused_strip_verified_from_actual_max_u_pixels": 3568.5,
+  "new_islands_min_u_pixels": 3600.125,
+  "tile_spacing_pixels": [
+    72,
+    12
+  ],
+  "reserved_span": [
+    8,
+    64,
+    4
+  ],
+  "repairs": [
+    {
+      "source_polygon_id": 584,
+      "previous_measured_error": 0.03153414359952233,
+      "pixel_origin": [
+        3600.125,
+        8.125
+      ],
+      "pixel_width": 18.791793658740783,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1616,
+      "previous_measured_error": 0.03574550239809212,
+      "pixel_origin": [
+        3672.125,
+        8.125
+      ],
+      "pixel_width": 8.410191216497019,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 15875,
+      "previous_measured_error": 0.07196082844073236,
+      "pixel_origin": [
+        3744.125,
+        8.125
+      ],
+      "pixel_width": 22.727070498250143,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 97424,
+      "previous_measured_error": 0.037142467202292306,
+      "pixel_origin": [
+        3816.125,
+        8.125
+      ],
+      "pixel_width": 8.734539955038132,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120144,
+      "previous_measured_error": 0.04270240625661933,
+      "pixel_origin": [
+        3888.125,
+        8.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120147,
+      "previous_measured_error": 0.03678727880113132,
+      "pixel_origin": [
+        3960.125,
+        8.125
+      ],
+      "pixel_width": 8.151877289877058,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120167,
+      "previous_measured_error": 0.032851780726146404,
+      "pixel_origin": [
+        3600.125,
+        20.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120168,
+      "previous_measured_error": 0.038370297640502746,
+      "pixel_origin": [
+        3672.125,
+        20.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120190,
+      "previous_measured_error": 0.07609968100198278,
+      "pixel_origin": [
+        3744.125,
+        20.125
+      ],
+      "pixel_width": 8.328367768636253,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120557,
+      "previous_measured_error": 0.04186492506810132,
+      "pixel_origin": [
+        3816.125,
+        20.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 120559,
+      "previous_measured_error": 0.06013352696505184,
+      "pixel_origin": [
+        3888.125,
+        20.125
+      ],
+      "pixel_width": 14.055758219004241,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 135930,
+      "previous_measured_error": 0.0493868340917979,
+      "pixel_origin": [
+        3960.125,
+        20.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 135935,
+      "previous_measured_error": 0.04064983932220296,
+      "pixel_origin": [
+        3600.125,
+        32.125
+      ],
+      "pixel_width": 15.18235242011379,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 137212,
+      "previous_measured_error": 0.03123647716154486,
+      "pixel_origin": [
+        3672.125,
+        32.125
+      ],
+      "pixel_width": 12.157751118998107,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 150567,
+      "previous_measured_error": 0.04625274631760737,
+      "pixel_origin": [
+        3744.125,
+        32.125
+      ],
+      "pixel_width": 14.69959063446074,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 172360,
+      "previous_measured_error": 0.03589363336484251,
+      "pixel_origin": [
+        3816.125,
+        32.125
+      ],
+      "pixel_width": 8.902530814925257,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 172390,
+      "previous_measured_error": 0.030036078993311514,
+      "pixel_origin": [
+        3888.125,
+        32.125
+      ],
+      "pixel_width": 12.536917895567596,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 340168,
+      "previous_measured_error": 0.030620421258626615,
+      "pixel_origin": [
+        3960.125,
+        32.125
+      ],
+      "pixel_width": 8.181999925622621,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 364949,
+      "previous_measured_error": 0.06207318887520782,
+      "pixel_origin": [
+        3600.125,
+        44.125
+      ],
+      "pixel_width": 9.250679659574585,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 368052,
+      "previous_measured_error": 0.03023940766769231,
+      "pixel_origin": [
+        3672.125,
+        44.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 380938,
+      "previous_measured_error": 0.06838287195831023,
+      "pixel_origin": [
+        3744.125,
+        44.125
+      ],
+      "pixel_width": 9.195838521287152,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 380951,
+      "previous_measured_error": 0.03952755056638818,
+      "pixel_origin": [
+        3816.125,
+        44.125
+      ],
+      "pixel_width": 8.472689326430036,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 425024,
+      "previous_measured_error": 0.041244804410836215,
+      "pixel_origin": [
+        3888.125,
+        44.125
+      ],
+      "pixel_width": 8.462159068739734,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 433434,
+      "previous_measured_error": 0.04134576202877811,
+      "pixel_origin": [
+        3960.125,
+        44.125
+      ],
+      "pixel_width": 8.396679023831512,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 433435,
+      "previous_measured_error": 0.0523392254399182,
+      "pixel_origin": [
+        3600.125,
+        56.125
+      ],
+      "pixel_width": 8.404967881330165,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 434641,
+      "previous_measured_error": 0.040360152647707044,
+      "pixel_origin": [
+        3672.125,
+        56.125
+      ],
+      "pixel_width": 8.576138391522463,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 437709,
+      "previous_measured_error": 0.03342559007608937,
+      "pixel_origin": [
+        3744.125,
+        56.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445031,
+      "previous_measured_error": 0.07136477272080019,
+      "pixel_origin": [
+        3816.125,
+        56.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445094,
+      "previous_measured_error": 0.056127169975560845,
+      "pixel_origin": [
+        3888.125,
+        56.125
+      ],
+      "pixel_width": 49.854708259664626,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445113,
+      "previous_measured_error": 0.11214007778325631,
+      "pixel_origin": [
+        3960.125,
+        56.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445127,
+      "previous_measured_error": 0.35570516662788915,
+      "pixel_origin": [
+        3600.125,
+        68.125
+      ],
+      "pixel_width": 53.45216854517459,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445128,
+      "previous_measured_error": 0.3386661246152471,
+      "pixel_origin": [
+        3672.125,
+        68.125
+      ],
+      "pixel_width": 18.631036718656254,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445131,
+      "previous_measured_error": 0.11268233408040543,
+      "pixel_origin": [
+        3744.125,
+        68.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 445424,
+      "previous_measured_error": 0.36521312326727995,
+      "pixel_origin": [
+        3816.125,
+        68.125
+      ],
+      "pixel_width": 40.82583062193386,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 446192,
+      "previous_measured_error": 0.04428057981468207,
+      "pixel_origin": [
+        3888.125,
+        68.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 446589,
+      "previous_measured_error": 0.03491818650111742,
+      "pixel_origin": [
+        3960.125,
+        68.125
+      ],
+      "pixel_width": 8.281644364853108,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 454254,
+      "previous_measured_error": 0.1509750132145271,
+      "pixel_origin": [
+        3600.125,
+        80.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 454256,
+      "previous_measured_error": 0.10825434553870827,
+      "pixel_origin": [
+        3672.125,
+        80.125
+      ],
+      "pixel_width": 60.52342176191282,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 455999,
+      "previous_measured_error": 0.03663239570625277,
+      "pixel_origin": [
+        3744.125,
+        80.125
+      ],
+      "pixel_width": 8.501981830914563,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 470067,
+      "previous_measured_error": 0.03575316510912138,
+      "pixel_origin": [
+        3816.125,
+        80.125
+      ],
+      "pixel_width": 8.221946537034787,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 477999,
+      "previous_measured_error": 0.034330802438168384,
+      "pixel_origin": [
+        3888.125,
+        80.125
+      ],
+      "pixel_width": 8.450478320013408,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 484913,
+      "previous_measured_error": 0.045200633891714345,
+      "pixel_origin": [
+        3960.125,
+        80.125
+      ],
+      "pixel_width": 9.227227323296491,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 484916,
+      "previous_measured_error": 0.05995847196985326,
+      "pixel_origin": [
+        3600.125,
+        92.125
+      ],
+      "pixel_width": 9.288182038643056,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 489840,
+      "previous_measured_error": 0.8325248410040956,
+      "pixel_origin": [
+        3672.125,
+        92.125
+      ],
+      "pixel_width": 8.098668575836415,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 621938,
+      "previous_measured_error": 0.10176184290409784,
+      "pixel_origin": [
+        3744.125,
+        92.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 648408,
+      "previous_measured_error": 0.10585999941644123,
+      "pixel_origin": [
+        3816.125,
+        92.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 682164,
+      "previous_measured_error": 0.03548903570243211,
+      "pixel_origin": [
+        3888.125,
+        92.125
+      ],
+      "pixel_width": 9.191377722554444,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 691354,
+      "previous_measured_error": 0.05972645759025858,
+      "pixel_origin": [
+        3960.125,
+        92.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 713428,
+      "previous_measured_error": 0.04428254426179694,
+      "pixel_origin": [
+        3600.125,
+        104.125
+      ],
+      "pixel_width": 8.453540414549641,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 719769,
+      "previous_measured_error": 0.035891172512393425,
+      "pixel_origin": [
+        3672.125,
+        104.125
+      ],
+      "pixel_width": 8.474959829799369,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 720312,
+      "previous_measured_error": 0.03330841906475824,
+      "pixel_origin": [
+        3744.125,
+        104.125
+      ],
+      "pixel_width": 8.517227232672404,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 849165,
+      "previous_measured_error": 1.041703449634025,
+      "pixel_origin": [
+        3816.125,
+        104.125
+      ],
+      "pixel_width": 12.906452718861358,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 849170,
+      "previous_measured_error": 1.0357199378419182,
+      "pixel_origin": [
+        3888.125,
+        104.125
+      ],
+      "pixel_width": 12.781766064602568,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 849293,
+      "previous_measured_error": 0.9436710295024467,
+      "pixel_origin": [
+        3960.125,
+        104.125
+      ],
+      "pixel_width": 13.39747530131825,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 849294,
+      "previous_measured_error": 0.19461687277926032,
+      "pixel_origin": [
+        3600.125,
+        116.125
+      ],
+      "pixel_width": 12.852950676197855,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 873177,
+      "previous_measured_error": 0.13589290323435674,
+      "pixel_origin": [
+        3672.125,
+        116.125
+      ],
+      "pixel_width": 13.914975025010955,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 873204,
+      "previous_measured_error": 0.10112443318310926,
+      "pixel_origin": [
+        3744.125,
+        116.125
+      ],
+      "pixel_width": 13.107161157288237,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 874080,
+      "previous_measured_error": 0.03182570794770423,
+      "pixel_origin": [
+        3816.125,
+        116.125
+      ],
+      "pixel_width": 18.4589208456782,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 877285,
+      "previous_measured_error": 0.10019447860598305,
+      "pixel_origin": [
+        3888.125,
+        116.125
+      ],
+      "pixel_width": 18.057821493636492,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 880018,
+      "previous_measured_error": 0.030032013898808652,
+      "pixel_origin": [
+        3960.125,
+        116.125
+      ],
+      "pixel_width": 10.606020414640488,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 886830,
+      "previous_measured_error": 0.08351388214159704,
+      "pixel_origin": [
+        3600.125,
+        128.125
+      ],
+      "pixel_width": 19.892899038202106,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 886851,
+      "previous_measured_error": 1.0271273239367562,
+      "pixel_origin": [
+        3672.125,
+        128.125
+      ],
+      "pixel_width": 21.05230673124668,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 886854,
+      "previous_measured_error": 1.0664968470142842,
+      "pixel_origin": [
+        3744.125,
+        128.125
+      ],
+      "pixel_width": 19.234413360147336,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 886873,
+      "previous_measured_error": 1.0713730108626092,
+      "pixel_origin": [
+        3816.125,
+        128.125
+      ],
+      "pixel_width": 20.04195592888805,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 886874,
+      "previous_measured_error": 1.0749766815709434,
+      "pixel_origin": [
+        3888.125,
+        128.125
+      ],
+      "pixel_width": 18.38438676656544,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 910358,
+      "previous_measured_error": 0.03154168517009075,
+      "pixel_origin": [
+        3960.125,
+        128.125
+      ],
+      "pixel_width": 8.564469239214752,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 933764,
+      "previous_measured_error": 0.03082188138178448,
+      "pixel_origin": [
+        3600.125,
+        140.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 936636,
+      "previous_measured_error": 0.03298228076300715,
+      "pixel_origin": [
+        3672.125,
+        140.125
+      ],
+      "pixel_width": 9.77605889348316,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 946676,
+      "previous_measured_error": 0.03210723350715252,
+      "pixel_origin": [
+        3744.125,
+        140.125
+      ],
+      "pixel_width": 8.636335753111249,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1060889,
+      "previous_measured_error": 0.056492451547099504,
+      "pixel_origin": [
+        3816.125,
+        140.125
+      ],
+      "pixel_width": 14.514658906308414,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1076359,
+      "previous_measured_error": 0.05608985831116455,
+      "pixel_origin": [
+        3888.125,
+        140.125
+      ],
+      "pixel_width": 12.927260870972122,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1146691,
+      "previous_measured_error": 0.06432921511739907,
+      "pixel_origin": [
+        3960.125,
+        140.125
+      ],
+      "pixel_width": 8.454509846606001,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1233038,
+      "previous_measured_error": 0.030378153967671306,
+      "pixel_origin": [
+        3600.125,
+        152.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1233056,
+      "previous_measured_error": 0.05048540558396721,
+      "pixel_origin": [
+        3672.125,
+        152.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1234070,
+      "previous_measured_error": 0.030870286454573743,
+      "pixel_origin": [
+        3744.125,
+        152.125
+      ],
+      "pixel_width": 8.229914923167494,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249570,
+      "previous_measured_error": 0.05145097098486505,
+      "pixel_origin": [
+        3816.125,
+        152.125
+      ],
+      "pixel_width": 8.927382707004664,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249576,
+      "previous_measured_error": 0.03352423773402403,
+      "pixel_origin": [
+        3888.125,
+        152.125
+      ],
+      "pixel_width": 8.336332372879122,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249580,
+      "previous_measured_error": 0.05878988208644135,
+      "pixel_origin": [
+        3960.125,
+        152.125
+      ],
+      "pixel_width": 8.1617552452316,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249582,
+      "previous_measured_error": 0.07127338969153055,
+      "pixel_origin": [
+        3600.125,
+        164.125
+      ],
+      "pixel_width": 8.0950880848687,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249584,
+      "previous_measured_error": 0.03461838447913824,
+      "pixel_origin": [
+        3672.125,
+        164.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249585,
+      "previous_measured_error": 0.03474573294975088,
+      "pixel_origin": [
+        3744.125,
+        164.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249591,
+      "previous_measured_error": 0.036167371580624996,
+      "pixel_origin": [
+        3816.125,
+        164.125
+      ],
+      "pixel_width": 8.09775056901155,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249595,
+      "previous_measured_error": 0.03078478467871091,
+      "pixel_origin": [
+        3888.125,
+        164.125
+      ],
+      "pixel_width": 8.367617670804917,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249598,
+      "previous_measured_error": 0.03081323248617098,
+      "pixel_origin": [
+        3960.125,
+        164.125
+      ],
+      "pixel_width": 8.628217431092086,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249601,
+      "previous_measured_error": 0.03639709232962134,
+      "pixel_origin": [
+        3600.125,
+        176.125
+      ],
+      "pixel_width": 9.166131763680763,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249607,
+      "previous_measured_error": 0.04153992894109388,
+      "pixel_origin": [
+        3672.125,
+        176.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249609,
+      "previous_measured_error": 0.13932897533710098,
+      "pixel_origin": [
+        3744.125,
+        176.125
+      ],
+      "pixel_width": 8.26193447285406,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249730,
+      "previous_measured_error": 0.09819739876947874,
+      "pixel_origin": [
+        3816.125,
+        176.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249753,
+      "previous_measured_error": 0.07801735331229526,
+      "pixel_origin": [
+        3888.125,
+        176.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249755,
+      "previous_measured_error": 0.056623202942029854,
+      "pixel_origin": [
+        3960.125,
+        176.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1249758,
+      "previous_measured_error": 0.12000198229943719,
+      "pixel_origin": [
+        3600.125,
+        188.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1250226,
+      "previous_measured_error": 0.03608888404761311,
+      "pixel_origin": [
+        3672.125,
+        188.125
+      ],
+      "pixel_width": 8.991025072723534,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1251688,
+      "previous_measured_error": 0.05284582474835446,
+      "pixel_origin": [
+        3744.125,
+        188.125
+      ],
+      "pixel_width": 8.365684742828613,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1251689,
+      "previous_measured_error": 0.03192267528870236,
+      "pixel_origin": [
+        3816.125,
+        188.125
+      ],
+      "pixel_width": 8.383954615348014,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1251735,
+      "previous_measured_error": 0.035345848409077764,
+      "pixel_origin": [
+        3888.125,
+        188.125
+      ],
+      "pixel_width": 8.659592533785792,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1251963,
+      "previous_measured_error": 0.032218158606479905,
+      "pixel_origin": [
+        3960.125,
+        188.125
+      ],
+      "pixel_width": 8.643371582539736,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1251987,
+      "previous_measured_error": 0.03065796509189597,
+      "pixel_origin": [
+        3600.125,
+        200.125
+      ],
+      "pixel_width": 15.072137319536338,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1256441,
+      "previous_measured_error": 0.05329501445609099,
+      "pixel_origin": [
+        3672.125,
+        200.125
+      ],
+      "pixel_width": 9.548411055325788,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1256983,
+      "previous_measured_error": 0.04599769420686504,
+      "pixel_origin": [
+        3744.125,
+        200.125
+      ],
+      "pixel_width": 8.540711072248197,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257149,
+      "previous_measured_error": 0.047443155713144225,
+      "pixel_origin": [
+        3816.125,
+        200.125
+      ],
+      "pixel_width": 8.44168197424979,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257150,
+      "previous_measured_error": 0.03369851465532606,
+      "pixel_origin": [
+        3888.125,
+        200.125
+      ],
+      "pixel_width": 8.475786789884054,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257238,
+      "previous_measured_error": 0.03605886768504865,
+      "pixel_origin": [
+        3960.125,
+        200.125
+      ],
+      "pixel_width": 16.641648998561877,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257839,
+      "previous_measured_error": 0.07947451386814433,
+      "pixel_origin": [
+        3600.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257841,
+      "previous_measured_error": 0.03780534792559248,
+      "pixel_origin": [
+        3672.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257842,
+      "previous_measured_error": 0.043261425050308625,
+      "pixel_origin": [
+        3744.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257843,
+      "previous_measured_error": 0.0726100039759377,
+      "pixel_origin": [
+        3816.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257846,
+      "previous_measured_error": 0.036297897172754084,
+      "pixel_origin": [
+        3888.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257848,
+      "previous_measured_error": 0.03820500729191095,
+      "pixel_origin": [
+        3960.125,
+        212.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257949,
+      "previous_measured_error": 0.03736875903629347,
+      "pixel_origin": [
+        3600.125,
+        224.125
+      ],
+      "pixel_width": 8.699102937841788,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257964,
+      "previous_measured_error": 0.03393939693293586,
+      "pixel_origin": [
+        3672.125,
+        224.125
+      ],
+      "pixel_width": 9.079890208564994,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257965,
+      "previous_measured_error": 0.0354174994965854,
+      "pixel_origin": [
+        3744.125,
+        224.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257968,
+      "previous_measured_error": 0.07620158626872679,
+      "pixel_origin": [
+        3816.125,
+        224.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257985,
+      "previous_measured_error": 0.09788060001831578,
+      "pixel_origin": [
+        3888.125,
+        224.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257994,
+      "previous_measured_error": 0.03668992729069719,
+      "pixel_origin": [
+        3960.125,
+        224.125
+      ],
+      "pixel_width": 9.092477218651469,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1257995,
+      "previous_measured_error": 0.03142008559095993,
+      "pixel_origin": [
+        3600.125,
+        236.125
+      ],
+      "pixel_width": 13.974374533394023,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1258003,
+      "previous_measured_error": 0.06163203015431769,
+      "pixel_origin": [
+        3672.125,
+        236.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1261682,
+      "previous_measured_error": 0.0323511119340009,
+      "pixel_origin": [
+        3744.125,
+        236.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1261942,
+      "previous_measured_error": 0.0378360431897775,
+      "pixel_origin": [
+        3816.125,
+        236.125
+      ],
+      "pixel_width": 9.528642846137457,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262065,
+      "previous_measured_error": 0.07895725942605068,
+      "pixel_origin": [
+        3888.125,
+        236.125
+      ],
+      "pixel_width": 9.73089088790267,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262066,
+      "previous_measured_error": 0.06257969182407651,
+      "pixel_origin": [
+        3960.125,
+        236.125
+      ],
+      "pixel_width": 9.42296731231455,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262068,
+      "previous_measured_error": 0.04669989314732543,
+      "pixel_origin": [
+        3600.125,
+        248.125
+      ],
+      "pixel_width": 9.123645903242151,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262080,
+      "previous_measured_error": 0.0630522289579881,
+      "pixel_origin": [
+        3672.125,
+        248.125
+      ],
+      "pixel_width": 8.853751242842572,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262081,
+      "previous_measured_error": 0.056291259460962584,
+      "pixel_origin": [
+        3744.125,
+        248.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262082,
+      "previous_measured_error": 0.03997625829479185,
+      "pixel_origin": [
+        3816.125,
+        248.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262101,
+      "previous_measured_error": 0.031764240033601,
+      "pixel_origin": [
+        3888.125,
+        248.125
+      ],
+      "pixel_width": 10.098431297149133,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262172,
+      "previous_measured_error": 0.0401990304030788,
+      "pixel_origin": [
+        3960.125,
+        248.125
+      ],
+      "pixel_width": 9.324123422596776,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1262766,
+      "previous_measured_error": 0.03704506254325008,
+      "pixel_origin": [
+        3600.125,
+        260.125
+      ],
+      "pixel_width": 8.580088987367255,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1269999,
+      "previous_measured_error": 0.06502483011419907,
+      "pixel_origin": [
+        3672.125,
+        260.125
+      ],
+      "pixel_width": 8.023635035757144,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1270722,
+      "previous_measured_error": 0.03962872466146903,
+      "pixel_origin": [
+        3744.125,
+        260.125
+      ],
+      "pixel_width": 8.563460905799108,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1270740,
+      "previous_measured_error": 0.03639055203286887,
+      "pixel_origin": [
+        3816.125,
+        260.125
+      ],
+      "pixel_width": 8.561145435888784,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1272401,
+      "previous_measured_error": 0.036596633484584196,
+      "pixel_origin": [
+        3888.125,
+        260.125
+      ],
+      "pixel_width": 8.129198379000774,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1287421,
+      "previous_measured_error": 0.11430107134215221,
+      "pixel_origin": [
+        3960.125,
+        260.125
+      ],
+      "pixel_width": 22.279174608550395,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1287453,
+      "previous_measured_error": 0.03479639509058568,
+      "pixel_origin": [
+        3600.125,
+        272.125
+      ],
+      "pixel_width": 12.755796670500287,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1287456,
+      "previous_measured_error": 0.051447923187123705,
+      "pixel_origin": [
+        3672.125,
+        272.125
+      ],
+      "pixel_width": 20.451511363976746,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1287457,
+      "previous_measured_error": 0.034885224534743964,
+      "pixel_origin": [
+        3744.125,
+        272.125
+      ],
+      "pixel_width": 9.500116202885568,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1287492,
+      "previous_measured_error": 0.04448424010021082,
+      "pixel_origin": [
+        3816.125,
+        272.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1295973,
+      "previous_measured_error": 0.03537720192940669,
+      "pixel_origin": [
+        3888.125,
+        272.125
+      ],
+      "pixel_width": 13.642556355213522,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1299839,
+      "previous_measured_error": 0.037124486203796166,
+      "pixel_origin": [
+        3960.125,
+        272.125
+      ],
+      "pixel_width": 13.905933013342175,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1299841,
+      "previous_measured_error": 0.03824388319960158,
+      "pixel_origin": [
+        3600.125,
+        284.125
+      ],
+      "pixel_width": 10.80092281537242,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1299842,
+      "previous_measured_error": 0.030631502388703703,
+      "pixel_origin": [
+        3672.125,
+        284.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1304331,
+      "previous_measured_error": 0.03585729191637751,
+      "pixel_origin": [
+        3744.125,
+        284.125
+      ],
+      "pixel_width": 13.155756692862127,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1305510,
+      "previous_measured_error": 0.28207397077742513,
+      "pixel_origin": [
+        3816.125,
+        284.125
+      ],
+      "pixel_width": 60.83595551461118,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314095,
+      "previous_measured_error": 0.05478536025902163,
+      "pixel_origin": [
+        3888.125,
+        284.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314411,
+      "previous_measured_error": 0.058208771236400156,
+      "pixel_origin": [
+        3960.125,
+        284.125
+      ],
+      "pixel_width": 33.537524797489915,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314412,
+      "previous_measured_error": 0.03172774398784811,
+      "pixel_origin": [
+        3600.125,
+        296.125
+      ],
+      "pixel_width": 44.633174162179,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314419,
+      "previous_measured_error": 0.04187205458373997,
+      "pixel_origin": [
+        3672.125,
+        296.125
+      ],
+      "pixel_width": 19.95436663666987,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314420,
+      "previous_measured_error": 0.05968354097228468,
+      "pixel_origin": [
+        3744.125,
+        296.125
+      ],
+      "pixel_width": 17.54380129855624,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314421,
+      "previous_measured_error": 0.04105642985481533,
+      "pixel_origin": [
+        3816.125,
+        296.125
+      ],
+      "pixel_width": 25.897236841193244,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1314431,
+      "previous_measured_error": 0.04588111138005528,
+      "pixel_origin": [
+        3888.125,
+        296.125
+      ],
+      "pixel_width": 9.293291972565493,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1316997,
+      "previous_measured_error": 0.03285768769724935,
+      "pixel_origin": [
+        3960.125,
+        296.125
+      ],
+      "pixel_width": 8.40046381409805,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1322138,
+      "previous_measured_error": 0.0305301187572481,
+      "pixel_origin": [
+        3600.125,
+        308.125
+      ],
+      "pixel_width": 11.276966763391753,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1322177,
+      "previous_measured_error": 0.03609277128232945,
+      "pixel_origin": [
+        3672.125,
+        308.125
+      ],
+      "pixel_width": 15.007353781674503,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1322533,
+      "previous_measured_error": 0.1233069208387179,
+      "pixel_origin": [
+        3744.125,
+        308.125
+      ],
+      "pixel_width": 64.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1325897,
+      "previous_measured_error": 0.061932310469396734,
+      "pixel_origin": [
+        3816.125,
+        308.125
+      ],
+      "pixel_width": 8.964686569247487,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1392382,
+      "previous_measured_error": 0.10123521053469425,
+      "pixel_origin": [
+        3888.125,
+        308.125
+      ],
+      "pixel_width": 15.217696539028461,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1396732,
+      "previous_measured_error": 0.04367392518223325,
+      "pixel_origin": [
+        3960.125,
+        308.125
+      ],
+      "pixel_width": 13.006971353202639,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1420496,
+      "previous_measured_error": 0.07619428659426108,
+      "pixel_origin": [
+        3600.125,
+        320.125
+      ],
+      "pixel_width": 8.687994361840909,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1453108,
+      "previous_measured_error": 0.058916342407642736,
+      "pixel_origin": [
+        3672.125,
+        320.125
+      ],
+      "pixel_width": 8.549594231471556,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1544472,
+      "previous_measured_error": 0.1464772866040215,
+      "pixel_origin": [
+        3744.125,
+        320.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1551117,
+      "previous_measured_error": 0.5833956687248604,
+      "pixel_origin": [
+        3816.125,
+        320.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1551182,
+      "previous_measured_error": 0.9359908571532872,
+      "pixel_origin": [
+        3888.125,
+        320.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1571621,
+      "previous_measured_error": 0.06167852813036902,
+      "pixel_origin": [
+        3960.125,
+        320.125
+      ],
+      "pixel_width": 17.86266923277896,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1579964,
+      "previous_measured_error": 0.0363680380304614,
+      "pixel_origin": [
+        3600.125,
+        332.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1595115,
+      "previous_measured_error": 0.030060101892011803,
+      "pixel_origin": [
+        3672.125,
+        332.125
+      ],
+      "pixel_width": 8.0,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1595172,
+      "previous_measured_error": 0.04336638416101945,
+      "pixel_origin": [
+        3744.125,
+        332.125
+      ],
+      "pixel_width": 8.175914995575539,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1605462,
+      "previous_measured_error": 0.03926607244325195,
+      "pixel_origin": [
+        3816.125,
+        332.125
+      ],
+      "pixel_width": 8.204522009437975,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1669092,
+      "previous_measured_error": 0.5596588204412057,
+      "pixel_origin": [
+        3888.125,
+        332.125
+      ],
+      "pixel_width": 12.751207081329948,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1700622,
+      "previous_measured_error": 0.15497235660061062,
+      "pixel_origin": [
+        3960.125,
+        332.125
+      ],
+      "pixel_width": 14.60589848681939,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1748178,
+      "previous_measured_error": 0.4482010383322734,
+      "pixel_origin": [
+        3600.125,
+        344.125
+      ],
+      "pixel_width": 8.436141619242264,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1750122,
+      "previous_measured_error": 0.28939581729381186,
+      "pixel_origin": [
+        3672.125,
+        344.125
+      ],
+      "pixel_width": 16.179546817377812,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1750565,
+      "previous_measured_error": 1.0306672486204624,
+      "pixel_origin": [
+        3744.125,
+        344.125
+      ],
+      "pixel_width": 15.349715290539033,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1750570,
+      "previous_measured_error": 1.0331786554506748,
+      "pixel_origin": [
+        3816.125,
+        344.125
+      ],
+      "pixel_width": 16.25382938844197,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757409,
+      "previous_measured_error": 0.038459591807529225,
+      "pixel_origin": [
+        3888.125,
+        344.125
+      ],
+      "pixel_width": 11.957145027198795,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757410,
+      "previous_measured_error": 0.03720266468141944,
+      "pixel_origin": [
+        3960.125,
+        344.125
+      ],
+      "pixel_width": 11.691719815674869,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757415,
+      "previous_measured_error": 0.05988244425644254,
+      "pixel_origin": [
+        3600.125,
+        356.125
+      ],
+      "pixel_width": 12.54285272066361,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757416,
+      "previous_measured_error": 0.033476309342575825,
+      "pixel_origin": [
+        3672.125,
+        356.125
+      ],
+      "pixel_width": 12.266388458891909,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757972,
+      "previous_measured_error": 1.036730277020633,
+      "pixel_origin": [
+        3744.125,
+        356.125
+      ],
+      "pixel_width": 16.009162985796355,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1757976,
+      "previous_measured_error": 1.0414864009450466,
+      "pixel_origin": [
+        3816.125,
+        356.125
+      ],
+      "pixel_width": 15.290775075031458,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1765562,
+      "previous_measured_error": 0.030412406876943913,
+      "pixel_origin": [
+        3888.125,
+        356.125
+      ],
+      "pixel_width": 14.330117657085594,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1765635,
+      "previous_measured_error": 0.03506373394281653,
+      "pixel_origin": [
+        3960.125,
+        356.125
+      ],
+      "pixel_width": 12.758439164907024,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1784736,
+      "previous_measured_error": 0.03069348538999649,
+      "pixel_origin": [
+        3600.125,
+        368.125
+      ],
+      "pixel_width": 28.644506072664353,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1785329,
+      "previous_measured_error": 1.0735929172594751,
+      "pixel_origin": [
+        3672.125,
+        368.125
+      ],
+      "pixel_width": 19.13263031389808,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    },
+    {
+      "source_polygon_id": 1785330,
+      "previous_measured_error": 1.0735929172594751,
+      "pixel_origin": [
+        3744.125,
+        368.125
+      ],
+      "pixel_width": 17.962814693628516,
+      "pixel_height": 4.0,
+      "scope": "Real triangle-plane coordinates with explicit raster-support span; source geometry/colour unchanged"
+    }
+  ],
+  "scope": "Direct UV-only patches in actually empty right canvas. No global repack, and no other face UV is shifted. Needs independent overlap+realbake+all-centroid and same-source visual checks."
+}

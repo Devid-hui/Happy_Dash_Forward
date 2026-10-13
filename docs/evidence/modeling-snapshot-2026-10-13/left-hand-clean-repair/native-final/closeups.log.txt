@@ -1,0 +1,10 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+LEFT THUMB CAPTURE front_side
+LEFT THUMB CAPTURE underside
+LEFT THUMB CAPTURE first_person
+LEFT THUMB REVIEW COMPLETE: 3 native 1080p views
+RELEASED render; exact owned PID 53662 exit 0

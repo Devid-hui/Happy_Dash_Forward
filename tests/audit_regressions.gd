@@ -154,7 +154,9 @@ func _check_traces(world) -> void:
 	assert(ordinary.node.visible and world.luminol_charges == 2)
 	ordinary.node.visible = false
 	var upgrade: Dictionary = world.research_manager.collect(0)
-	assert(upgrade.ok and GameState.skill_levels["luminol"] == 2)
+	assert(upgrade.ok and GameState.ability_level("luminol") == 1, "collecting creates a choice instead of auto-upgrading")
+	var chosen: Dictionary = world.research_manager.apply_upgrade("luminol")
+	assert(chosen.ok and GameState.ability_level("luminol") == 2, "chosen reagent upgrade must apply exactly once")
 	world.player.skill_manager.cooldowns["luminol"] = 0.0
 	world.player.use_slot(0)
 	assert(ordinary.node.visible and world.luminol_charges == 1, "Lv.2 must continue revealing ordinary traces")

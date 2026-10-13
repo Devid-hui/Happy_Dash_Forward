@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "file": "nailong_lod0.glb",
+      "sha256": "e01eb1a92297a85eba48d8dc1fa3ce02a96cb0b3693a09486d9ea3ce3237571d",
+      "sampled_states": 198,
+      "minimum_cornea_clearance_m": -0.028034342003035742,
+      "clear": false,
+      "worst_state": {
+        "mesh": "UpperEyelid_left.001",
+        "blink": 0.6000000000000001,
+        "focus": 0.2879999999999999,
+        "minimum_clearance_m": -0.028034342003035742,
+        "triangle_count": 6144,
+        "point_sample_count": 27777
+      }
+    },
+    {
+      "file": "nailong_lod1.glb",
+      "sha256": "e1c8f3a0fcd20fb23a5913be0f89fdc254da48f9d937541e9cc0a5f43e1c5a54",
+      "sampled_states": 198,
+      "minimum_cornea_clearance_m": -0.02831501088011558,
+      "clear": false,
+      "worst_state": {
+        "mesh": "UpperEyelid_left.002",
+        "blink": 0.6000000000000001,
+        "focus": 0.2879999999999999,
+        "minimum_clearance_m": -0.02831501088011558,
+        "triangle_count": 3072,
+        "point_sample_count": 13913
+      }
+    },
+    {
+      "file": "nailong_lod2.glb",
+      "sha256": "038e64e67fa7e2ae38d600f195f92d2257485e272dc495499118554fd401b7c8",
+      "sampled_states": 198,
+      "minimum_cornea_clearance_m": -0.025154728570152576,
+      "clear": false,
+      "worst_state": {
+        "mesh": "UpperEyelid_left.003",
+        "blink": 0.6000000000000001,
+        "focus": 0.2879999999999999,
+        "minimum_clearance_m": -0.025154728570152576,
+        "triangle_count": 1024,
+        "point_sample_count": 4657
+      }
+    }
+  ],
+  "scope": "Actual GLB morph geometry; vertex, triangle centroid and three edge midpoint samples. Rest/head coordinates; native material behavior still requires Godot.",
+  "all_exported_lids_clear": false
+}

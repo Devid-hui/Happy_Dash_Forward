@@ -1,0 +1,328 @@
+{
+  "generator": "tools/build_environment_assets.py",
+  "software": "4.5.14 LTS",
+  "geometry_source": "original deterministic botanical construction, fused branching meshes and shaped laminae",
+  "quality_note": "triangle counts are production evidence, not a claim of AAA visual acceptance",
+  "trees": [
+    {
+      "name": "broadleaf_tree_1",
+      "height": 8.306863560438774,
+      "dead": false,
+      "source_triangles": 2561872,
+      "source_bark_triangles": 182992,
+      "runtime_triangles": {
+        "NearBark": 44290,
+        "MidBark": 4820,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "154ac6b77bb62d90a7f7b07f1cee82eabcec73166881ef37653ccd610da3193c",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4110,
+        "middle": 5095,
+        "outer": 875
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_1.blend",
+      "native_lods": "broadleaf_tree_1_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "broadleaf_tree_2",
+      "height": 8.062246699872858,
+      "dead": false,
+      "source_triangles": 2556540,
+      "source_bark_triangles": 177660,
+      "runtime_triangles": {
+        "NearBark": 44322,
+        "MidBark": 4840,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "22ffed75f724481808456c340ff9b2f8fd214cc29765f030f604996540b8e02c",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4368,
+        "middle": 5166,
+        "outer": 546
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_2.blend",
+      "native_lods": "broadleaf_tree_2_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "broadleaf_tree_3",
+      "height": 8.298216569004095,
+      "dead": false,
+      "source_triangles": 2559168,
+      "source_bark_triangles": 180288,
+      "runtime_triangles": {
+        "NearBark": 44316,
+        "MidBark": 4866,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "8dcce2890b14690934772bca21803b4d69d939fb685cfcc514b62c8d2f08f393",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4679,
+        "middle": 4954,
+        "outer": 447
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_3.blend",
+      "native_lods": "broadleaf_tree_3_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "broadleaf_tree_4",
+      "height": 8.448766028444217,
+      "dead": false,
+      "source_triangles": 2557044,
+      "source_bark_triangles": 178164,
+      "runtime_triangles": {
+        "NearBark": 44314,
+        "MidBark": 4817,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "0befea0c28c0ee8b9e1670354574e4c4a778def17167090e4035d08f43102579",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4796,
+        "middle": 4755,
+        "outer": 529
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_4.blend",
+      "native_lods": "broadleaf_tree_4_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "broadleaf_tree_5",
+      "height": 9.344185221160233,
+      "dead": false,
+      "source_triangles": 2564392,
+      "source_bark_triangles": 185512,
+      "runtime_triangles": {
+        "NearBark": 44273,
+        "MidBark": 4828,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "5bd752cc2f7e2ea14bc5f7f0767a655b7fe134a136518f7045d212e3a0ebbf87",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4375,
+        "middle": 5269,
+        "outer": 436
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_5.blend",
+      "native_lods": "broadleaf_tree_5_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "broadleaf_tree_6",
+      "height": 8.79734385051733,
+      "dead": false,
+      "source_triangles": 2558288,
+      "source_bark_triangles": 179408,
+      "runtime_triangles": {
+        "NearBark": 44293,
+        "MidBark": 4854,
+        "FarBark": 2500,
+        "NearCanopy": 2136960,
+        "MidCanopy": 80640,
+        "FarCanopy": 6720
+      },
+      "sha256": "6bd6d5c560decf077698da36df4b20fa9065d04bc87ed628c4e963c90a972b3a",
+      "leaf_counts": {
+        "Master": 10080,
+        "Near": 10080,
+        "Mid": 5040,
+        "Far": 1680
+      },
+      "leaf_support_twigs": 1260,
+      "crown_layers": {
+        "inner": 4974,
+        "middle": 5052,
+        "outer": 54
+      },
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "broadleaf_tree_6.blend",
+      "native_lods": "broadleaf_tree_6_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "dead_tree_1",
+      "height": 8.300432226419579,
+      "dead": true,
+      "source_triangles": 309680,
+      "source_bark_triangles": 309680,
+      "runtime_triangles": {
+        "FarBark": 2500,
+        "MidBark": 6780,
+        "NearBark": 44873
+      },
+      "sha256": "e23030f0f7abbb1de9128370c9f1b94c1c270a7fc6095b15930c7c697d3223c6",
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "dead_tree_1.blend",
+      "native_lods": "dead_tree_1_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "dead_tree_2",
+      "height": 9.60792690637588,
+      "dead": true,
+      "source_triangles": 324704,
+      "source_bark_triangles": 324704,
+      "runtime_triangles": {
+        "FarBark": 2500,
+        "MidBark": 6789,
+        "NearBark": 44861
+      },
+      "sha256": "4fd828748eab00d11a708bfcc7777e88603bc0905a49e9f003707f0f6c90f625",
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "dead_tree_2.blend",
+      "native_lods": "dead_tree_2_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    },
+    {
+      "name": "dead_tree_3",
+      "height": 8.592402382878138,
+      "dead": true,
+      "source_triangles": 303036,
+      "source_bark_triangles": 303036,
+      "runtime_triangles": {
+        "FarBark": 2500,
+        "MidBark": 6769,
+        "NearBark": 44842
+      },
+      "sha256": "b87417d168f413a52b26ba3c579ecbcfb15cc75dd98767aff7ac1b3a2399e025",
+      "authoring": "voxel fused buttress roots and branch crotches; asymmetric growth; meshed rolled laminae and midribs; UV venation map",
+      "native_master": "dead_tree_3.blend",
+      "native_lods": "dead_tree_3_runtime_lods.blend",
+      "far_bark_source": "largest continuous fused root/trunk/scaffold component, excluding detached terminal stems"
+    }
+  ],
+  "terrain": [
+    {
+      "name": "Stone1",
+      "triangles": 5120
+    },
+    {
+      "name": "Stone2",
+      "triangles": 5120
+    },
+    {
+      "name": "Stone3",
+      "triangles": 5120
+    },
+    {
+      "name": "Stone4",
+      "triangles": 5120
+    },
+    {
+      "name": "LitterLeaf1",
+      "triangles": 108
+    },
+    {
+      "name": "LitterLeaf2",
+      "triangles": 108
+    },
+    {
+      "name": "LitterLeaf3",
+      "triangles": 108
+    },
+    {
+      "name": "LitterLeaf4",
+      "triangles": 108
+    },
+    {
+      "name": "GrassClump1",
+      "triangles": 936
+    },
+    {
+      "name": "GrassClump2",
+      "triangles": 936
+    },
+    {
+      "name": "GrassClump3",
+      "triangles": 936
+    },
+    {
+      "name": "Fern1",
+      "triangles": 5920
+    },
+    {
+      "name": "Fern2",
+      "triangles": 5920
+    },
+    {
+      "name": "Fern3",
+      "triangles": 5920
+    },
+    {
+      "name": "Shrub1",
+      "triangles": 11392
+    },
+    {
+      "name": "Shrub2",
+      "triangles": 11392
+    },
+    {
+      "name": "Puddle",
+      "triangles": 64
+    }
+  ],
+  "terrain_sha256": "6e3e9e6e7c189d5d5a0791a8d755bd2c8610b36fe866521dd904caf8a8da5387",
+  "leaf_study": {
+    "leaf_count": 5,
+    "triangles": 1120,
+    "sha256": "29cd174ed9d82e2ffe5f933802dfbf930cbec27d5c3227ff88fc05347415d512",
+    "construction": "exact near-game leaf/petiole specification"
+  }
+}

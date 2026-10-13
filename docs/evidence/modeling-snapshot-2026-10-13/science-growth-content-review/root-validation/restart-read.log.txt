@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESTART CONTRACT PASS --restart-read: 3 checks
+RELEASED render; exact owned PID 57957 exit 0

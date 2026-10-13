@@ -1,0 +1,1039 @@
+{
+  "blender_version": "4.5.14 LTS",
+  "source_file": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/resource-research/downloads/opengameart-frog/frog/frog.blend",
+  "inspection": "data inventory only; no imported script executed; no source saved",
+  "scene": {
+    "fps": 24,
+    "frame_start": 1,
+    "frame_end": 24
+  },
+  "objects": [
+    {
+      "name": "frog_armature",
+      "type": "ARMATURE",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4705890119075775,
+        0.6120645999908447,
+        0.5331007242202759
+      ],
+      "hidden_render": false,
+      "modifiers": [],
+      "animation_data": {
+        "action": "idle",
+        "nla_tracks": [
+          {
+            "name": "[Action Stash]",
+            "strips": [
+              {
+                "name": "idle_pose.001",
+                "action": "idle_pose",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "[Action Stash].001",
+            "strips": [
+              {
+                "name": "idle.001",
+                "action": "idle",
+                "frame_start": 1.0,
+                "frame_end": 24.0
+              }
+            ]
+          },
+          {
+            "name": "[Action Stash].002",
+            "strips": [
+              {
+                "name": "walk_pose_1.001",
+                "action": "walk_pose_1",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "[Action Stash].003",
+            "strips": [
+              {
+                "name": "walk_pose_2.001",
+                "action": "walk_pose_2",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "idle_pose",
+            "strips": [
+              {
+                "name": "idle_pose",
+                "action": "idle_pose",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "jump",
+            "strips": [
+              {
+                "name": "jump",
+                "action": "jump",
+                "frame_start": 1.0,
+                "frame_end": 12.0
+              }
+            ]
+          },
+          {
+            "name": "land",
+            "strips": [
+              {
+                "name": "land",
+                "action": "land",
+                "frame_start": 1.0,
+                "frame_end": 12.0
+              }
+            ]
+          },
+          {
+            "name": "idle",
+            "strips": [
+              {
+                "name": "idle",
+                "action": "idle",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "tpose",
+            "strips": [
+              {
+                "name": "tpose",
+                "action": "tpose",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk_pose",
+            "strips": [
+              {
+                "name": "walk_pose",
+                "action": "walk_pose_1",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk_pose_1",
+            "strips": [
+              {
+                "name": "walk_pose_1",
+                "action": "walk_pose_1",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk_pose_2",
+            "strips": [
+              {
+                "name": "walk_pose_2",
+                "action": "walk_pose_2",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk_pose_1",
+            "strips": [
+              {
+                "name": "walk_pose_1.002",
+                "action": "walk_pose_1",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk",
+            "strips": [
+              {
+                "name": "walk",
+                "action": "walk",
+                "frame_start": 1.0,
+                "frame_end": 2.0
+              }
+            ]
+          },
+          {
+            "name": "walk",
+            "strips": [
+              {
+                "name": "walk.001",
+                "action": "walk",
+                "frame_start": 1.0,
+                "frame_end": 24.0
+              }
+            ]
+          }
+        ],
+        "drivers": []
+      },
+      "armature": {
+        "bones": 15,
+        "deform_bones": 15,
+        "bone_list": [
+          {
+            "name": "body",
+            "parent": null,
+            "deform": true,
+            "head_local": [
+              -1.8615660124510214e-09,
+              0.3327433168888092,
+              0.1221076250076294
+            ],
+            "tail_local": [
+              -1.340385580306247e-09,
+              -0.27932122349739075,
+              0.3212645649909973
+            ]
+          },
+          {
+            "name": "eye.l",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              0.09275197237730026,
+              -0.16684593260288239,
+              0.42056116461753845
+            ],
+            "tail_local": [
+              0.09275197237730026,
+              -0.16684593260288239,
+              0.5397366881370544
+            ]
+          },
+          {
+            "name": "leg_top_rear.l",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              0.12210768461227417,
+              0.22276921570301056,
+              0.18182489275932312
+            ],
+            "tail_local": [
+              0.1256238967180252,
+              0.22121460735797882,
+              -0.05558943375945091
+            ]
+          },
+          {
+            "name": "leg_bottom_rear.l",
+            "parent": "leg_top_rear.l",
+            "deform": true,
+            "head_local": [
+              0.1256238967180252,
+              0.22121460735797882,
+              -0.05558943375945091
+            ],
+            "tail_local": [
+              0.12673114240169525,
+              0.22171753644943237,
+              -0.217439204454422
+            ]
+          },
+          {
+            "name": "foot_rear.l",
+            "parent": "leg_bottom_rear.l",
+            "deform": true,
+            "head_local": [
+              0.12673114240169525,
+              0.22171753644943237,
+              -0.217439204454422
+            ],
+            "tail_local": [
+              0.12613460421562195,
+              0.22510984539985657,
+              -0.3989293873310089
+            ]
+          },
+          {
+            "name": "leg_top_front.l",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              0.15680482983589172,
+              -0.10029289126396179,
+              0.281857430934906
+            ],
+            "tail_local": [
+              0.1574491709470749,
+              -0.09992226958274841,
+              0.09262656420469284
+            ]
+          },
+          {
+            "name": "leg_bottom_front.l",
+            "parent": "leg_top_front.l",
+            "deform": true,
+            "head_local": [
+              0.1574491709470749,
+              -0.09992226958274841,
+              0.09262656420469284
+            ],
+            "tail_local": [
+              0.15844735503196716,
+              -0.09840753674507141,
+              -0.04954386129975319
+            ]
+          },
+          {
+            "name": "foot_front.l",
+            "parent": "leg_bottom_front.l",
+            "deform": true,
+            "head_local": [
+              0.15844735503196716,
+              -0.09840753674507141,
+              -0.04954386129975319
+            ],
+            "tail_local": [
+              0.15821698307991028,
+              -0.0968712866306305,
+              -0.19759581983089447
+            ]
+          },
+          {
+            "name": "eye.r",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              -0.09275197237730026,
+              -0.16684593260288239,
+              0.42056116461753845
+            ],
+            "tail_local": [
+              -0.09275197237730026,
+              -0.16684593260288239,
+              0.5397366881370544
+            ]
+          },
+          {
+            "name": "leg_top_rear.r",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              -0.12210768461227417,
+              0.22276921570301056,
+              0.18182489275932312
+            ],
+            "tail_local": [
+              -0.1256238967180252,
+              0.22121460735797882,
+              -0.05558943375945091
+            ]
+          },
+          {
+            "name": "leg_bottom_rear.r",
+            "parent": "leg_top_rear.r",
+            "deform": true,
+            "head_local": [
+              -0.1256238967180252,
+              0.22121460735797882,
+              -0.05558943375945091
+            ],
+            "tail_local": [
+              -0.12673114240169525,
+              0.22171753644943237,
+              -0.217439204454422
+            ]
+          },
+          {
+            "name": "foot_rear.r",
+            "parent": "leg_bottom_rear.r",
+            "deform": true,
+            "head_local": [
+              -0.12673114240169525,
+              0.22171753644943237,
+              -0.217439204454422
+            ],
+            "tail_local": [
+              -0.12613460421562195,
+              0.22510984539985657,
+              -0.3989293873310089
+            ]
+          },
+          {
+            "name": "leg_top_front.r",
+            "parent": "body",
+            "deform": true,
+            "head_local": [
+              -0.15680482983589172,
+              -0.10029289126396179,
+              0.281857430934906
+            ],
+            "tail_local": [
+              -0.1574491709470749,
+              -0.09992226958274841,
+              0.09262656420469284
+            ]
+          },
+          {
+            "name": "leg_bottom_front.r",
+            "parent": "leg_top_front.r",
+            "deform": true,
+            "head_local": [
+              -0.1574491709470749,
+              -0.09992226958274841,
+              0.09262656420469284
+            ],
+            "tail_local": [
+              -0.15844735503196716,
+              -0.09840753674507141,
+              -0.04954386129975319
+            ]
+          },
+          {
+            "name": "foot_front.r",
+            "parent": "leg_bottom_front.r",
+            "deform": true,
+            "head_local": [
+              -0.15844735503196716,
+              -0.09840753674507141,
+              -0.04954386129975319
+            ],
+            "tail_local": [
+              -0.15821698307991028,
+              -0.0968712866306305,
+              -0.19759581983089447
+            ]
+          }
+        ],
+        "constraints": []
+      }
+    },
+    {
+      "name": "frog_model",
+      "type": "MESH",
+      "parent": "frog_armature",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.5908766984939575,
+        0.6205601096153259,
+        0.5519087314605713
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "object": "frog_armature"
+        }
+      ],
+      "animation_data": {
+        "action": "idle",
+        "nla_tracks": [],
+        "drivers": []
+      },
+      "mesh": {
+        "vertices": 330,
+        "edges": 648,
+        "polygons": 348,
+        "triangles": 600,
+        "polygon_sizes": {
+          "3": 128,
+          "4": 208,
+          "6": 8,
+          "8": 4
+        },
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 1296,
+            "min": [
+              0.0016800947487354279,
+              0.03731970489025116
+            ],
+            "max": [
+              0.9549921154975891,
+              0.9813808798789978
+            ]
+          }
+        ],
+        "materials": [
+          "frog"
+        ],
+        "vertex_groups": [
+          "body",
+          "eye.l",
+          "eye.r",
+          "leg_top_rear.l",
+          "leg_bottom_rear.l",
+          "foot_rear.l",
+          "leg_top_front.l",
+          "leg_bottom_front.l",
+          "foot_front.l",
+          "leg_top_rear.r",
+          "leg_bottom_rear.r",
+          "foot_rear.r",
+          "leg_top_front.r",
+          "leg_bottom_front.r",
+          "foot_front.r"
+        ],
+        "weight_summary": {
+          "unweighted_vertices": 0,
+          "non_normalized_weight_vertices": 0,
+          "max_influences": 1
+        },
+        "shape_keys": []
+      }
+    }
+  ],
+  "actions": [
+    {
+      "name": "idle",
+      "frame_range": [
+        1.0,
+        24.0
+      ],
+      "users": 4,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 450,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "idle_pose",
+      "frame_range": [
+        1.0,
+        1.0
+      ],
+      "users": 2,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 150,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "jump",
+      "frame_range": [
+        1.0,
+        12.0
+      ],
+      "users": 1,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 300,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "land",
+      "frame_range": [
+        1.0,
+        12.0
+      ],
+      "users": 1,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 300,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "tpose",
+      "frame_range": [
+        1.0,
+        1.0
+      ],
+      "users": 1,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 150,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "walk",
+      "frame_range": [
+        1.0,
+        24.0
+      ],
+      "users": 2,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 450,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "walk_pose_1",
+      "frame_range": [
+        1.0,
+        1.0
+      ],
+      "users": 4,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 150,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    },
+    {
+      "name": "walk_pose_2",
+      "frame_range": [
+        1.0,
+        1.0
+      ],
+      "users": 2,
+      "fake_user": false,
+      "curve_count": 150,
+      "keyframe_count": 150,
+      "animated_paths": [
+        "pose.bones[\"body\"].location",
+        "pose.bones[\"body\"].rotation_quaternion",
+        "pose.bones[\"body\"].scale",
+        "pose.bones[\"eye.l\"].location",
+        "pose.bones[\"eye.l\"].rotation_quaternion",
+        "pose.bones[\"eye.l\"].scale",
+        "pose.bones[\"eye.r\"].location",
+        "pose.bones[\"eye.r\"].rotation_quaternion",
+        "pose.bones[\"eye.r\"].scale",
+        "pose.bones[\"foot_front.l\"].location",
+        "pose.bones[\"foot_front.l\"].rotation_quaternion",
+        "pose.bones[\"foot_front.l\"].scale",
+        "pose.bones[\"foot_front.r\"].location",
+        "pose.bones[\"foot_front.r\"].rotation_quaternion",
+        "pose.bones[\"foot_front.r\"].scale",
+        "pose.bones[\"foot_rear.l\"].location",
+        "pose.bones[\"foot_rear.l\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.l\"].scale",
+        "pose.bones[\"foot_rear.r\"].location",
+        "pose.bones[\"foot_rear.r\"].rotation_quaternion",
+        "pose.bones[\"foot_rear.r\"].scale",
+        "pose.bones[\"leg_bottom_front.l\"].location",
+        "pose.bones[\"leg_bottom_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.l\"].scale",
+        "pose.bones[\"leg_bottom_front.r\"].location",
+        "pose.bones[\"leg_bottom_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_front.r\"].scale",
+        "pose.bones[\"leg_bottom_rear.l\"].location",
+        "pose.bones[\"leg_bottom_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.l\"].scale",
+        "pose.bones[\"leg_bottom_rear.r\"].location",
+        "pose.bones[\"leg_bottom_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_bottom_rear.r\"].scale",
+        "pose.bones[\"leg_top_front.l\"].location",
+        "pose.bones[\"leg_top_front.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.l\"].scale",
+        "pose.bones[\"leg_top_front.r\"].location",
+        "pose.bones[\"leg_top_front.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_front.r\"].scale",
+        "pose.bones[\"leg_top_rear.l\"].location",
+        "pose.bones[\"leg_top_rear.l\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.l\"].scale",
+        "pose.bones[\"leg_top_rear.r\"].location",
+        "pose.bones[\"leg_top_rear.r\"].rotation_quaternion",
+        "pose.bones[\"leg_top_rear.r\"].scale"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "frog",
+      "use_nodes": true,
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "frog.png"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "frog.png",
+      "size": [
+        128,
+        128
+      ],
+      "source": "FILE",
+      "filepath": "//frog.png",
+      "resolved_filepath": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/resource-research/downloads/opengameart-frog/frog/frog.png",
+      "packed": false,
+      "exists": true
+    }
+  ],
+  "text_blocks": []
+}

@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "hunter_rules": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "audit_regressions": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "smoke": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    }
+  },
+  "inputs_unchanged": true,
+  "hashes": {
+    "scripts/enemies/hunter_visual.gd": "c435c0caaf72f06b475092d0a946e70a2d959df50ceff2396d39fe03ca78cd42",
+    "scripts/enemies/hunter.gd": "353e62e6071eba27eada9db2bb6c31149d1e8efc2df31520e631809bf7b064b9",
+    "scripts/enemies/hunter_director.gd": "14913e4a7b45a062ce69625d053c43ca1040d6c88955496d3b8f2033207ae7cd",
+    "assets/refined/nailong/nailong_lod0.glb": "a4135c9202d251681d30a7f7c9c20ab022a563f277e82962344fe54105dbc927",
+    "assets/refined/nailong/nailong_lod1.glb": "aea5f47b351f4c064b3fc9e9fb0aa47adfb7d5340ee525bbabd6ffca3ce7dc4e",
+    "assets/refined/nailong/nailong_lod2.glb": "09bcb5ca01da84be1203feaa831285c1395504821211849a161aa9d61d965cac"
+  },
+  "formal_character_assets_still_previous": true,
+  "full_goal_complete": false
+}

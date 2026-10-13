@@ -1,0 +1,3 @@
+Meshes, UVs, maps, skeleton and animation clips are locally authored by tools/build_nailong_asset.py.
+Visual character reference: the Nailong character published by 7th Impression, https://www.nailoong.com/ipStar/Nailong/.
+No official texture or downloaded third-party model is included in these authored assets.

@@ -132,13 +132,19 @@ func is_in_view(hunter: Node3D) -> bool:
 	if visual == null: return true
 	var bounds := AABB()
 	var has_bounds := false
-	for node in visual.find_children("*","MeshInstance3D",true,false):
-		var part := node as MeshInstance3D
-		if part.mesh == null: continue
-		var part_bounds := part.global_transform * part.get_aabb()
-		if not part_bounds.is_finite(): return true
-		bounds = bounds.merge(part_bounds) if has_bounds else part_bounds
+	if visual.has_method("get_animation_bounds"):
+		var local_bounds: AABB = visual.get_animation_bounds()
+		if not local_bounds.is_finite() or local_bounds.size.is_zero_approx(): return true
+		bounds = visual.global_transform * local_bounds
 		has_bounds = true
+	else:
+		for node in visual.find_children("*","MeshInstance3D",true,false):
+			var part := node as MeshInstance3D
+			if part.mesh == null: continue
+			var part_bounds := part.global_transform * part.get_aabb()
+			if not part_bounds.is_finite(): return true
+			bounds = bounds.merge(part_bounds) if has_bounds else part_bounds
+			has_bounds = true
 	if not has_bounds: return true
 	# 只有某个裁剪平面能排除整个模型时才允许传送，边缘接触也保护。
 	for plane in camera.get_frustum():

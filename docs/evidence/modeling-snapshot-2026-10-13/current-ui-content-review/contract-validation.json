@@ -1,0 +1,71 @@
+{
+  "scope": "Existing UI contract/controlled layout, FakeWorld meters and signal triggers; not ordinary keyboard or complete gameplay",
+  "exit": 0,
+  "errors": [],
+  "marker": true,
+  "input_hashes_unchanged": true,
+  "source_sha256": {
+    "scripts/core/main.gd": "b4654233f1cfa3f3b7488a45ce4f5d1a69ac506f920e14829b36c09161697dec",
+    "scripts/core/game_state.gd": "b40beb3ffa6370d5fe8c0c7d89e5e5cf4eddb9ba9b5100b3db8513d0b1accd77",
+    "scripts/ui/hud_controller.gd": "dd00eba7f976d5f0b9110a233f7a3000ba4a65ff15e62e6c9a7b81f3723bea1c",
+    "tests/ui_contract.gd": "e09b0ad56e440e95b3a05aada7644b95b1bc0cfc58bf83528d29a22af994b7ad"
+  },
+  "images": [
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/01-menu.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5a56d0286d7126d24590c9f820c349a6f72376347fada44d5061a694b083ce0c"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/02-selection.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7e30e1d5cd3e5bcd4995525873f5121671e28dd54fc4e547bc27a6e8a9118f52"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/03-settings.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4acdff0735832f29f1170e979b033760a664fa0ad8ef73ee529863944ff66b0f"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/04-archive.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e308d29f7b604c258ec191b11bcaee54fdd2d5eff4dcd45824f637c733d78143"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/05-hud-layout.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7faf1ef176fc64e09b28427f3011ab1d0e7d39c7f357516f63d57958d156f41b"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/06-pause.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "818af60943070f49070e1d193012c39aeb416c13bf0bddbe336fa9faa4d20f02"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/07-handbook.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "28a3628cc1d333a9886479dc0885aae0e520328d5bd3b8d4dd4c0a0f16856fd2"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/08-upgrade.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "39deb5ae55dc04aecfbace03617c91e326e4591fd2fa04ef7d8d67b7387c48eb"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/contract-ui/09-outcome.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "59125a1321aa8ea598c6bac172f32fb408f2ffb538dfe0693929c95cb88ecb53"
+    }
+  ],
+  "handbook_fixture_uses_short_placeholder": true,
+  "final_asset_gameplay_acceptance": false
+}

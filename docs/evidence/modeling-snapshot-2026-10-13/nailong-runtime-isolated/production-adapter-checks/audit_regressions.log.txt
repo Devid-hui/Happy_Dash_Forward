@@ -1,0 +1,7 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+AUDIT NOTE: headless display cannot verify mouse capture; graphical acceptance is required
+AUDIT REGRESSIONS PASS: real Tab/Esc input, GUI consumption, modal/focus lifecycle, paused visual and logic timers, four edges/fall, upgraded traces, repeat salt contact, equipped lightning hints, legal loadouts and four fusions
+RELEASED render; exact owned PID 59393 exit 0

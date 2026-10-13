@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PROGRESSION WORLD PASS: 24 checks across real collection, pause/focus/handbook, choice idempotency, exit and new-run archive
+RELEASED render; exact owned PID 57924 exit 0

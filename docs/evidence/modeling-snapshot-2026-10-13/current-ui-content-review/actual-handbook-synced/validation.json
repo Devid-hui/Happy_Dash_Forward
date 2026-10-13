@@ -1,0 +1,13 @@
+{
+  "exit": 0,
+  "errors": [],
+  "marker": true,
+  "source_inputs_unchanged": true,
+  "source_sha256": {
+    "scripts/core/game_state.gd": "b40beb3ffa6370d5fe8c0c7d89e5e5cf4eddb9ba9b5100b3db8513d0b1accd77",
+    "scripts/world/world.gd": "86398a4c84138c78c249138f129696a3cbd3c0fa0d7ea16ee015bb45eba0ae6d",
+    "scripts/ui/hud_controller.gd": "dd00eba7f976d5f0b9110a233f7a3000ba4a65ff15e62e6c9a7b81f3723bea1c",
+    "tests/native_scene_review.gd": "94d7227be285e1079e5ebb0fdf790f853b42dcb1f8bd15b2516190eba74eb369"
+  },
+  "ordinary_input_verified": false
+}

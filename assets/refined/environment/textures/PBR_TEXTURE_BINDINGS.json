@@ -1,0 +1,8 @@
+{
+  "bark_basecolor": "bark_brown_02_diff_4k.jpg",
+  "bark_normal": "bark_brown_02_nor_gl_4k.png",
+  "bark_roughness": "bark_brown_02_rough_4k.jpg",
+  "floor_basecolor": "forest_floor_diff_4k.jpg",
+  "floor_normal": "forest_floor_nor_gl_4k.png",
+  "floor_roughness": "forest_floor_rough_4k.jpg"
+}

@@ -1,0 +1,55 @@
+{
+  "assets/refined/nailong/nailong_lod0.glb": {
+    "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+    "bytes": 76573612,
+    "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod0.glb",
+    "copied_file_not_link": true
+  },
+  "assets/refined/nailong/nailong_lod1.glb": {
+    "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+    "bytes": 36802576,
+    "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod1.glb",
+    "copied_file_not_link": true
+  },
+  "assets/refined/nailong/nailong_lod2.glb": {
+    "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+    "bytes": 29096272,
+    "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod2.glb",
+    "copied_file_not_link": true
+  },
+  "scripts/enemies/hunter_visual.gd": {
+    "sha256": "639acb2d752041091094f0d038e42e34a799216260759ab2ef5f191078d462f0",
+    "source": "/Users/lpz/Documents/Happy_Dash_Forward/scripts/enemies/hunter_visual.gd",
+    "production_source_sha256": "4e5abc54e5d4759d780977e1fbb611da1c2a29ac6b8a34b418f0c0e3c8acd189",
+    "byte_identical_to_production_at_start": false,
+    "explicit_reviewed_isolated_patch": true
+  },
+  "project.godot": {
+    "sha256": "09ef987c96d62b8e432bd28fb03b003a6a43613f83bfd483eea2707ada3244ab",
+    "bytes": 267
+  },
+  "tests/runtime_contract.gd": {
+    "sha256": "580ff61ddf6fcf3d4f1e5d89ce00b9875bb1d5771ad3722b7970cc22773a6f14",
+    "bytes": 17470
+  },
+  "tests/runtime_contract.tscn": {
+    "sha256": "a23e67266a31ad2c1839d2768a9d9226b17fc50532fb4595a874a035f21ec943",
+    "bytes": 188
+  },
+  "tests/evaluate_native_dump.py": {
+    "sha256": "74f471e298559de7837ca34e4dc962c59ba6aa5867603ba5440cf70bb17c85e0",
+    "bytes": 15126
+  },
+  "run_isolated.py": {
+    "sha256": "23fa90cd7e398195932af77d437da7ebf3aaa52f6425e171aaf886748bb0f366",
+    "bytes": 7881
+  },
+  "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend": {
+    "sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+    "bytes": 104764853
+  },
+  "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/MODEL_MANIFEST.json": {
+    "sha256": "c66ff4e563b243344f27bf2f36561f98c90c685d92fc376745d54ed50d1ca284",
+    "bytes": 1153300
+  }
+}

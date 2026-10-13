@@ -1,0 +1,43 @@
+{
+  "neutral_vertex_max_delta_m": 0.0,
+  "actual_main_world_vertex_max_delta_m": 0.0,
+  "main_pose_matrix_max_delta": 0.0,
+  "luminol_absolute_identical": true,
+  "mud_absolute_identical": true,
+  "luminol_relative_identical": true,
+  "mud_relative_identical": true,
+  "sockets_before": {
+    "Luminol": [
+      -0.05700000002980232,
+      0.03799999877810478,
+      0.08500000089406967
+    ],
+    "Salt": [
+      -0.04100000113248825,
+      0.03200000151991844,
+      0.08399999886751175
+    ],
+    "Mud": [
+      -0.0430000014603138,
+      0.04399999976158142,
+      0.07999999821186066
+    ]
+  },
+  "sockets_after": {
+    "Luminol": [
+      -0.05700000002980232,
+      0.03799999877810478,
+      0.08500000089406967
+    ],
+    "Salt": [
+      -0.039000000804662704,
+      0.03200000151991844,
+      0.08399999886751175
+    ],
+    "Mud": [
+      -0.0430000014603138,
+      0.04399999976158142,
+      0.07999999821186066
+    ]
+  }
+}

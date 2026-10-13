@@ -1,0 +1,110 @@
+{
+  "source_obj_sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+  "method": "Original CC0 hm08 neutral body, authored right-arm weight membership, 7% longitudinal slice half-window. Width/depth are quantile spans in a fixed palm-related cross frame, not circumference or normative population dimensions.",
+  "joints_metres": {
+    "clavicle": [
+      -0.026555000000000002,
+      0.519135,
+      0.069425
+    ],
+    "shoulder": [
+      -0.1677125,
+      0.52458,
+      0.014605
+    ],
+    "elbow": [
+      -0.31293625,
+      0.34931875,
+      0.013201250000000001
+    ],
+    "hand": [
+      -0.43118500000000004,
+      0.24518125000000002,
+      0.17565499999999998
+    ]
+  },
+  "profiles": {
+    "upper": {
+      "joint_length_m": 0.22761461690692783,
+      "samples": [
+        {
+          "fraction": 0.12,
+          "points": 47,
+          "width_mm": 124.14184476782987,
+          "depth_mm": 104.60928173532447
+        },
+        {
+          "fraction": 0.25,
+          "points": 66,
+          "width_mm": 89.94843414874073,
+          "depth_mm": 111.50603487705239
+        },
+        {
+          "fraction": 0.4,
+          "points": 36,
+          "width_mm": 83.65469830864849,
+          "depth_mm": 87.52214389011529
+        },
+        {
+          "fraction": 0.55,
+          "points": 27,
+          "width_mm": 83.47621096882114,
+          "depth_mm": 78.04141094048519
+        },
+        {
+          "fraction": 0.7,
+          "points": 39,
+          "width_mm": 83.46117957744347,
+          "depth_mm": 75.77543976971032
+        },
+        {
+          "fraction": 0.85,
+          "points": 55,
+          "width_mm": 77.33272266618202,
+          "depth_mm": 74.55428647364775
+        }
+      ]
+    },
+    "fore": {
+      "joint_length_m": 0.22631528156948438,
+      "samples": [
+        {
+          "fraction": 0.12,
+          "points": 43,
+          "width_mm": 76.70910241051746,
+          "depth_mm": 70.50054354315927
+        },
+        {
+          "fraction": 0.25,
+          "points": 25,
+          "width_mm": 69.36515541315605,
+          "depth_mm": 72.07820446784841
+        },
+        {
+          "fraction": 0.4,
+          "points": 21,
+          "width_mm": 60.26649444782534,
+          "depth_mm": 66.6969397454246
+        },
+        {
+          "fraction": 0.55,
+          "points": 19,
+          "width_mm": 55.941798789977156,
+          "depth_mm": 56.29789263249242
+        },
+        {
+          "fraction": 0.7,
+          "points": 20,
+          "width_mm": 50.7394989034943,
+          "depth_mm": 49.79555004653805
+        },
+        {
+          "fraction": 0.85,
+          "points": 43,
+          "width_mm": 47.544359805052025,
+          "depth_mm": 42.90906115749249
+        }
+      ]
+    }
+  }
+}

@@ -52,3 +52,14 @@ static func part(parent: Node3D, mesh: Mesh, material: Material, label: String) 
 	instance.material_override = material
 	parent.add_child(instance,true)
 	return instance
+
+# Same-material procedural parts become one immutable surface, shared by every variant instance.
+# Existing tube()/part() behavior remains unchanged for hunter/legacy callers.
+static func merge(meshes: Array[Mesh], transforms: Array[Transform3D] = []) -> ArrayMesh:
+	var surface := SurfaceTool.new()
+	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for i in range(meshes.size()):
+		var mesh := meshes[i]
+		var transform_value := transforms[i] if i < transforms.size() else Transform3D.IDENTITY
+		for index in range(mesh.get_surface_count()): surface.append_from(mesh,index,transform_value)
+	return surface.commit()

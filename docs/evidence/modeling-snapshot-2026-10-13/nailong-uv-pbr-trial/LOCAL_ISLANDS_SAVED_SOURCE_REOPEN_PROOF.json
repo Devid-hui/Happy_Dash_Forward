@@ -1,0 +1,33 @@
+{
+  "saved_source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/uv-pbr-trial/body_uv_4k_local_islands_candidate.blend",
+  "saved_source_sha256": "3ac41906d53ed41606da99259d4ae55e5de612909e0867c142677455f64d5d35",
+  "original_geometry_keys_weights_corner_colors_action_curves_exact_after_save_reopen": true,
+  "all5412459_uv_corners_match_selected_atlas_bit_exact": true,
+  "actual_color_attribute_type": "BYTE_COLOR",
+  "actual_color_attribute_domain": "CORNER",
+  "material_base_color_is_real_image_only": true,
+  "packed_png_sha256": "eda85641c59eb533e8afc03d16092aa440ebad5ebc04099707179122363ab623",
+  "packed_png_matches_actual_written_texture_bytes": true,
+  "real_image_size": [
+    4096,
+    4096
+  ],
+  "real_image_colorspace": "sRGB",
+  "body_roughness": 0.47999998927116394,
+  "rig_bone_count": 24,
+  "state": {
+    "vertices": 916134,
+    "loops": 5412459,
+    "polygons": 1804153,
+    "topology": "6e725c523518770b42061086456c85cdb4346bb4e6b7443e714a2ad63121fa50",
+    "keys": {
+      "Basis": "f798784780b6e1a5fa93fb11cf41d202d4f8eb35dc5450b28807ddff0021995e",
+      "Open": "a36e8b615484058b1403d272716a56adb5ea808c3661eaaa4da58af481c8c9a4",
+      "Focus": "dce615f72fbb1a6a60c337d9b8eb76e8e9edfa5b7fc0a0c049e0fc44a9b25837"
+    },
+    "weights": "b50893e56d976b7b4d02d6a94bcb9914a23787ba4959b92e1c54c969386ae710",
+    "original_corner_color": "4a48bf29a3e58fafa2002268a4e086dfc9ac79ecf12b539de0999f9752f9500a",
+    "all_action_key_curves": "c0e6476f19da755e8701aaee00a3a65a483e9c85808b0a294756de6b23595784"
+  },
+  "scope": "Actual editable fullc3 source-copy reopen. Only Body UV/material changed; remaining face-source/UV work is not declared complete."
+}

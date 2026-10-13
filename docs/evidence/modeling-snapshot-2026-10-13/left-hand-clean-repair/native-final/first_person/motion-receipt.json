@@ -1,0 +1,58 @@
+{
+	"controlled_animation_review": true,
+	"device": "Apple M4 Pro (Apple9)",
+	"diagnostic_taa_disabled": true,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fps": 30.0,
+	"framebuffer": [
+		1920,
+		1080
+	],
+	"frames": 158,
+	"human_playthrough": false,
+	"intervals": [
+		{
+			"action": "idle",
+			"first_frame": 0,
+			"frames": 13
+		},
+		{
+			"action": "shot",
+			"first_frame": 13,
+			"frames": 15
+		},
+		{
+			"action": "flash",
+			"first_frame": 28,
+			"frames": 39
+		},
+		{
+			"action": "luminol",
+			"first_frame": 67,
+			"frames": 30
+		},
+		{
+			"action": "salt",
+			"first_frame": 97,
+			"frames": 33
+		},
+		{
+			"action": "mud",
+			"first_frame": 130,
+			"frames": 28
+		}
+	],
+	"native_skinned_equipment": true,
+	"production_render_settings_changed": false,
+	"view": "first_person"
+}

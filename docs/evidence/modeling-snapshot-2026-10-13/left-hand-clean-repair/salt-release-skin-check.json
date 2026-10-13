@@ -1,0 +1,53 @@
+{
+  "salt": {
+    "Thumb": {
+      "minimum_skin_mm": -4.172866232693195,
+      "inside_over_1mm": 1,
+      "inside_over_3mm": 1,
+      "vertices": 12816,
+      "sample_every": 1
+    },
+    "Index": {
+      "minimum_skin_mm": -0.5927556776441634,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18486,
+      "sample_every": 1
+    },
+    "Middle": {
+      "minimum_skin_mm": 2.31437711045146,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18239,
+      "sample_every": 1
+    },
+    "Ring": {
+      "minimum_skin_mm": 1.6192630864679813,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18228,
+      "sample_every": 1
+    },
+    "Little": {
+      "minimum_skin_mm": 2.148117870092392,
+      "inside_over_1mm": 0,
+      "inside_over_3mm": 0,
+      "vertices": 18476,
+      "sample_every": 1
+    },
+    "thumb_nail": {
+      "center": [
+        -0.009004034101963043,
+        0.14741656184196472,
+        -0.0594513863325119
+      ],
+      "normal": [
+        -0.35098201036453247,
+        0.9361488223075867,
+        -0.020901484414935112
+      ],
+      "outward_dot": 0.9491487764753401,
+      "nearest_distance_mm": 10.43506059795618
+    }
+  }
+}

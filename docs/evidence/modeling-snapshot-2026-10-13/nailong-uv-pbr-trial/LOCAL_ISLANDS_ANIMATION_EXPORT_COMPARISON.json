@@ -1,0 +1,4408 @@
+{
+  "reference": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod0.glb",
+  "reference_sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+  "candidate": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/uv-pbr-trial/body_uv_4k_local_islands_only.glb",
+  "candidate_sha256": "519b70b06bed69e2a87b20a5229e724a7481d428a5991e9fd91cd7b1b1dccf2a",
+  "clips": [
+    "charge",
+    "chase",
+    "idle",
+    "recover",
+    "walk",
+    "warn"
+  ],
+  "bone_count": 24,
+  "bone_channels_compared": 432,
+  "body_weight_channels_compared": 6,
+  "body_target_names": [
+    "Open",
+    "Focus"
+  ],
+  "maximum_absolute_bone_value_difference": 0.0,
+  "maximum_absolute_body_weight_difference": 0.0,
+  "maximum_absolute_sampler_time_difference": 0.0,
+  "all_channels_finite": true,
+  "channels": [
+    {
+      "clip": "charge",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 16,
+      "value_count": 32,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "head",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "head",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "root",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "root",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "charge",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 16,
+      "value_count": 16,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 21,
+      "value_count": 42,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "head",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "head",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "root",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "root",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "chase",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 21,
+      "value_count": 21,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 97,
+      "value_count": 194,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "head",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "head",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "root",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "root",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "idle",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 97,
+      "value_count": 97,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 61,
+      "value_count": 122,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "head",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "head",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "root",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "root",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "recover",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 61,
+      "value_count": 61,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 31,
+      "value_count": 62,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "head",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "head",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "root",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "root",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "walk",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 31,
+      "value_count": 31,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "NailongSkin_Reconstructed",
+      "property": "weights",
+      "time_count": 25,
+      "value_count": 50,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "belly",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "belly",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "belly",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "brow_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "eye_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "foot_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "forearm_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "head",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "head",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "head",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "jaw",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "jaw",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "jaw",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "neck",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "neck",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "neck",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "palm_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "pelvis",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "pelvis",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "pelvis",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "root",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "root",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "root",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "shin_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "spine",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "spine",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "spine",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "tail",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "tail",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "tail",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "thigh_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_left",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_left",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_left",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_right",
+      "property": "rotation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_right",
+      "property": "scale",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    },
+    {
+      "clip": "warn",
+      "node": "upper_arm_right",
+      "property": "translation",
+      "time_count": 25,
+      "value_count": 25,
+      "interpolation": "LINEAR",
+      "maximum_absolute_time_difference": 0.0,
+      "maximum_absolute_value_difference": 0.0
+    }
+  ],
+  "scope": "Real GLB sampler arrays for Body Open/Focus and all24 native bones; body-only UV experiment, not face topology or graphical Godot acceptance"
+}

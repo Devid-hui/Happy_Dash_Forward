@@ -1,0 +1,15 @@
+{
+	"archive": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/native-escape-input-unlocked/isolated-archive.json",
+	"focus": "开始试炼",
+	"game_over": true,
+	"mouse_mode": 0,
+	"outcome": "You became part of the experiment.",
+	"screen": "menu",
+	"selected": [
+		"echo",
+		"daylight"
+	],
+	"tick_msec": 765881,
+	"tree_paused": false,
+	"viewport_size": "(1920.0, 1080.0)"
+}

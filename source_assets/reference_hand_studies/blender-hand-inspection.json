@@ -1,0 +1,27 @@
+{
+  "source_bundle": "human-base-meshes-bundle-v1.4.1",
+  "source_unchanged": true,
+  "actual_geometry_rendered": true,
+  "render_material": "neutral diagnostic clay",
+  "game_integrated": false,
+  "hands": [
+    {
+      "name": "Hand  - Realistic",
+      "base_vertices": 831,
+      "base_faces": 820,
+      "evaluated_vertices": 3300,
+      "evaluated_triangles": 6596,
+      "source_asset_author": "Dan Ulrich",
+      "source_asset_license": "CC0"
+    },
+    {
+      "name": "Hand - Stylized ",
+      "base_vertices": 871,
+      "base_faces": 880,
+      "evaluated_vertices": 871,
+      "evaluated_triangles": 1738,
+      "source_asset_author": "Julien Kaspar",
+      "source_asset_license": "CC0"
+    }
+  ]
+}

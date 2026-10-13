@@ -1,0 +1,7 @@
+{
+  "scope": "Only research_report GLB identity/geometry metadata refreshed using existing glb_info, all actual POSITION values finite; source/GLB unchanged",
+  "previous_sha256": "c28f4f3826e87da10fc9e56abd9c9829630c17b1dcb0c892adbd3fe58789f3ea",
+  "actual_sha256": "dcf61d25c5d8fbcc7aaffb941193f67884ee709198b5918cb763066ec2ea010a",
+  "triangle_count_unchanged": true,
+  "assets_manifest_sha256": "f44ff25a55a0ef69fcb414138bd6e63635c66932c7e5873b6c73a9b8cc43a92d"
+}

@@ -1,0 +1,73 @@
+{
+  "before": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-direct-fan-linear.blend",
+  "before_sha256": "2b8016d6929bba31b0e5f04df4a8e975b45698dbe0fdbfbc40c899506c95b1f4",
+  "faces": {
+    "SharedEyelidFace_left": {
+      "idle": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.682209014892578e-07,
+        "Body_focus_reference_used": true
+      },
+      "walk": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.9802322387695312e-08,
+        "Body_focus_reference_used": true
+      },
+      "chase": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 1.1920928955078125e-07,
+        "Body_focus_reference_used": true
+      },
+      "warn": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 0.003571629524230957,
+        "Body_focus_reference_used": true
+      },
+      "charge": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.384185791015625e-07,
+        "Body_focus_reference_used": true
+      },
+      "recover": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 1.280875023823569e-07,
+        "Body_focus_reference_used": true
+      }
+    },
+    "SharedEyelidFace_right": {
+      "idle": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.682209014892578e-07,
+        "Body_focus_reference_used": true
+      },
+      "walk": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.9802322387695312e-08,
+        "Body_focus_reference_used": true
+      },
+      "chase": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 1.1920928955078125e-07,
+        "Body_focus_reference_used": true
+      },
+      "warn": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 0.003571629524230957,
+        "Body_focus_reference_used": true
+      },
+      "charge": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 2.384185791015625e-07,
+        "Body_focus_reference_used": true
+      },
+      "recover": {
+        "same_key_count_and_floating_times": true,
+        "maximum_weight_change": 1.280875023823569e-07,
+        "Body_focus_reference_used": true
+      }
+    }
+  },
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-direct-fan-body-synced.blend",
+  "sha256": "d5433884ec79045f4c3ecd9ea2a4a01434558cacb2a1af87897567e6027e77af",
+  "scope": "Only joint weight values aligned to original Body Focus curve at existing float key times; no geometry, original Body/rig action, or extra samples changed."
+}

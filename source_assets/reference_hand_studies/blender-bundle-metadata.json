@@ -1,0 +1,381 @@
+{
+  "blender": "4.5.14 LTS",
+  "auto_execute": false,
+  "hands": [
+    {
+      "name": "GEO-hand_female_primitive_stylized.L",
+      "type": "MESH",
+      "dimensions": [
+        0.1107550784945488,
+        0.09881488233804703,
+        0.049020618200302124
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_female_primitive_stylized.R",
+      "type": "MESH",
+      "dimensions": [
+        0.1107550784945488,
+        0.09881488233804703,
+        0.049020618200302124
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_male_primitive_realistic.L",
+      "type": "MESH",
+      "dimensions": [
+        0.1264471411705017,
+        0.11036121100187302,
+        0.05900269001722336
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_male_primitive_realistic.R",
+      "type": "MESH",
+      "dimensions": [
+        0.1264471560716629,
+        0.11036120355129242,
+        0.05900268256664276
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_male_primitive_stylized.L",
+      "type": "MESH",
+      "dimensions": [
+        0.1498686969280243,
+        0.1347135305404663,
+        0.0707925409078598
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_male_primitive_stylized.R",
+      "type": "MESH",
+      "dimensions": [
+        0.1498686969280243,
+        0.1347135305404663,
+        0.0707925409078598
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_primitive_female_realistic.L",
+      "type": "MESH",
+      "dimensions": [
+        0.12406398355960846,
+        0.11134205758571625,
+        0.05672460049390793
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-hand_primitive_female_realistic.R",
+      "type": "MESH",
+      "dimensions": [
+        0.12406398355960846,
+        0.11134205758571625,
+        0.05672460421919823
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 2,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 113,
+      "polygons": 111,
+      "triangles": 222,
+      "quad_faces": 111,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-skeletion.hand_center.L",
+      "type": "MESH",
+      "dimensions": [
+        0.036469295620918274,
+        0.06121576577425003,
+        0.04312537983059883
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 1,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 530,
+      "polygons": 516,
+      "triangles": 1032,
+      "quad_faces": 516,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "GEO-skeletion.hand_center.R",
+      "type": "MESH",
+      "dimensions": [
+        0.036469295620918274,
+        0.06121576577425003,
+        0.04312537983059883
+      ],
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "levels": 1,
+          "sculpt_levels": null,
+          "render_levels": 2,
+          "total_levels": null
+        }
+      ],
+      "vertices": 530,
+      "polygons": 516,
+      "triangles": 1032,
+      "quad_faces": 516,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": []
+    },
+    {
+      "name": "Hand  - Realistic",
+      "type": "MESH",
+      "dimensions": [
+        0.15118861198425293,
+        0.0650545209646225,
+        0.28285709023475647
+      ],
+      "modifiers": [
+        {
+          "name": "Multires",
+          "type": "MULTIRES",
+          "levels": 1,
+          "sculpt_levels": 1,
+          "render_levels": 1,
+          "total_levels": 1
+        }
+      ],
+      "vertices": 831,
+      "polygons": 820,
+      "triangles": 1658,
+      "quad_faces": 819,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": [],
+      "asset": {
+        "author": "Dan Ulrich",
+        "description": "Realistic scan data model with multiresolution details",
+        "license": "CC0",
+        "copyright": "",
+        "tags": []
+      }
+    },
+    {
+      "name": "Hand - Stylized ",
+      "type": "MESH",
+      "dimensions": [
+        0.13264068961143494,
+        0.06786447763442993,
+        0.23510417342185974
+      ],
+      "modifiers": [],
+      "vertices": 871,
+      "polygons": 880,
+      "triangles": 1738,
+      "quad_faces": 858,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "materials": [],
+      "asset": {
+        "author": "Julien Kaspar",
+        "description": "Generic stylized hand topology",
+        "license": "CC0",
+        "copyright": "",
+        "tags": []
+      }
+    },
+    {
+      "name": "realistic_hand",
+      "type": "CAMERA",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "stylized_hand",
+      "type": "CAMERA",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": []
+    }
+  ],
+  "embedded_texts": {
+    "License": "LICENSE\n\nThe Rain Rig is released under the Creative Commons Attribution 4.0 license. \nThe attribution is © Blender Foundation | cloud.blender.org",
+    "README": "Important Info\n==============\n\nHuman Base Meshes: Asset Bundle - Version 1.4\n\nAll provided assets are public domain under the CC0 license.\nThe minimum supported Blender version is 4.2!\n\nWhat's included\n==============\n\nThese are various human base meshes that are provided by the Blender community and the Blender Studio.\nThey include:\n    - Quad topology for multi-resolution sculpting\n    - Closed volumes for voxel remeshing\n    - Face sets\n    - UV maps (including UDIMs)\n    - Multiresoluton levels for realistic assets\n    - Creased edges and Subdiv modifiers for planar/primitive assets\n\nHow to install the Asset Bundle\n===============================\n\nIt's recommended to create a new Asset Library in the preferences first:\n- Open the Preferences\n- Go to \"File Paths\"\n- Add a New Asset Library with the + button and call it \"Human Base Meshes\"\n- Set the \"Import Method\" to \"Append\"\n\nTo add the assets from this file to the Asset Library:\n- In the Asset Browser below, click on \"Copy Bundle to Asset Library\"\n- Choose a target Asset Library\n- Choose a target folder location\n\nThat's it. Enjoy!"
+  },
+  "image_blocks": [
+    {
+      "name": "Render Result",
+      "size": [
+        0,
+        0
+      ],
+      "source": "VIEWER"
+    }
+  ]
+}

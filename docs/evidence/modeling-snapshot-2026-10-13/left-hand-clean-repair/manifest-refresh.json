@@ -1,0 +1,22 @@
+{
+  "scope": "Only three field-equipment entries refreshed from actual GLB JSON/accessors; original unique-primitive count convention retained, not simultaneously submitted geometry",
+  "entries": [
+    {
+      "key": "field_equipment.glb",
+      "triangles": 229800,
+      "sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c"
+    },
+    {
+      "key": "field_equipment_lod1.glb",
+      "triangles": 100365,
+      "sha256": "0941830d682e279eda121fe79a9544d770d1fa3df7abf620b7dd57baca78dde5"
+    },
+    {
+      "key": "field_equipment_lod2.glb",
+      "triangles": 43264,
+      "sha256": "a894c493f8aa783865f1efb0e7e970e0c6751a7695b3633831ad80bb23864137"
+    }
+  ],
+  "before_manifest_sha256": "84793e6f819902c98718fb1dc8c39f89b76f7300e987903b01941c03b203df8b",
+  "after_manifest_sha256": "a348b4c92d8cf2d64f932f7228c873833eee935edaf52da4fa07c752c250ae28"
+}

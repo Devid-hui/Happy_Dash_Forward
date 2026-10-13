@@ -1,0 +1,3 @@
+--restart-write {'exit': 0, 'errors': [], 'marker': True, 'pass_lines': ['RESTART CONTRACT PASS --restart-write: 4 checks']}
+--restart-read {'exit': 0, 'errors': [], 'marker': True, 'pass_lines': ['RESTART CONTRACT PASS --restart-read: 3 checks']}
+SCIENCE_ARCHIVE_INDEPENDENT_PROCESS_RESTART_PASS

@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SPECTRUM GAMEPLAY PASS: 37 real-resource, physics-ray, collision-occlusion, cone, knockback, sound, movement, pause and input checks
+RELEASED render; exact owned PID 57928 exit 0

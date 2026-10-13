@@ -74,5 +74,6 @@ func _process(delta: float) -> void:
 	else:
 		next_flash -= delta
 		if next_flash <= 0.0:
-			next_flash = (randf_range(11,19) if GameState.reduced_flashes else randf_range(8,16))/FREQUENCY_MULTIPLIER
+			# Accessibility changes the visible flash, retaining capture opportunities.
+			next_flash = randf_range(8,16)/FREQUENCY_MULTIPLIER
 			trigger_strike(Vector3(randf_range(-85,85),0,randf_range(-85,85)))

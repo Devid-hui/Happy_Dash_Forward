@@ -1,0 +1,7 @@
+Happy Dash Forward refined assets
+
+Field-equipment hands derive from MakeHuman hm08 base.obj, released under CC0 1.0 Universal by the MakeHuman contributors in September 2020. The extracted hand/wrist topology is modified, refined, skinned and independently posed here. Upstream OBJ, license, CC0 legal statement, source URL and SHA-256 are retained under source_assets/reference_cc0/. MakeHuman program code is not included.
+
+Other field-equipment geometry, vehicle, power tower, research report and their generated PBR maps are authored by the included Blender scripts. Environment and character assets have their own source/provenance manifests; consult the aggregate ASSET_MANIFEST.json and corresponding source metadata.
+
+Source files remain editable. Current geometry is candidate material under visual review; licensing and exported geometry checks do not imply acceptance.

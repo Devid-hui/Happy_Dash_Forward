@@ -1,0 +1,29 @@
+{
+  "source_sha256": "2b8016d6929bba31b0e5f04df4a8e975b45698dbe0fdbfbc40c899506c95b1f4",
+  "visible_glb_sha256": "d62c0c603e5f0aae2e7f08516471607988c592fb8dab8e6cec001ca95c016861",
+  "normal_arrays_unchanged_by_standard_helper_drop": true,
+  "eyes": {
+    "left": {
+      "mapped_boundary_vertices": 418,
+      "grid_and_mid_F_states": 231,
+      "actual_LINEAR_NORMAL_mix_worst": {
+        "B": 0.0,
+        "F": 0.4,
+        "max_degrees": 0.8041181287432796
+      },
+      "pass_original_0_05_degree_threshold": false
+    },
+    "right": {
+      "mapped_boundary_vertices": 459,
+      "grid_and_mid_F_states": 231,
+      "actual_LINEAR_NORMAL_mix_worst": {
+        "B": 0.0,
+        "F": 0.4,
+        "max_degrees": 0.8798509210394396
+      },
+      "pass_original_0_05_degree_threshold": false
+    }
+  },
+  "runtime_helper_material_references": [],
+  "all_actual_normal_mix_boundaries_pass": false
+}

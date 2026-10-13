@@ -1,0 +1,15 @@
+{
+  "status": "Measured local-island UV repair selected for actualbake; not finalart",
+  "atlas_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/colour-island-local-atlas.npz",
+  "atlas_sha256": "8b8620dc0aeba2ea357ddfd60f0eeb948f2ae5bc124b0d8b74916d6fab99d5d9",
+  "metrics_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/colour-island-local-metrics.json",
+  "pixel_audit_path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-uv-pbr-trial/colour-island-local-pixel-audit.json",
+  "body_triangle_uv_area_fraction": 0.3266228465471005,
+  "independent_strict_pixel_coverage": 0.312962,
+  "overlap_scope": "Independent strict pixel-center triangle interiors; shared borders excluded. Does not exclude subpixel overlaps.",
+  "bake_margin_pixels": 2,
+  "bake_margin_type": "ADJACENT_FACES",
+  "source_c3_sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+  "actual_measured_local_colour_error_repairs": 183,
+  "all_other_face_uv_corners_bit_exact": true
+}

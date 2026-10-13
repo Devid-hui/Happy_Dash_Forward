@@ -12,6 +12,12 @@ const DESCRIPTIONS := {
 
 func setup(game_world) -> void:
 	world = game_world
+	# Historical discoveries live only in GameState's archive. A fresh run must
+	# discover and announce its own conditions again.
+	discovered.clear()
+
+func reset() -> void:
+	discovered.clear()
 
 func check_trigger(skill_id: String) -> String:
 	var player = world.player
@@ -27,5 +33,6 @@ func check_trigger(skill_id: String) -> String:
 		var pair_parts: PackedStringArray = pair_id.split("_")
 		if equipped.has(pair_parts[0]) and equipped.has(pair_parts[1]) and conditions[pair_id] and not discovered.has(pair_id):
 			discovered.append(pair_id)
+			GameState.record_fusion(pair_id, DESCRIPTIONS[pair_id])
 			found.append(DESCRIPTIONS[pair_id])
 	return "\n".join(found)

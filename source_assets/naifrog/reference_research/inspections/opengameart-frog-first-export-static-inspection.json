@@ -1,0 +1,47 @@
+{
+  "file": "work/naifrog/resource-research/inspections/opengameart-frog-research.glb",
+  "bytes": 23740,
+  "sha256": "f2b3514bd1c8d3bae16888eb83cca3965c761de224b12a7dac1542ed4b41170d",
+  "header": {
+    "magic": "glTF",
+    "version": 2,
+    "declared_bytes": 23740
+  },
+  "skins": [],
+  "meshes": [
+    {
+      "name": "Cube.007",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices_count": 1800,
+          "vertex_count": 478
+        }
+      ]
+    }
+  ],
+  "animations": [],
+  "images": [
+    {
+      "name": "frog",
+      "mimeType": "image/png",
+      "embedded": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "frog",
+      "fields": [
+        "alphaMode",
+        "doubleSided",
+        "extensions",
+        "name",
+        "pbrMetallicRoughness"
+      ]
+    }
+  ]
+}

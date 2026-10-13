@@ -1,0 +1,182 @@
+Yule Frog - 3D Printing with Blender - Blender Studio
+Reply
+Comment
+Comment
+Blender Studio
+Blender Studio
+Films
+Projects
+Training
+Assets
+Tools
+Blog
+Join
+BLENDER.ORG
+Download
+Get the latest Blender, older versions, or experimental builds.
+What's New
+Stay up-to-date with the new features in the latest Blender releases.
+DEVELOPMENT
+Roadmap
+See which projects are currently being worked on and what's next.
+Documentation
+Guidelines, release notes and development docs.
+LEARNING & RESOURCES
+Blender Studio
+Access production assets and knowledge from the open movies.
+Manual
+Documentation on the usage and features in Blender.
+Benchmark
+A platform to collect and share results of the Blender Benchmark.
+Blender Conference
+The yearly event that brings the community together.
+DONATE
+Development Fund
+Support core development with a monthly contribution.
+One-time Donations
+Perform a single donation with more payment options available.
+Training Highlights
+Customizing Material Assets
+Course
+Advanced Facial Rigging
+Course
+3D Printing with Blender
+Course
+Story Tools
+Course
+Training types
+Course
+Documentation
+Production Lesson
+Workshop
+Training categories
+Animation
+Geometry Nodes
+Lighting
+Rendering
+Rigging
+Shading
+Film Highlights
+Cowboi
+In Development
+Overgrown
+In Development
+Singularity
+2026
+Wing It!
+2023
+Project Highlights
+Impulse Purchase
+Other
+Project Storm
+Rigging R&D
+DOGWALK
+Interactive
+Project Gold
+Showcase
+Assets Highlights
+Characters
+Models & rigs
+Assets
+All production files
+Libraries
+Curated sets
+Vault
+Everything
+Content
+Course
+3D Printing with Blender
+Simple Coin
+01
+Introduction
+Free
+02
+Basic Coin
+Free
+03
+Adding Text
+Free
+04
+Engraving
+Free
+05
+Finishing Touches
+Free
+Blend File
+Free
+Two Sided Coin
+01
+Making Two Sides
+Free
+02
+Final Version
+Free
+Blend File
+Free
+Yule Frog
+01
+Basic Shape
+02
+Eyes
+03
+Legs
+04
+Hat
+05
+Sculpt Feet
+06
+Sculpt Mouth
+07
+Attachs Legs
+08
+Attach Eyelids
+09
+Finishing Touches
+Yule Frog Blend File
+3D Printing with Blender
+Yule Frog
+Report Problem
+Making a yule frog figurine, to be 3d printed.
+10:50
+Basic Shape
+6:33
+Eyes
+6:56
+Legs
+13:32
+Hat
+9:35
+Sculpt Feet
+5:57
+Sculpt Mouth
+3:02
+Attachs Legs
+5:37
+Attach Eyelids
+6:34
+Finishing Touches
+Yule Frog Blend File
+Films
+Projects
+Training
+Blog
+Blender Studio for Teams
+Pipeline and Tools
+CloudRig
+Blender Kitsu
+Brushstroke Tools Add-on
+Blender Studio Extensions
+Characters
+Critter Evolved
+Critter
+One
+Space Creatures
+Studio
+Terms & Conditions
+Privacy Policy
+Contact
+Remixing Music
+Blender Studio
+The creators who share.
+Artistic freedom starts with Blender  The Free and Open Source
+3D Creation Suite

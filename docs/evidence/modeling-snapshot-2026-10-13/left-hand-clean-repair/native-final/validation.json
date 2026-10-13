@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "import": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "hand-contract": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "static-contract": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "spectrum-contract": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "closeups": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "first_person": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "left_oblique": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    },
+    "right_oblique": {
+      "exit": 0,
+      "marker": true,
+      "errors": []
+    }
+  },
+  "native_frames": 236,
+  "native_closeups": 3,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "input_hashes_unchanged": true,
+  "final_hashes": {
+    "tools/makehuman_hand.py": "7387e63b8ea89ad603c4aba9a73ac7cc809c38f94b8389864fdc514505e5cfae",
+    "tools/hand_surface_detail.py": "1b65c989bd826ee9a1fd6be0ce51dc3dbb58caf3ab287e19e829b51402be5314",
+    "tools/arm_sleeve_profile.py": "f9b27ffe2c305caa08ad1a34e9de3a6c7500a65d5f3be9020db70f5243395b57",
+    "tools/build_anatomical_spectra.py": "1bc1f264968df4fb5bbeb90f2743507079877fd6db6ef8c158bda41c62cf50b1",
+    "tools/build_high_fidelity_assets.py": "e0eaed07de531f6dcd29bbcf3ccb285d8057db6b1317eb70c19e3631224aa1df",
+    "scripts/player/field_equipment.gd": "ade57121eb2ced1fdae292c0adb1b0f408603f482b97c23ca298a6592578d30e",
+    "source_assets/field_equipment.blend": "06e36f74a2abbb3dda173b070c3431ed6a15d4f4d872958242597a3eab5e08dd",
+    "source_assets/COMMERCIAL_MODEL_MANIFEST.json": "7835db432d03db66198c8d25e6bb878b56ae07a25434c3b2f44bb98054b08f30",
+    "assets/refined/field_equipment.glb": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+    "assets/refined/field_equipment_lod1.glb": "0941830d682e279eda121fe79a9544d770d1fa3df7abf620b7dd57baca78dde5",
+    "assets/refined/field_equipment_lod2.glb": "a894c493f8aa783865f1efb0e7e970e0c6751a7695b3633831ad80bb23864137",
+    "tests/hand_anatomy_contract.gd": "609adc7bef00e34c5ad4d2839d5029ca83ae202f230f3cd25f59d165b0fb096a",
+    "tests/hand_motion_review.gd": "c33e623622fe46eb13f88d6a93afed887cceb13a26ef4207fe4009e968c6efef",
+    "tests/left_thumb_review.gd": "fc3f5545688e64252e238b6cd735cb4b0f5df25ee185f26f6066af63d2c91b76",
+    "tests/static_assets_contract.gd": "d56d89aa55abd3612e6d0aa531a14f31313c0f39c3a5bf80d811c6403545c796",
+    "tests/spectrum_gameplay_contract.gd": "5eeefa44fc398820a58ef1d7d8c5fe3309f11cb0e82ed48b9ec530ce37774e54"
+  },
+  "human_playthrough": false,
+  "entire_four_stage_goal_complete": false
+}

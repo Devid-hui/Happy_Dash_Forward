@@ -1,0 +1,321 @@
+{
+  "files": [
+    {
+      "file": "nailong_lod0.glb",
+      "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+      "native_Open_Focus_max_difference": 0.0,
+      "matching_body_expression_tracks": true,
+      "clips": [
+        {
+          "clip": "charge",
+          "union_and_midpoint_samples": 31,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ]
+        },
+        {
+          "clip": "chase",
+          "union_and_midpoint_samples": 41,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ]
+        },
+        {
+          "clip": "idle",
+          "union_and_midpoint_samples": 193,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ]
+        },
+        {
+          "clip": "recover",
+          "union_and_midpoint_samples": 121,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ]
+        },
+        {
+          "clip": "walk",
+          "union_and_midpoint_samples": 61,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ]
+        },
+        {
+          "clip": "warn",
+          "union_and_midpoint_samples": 49,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ]
+        }
+      ],
+      "actual_oral_sampler_intervals_checked": 245,
+      "continuous_minimum_projected_triangle_area_ratio": 0.9948724150421399,
+      "oral_triangles_never_reverse": true,
+      "worst_area": {
+        "clip": "warn",
+        "interval": 23,
+        "triangle": 5923,
+        "min_projected_area_ratio": 0.9948724150421399
+      },
+      "oral_target_names": [
+        "Open",
+        "Focus"
+      ],
+      "cleanup": {
+        "deleted_original_polygons": 15737,
+        "original_vertex_ids_preserved": true,
+        "retained_triangles_exact": true,
+        "retained_corner_colors_exact": true
+      }
+    },
+    {
+      "file": "nailong_lod1.glb",
+      "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+      "native_Open_Focus_max_difference": 0.0,
+      "matching_body_expression_tracks": true,
+      "clips": [
+        {
+          "clip": "charge",
+          "union_and_midpoint_samples": 31,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ]
+        },
+        {
+          "clip": "chase",
+          "union_and_midpoint_samples": 41,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ]
+        },
+        {
+          "clip": "idle",
+          "union_and_midpoint_samples": 193,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ]
+        },
+        {
+          "clip": "recover",
+          "union_and_midpoint_samples": 121,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ]
+        },
+        {
+          "clip": "walk",
+          "union_and_midpoint_samples": 61,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ]
+        },
+        {
+          "clip": "warn",
+          "union_and_midpoint_samples": 49,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ]
+        }
+      ],
+      "actual_oral_sampler_intervals_checked": 245,
+      "continuous_minimum_projected_triangle_area_ratio": 0.9949264923635847,
+      "oral_triangles_never_reverse": true,
+      "worst_area": {
+        "clip": "warn",
+        "interval": 23,
+        "triangle": 2923,
+        "min_projected_area_ratio": 0.9949264923635847
+      },
+      "oral_target_names": [
+        "Open",
+        "Focus"
+      ],
+      "cleanup": {
+        "deleted_original_polygons": 5166,
+        "original_vertex_ids_preserved": true,
+        "retained_triangles_exact": true,
+        "retained_corner_colors_exact": true
+      }
+    },
+    {
+      "file": "nailong_lod2.glb",
+      "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+      "native_Open_Focus_max_difference": 0.0,
+      "matching_body_expression_tracks": true,
+      "clips": [
+        {
+          "clip": "charge",
+          "union_and_midpoint_samples": 31,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.5333333611488342
+          ]
+        },
+        {
+          "clip": "chase",
+          "union_and_midpoint_samples": 41,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.699999988079071
+          ]
+        },
+        {
+          "clip": "idle",
+          "union_and_midpoint_samples": 193,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            3.2333333492279053
+          ]
+        },
+        {
+          "clip": "recover",
+          "union_and_midpoint_samples": 121,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            2.0333333015441895
+          ]
+        },
+        {
+          "clip": "walk",
+          "union_and_midpoint_samples": 61,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            1.0333333015441895
+          ]
+        },
+        {
+          "clip": "warn",
+          "union_and_midpoint_samples": 49,
+          "body_and_bag_Open_Focus_max_difference": 0.0,
+          "body_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ],
+          "bag_range": [
+            0.03333333507180214,
+            0.8333333134651184
+          ]
+        }
+      ],
+      "actual_oral_sampler_intervals_checked": 245,
+      "continuous_minimum_projected_triangle_area_ratio": 0.9945854254967754,
+      "oral_triangles_never_reverse": true,
+      "worst_area": {
+        "clip": "warn",
+        "interval": 23,
+        "triangle": 2923,
+        "min_projected_area_ratio": 0.9945854254967754
+      },
+      "oral_target_names": [
+        "Open",
+        "Focus"
+      ],
+      "cleanup": {
+        "deleted_original_polygons": 1557,
+        "original_vertex_ids_preserved": true,
+        "retained_triangles_exact": true,
+        "retained_corner_colors_exact": true
+      }
+    }
+  ],
+  "scope": "Actual whole-asset GLB samplers. Continuous signed triangle area in oral-bag linear morph intervals; does not prove mouth-body absence of all collisions or native material visuals.",
+  "passed": true
+}

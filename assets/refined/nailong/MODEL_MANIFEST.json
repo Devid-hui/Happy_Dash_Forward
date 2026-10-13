@@ -1,0 +1,68 @@
+{
+  "generator": "tools/build_nailong_asset.py",
+  "blender": "4.5.14 LTS",
+  "reference": "https://www.nailoong.com/ipStar/Nailong/",
+  "coordinate_system": "Godot Y up, -Z facing",
+  "license": "Original authored mesh and maps; character IP belongs to its owner.",
+  "clips": {
+    "idle": {
+      "duration": 3.2,
+      "frames": 96,
+      "root_motion": false
+    },
+    "walk": {
+      "duration": 1.0,
+      "frames": 30,
+      "root_motion": false
+    },
+    "chase": {
+      "duration": 0.68,
+      "frames": 20,
+      "root_motion": false
+    },
+    "warn": {
+      "duration": 0.8,
+      "frames": 24,
+      "root_motion": false
+    },
+    "charge": {
+      "duration": 0.5,
+      "frames": 15,
+      "root_motion": false
+    },
+    "recover": {
+      "duration": 2.0,
+      "frames": 60,
+      "root_motion": false
+    }
+  },
+  "source_skin_triangles": 1771468,
+  "bones": 24,
+  "lod0_triangles": 265784,
+  "bounds_rest_blender": {
+    "min": [
+      -1.03,
+      -1.01,
+      -0.025
+    ],
+    "max": [
+      1.03,
+      0.66,
+      2.83
+    ]
+  },
+  "bounds_animation_godot": {
+    "position": [
+      -1.24,
+      -0.13,
+      -0.94
+    ],
+    "size": [
+      2.48,
+      3.15,
+      2.12
+    ]
+  },
+  "lod1_triangles": 83984,
+  "lod2_triangles": 28861
+}

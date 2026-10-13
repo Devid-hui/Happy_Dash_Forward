@@ -1,0 +1,53 @@
+{
+  "assets/refined/nailong/nailong_lod0.glb": {
+    "sha256": "c340395c197a44c2c22652a24458343ad0246dd966e575b1b6e67c5d872f55b1",
+    "bytes": 76573612,
+    "source": "work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod0.glb",
+    "copied_file_not_link": true
+  },
+  "assets/refined/nailong/nailong_lod1.glb": {
+    "sha256": "70aef5e193e0255bacc5ebf0b717a46a8280177d4c9e7acbf13906a526717b18",
+    "bytes": 36802576,
+    "source": "work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod1.glb",
+    "copied_file_not_link": true
+  },
+  "assets/refined/nailong/nailong_lod2.glb": {
+    "sha256": "b729eb413b05bbda83c76be65f3310db5178ee240c744effaae49b7b007d5e8e",
+    "bytes": 29096272,
+    "source": "work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod2.glb",
+    "copied_file_not_link": true
+  },
+  "scripts/enemies/hunter_visual.gd": {
+    "sha256": "4e5abc54e5d4759d780977e1fbb611da1c2a29ac6b8a34b418f0c0e3c8acd189",
+    "source": "/Users/lpz/Documents/Happy_Dash_Forward/scripts/enemies/hunter_visual.gd",
+    "byte_identical_to_production_at_start": true
+  },
+  "project.godot": {
+    "sha256": "09ef987c96d62b8e432bd28fb03b003a6a43613f83bfd483eea2707ada3244ab",
+    "bytes": 267
+  },
+  "tests/runtime_contract.gd": {
+    "sha256": "580ff61ddf6fcf3d4f1e5d89ce00b9875bb1d5771ad3722b7970cc22773a6f14",
+    "bytes": 17470
+  },
+  "tests/runtime_contract.tscn": {
+    "sha256": "a23e67266a31ad2c1839d2768a9d9226b17fc50532fb4595a874a035f21ec943",
+    "bytes": 188
+  },
+  "tests/evaluate_native_dump.py": {
+    "sha256": "8a3805e9d5f91981dfdf53a68213601d4c1c487e15668df70cca63111e559050",
+    "bytes": 13425
+  },
+  "run_isolated.py": {
+    "sha256": "0146c487f356c9df67bf476d48375bb5eba73ed89afe7439bf37bb1b24acdf79",
+    "bytes": 7371
+  },
+  "work/nailong/rig-candidate/face-tail-trial-v3/source/nailong_reconstructed_rig.blend": {
+    "sha256": "c3f08b4b01489b5cc548aac7f23717338d24819fbb0e514706d59986bfa6be8c",
+    "bytes": 104764853
+  },
+  "work/nailong/rig-candidate/face-tail-trial-v3/MODEL_MANIFEST.json": {
+    "sha256": "c66ff4e563b243344f27bf2f36561f98c90c685d92fc376745d54ed50d1ca284",
+    "bytes": 1153300
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "project": "happy-dash-forward-audit-20261012",
+  "paths": [
+    "scripts/core/game_state.gd",
+    "scripts/core/research_manager.gd",
+    "scripts/ui/hud_controller.gd",
+    "scripts/skills/skill_manager.gd",
+    "scripts/skills/fusion_manager.gd",
+    "scripts/player/player.gd",
+    "scripts/world/world.gd",
+    "scripts/world/storm_controller.gd",
+    "scripts/enemies/hunter.gd"
+  ],
+  "scopes": [
+    "scripts/core",
+    "scripts/skills",
+    "scripts/player",
+    "scripts/world",
+    "scripts/enemies"
+  ],
+  "path_limit": 20,
+  "scope_limit": 20,
+  "diagnostics": "full",
+  "format": "json"
+}

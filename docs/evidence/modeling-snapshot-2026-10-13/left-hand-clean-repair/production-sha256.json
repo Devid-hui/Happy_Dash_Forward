@@ -1,0 +1,12 @@
+{
+  "tools/makehuman_hand.py": "7387e63b8ea89ad603c4aba9a73ac7cc809c38f94b8389864fdc514505e5cfae",
+  "tools/skin_thumb_fit.py": "416a236fa6ae8244d86e271ca3b112fe76a0b2be44a7a88971cc4d9eb0e2ac0f",
+  "tools/hand_surface_detail.py": "1b65c989bd826ee9a1fd6be0ce51dc3dbb58caf3ab287e19e829b51402be5314",
+  "tools/build_anatomical_spectra.py": "1bc1f264968df4fb5bbeb90f2743507079877fd6db6ef8c158bda41c62cf50b1",
+  "tools/build_high_fidelity_assets.py": "e0eaed07de531f6dcd29bbcf3ccb285d8057db6b1317eb70c19e3631224aa1df",
+  "source_assets/field_equipment.blend": "06e36f74a2abbb3dda173b070c3431ed6a15d4f4d872958242597a3eab5e08dd",
+  "assets/refined/field_equipment.glb": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+  "assets/refined/field_equipment_lod1.glb": "0941830d682e279eda121fe79a9544d770d1fa3df7abf620b7dd57baca78dde5",
+  "assets/refined/field_equipment_lod2.glb": "a894c493f8aa783865f1efb0e7e970e0c6751a7695b3633831ad80bb23864137",
+  "assets/refined/textures/anatomical_warm_skin_basecolor_left_nail_blend.png": "6af260ffeda002311b5ec18c885ace985d46f938e3446c725e5596cdea24d96b"
+}

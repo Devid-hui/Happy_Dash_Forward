@@ -1,0 +1,38 @@
+{
+  "broadleaf_tree_4": {
+    "collision_radius": 0.37,
+    "collision_height": 7.075540579855442
+  },
+  "broadleaf_tree_5": {
+    "collision_radius": 0.37,
+    "collision_height": 7.977625876665115
+  },
+  "broadleaf_tree_6": {
+    "collision_radius": 0.37,
+    "collision_height": 7.854043059051037
+  },
+  "broadleaf_tree_2": {
+    "collision_radius": 0.37,
+    "collision_height": 7.5711301900446415
+  },
+  "broadleaf_tree_3": {
+    "collision_radius": 0.37,
+    "collision_height": 7.567327104508877
+  },
+  "broadleaf_tree_1": {
+    "collision_radius": 0.37,
+    "collision_height": 7.193545896559954
+  },
+  "dead_tree_1": {
+    "collision_radius": 0.37,
+    "collision_height": 8.388850651681423
+  },
+  "dead_tree_3": {
+    "collision_radius": 0.37,
+    "collision_height": 8.694557592272758
+  },
+  "dead_tree_2": {
+    "collision_radius": 0.37,
+    "collision_height": 9.75319480523467
+  }
+}

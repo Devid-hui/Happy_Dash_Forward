@@ -1,0 +1,31 @@
+{
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-candidate.blend",
+  "source_sha256": "56f36c9b1042e4f6788f791c713d69433296597d7a44c69ca7a41efee2cd2691",
+  "images_actually_viewed_by_root": [
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-topology-v5/dual-joint-source-previews/blink-000-focus-000-front.png",
+      "sha256": "905aa39fb204443570af201831606973421db5ed0d5e9dafee937820c8a4abf9"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-topology-v5/dual-joint-source-previews/blink-050-focus-000-front.png",
+      "sha256": "8aa1afb0da5c487dbd92a41c268eb82fbe006abdc167a5134d2369abb99a06d5"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-topology-v5/dual-joint-source-previews/blink-100-focus-000-left-near.png",
+      "sha256": "7fbc9a98f83f58beb21e50b0d888bf90b4d314ec34c7b7d594fbe969305185de"
+    },
+    {
+      "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/nailong-face-topology-v5/dual-joint-source-previews/blink-000-focus-100-front.png",
+      "sha256": "6c36bf02d45453c139b3a6d9f6eef5f91fc38a3b4fade8976d214e69aa82925d"
+    }
+  ],
+  "renderer": "CyclesCPU source previews; not Godot or normal input",
+  "observations": [
+    "Visible front radial lines and C-shaped double rims reduced in both eyes",
+    "Closed side keeps eyelid volume; do not flatten whole face",
+    "Focus100 visual difference is subtle; measure realFocus delta and assesswarn/charge expression in actualclips"
+  ],
+  "single_eye_technical_check": "ROOT_CDT_FIXED_ACCEPTANCE.json binds original101states/13conditionsPASS; cannot substitute for dual-eye/Focus/interobject checks",
+  "dual_geometry_export_LOD_native_final_art_accepted": false,
+  "production_models_replaced": false
+}

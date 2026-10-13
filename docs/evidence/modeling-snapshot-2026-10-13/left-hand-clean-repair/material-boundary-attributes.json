@@ -1,0 +1,26 @@
+{
+  "(7, 8)": {
+    "matching_positions": 301,
+    "max_difference": {
+      "NORMAL": 0.0,
+      "TEXCOORD_0": 0.0,
+      "COLOR_0": 0.0
+    }
+  },
+  "(7, 9)": {
+    "matching_positions": 82,
+    "max_difference": {
+      "NORMAL": 0.0,
+      "TEXCOORD_0": 0.11361265182495117,
+      "COLOR_0": 0.0
+    }
+  },
+  "(8, 9)": {
+    "matching_positions": 94,
+    "max_difference": {
+      "NORMAL": 0.0,
+      "TEXCOORD_0": 0.11361265182495117,
+      "COLOR_0": 0.0
+    }
+  }
+}

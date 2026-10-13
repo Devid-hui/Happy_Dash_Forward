@@ -1,0 +1,1 @@
+{"project":"happy-dash-forward-audit-20261012","paths":["scripts/core/game_state.gd","scripts/world/world.gd","scripts/ui/hud_controller.gd","scripts/player/player.gd","scripts/enemies/hunter.gd","tests/progression_contract.gd","tests/progression_world.gd","tests/spectrum_gameplay_contract.gd"],"diagnostics":"full","format":"json"}

@@ -1,0 +1,6 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PROGRESSION CONTRACT PASS: 160 checks; report transactions, 9 ability routes, 3 report choices, archive reload, corruption preservation, independent run fusions
+RELEASED render; exact owned PID 57921 exit 0

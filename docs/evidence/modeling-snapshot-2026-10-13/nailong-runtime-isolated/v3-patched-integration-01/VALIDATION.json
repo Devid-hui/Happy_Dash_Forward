@@ -1,0 +1,53 @@
+{
+  "phases": [
+    {
+      "phase": "import",
+      "exit": 0,
+      "seconds": 1.77,
+      "command": [
+        "/Users/lpz/Documents/Codex/2026-10-12/git-github-com-devid-hui-happy/work/audit/runtime/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project",
+        "--editor",
+        "--import"
+      ]
+    },
+    {
+      "phase": "native-runtime",
+      "exit": 0,
+      "seconds": 1.673,
+      "command": [
+        "/Users/lpz/Documents/Codex/2026-10-12/git-github-com-devid-hui-happy/work/audit/runtime/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/runtime-isolated-project",
+        "res://tests/runtime_contract.tscn"
+      ]
+    },
+    {
+      "phase": "all-native-vertices",
+      "exit": 0,
+      "seconds": 12.189
+    }
+  ],
+  "frozen_candidate_origins_unchanged_after": {
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod0.glb": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod1.glb": true,
+    "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/rig-candidate/face-tail-trial-v3/nailong_lod2.glb": true
+  },
+  "isolated_actual_inputs_unchanged_after": {
+    "assets/refined/nailong/nailong_lod0.glb": true,
+    "assets/refined/nailong/nailong_lod1.glb": true,
+    "assets/refined/nailong/nailong_lod2.glb": true,
+    "scripts/enemies/hunter_visual.gd": true,
+    "project.godot": true,
+    "tests/runtime_contract.gd": true,
+    "tests/runtime_contract.tscn": true,
+    "tests/evaluate_native_dump.py": true,
+    "run_isolated.py": true
+  },
+  "production_source_unchanged_since_copy": true,
+  "headless_only": true,
+  "scope": "Isolated project; no production assets overwritten, no hard links, no graphical Godot or UI control. Full-art/full-game goal not inferred."
+}

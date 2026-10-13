@@ -1,0 +1,5 @@
+{"written": "work/naifrog/resource-research/inspections/opengameart-frog-inspection.json", "meshes": 1, "armatures": 1, "actions": ["idle", "idle_pose", "jump", "land", "tpose", "walk", "walk_pose_1", "walk_pose_2"]}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:30:44)
+Read blend: "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/naifrog/resource-research/downloads/opengameart-frog/frog/frog.blend"
+
+Blender quit

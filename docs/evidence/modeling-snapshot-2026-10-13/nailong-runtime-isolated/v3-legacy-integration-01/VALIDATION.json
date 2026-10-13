@@ -1,0 +1,20 @@
+{
+  "phases": [
+    {
+      "phase": "import",
+      "exit": 0
+    },
+    {
+      "phase": "native-runtime",
+      "exit": 0
+    },
+    {
+      "phase": "all-native-vertices",
+      "exit": 1
+    }
+  ],
+  "wrapper_finalization_error": "Relative source-blend/manifest keys were incorrectly treated as isolated-project-relative during final hash lookup. Native run and numerical audit finished. Tested wrapper retained by exact input hash; future wrapper resolves those paths before recording.",
+  "tested_native_core_inputs_unchanged": true,
+  "result": "Legacy integration fails bounds and joint-corrective semantics. Pelvis placement false-positive requires source-semantic checker correction, not relaxing limb bone thresholds.",
+  "headless_only": true
+}

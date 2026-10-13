@@ -1,0 +1,146 @@
+[
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/afterimage-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "b23cfe2bf4fb20b2a195ab8cf86bcc2e924546cd5ae4d016df7c19aaee101dea"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/afterimage-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "a75b498b6082d58707e56dba8a24050128cb4b6f1f40ac8fa13eb944f2d7f3a3"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/daylight-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "3147efb4baee325025e9273078a93b350668346abea57e3f15d68d6722d57c3e"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/daylight-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "0289abe87162f7bcce35f72a99946b23b29b6a90443fe8ad927565f83900f432"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/echo-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "91716fdfad044ee772122d096c38ad45ec671342601599a7bf9ea63f69764baf"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/echo-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "69b6a09962003eb7dd85c9d692f35dda8c9741522063075266504e24da8936cc"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/filter-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "0bceb5aec375b825f94874edd69a6895f8d8efefc699bbf6f17c51eda46fd0c5"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/filter-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "416863287bcb0ca61078f71735b6af946fa46b54b2d5f918de37ddc3cae32d7b"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/lamp-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "bb8360739ed2519fb91bf57214328c988d8aeaf1be6e99241abf7e9378859d00"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/lamp-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "cc0b1dccb1e7b0ceaab4124f383e0c7091fcdf4a1dbf7df4d2b068305c01346e"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/luminol-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "d4fcbc39041ecdaf5f1a2df02502740002ed90fa77884368520b03099ceebee9"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/luminol-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "c44bdbd021bfb7002e2152b29bec07b52620874068ba0c6517fd8ee2b2e3d9a9"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/mire-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "104383e66fd77d78fc962fb363f7420754d894fbd6f19e3dea67df7efe34d67b"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/mire-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "9abb03a72f04ef48bc73181e6421c45818598adcd46ff0147cf473a09b79d1b6"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/pulse-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "1291207b6a392f126161f564c1c5791d67e8e5121b82b6e33fc239444112ceab"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/pulse-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "2bc14738eed973974e5ced6bd8d2675b0dd863046e07c47ea0c8e7950c459485"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/salt-level1.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "209327be23dd86d70dd2daf8b042e908ee008b8ea70992968e3b42008ee37a04"
+  },
+  {
+    "path": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/current-ui-content-review/actual-handbook-synced/salt-level3.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "b87bcc7cf5d19a5e0fd00fffdcc6e2d97417c8ec88d0268134a34d8ab11786c9"
+  }
+]

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from dataclasses import dataclass
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -19,6 +20,16 @@ SUITE = (
     ("smoke", "res://tests/smoke.tscn", "SMOKE PASS:"),
     ("hunter rules", "res://tests/hunter_rules.tscn", "HUNTER RULES PASS:"),
     ("audit regressions", "res://tests/audit_regressions.tscn", "AUDIT REGRESSIONS PASS:"),
+    ("research progression", "res://tests/progression_contract.tscn", "PROGRESSION CONTRACT PASS:"),
+    ("skill dispatch", "res://tests/skills_contract.tscn", "SKILLS CONTRACT PASS:"),
+    ("report world flow", "res://tests/progression_world.tscn", "PROGRESSION WORLD PASS:"),
+    ("spectrum gameplay", "res://tests/spectrum_gameplay_contract.tscn", "SPECTRUM GAMEPLAY PASS:"),
+    ("native UI", "res://tests/ui_contract.tscn", "UI CONTRACT PASS:"),
+    ("static asset integration", "res://tests/static_assets_contract.tscn", "STATIC ASSETS PASS:"),
+    ("environment geometry", "res://tests/environment_quality_contract.tscn", "ENVIRONMENT QUALITY PASS:"),
+    ("equipment vehicle geometry", "res://tests/high_fidelity_assets_contract.tscn", "HIGH FIDELITY GEOMETRY/API GUARDS PASS:"),
+    ("hand anatomy and grip motion", "res://tests/hand_anatomy_contract.tscn", "HAND ANATOMY PASS:"),
+    ("nailong skin animation", "res://tests/nailong_model_contract.tscn", "failures=0"),
 )
 
 
@@ -33,10 +44,16 @@ class Result:
 def run(command: list[str], timeout: float) -> Result:
     started = time.monotonic()
     try:
-        process = subprocess.run(
-            command, cwd=PROJECT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-            text=True, encoding="utf-8", errors="replace", timeout=timeout, check=False,
-        )
+        # Every process gets a disposable archive, including older game scenes.
+        # A test must never add knowledge to the user's real saved research.
+        with tempfile.TemporaryDirectory(prefix="rainfield-test-archive-") as directory:
+            environment = os.environ.copy()
+            environment["HDF_ARCHIVE_PATH"] = str(Path(directory) / "archive.json")
+            process = subprocess.run(
+                command, cwd=PROJECT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                text=True, encoding="utf-8", errors="replace", timeout=timeout, check=False,
+                env=environment,
+            )
         return Result(process.returncode, ANSI.sub("", process.stdout), time.monotonic() - started)
     except subprocess.TimeoutExpired as error:
         output = error.stdout or b""
@@ -122,8 +139,18 @@ def main() -> int:
         success = check_error_gate(args.godot, args.timeout)
         for name, scene, marker in SUITE:
             success = check(name, base + [scene], args.timeout, marker) and success
+        # These two separate Godot processes must share the same isolated file.
+        with tempfile.TemporaryDirectory(prefix="rainfield-test-restart-") as directory:
+            archive = str(Path(directory) / "restart-archive.json")
+            scene = "res://tests/progression_contract.tscn"
+            for phase in ("write", "read"):
+                success = check(
+                    f"archive process restart {phase}",
+                    base + [scene, "--", f"--restart-{phase}", archive],
+                    args.timeout, f"RESTART CONTRACT PASS --restart-{phase}:",
+                ) and success
         if success:
-            print("ALL TESTS PASS: import, failure gate, smoke, hunter rules, audit regressions")
+            print(f"ALL TESTS PASS: import, failure gate, {len(SUITE)} scene contracts, two archive restart processes")
         return 0 if success else 1
     except OSError as error:
         print(f"FAIL invoking Godot: {error}", file=sys.stderr)

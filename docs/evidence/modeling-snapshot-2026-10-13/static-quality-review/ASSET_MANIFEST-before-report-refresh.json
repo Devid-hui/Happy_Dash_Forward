@@ -1,0 +1,389 @@
+{
+  "generated_utc": "2026-10-12T17:32:10.650165+00:00",
+  "tool": "Blender 4.5 LTS; Godot native glTF importer",
+  "count_method": "Sum index accessor counts / 3 for actual triangle primitives; source counts stored separately",
+  "quality_status": "candidate pending native visual acceptance; contract or density is not artistic acceptance",
+  "provenance": {
+    "hands": "source_assets/reference_cc0/PROVENANCE.json",
+    "environment": "assets/refined/environment/ENVIRONMENT_MANIFEST.json",
+    "nailong": "assets/refined/nailong/reference_candidate/ASSET_PROVENANCE.txt",
+    "original_field_assets": "assets/refined/ASSET_LICENSE.txt"
+  },
+  "history": [
+    {
+      "batch": "original medium detail",
+      "quality_status": "rejected by user; archived",
+      "counts": {
+        "field_equipment": 18752,
+        "abandoned_car": 18978,
+        "power_tower": 28616,
+        "research_report": 4744
+      },
+      "recoverable_archive": "task work/stage2/rejected-medium-poly-backup"
+    }
+  ],
+  "assets": {
+    "abandoned_car.glb": {
+      "runtime": "assets/refined/abandoned_car.glb",
+      "triangles": 529190,
+      "meshes": 86,
+      "primitives": 94,
+      "exported_vertices": 300286,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 99884908,
+      "sha256": "e1c5a01c6a9756a357616e07979991f6b5a110e895d3c710c303642291ee6c7d",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "abandoned_car_lod1.glb": {
+      "runtime": "assets/refined/abandoned_car_lod1.glb",
+      "triangles": 231404,
+      "meshes": 86,
+      "primitives": 94,
+      "exported_vertices": 142616,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 94732200,
+      "sha256": "6694d5023f21892d339a3c20f9afd632c8f1897a030514348229042217aabd4d",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "abandoned_car_lod2.glb": {
+      "runtime": "assets/refined/abandoned_car_lod2.glb",
+      "triangles": 98084,
+      "meshes": 86,
+      "primitives": 94,
+      "exported_vertices": 67327,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 91481416,
+      "sha256": "45bd9077e14d3b94484b923a1ea5a2774f84f960e6e40de16762c6b6bdaaca19",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_1.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_1.glb",
+      "triangles": 2275930,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1490076,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92088536,
+      "sha256": "154ac6b77bb62d90a7f7b07f1cee82eabcec73166881ef37653ccd610da3193c",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_2.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_2.glb",
+      "triangles": 2275982,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1489984,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92085892,
+      "sha256": "22ffed75f724481808456c340ff9b2f8fd214cc29765f030f604996540b8e02c",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_3.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_3.glb",
+      "triangles": 2276002,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1489868,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92082312,
+      "sha256": "8dcce2890b14690934772bca21803b4d69d939fb685cfcc514b62c8d2f08f393",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_4.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_4.glb",
+      "triangles": 2275951,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1490082,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92088856,
+      "sha256": "0befea0c28c0ee8b9e1670354574e4c4a778def17167090e4035d08f43102579",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_5.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_5.glb",
+      "triangles": 2275921,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1490032,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92087076,
+      "sha256": "5bd752cc2f7e2ea14bc5f7f0767a655b7fe134a136518f7045d212e3a0ebbf87",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/broadleaf_tree_6.glb": {
+      "runtime": "assets/refined/environment/broadleaf_tree_6.glb",
+      "triangles": 2275967,
+      "meshes": 6,
+      "primitives": 6,
+      "exported_vertices": 1489892,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 92082868,
+      "sha256": "6bd6d5c560decf077698da36df4b20fa9065d04bc87ed628c4e963c90a972b3a",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/dead_tree_1.glb": {
+      "runtime": "assets/refined/environment/dead_tree_1.glb",
+      "triangles": 54153,
+      "meshes": 3,
+      "primitives": 3,
+      "exported_vertices": 29030,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 1257044,
+      "sha256": "e23030f0f7abbb1de9128370c9f1b94c1c270a7fc6095b15930c7c697d3223c6",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/dead_tree_2.glb": {
+      "runtime": "assets/refined/environment/dead_tree_2.glb",
+      "triangles": 54150,
+      "meshes": 3,
+      "primitives": 3,
+      "exported_vertices": 29000,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 1256080,
+      "sha256": "4fd828748eab00d11a708bfcc7777e88603bc0905a49e9f003707f0f6c90f625",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/dead_tree_3.glb": {
+      "runtime": "assets/refined/environment/dead_tree_3.glb",
+      "triangles": 54111,
+      "meshes": 3,
+      "primitives": 3,
+      "exported_vertices": 29074,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 1258204,
+      "sha256": "b87417d168f413a52b26ba3c579ecbcfb15cc75dd98767aff7ac1b3a2399e025",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/forest_understory_kit.glb": {
+      "runtime": "assets/refined/environment/forest_understory_kit.glb",
+      "triangles": 64328,
+      "meshes": 17,
+      "primitives": 17,
+      "exported_vertices": 45621,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 2174608,
+      "sha256": "6e3e9e6e7c189d5d5a0791a8d755bd2c8610b36fe866521dd904caf8a8da5387",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "environment/leaf_detail_study.glb": {
+      "runtime": "assets/refined/environment/leaf_detail_study.glb",
+      "triangles": 1120,
+      "meshes": 1,
+      "primitives": 1,
+      "exported_vertices": 707,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 39140,
+      "sha256": "29cd174ed9d82e2ffe5f933802dfbf930cbec27d5c3227ff88fc05347415d512",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "field_equipment.glb": {
+      "runtime": "assets/refined/field_equipment.glb",
+      "triangles": 229800,
+      "meshes": 31,
+      "primitives": 39,
+      "exported_vertices": 119346,
+      "skins": 2,
+      "joints_per_skin": [
+        19,
+        19
+      ],
+      "bytes": 136352780,
+      "sha256": "e7834dfcb1367b77ac89d1365c0f3b43e83635f6e9ed20d33c98292e5830804c",
+      "finite_positions": true,
+      "all_float_accessors_finite": true,
+      "quality_status": "left hand repair locally verified in native1080 motion; complete project art acceptance pending",
+      "audited_utc": "2026-10-12T21:01:44.646843+00:00",
+      "source_joint_maximum_difference_m": 1.5701998519895373e-07,
+      "finite_positions_evidence": "task outputs/left-hand-clean-repair/production-verified.json",
+      "updated_utc": "2026-10-12T23:46:49.285126+00:00"
+    },
+    "field_equipment_lod1.glb": {
+      "runtime": "assets/refined/field_equipment_lod1.glb",
+      "triangles": 100365,
+      "meshes": 31,
+      "primitives": 39,
+      "exported_vertices": 53242,
+      "skins": 2,
+      "joints_per_skin": [
+        19,
+        19
+      ],
+      "bytes": 132049172,
+      "sha256": "0941830d682e279eda121fe79a9544d770d1fa3df7abf620b7dd57baca78dde5",
+      "finite_positions": true,
+      "all_float_accessors_finite": true,
+      "quality_status": "left hand repair locally verified in native1080 motion; complete project art acceptance pending",
+      "audited_utc": "2026-10-12T21:01:44.646972+00:00",
+      "source_joint_maximum_difference_m": 1.5701998519895373e-07,
+      "finite_positions_evidence": "task outputs/left-hand-clean-repair/production-verified.json",
+      "updated_utc": "2026-10-12T23:46:49.335252+00:00"
+    },
+    "field_equipment_lod2.glb": {
+      "runtime": "assets/refined/field_equipment_lod2.glb",
+      "triangles": 43264,
+      "meshes": 31,
+      "primitives": 39,
+      "exported_vertices": 23817,
+      "skins": 2,
+      "joints_per_skin": [
+        19,
+        19
+      ],
+      "bytes": 130088608,
+      "sha256": "a894c493f8aa783865f1efb0e7e970e0c6751a7695b3633831ad80bb23864137",
+      "finite_positions": true,
+      "all_float_accessors_finite": true,
+      "quality_status": "left hand repair locally verified in native1080 motion; complete project art acceptance pending",
+      "audited_utc": "2026-10-12T21:01:44.646975+00:00",
+      "source_joint_maximum_difference_m": 1.5701998519895373e-07,
+      "finite_positions_evidence": "task outputs/left-hand-clean-repair/production-verified.json",
+      "updated_utc": "2026-10-12T23:46:49.380870+00:00"
+    },
+    "nailong/nailong_lod0.glb": {
+      "runtime": "assets/refined/nailong/nailong_lod0.glb",
+      "triangles": 265784,
+      "meshes": 29,
+      "primitives": 29,
+      "exported_vertices": 137761,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 47040408,
+      "sha256": "a4135c9202d251681d30a7f7c9c20ab022a563f277e82962344fe54105dbc927",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "nailong/nailong_lod1.glb": {
+      "runtime": "assets/refined/nailong/nailong_lod1.glb",
+      "triangles": 83984,
+      "meshes": 29,
+      "primitives": 29,
+      "exported_vertices": 45221,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 39393552,
+      "sha256": "aea5f47b351f4c064b3fc9e9fb0aa47adfb7d5340ee525bbabd6ffca3ce7dc4e",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "nailong/nailong_lod2.glb": {
+      "runtime": "assets/refined/nailong/nailong_lod2.glb",
+      "triangles": 28861,
+      "meshes": 29,
+      "primitives": 29,
+      "exported_vertices": 16649,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 37226876,
+      "sha256": "09bcb5ca01da84be1203feaa831285c1395504821211849a161aa9d61d965cac",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "nailong/reference_candidate/nailong_lod0.glb": {
+      "runtime": "assets/refined/nailong/reference_candidate/nailong_lod0.glb",
+      "triangles": 307593,
+      "meshes": 30,
+      "primitives": 30,
+      "exported_vertices": 159807,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 49068244,
+      "sha256": "c3df41343d5a4702d731d9a4f9dcce743e22420d2bdee493ae09517c7ace4283",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "nailong/reference_candidate/nailong_lod1.glb": {
+      "runtime": "assets/refined/nailong/reference_candidate/nailong_lod1.glb",
+      "triangles": 98341,
+      "meshes": 30,
+      "primitives": 30,
+      "exported_vertices": 52705,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 40000432,
+      "sha256": "d7005e588998e4b58b8b415afdd13fbd496315a9a0e8fda1c5c5a2abdf4e3ac0",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "nailong/reference_candidate/nailong_lod2.glb": {
+      "runtime": "assets/refined/nailong/reference_candidate/nailong_lod2.glb",
+      "triangles": 34892,
+      "meshes": 30,
+      "primitives": 30,
+      "exported_vertices": 19808,
+      "skins": 1,
+      "joints_per_skin": [
+        24
+      ],
+      "bytes": 37377384,
+      "sha256": "cd17b2b5112602b1214f2dfa31373469adb9db2bf4246bd77e2433d5355112aa",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "power_tower.glb": {
+      "runtime": "assets/refined/power_tower.glb",
+      "triangles": 83268,
+      "meshes": 18,
+      "primitives": 20,
+      "exported_vertices": 43109,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 27262504,
+      "sha256": "ee57de4c7cb40a0f49a96c9b06fe81355f0bca46e46017dff57d5cb8e833f58b",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    },
+    "research_report.glb": {
+      "runtime": "assets/refined/research_report.glb",
+      "triangles": 125512,
+      "meshes": 15,
+      "primitives": 15,
+      "exported_vertices": 64481,
+      "skins": 0,
+      "joints_per_skin": [],
+      "bytes": 38671284,
+      "sha256": "c28f4f3826e87da10fc9e56abd9c9829630c17b1dcb0c892adbd3fe58789f3ea",
+      "finite_positions": true,
+      "quality_status": "candidate pending native visual acceptance"
+    }
+  },
+  "last_hand_revision_utc": "2026-10-12T23:46:49.380902+00:00"
+}

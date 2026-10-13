@@ -1,0 +1,959 @@
+{
+  "status": "completed",
+  "source": "/Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/work/nailong/face-topology-v5/source-dual-eye-joint-direct-fan-linear.blend",
+  "CPU_only": true,
+  "Godot_launched": false,
+  "cases": [
+    {
+      "clip": "walk",
+      "seconds": 0.23,
+      "scene_fps": 30.0,
+      "actual_NLA_frame": 6.9,
+      "legacy_force_Body_Focus_022": false,
+      "authored_Face_Focus": 0.12,
+      "Body_Focus_applied": 0.12,
+      "actual_authored_Body_key_values": {
+        "Basis": 0.0,
+        "Open": 0.14000000059604645,
+        "Focus": 0.11999999731779099
+      },
+      "actual_active_Face_NLA_weights": {
+        "left": {
+          "LidB000F010": 0.800000011920929,
+          "LidB000F020": 0.20000000298023224,
+          "Open": 0.14000000059604645
+        },
+        "right": {
+          "LidB000F010": 0.800000011920929,
+          "LidB000F020": 0.20000000298023224,
+          "Open": 0.14000000059604645
+        }
+      },
+      "eyes": {
+        "left": {
+          "boundary_world_position_difference_m": {
+            "count": 836,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 5.960464477539063e-08,
+            "max": 4.805480091749757e-07
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 836,
+            "min": 0.0,
+            "median": 3.078324659199975e-06,
+            "p95": 0.002917635807422285,
+            "max": 0.027573412574426002
+          },
+          "worst_boundary_original_source_vertex": 712441,
+          "Face_world_xyz_m": [
+            -0.2743946611881256,
+            0.7772896885871887,
+            2.4046225547790527
+          ],
+          "Body_world_xyz_m": [
+            -0.2743946611881256,
+            0.777289628982544,
+            2.404623031616211
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 3004,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.013083159923553467,
+                "triangle_centroid": 0.016791045665740967,
+                "edge_midpoint_01": 0.013056427240371704,
+                "edge_midpoint_12": 0.018662601709365845,
+                "edge_midpoint_20": 0.018662601709365845
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013056427240371704,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28747,
+                "polygon_id": 8336,
+                "source_vertex_ids": [
+                  4484,
+                  4485
+                ],
+                "sample_xyz_m": [
+                  -0.36933155357837677,
+                  0.8084017336368561,
+                  2.081019163131714
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.3693315386772156,
+                  0.7953453063964844,
+                  2.081019163131714
+                ],
+                "target_triangle_index": 5160,
+                "exact_nearest_distance_at_this_sample_m": 0.008366630412638187,
+                "signed_nearest_distance_at_this_sample_m": 0.008366630412638187
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 144,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.0071312785148620605,
+                "triangle_centroid": 0.010504961013793945,
+                "edge_midpoint_01": 0.007141560316085815,
+                "edge_midpoint_12": 0.012204736471176147,
+                "edge_midpoint_20": 0.012102365493774414
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.0071312785148620605,
+                "sample_type": "vertex",
+                "sample_index": 4416,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4416
+                ],
+                "sample_xyz_m": [
+                  -0.262424111366272,
+                  0.8088847994804382,
+                  2.247847557067871
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.262424111366272,
+                  0.8017535209655762,
+                  2.247847557067871
+                ],
+                "target_triangle_index": 5883,
+                "exact_nearest_distance_at_this_sample_m": 0.004504918586462736,
+                "signed_nearest_distance_at_this_sample_m": 0.004504918586462736,
+                "incident_actual_polygon_ids": [
+                  8266,
+                  8267
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        },
+        "right": {
+          "boundary_world_position_difference_m": {
+            "count": 918,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 4.76837158203125e-07,
+            "max": 4.805480091749757e-07
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 918,
+            "min": 0.0,
+            "median": 4.676310850554341e-06,
+            "p95": 0.002759731098982615,
+            "max": 0.019445218033917487
+          },
+          "worst_boundary_original_source_vertex": 249646,
+          "Face_world_xyz_m": [
+            0.3998161256313324,
+            0.7079853415489197,
+            2.4018807411193848
+          ],
+          "Body_world_xyz_m": [
+            0.3998161256313324,
+            0.7079852819442749,
+            2.401881217956543
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 3007,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.013083159923553467,
+                "triangle_centroid": 0.016845862070719364,
+                "edge_midpoint_01": 0.013056665658950806,
+                "edge_midpoint_12": 0.018783479928970337,
+                "edge_midpoint_20": 0.018714427947998047
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013056665658950806,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28775,
+                "polygon_id": 8339,
+                "source_vertex_ids": [
+                  4506,
+                  4507
+                ],
+                "sample_xyz_m": [
+                  0.28278185427188873,
+                  0.8084017336368561,
+                  2.081019163131714
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.28278183937072754,
+                  0.7953450679779053,
+                  2.081019163131714
+                ],
+                "target_triangle_index": 5176,
+                "exact_nearest_distance_at_this_sample_m": 0.008366638794541359,
+                "signed_nearest_distance_at_this_sample_m": 0.008366638794541359
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 143,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.007131040096282959,
+                "triangle_centroid": 0.010561605294545529,
+                "edge_midpoint_01": 0.007141560316085815,
+                "edge_midpoint_12": 0.012218862771987915,
+                "edge_midpoint_20": 0.012167602777481079
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.007131040096282959,
+                "sample_type": "vertex",
+                "sample_index": 4464,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4464
+                ],
+                "sample_xyz_m": [
+                  0.262424111366272,
+                  0.8088847994804382,
+                  2.247847557067871
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.262424111366272,
+                  0.8017537593841553,
+                  2.247847557067871
+                ],
+                "target_triangle_index": 5925,
+                "exact_nearest_distance_at_this_sample_m": 0.004504944663494825,
+                "signed_nearest_distance_at_this_sample_m": 0.004504944663494825,
+                "incident_actual_polygon_ids": [
+                  8295,
+                  8296
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        }
+      }
+    },
+    {
+      "clip": "walk",
+      "seconds": 0.23,
+      "scene_fps": 30.0,
+      "actual_NLA_frame": 6.9,
+      "legacy_force_Body_Focus_022": true,
+      "authored_Face_Focus": 0.12,
+      "Body_Focus_applied": 0.22,
+      "actual_authored_Body_key_values": {
+        "Basis": 0.0,
+        "Open": 0.14000000059604645,
+        "Focus": 0.11999999731779099
+      },
+      "actual_active_Face_NLA_weights": {
+        "left": {
+          "LidB000F010": 0.800000011920929,
+          "LidB000F020": 0.20000000298023224,
+          "Open": 0.14000000059604645
+        },
+        "right": {
+          "LidB000F010": 0.800000011920929,
+          "LidB000F020": 0.20000000298023224,
+          "Open": 0.14000000059604645
+        }
+      },
+      "eyes": {
+        "left": {
+          "boundary_world_position_difference_m": {
+            "count": 836,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0014410105661812136,
+            "max": 0.0019079412204746236
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 836,
+            "min": 0.0,
+            "median": 3.467646754435213e-06,
+            "p95": 0.8106666588387603,
+            "max": 0.8630719863727111
+          },
+          "worst_boundary_original_source_vertex": 708437,
+          "Face_world_xyz_m": [
+            -0.2033872902393341,
+            0.8172160983085632,
+            2.385896682739258
+          ],
+          "Body_world_xyz_m": [
+            -0.2033872902393341,
+            0.817556619644165,
+            2.384019374847412
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 3004,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.013083159923553467,
+                "triangle_centroid": 0.016791045665740967,
+                "edge_midpoint_01": 0.013056427240371704,
+                "edge_midpoint_12": 0.018662601709365845,
+                "edge_midpoint_20": 0.018662601709365845
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013056427240371704,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28747,
+                "polygon_id": 8336,
+                "source_vertex_ids": [
+                  4484,
+                  4485
+                ],
+                "sample_xyz_m": [
+                  -0.36933155357837677,
+                  0.8084017336368561,
+                  2.081019163131714
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.3693315386772156,
+                  0.7953453063964844,
+                  2.081019163131714
+                ],
+                "target_triangle_index": 5160,
+                "exact_nearest_distance_at_this_sample_m": 0.008366630412638187,
+                "signed_nearest_distance_at_this_sample_m": 0.008366630412638187
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 144,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.0071312785148620605,
+                "triangle_centroid": 0.010504961013793945,
+                "edge_midpoint_01": 0.007141560316085815,
+                "edge_midpoint_12": 0.012204736471176147,
+                "edge_midpoint_20": 0.012102365493774414
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.0071312785148620605,
+                "sample_type": "vertex",
+                "sample_index": 4416,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4416
+                ],
+                "sample_xyz_m": [
+                  -0.262424111366272,
+                  0.8088847994804382,
+                  2.247847557067871
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.262424111366272,
+                  0.8017535209655762,
+                  2.247847557067871
+                ],
+                "target_triangle_index": 5883,
+                "exact_nearest_distance_at_this_sample_m": 0.004504918586462736,
+                "signed_nearest_distance_at_this_sample_m": 0.004504918586462736,
+                "incident_actual_polygon_ids": [
+                  8266,
+                  8267
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        },
+        "right": {
+          "boundary_world_position_difference_m": {
+            "count": 918,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0015737522116556766,
+            "max": 0.0020969217178201213
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 918,
+            "min": 0.0,
+            "median": 8.365239156607497e-06,
+            "p95": 0.81813437044923,
+            "max": 0.9278026443986431
+          },
+          "worst_boundary_original_source_vertex": 255291,
+          "Face_world_xyz_m": [
+            0.20863059163093567,
+            0.8165348768234253,
+            2.3836593627929688
+          ],
+          "Body_world_xyz_m": [
+            0.20863059163093567,
+            0.8169090151786804,
+            2.381596088409424
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 3007,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.013083159923553467,
+                "triangle_centroid": 0.016845862070719364,
+                "edge_midpoint_01": 0.013056665658950806,
+                "edge_midpoint_12": 0.018783479928970337,
+                "edge_midpoint_20": 0.018714427947998047
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013056665658950806,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28775,
+                "polygon_id": 8339,
+                "source_vertex_ids": [
+                  4506,
+                  4507
+                ],
+                "sample_xyz_m": [
+                  0.28278185427188873,
+                  0.8084017336368561,
+                  2.081019163131714
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.28278183937072754,
+                  0.7953450679779053,
+                  2.081019163131714
+                ],
+                "target_triangle_index": 5176,
+                "exact_nearest_distance_at_this_sample_m": 0.008366638794541359,
+                "signed_nearest_distance_at_this_sample_m": 0.008366638794541359
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 143,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.007131040096282959,
+                "triangle_centroid": 0.010561605294545529,
+                "edge_midpoint_01": 0.007141560316085815,
+                "edge_midpoint_12": 0.012218862771987915,
+                "edge_midpoint_20": 0.012167602777481079
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.007131040096282959,
+                "sample_type": "vertex",
+                "sample_index": 4464,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4464
+                ],
+                "sample_xyz_m": [
+                  0.262424111366272,
+                  0.8088847994804382,
+                  2.247847557067871
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.262424111366272,
+                  0.8017537593841553,
+                  2.247847557067871
+                ],
+                "target_triangle_index": 5925,
+                "exact_nearest_distance_at_this_sample_m": 0.004504944663494825,
+                "signed_nearest_distance_at_this_sample_m": 0.004504944663494825,
+                "incident_actual_polygon_ids": [
+                  8295,
+                  8296
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        }
+      }
+    },
+    {
+      "clip": "chase",
+      "seconds": 0.16,
+      "scene_fps": 30.0,
+      "actual_NLA_frame": 4.8,
+      "legacy_force_Body_Focus_022": false,
+      "authored_Face_Focus": 0.27,
+      "Body_Focus_applied": 0.27,
+      "actual_authored_Body_key_values": {
+        "Basis": 0.0,
+        "Open": 0.2800000011920929,
+        "Focus": 0.27000001072883606
+      },
+      "actual_active_Face_NLA_weights": {
+        "left": {
+          "LidB000F020": 0.30000001192092896,
+          "LidB000F030": 0.699999988079071,
+          "Open": 0.2800000011920929
+        },
+        "right": {
+          "LidB000F020": 0.30000001192092896,
+          "LidB000F030": 0.699999988079071,
+          "Open": 0.2800000011920929
+        }
+      },
+      "eyes": {
+        "left": {
+          "boundary_world_position_difference_m": {
+            "count": 836,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 5.960464477539063e-08,
+            "max": 4.805480091749757e-07
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 836,
+            "min": 0.0,
+            "median": 3.136426564665087e-06,
+            "p95": 0.004233850923664828,
+            "max": 0.027577157303478563
+          },
+          "worst_boundary_original_source_vertex": 705734,
+          "Face_world_xyz_m": [
+            -0.10640361160039902,
+            0.9188004732131958,
+            2.293813705444336
+          ],
+          "Body_world_xyz_m": [
+            -0.10640361160039902,
+            0.918800413608551,
+            2.293814182281494
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 3787,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.01354074478149414,
+                "triangle_centroid": 0.016801993052164677,
+                "edge_midpoint_01": 0.013430804014205933,
+                "edge_midpoint_12": 0.018438875675201416,
+                "edge_midpoint_20": 0.018306225538253784
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013430804014205933,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28755,
+                "polygon_id": 8340,
+                "source_vertex_ids": [
+                  4488,
+                  4489
+                ],
+                "sample_xyz_m": [
+                  -0.3494540601968765,
+                  0.8507077395915985,
+                  2.0501246452331543
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.34945404529571533,
+                  0.8372769355773926,
+                  2.0501246452331543
+                ],
+                "target_triangle_index": 5485,
+                "exact_nearest_distance_at_this_sample_m": 0.008783038705587387,
+                "signed_nearest_distance_at_this_sample_m": 0.008783038705587387
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 788,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.006809234619140625,
+                "triangle_centroid": 0.010033110777536991,
+                "edge_midpoint_01": 0.006809890270233154,
+                "edge_midpoint_12": 0.01162707805633545,
+                "edge_midpoint_20": 0.011532098054885864
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.006809234619140625,
+                "sample_type": "vertex",
+                "sample_index": 4412,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4412
+                ],
+                "sample_xyz_m": [
+                  -0.2469083070755005,
+                  0.8556344509124756,
+                  2.2005300521850586
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.2469083070755005,
+                  0.848825216293335,
+                  2.2005300521850586
+                ],
+                "target_triangle_index": 5875,
+                "exact_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "signed_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "incident_actual_polygon_ids": [
+                  8262,
+                  8263
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        },
+        "right": {
+          "boundary_world_position_difference_m": {
+            "count": 918,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 5.960464477539063e-08,
+            "max": 4.805480091749757e-07
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 918,
+            "min": 0.0,
+            "median": 5.533085616490783e-06,
+            "p95": 0.002762370366732441,
+            "max": 0.019450474272291404
+          },
+          "worst_boundary_original_source_vertex": 261450,
+          "Face_world_xyz_m": [
+            0.09904153645038605,
+            0.924272358417511,
+            2.2800674438476562
+          ],
+          "Body_world_xyz_m": [
+            0.09904153645038605,
+            0.9242722988128662,
+            2.280066967010498
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 3784,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.01354074478149414,
+                "triangle_centroid": 0.01684979597727454,
+                "edge_midpoint_01": 0.013430804014205933,
+                "edge_midpoint_12": 0.018457740545272827,
+                "edge_midpoint_20": 0.01839160919189453
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013430804014205933,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28783,
+                "polygon_id": 8343,
+                "source_vertex_ids": [
+                  4510,
+                  4511
+                ],
+                "sample_xyz_m": [
+                  0.302659347653389,
+                  0.8507077395915985,
+                  2.0501246452331543
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.3026593327522278,
+                  0.8372769355773926,
+                  2.0501246452331543
+                ],
+                "target_triangle_index": 5506,
+                "exact_nearest_distance_at_this_sample_m": 0.008783038705587387,
+                "signed_nearest_distance_at_this_sample_m": 0.008783038705587387
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 792,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.006809234619140625,
+                "triangle_centroid": 0.010033706823984745,
+                "edge_midpoint_01": 0.006809890270233154,
+                "edge_midpoint_12": 0.011643975973129272,
+                "edge_midpoint_20": 0.01161232590675354
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.006809234619140625,
+                "sample_type": "vertex",
+                "sample_index": 4468,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4468
+                ],
+                "sample_xyz_m": [
+                  0.2469083070755005,
+                  0.8556344509124756,
+                  2.2005300521850586
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.2469083070755005,
+                  0.848825216293335,
+                  2.2005300521850586
+                ],
+                "target_triangle_index": 5932,
+                "exact_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "signed_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "incident_actual_polygon_ids": [
+                  8299,
+                  8300
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        }
+      }
+    },
+    {
+      "clip": "chase",
+      "seconds": 0.16,
+      "scene_fps": 30.0,
+      "actual_NLA_frame": 4.8,
+      "legacy_force_Body_Focus_022": true,
+      "authored_Face_Focus": 0.27,
+      "Body_Focus_applied": 0.22,
+      "actual_authored_Body_key_values": {
+        "Basis": 0.0,
+        "Open": 0.2800000011920929,
+        "Focus": 0.27000001072883606
+      },
+      "actual_active_Face_NLA_weights": {
+        "left": {
+          "LidB000F020": 0.30000001192092896,
+          "LidB000F030": 0.699999988079071,
+          "Open": 0.2800000011920929
+        },
+        "right": {
+          "LidB000F020": 0.30000001192092896,
+          "LidB000F030": 0.699999988079071,
+          "Open": 0.2800000011920929
+        }
+      },
+      "eyes": {
+        "left": {
+          "boundary_world_position_difference_m": {
+            "count": 836,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0007206111732230424,
+            "max": 0.0009537548984815375
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 836,
+            "min": 0.0,
+            "median": 3.304811527568287e-06,
+            "p95": 0.3716451019715729,
+            "max": 0.3969103772542815
+          },
+          "worst_boundary_original_source_vertex": 708437,
+          "Face_world_xyz_m": [
+            -0.2033872902393341,
+            0.8646833300590515,
+            2.3570871353149414
+          ],
+          "Body_world_xyz_m": [
+            -0.2033872902393341,
+            0.8645355105400085,
+            2.358029365539551
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 3787,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.01354074478149414,
+                "triangle_centroid": 0.016801993052164677,
+                "edge_midpoint_01": 0.013430804014205933,
+                "edge_midpoint_12": 0.018438875675201416,
+                "edge_midpoint_20": 0.018306225538253784
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013430804014205933,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28755,
+                "polygon_id": 8340,
+                "source_vertex_ids": [
+                  4488,
+                  4489
+                ],
+                "sample_xyz_m": [
+                  -0.3494540601968765,
+                  0.8507077395915985,
+                  2.0501246452331543
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.34945404529571533,
+                  0.8372769355773926,
+                  2.0501246452331543
+                ],
+                "target_triangle_index": 5485,
+                "exact_nearest_distance_at_this_sample_m": 0.008783038705587387,
+                "signed_nearest_distance_at_this_sample_m": 0.008783038705587387
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_left": {
+              "sample_count_total": 60429,
+              "actual_front_ray_hits": 788,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.006809234619140625,
+                "triangle_centroid": 0.010033110777536991,
+                "edge_midpoint_01": 0.006809890270233154,
+                "edge_midpoint_12": 0.01162707805633545,
+                "edge_midpoint_20": 0.011532098054885864
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.006809234619140625,
+                "sample_type": "vertex",
+                "sample_index": 4412,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4412
+                ],
+                "sample_xyz_m": [
+                  -0.2469083070755005,
+                  0.8556344509124756,
+                  2.2005300521850586
+                ],
+                "actual_target_hit_xyz_m": [
+                  -0.2469083070755005,
+                  0.848825216293335,
+                  2.2005300521850586
+                ],
+                "target_triangle_index": 5875,
+                "exact_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "signed_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "incident_actual_polygon_ids": [
+                  8262,
+                  8263
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        },
+        "right": {
+          "boundary_world_position_difference_m": {
+            "count": 918,
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0007868071543505069,
+            "max": 0.001048348955645651
+          },
+          "actual_corner_normal_difference_degrees": {
+            "count": 918,
+            "min": 0.0,
+            "median": 1.1262047877356564e-05,
+            "p95": 0.37563011884171266,
+            "max": 0.4233913147967729
+          },
+          "worst_boundary_original_source_vertex": 255291,
+          "Face_world_xyz_m": [
+            0.20863059163093567,
+            0.8639926314353943,
+            2.3545870780944824
+          ],
+          "Body_world_xyz_m": [
+            0.20863059163093567,
+            0.8638302087783813,
+            2.3556227684020996
+          ],
+          "actual_posed_ocular_sample_clearance": {
+            "ReconstructedSclera_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 3784,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.01354074478149414,
+                "triangle_centroid": 0.01684979597727454,
+                "edge_midpoint_01": 0.013430804014205933,
+                "edge_midpoint_12": 0.018457740545272827,
+                "edge_midpoint_20": 0.01839160919189453
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.013430804014205933,
+                "sample_type": "edge_midpoint_01",
+                "sample_index": 28783,
+                "polygon_id": 8343,
+                "source_vertex_ids": [
+                  4510,
+                  4511
+                ],
+                "sample_xyz_m": [
+                  0.302659347653389,
+                  0.8507077395915985,
+                  2.0501246452331543
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.3026593327522278,
+                  0.8372769355773926,
+                  2.0501246452331543
+                ],
+                "target_triangle_index": 5506,
+                "exact_nearest_distance_at_this_sample_m": 0.008783038705587387,
+                "signed_nearest_distance_at_this_sample_m": 0.008783038705587387
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            },
+            "ReconstructedCorneal_right": {
+              "sample_count_total": 60463,
+              "actual_front_ray_hits": 792,
+              "below_actual_front_sample_count_at_1e_minus_8_m": 0,
+              "minimum_front_Y_gap_by_sample_type_m": {
+                "vertex": 0.006809234619140625,
+                "triangle_centroid": 0.010033706823984745,
+                "edge_midpoint_01": 0.006809890270233154,
+                "edge_midpoint_12": 0.011643975973129272,
+                "edge_midpoint_20": 0.01161232590675354
+              },
+              "worst_front_sample": {
+                "front_Y_gap_m": 0.006809234619140625,
+                "sample_type": "vertex",
+                "sample_index": 4468,
+                "polygon_id": null,
+                "source_vertex_ids": [
+                  4468
+                ],
+                "sample_xyz_m": [
+                  0.2469083070755005,
+                  0.8556344509124756,
+                  2.2005300521850586
+                ],
+                "actual_target_hit_xyz_m": [
+                  0.2469083070755005,
+                  0.848825216293335,
+                  2.2005300521850586
+                ],
+                "target_triangle_index": 5932,
+                "exact_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "signed_nearest_distance_at_this_sample_m": 0.004669636487960815,
+                "incident_actual_polygon_ids": [
+                  8299,
+                  8300
+                ]
+              },
+              "nearest_distance_scope": "Exact nearest distance is at the actual minimum front-Y-gap sample; full all-sample Euclidean minimum is not claimed."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "source_sha256_before": "2b8016d6929bba31b0e5f04df4a8e975b45698dbe0fdbfbc40c899506c95b1f4",
+  "actor_source_sha256": "c435c0caaf72f06b475092d0a946e70a2d959df50ceff2396d39fe03ca78cd42",
+  "latest_source_has_shared_face_guard": true,
+  "scope": "Actual Blender source NLA walk/chase, actual armature evaluation and posed ocular BVHs. Forced Body .22 is the requested pre-fix moving-phase3 regression simulation. Latest actor source has a shared-Face guard. No Godot playback or GLB NORMAL claim.",
+  "source_sha256_after": "2b8016d6929bba31b0e5f04df4a8e975b45698dbe0fdbfbc40c899506c95b1f4",
+  "probe_script_sha256": "0d58f9011dabb5be1795ed77070ceb06ab918161da245874c1140c7695f2b10a",
+  "all_recorded_numeric_values_finite": true
+}

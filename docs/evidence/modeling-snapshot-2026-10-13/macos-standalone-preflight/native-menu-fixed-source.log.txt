@@ -1,0 +1,14 @@
+WAITING for session render ownership
+OWNED render; launching exact engine command
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+Movie Maker mode enabled, recording movie in 1920×1080 @ 60 FPS...
+--------------------------------------------------------------------------------
+Done recording movie at path: /Users/lpz/Documents/Codex/2026-10-12/codex-threads-01a12ea7-2c11-7112-8b57-2/outputs/macos-standalone-preflight/native-menu-fixed-source/menu.png
+8 frames at 60 FPS (movie length: 00:00:00:08), recorded in 00:00:00 (100% of real-time speed).
+CPU render time: 0.00 seconds (average: 0.10 ms/frame)
+GPU render time: 0.00 seconds (average: 0.00 ms/frame)
+Encoding time: 0.23 seconds (average: 29.25 ms/frame)
+--------------------------------------------------------------------------------
+RELEASED render; exact owned PID 57724 exit 0

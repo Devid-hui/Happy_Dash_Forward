@@ -3,6 +3,7 @@ extends Node3D
 signal return_to_menu
 signal retry_requested
 const FOREST_DETAIL := preload("res://scripts/art/forest_detail.gd")
+const TERRAIN_DETAIL := preload("res://scripts/art/terrain_detail.gd")
 const BOOK := preload("res://scripts/props/research_book.gd")
 const LANDMARK_MODELS := preload("res://scripts/props/landmark_models.gd")
 const PLAYER_SCRIPT := preload("res://scripts/player/player.gd")
@@ -14,14 +15,7 @@ const STORM_CONTROLLER := preload("res://scripts/world/storm_controller.gd")
 const HUD_CONTROLLER := preload("res://scripts/ui/hud_controller.gd")
 const RAIN_LOOP := preload("res://assets/audio/rain_loop.ogg")
 const CANOPY_RAIN_LOOP := preload("res://assets/audio/canopy_rain_loop.ogg")
-const FOREST_TREES: Array[PackedScene] = [
-	preload("res://assets/forest/tree_cone.dae"),
-	preload("res://assets/forest/tree_default.dae"),
-	preload("res://assets/forest/tree_oak.dae"),
-	preload("res://assets/forest/tree_pineTallA.dae"),
-	preload("res://assets/forest/tree_pineTallB.dae"),
-	preload("res://assets/forest/tree_simple.dae")
-]
+const HUNTER_VOICE := preload("res://scripts/enemies/hunter_voice.gd")
 var player: CharacterBody3D
 var hunter_nodes: Array[Node] = []
 var storm_controller
@@ -49,11 +43,18 @@ var footsteps_audio: AudioStreamPlayer3D
 var flash_snapshot_points: Array[Vector2] = []
 var _modal_ready := false
 var _leaving := false
+var gameplay_elapsed := 0.0
+var disorientation_audio: AudioStreamPlayer
+var echo_audio: AudioStreamPlayer
+var echo_filter: AudioEffectLowPassFilter
+var pulse_noise_audio: AudioStreamPlayer
+var daylight_audio: AudioStreamPlayer
 
 func _ready() -> void:
 	research_manager=RESEARCH_MANAGER.new(); add_child(research_manager); research_manager.setup(self)
 	fusion_manager=FUSION_MANAGER.new(); add_child(fusion_manager); fusion_manager.setup(self)
 	_build_environment(); _build_ground(); _build_landmarks(); _build_forest(); _build_player(); _build_hunter(); _build_objectives(); _build_rain(); _build_hud()
+	GameState.record_knowledge("lamp")
 	update_hud()
 	_modal_ready = true
 	paused = not _window_is_focused()
@@ -65,6 +66,10 @@ func _exit_tree() -> void:
 			audio.stop(); audio.stream = null
 	if rain_bus_index > 0 and rain_bus_index < AudioServer.get_bus_count():
 		AudioServer.remove_bus(rain_bus_index)
+	# Remove only this world's temporary effect and preserve every other effect.
+	for index in range(AudioServer.get_bus_effect_count(0)-1,-1,-1):
+		if AudioServer.get_bus_effect(0,index) == echo_filter:
+			AudioServer.remove_bus_effect(0,index)
 
 func _mat(color: Color, emission := false) -> StandardMaterial3D:
 	var m := StandardMaterial3D.new(); m.albedo_color = color; m.roughness = 1.0
@@ -75,34 +80,23 @@ func _build_environment() -> void:
 	environment = WorldEnvironment.new(); environment.name = "WorldEnvironment"
 	var env := Environment.new(); env.background_mode = Environment.BG_COLOR; env.background_color = Color(0.0015,0.0025,0.004)
 	# 只保留极低的环境填充光，形体主要由玩家近光和闪电揭示。
-	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR; env.ambient_light_color = Color(0.018, 0.025, 0.032); env.ambient_light_energy = 0.12 * GameState.brightness
-	env.fog_enabled = true; env.fog_light_color = Color(0.009, 0.014, 0.019); env.fog_density = 0.018; env.fog_sky_affect = 0.0
+	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR; env.ambient_light_color = Color(.28,.37,.40); env.ambient_light_energy = .24 * GameState.brightness
+	env.fog_enabled = true; env.fog_light_color = Color(.055,.082,.092); env.fog_density = 0.014; env.fog_sky_affect = 0.0
 	# 微弱体积雾只在灯光穿过雨幕时显形，环境本身不被抬亮。
 	env.volumetric_fog_enabled = true; env.volumetric_fog_density = 0.006; env.volumetric_fog_albedo = Color(0.10, 0.14, 0.16); env.volumetric_fog_ambient_inject = 0.0; env.volumetric_fog_anisotropy = 0.32; env.volumetric_fog_length = 48.0; env.volumetric_fog_sky_affect = 0.0
 	env.tonemap_mode = Environment.TONE_MAPPER_FILMIC
 	environment.environment = env; add_child(environment)
+	var moon := DirectionalLight3D.new(); moon.name = "CloudFilteredMoonlight"
+	moon.rotation_degrees = Vector3(-52,-32,0); moon.light_color = Color(.42,.58,.67)
+	moon.light_energy = .22 * GameState.brightness; moon.shadow_enabled = true
+	moon.directional_shadow_max_distance = 45.0; add_child(moon)
 	storm_controller=STORM_CONTROLLER.new();add_child(storm_controller);storm_controller.setup(self)
 	storm_controller.lightning_started.connect(_on_lightning_started)
 
 func _build_ground() -> void:
-	var plane := MeshInstance3D.new(); var mesh := PlaneMesh.new(); mesh.size = Vector2(200,200); plane.mesh = mesh; plane.position.y = -0.08
-	var ground_shader := Shader.new()
-	ground_shader.code = """shader_type spatial;
-uniform vec3 close_ground : source_color = vec3(0.065, 0.082, 0.074);
-uniform vec3 far_ground : source_color = vec3(0.002, 0.004, 0.006);
-uniform float visible_distance = 11.0;
-varying vec3 ground_world;
-void vertex(){ground_world=(MODEL_MATRIX*vec4(VERTEX,1.0)).xyz;}
-void fragment() {
-	float fade = 1.0 - smoothstep(2.0, visible_distance, length(VERTEX));
-	float grain = fract(sin(dot(floor(ground_world.xz * 2.0), vec2(12.9898,78.233))) * 43758.5453);
-	ALBEDO = close_ground * (0.78 + grain * 0.28);
-	ROUGHNESS = mix(0.94, 0.3, fade);
-	SPECULAR = mix(0.08, 0.32, fade);
-}
-"""
-	var ground_material := ShaderMaterial.new(); ground_material.shader=ground_shader
-	plane.material_override = ground_material; add_child(plane)
+	var plane := MeshInstance3D.new(); var mesh := PlaneMesh.new(); mesh.size = Vector2(200,200); plane.mesh = mesh
+	plane.position.y = -.006
+	plane.material_override = TERRAIN_DETAIL.ground_material(); add_child(plane)
 	var body := StaticBody3D.new(); var shape := CollisionShape3D.new(); var box := BoxShape3D.new(); box.size = Vector3(200,0.2,200); shape.shape = box; shape.position.y = -0.1; body.add_child(shape); add_child(body)
 	for edge in [Vector3(-99.5,6,0),Vector3(99.5,6,0),Vector3(0,6,-99.5),Vector3(0,6,99.5)]:
 		var wall := StaticBody3D.new()
@@ -114,27 +108,7 @@ void fragment() {
 		wall.position = edge
 		wall.add_child(wall_shape)
 		add_child(wall)
-	for i in range(520):
-		var span := 18.0 if i < 200 else 88.0
-		var x := randf_range(-span,span); var z := randf_range(-span,span)
-		if Vector2(x,z).length() < 9: continue
-		var tuft := MeshInstance3D.new(); var blade := BoxMesh.new(); blade.size = Vector3(0.07, randf_range(0.2,0.65), 0.07); tuft.mesh = blade; tuft.position = Vector3(x,blade.size.y*0.5,z); tuft.rotation.y = randf_range(0,PI); tuft.material_override = _mat(Color(0.035,0.052,0.042)); add_child(tuft)
-	# 雨水在低洼处形成暗色反光，材质受玩家光照和闪电影响。
-	for i in range(30):
-		var puddle := MeshInstance3D.new(); var disc := CylinderMesh.new(); disc.top_radius = randf_range(0.7,2.1); disc.bottom_radius = disc.top_radius; disc.height = 0.018; disc.radial_segments = 12; puddle.mesh = disc
-		puddle.position = Vector3(randf_range(-85,85), -0.045, randf_range(-85,85)); puddle.rotation.y = randf_range(0,TAU)
-		var wet := _mat(Color(0.009,0.019,0.02)); wet.roughness = 0.12; wet.metallic = 0.05; puddle.material_override = wet; add_child(puddle)
-
-func _darken_forest_asset(node: Node, _material: StandardMaterial3D) -> void:
-	# 保留开源资产各表面的树干/树冠颜色，黑暗由灯光决定。
-	if node is MeshInstance3D:
-		for surface in range(node.mesh.get_surface_count()):
-			var source: Material = node.mesh.surface_get_material(surface)
-			if source is StandardMaterial3D:
-				var material := source.duplicate() as StandardMaterial3D
-				material.roughness = .82
-				node.set_surface_override_material(surface,material)
-	for child in node.get_children(): _darken_forest_asset(child,_material)
+	add_child(TERRAIN_DETAIL.build(731))
 
 func _build_forest() -> void:
 	# 中央保留可辨路面；树群围出林间空地，并在地标间形成遮挡层次。
@@ -155,46 +129,10 @@ func _build_forest() -> void:
 		for landmark_pos in [Vector2(-24,-28), Vector2(35,-12), Vector2(22,34), Vector2(-35,25), Vector2(72,65)]:
 			if p.distance_to(landmark_pos) < 8.0: near_landmark = true; break
 		if near_landmark: continue
-		var scene := FOREST_TREES[randi_range(0, FOREST_TREES.size() - 1)]
-		var tree := FOREST_DETAIL.build(planted * 731 + 41, planted % 4 == 0,bark) if planted < 95 else scene.instantiate() as Node3D
+		var tree := FOREST_DETAIL.build(planted * 731 + 41, planted % 4 == 0,bark)
 		tree.position = Vector3(x,0,z); tree.rotation.y = randf_range(0.0, TAU); tree.scale = Vector3.ONE * randf_range(0.85,1.25)
-		_darken_forest_asset(tree, _mat(Color(0.032,0.065,0.045)))
 		add_child(tree)
-		var blocker := StaticBody3D.new(); blocker.name = "ForestTreeCollision"; var shape := CollisionShape3D.new(); var capsule := CapsuleShape3D.new(); capsule.radius = 0.28; capsule.height = 3.2; shape.shape = capsule; shape.position.y = 1.6; blocker.add_child(shape);
-		if planted >= 95: tree.add_child(blocker)
-		else: blocker.free()
 		planted += 1
-	# 小灌木用低多边形团簇填补树间空隙，避免林地像均匀网格。
-	var bush_mesh := SphereMesh.new(); bush_mesh.radius = 0.62; bush_mesh.height = 0.9; bush_mesh.radial_segments = 6; bush_mesh.rings = 3
-	for i in range(110):
-		var x := randf_range(-80,80); var z := randf_range(-80,80)
-		if Vector2(x,z).length() < 12: continue
-		var bush := MeshInstance3D.new(); bush.mesh = bush_mesh; bush.position = Vector3(x,0.35,z); bush.scale = Vector3(randf_range(0.8,1.8),randf_range(0.6,1.1),randf_range(0.8,1.5)); bush.material_override = _mat(Color(0.018,0.045,0.032)); add_child(bush)
-
-	# 林地碎枝和落叶提供贴地的尺度参照，主路径不放碰撞障碍。
-	var litter_material := _mat(Color(.14,.11,.068))
-	var leaf_mesh := SphereMesh.new()
-	leaf_mesh.radius = .12; leaf_mesh.height = .018; leaf_mesh.radial_segments = 6; leaf_mesh.rings = 3
-	var litter := MultiMesh.new()
-	litter.transform_format = MultiMesh.TRANSFORM_3D
-	litter.mesh = leaf_mesh
-	litter.instance_count = 1400
-	for i in range(litter.instance_count):
-		var position := Vector3(randf_range(-80,80),.012,randf_range(-80,80))
-		var basis_value := Basis(Vector3.UP,randf_range(0,TAU)).scaled(Vector3(randf_range(.6,1.5),1,randf_range(.5,1.0)))
-		litter.set_instance_transform(i,Transform3D(basis_value,position))
-	var leaves := MultiMeshInstance3D.new()
-	leaves.multimesh = litter; leaves.material_override = litter_material
-	add_child(leaves)
-	for i in range(35):
-		var root := Node3D.new()
-		root.position = Vector3(randf_range(-75,75),0,randf_range(-75,75))
-		if Vector2(root.position.x,root.position.z).length() < 10: root.free(); continue
-		root.rotation.y = randf_range(0,TAU)
-		add_child(root)
-		var points: Array[Vector3] = [Vector3(-1.7,.12,0),Vector3(0,.18,.06),Vector3(1.8,.1,.2)]
-		var radii: Array[float] = [.11,.16,.07]
-		preload("res://scripts/art/organic_mesh.gd").part(root,preload("res://scripts/art/organic_mesh.gd").tube(points,radii,12,.1),bark,"FallenBranch")
 
 func _landmark(pos: Vector3, kind: String) -> void:
 	var root := Node3D.new(); root.name = "Landmark_"+kind; root.set_meta("landmark_kind",kind); root.position = pos; add_child(root)
@@ -248,6 +186,13 @@ func _build_objectives() -> void:
 		item.set_meta("objective_index",idx)
 		item.set_meta("landmark_name",names[idx])
 		add_child(item)
+		# Derive the support height from the actual rotated mesh, including its cover
+		# and pages. This stays correct when the report asset is revised.
+		var bottom := INF
+		for part in item.find_children("*","MeshInstance3D",true,false):
+			var bounds: AABB = part.global_transform * part.get_aabb()
+			bottom = minf(bottom,bounds.position.y)
+		if is_finite(bottom): item.position.y += .525-bottom
 		# 书放在低木箱上，离开地标碰撞体，避免浮空或被车体挡住。
 		LANDMARK_MODELS.box(self,"ResearchCrate",Vector3(.95,.52,.8),Vector3(item.position.x,.26,item.position.z),_mat(Color(.18,.12,.07)))
 		var light := OmniLight3D.new()
@@ -337,6 +282,52 @@ func _setup_audio() -> void:
 	canopy_rain_audio = AudioStreamPlayer3D.new(); canopy_rain_audio.add_to_group("procedural_audio"); canopy_rain_audio.name="CanopyRainAudio"; canopy_rain_audio.bus="Weather"; canopy_rain_audio.stream=canopy_rain; canopy_rain_audio.volume_db=-27.0; canopy_rain_audio.max_distance=18.0; canopy_rain_audio.unit_size=7.0; add_child(canopy_rain_audio); canopy_rain_audio.play()
 	thunder_audio = AudioStreamPlayer3D.new(); thunder_audio.add_to_group("procedural_audio"); thunder_audio.name="ThunderAudio"; thunder_audio.volume_db=-10; thunder_audio.max_distance=300; thunder_audio.unit_size=40; thunder_audio.stream=_make_noise_stream(66150,22050,true); add_child(thunder_audio)
 	footsteps_audio=AudioStreamPlayer3D.new(); footsteps_audio.add_to_group("procedural_audio"); footsteps_audio.name="Footsteps"; footsteps_audio.stream=_make_footstep_stream(); footsteps_audio.max_distance=15.0; footsteps_audio.unit_size=4.0; add_child(footsteps_audio)
+	echo_filter = AudioEffectLowPassFilter.new()
+	echo_filter.cutoff_hz = 900.0
+	AudioServer.add_bus_effect(0,echo_filter)
+	AudioServer.set_bus_effect_enabled(0,AudioServer.get_bus_effect_count(0)-1,false)
+	echo_audio = AudioStreamPlayer.new()
+	echo_audio.name = "EchoTinnitus"
+	echo_audio.add_to_group("procedural_audio")
+	echo_audio.volume_db = -31.0
+	var ringing := AudioStreamWAV.new()
+	ringing.format = AudioStreamWAV.FORMAT_16_BITS
+	ringing.mix_rate = 22050
+	ringing.loop_mode = AudioStreamWAV.LOOP_FORWARD
+	ringing.loop_end = 22050
+	var ringing_data := PackedByteArray()
+	ringing_data.resize(44100)
+	for sample_index in range(22050):
+		var t := float(sample_index)/22050.0
+		ringing_data.encode_s16(sample_index*2,int(sin(TAU*1800.0*t)*1800.0))
+	ringing.data = ringing_data
+	echo_audio.stream = ringing
+	add_child(echo_audio)
+	pulse_noise_audio = AudioStreamPlayer.new()
+	pulse_noise_audio.name = "SpectrumRadioNoise"
+	pulse_noise_audio.add_to_group("procedural_audio")
+	pulse_noise_audio.stream = _make_noise_stream(22050,22050,false)
+	pulse_noise_audio.volume_db = -45.0
+	add_child(pulse_noise_audio)
+	daylight_audio = AudioStreamPlayer.new()
+	daylight_audio.name = "DaylightEnergyDisorder"
+	daylight_audio.add_to_group("procedural_audio")
+	daylight_audio.volume_db = -26.0
+	var chirp := AudioStreamWAV.new()
+	chirp.format = AudioStreamWAV.FORMAT_16_BITS
+	chirp.mix_rate = 22050
+	var chirp_count := int(.85*22050)
+	var chirp_data := PackedByteArray()
+	chirp_data.resize(chirp_count*2)
+	var chirp_phase := 0.0
+	for sample_index in range(chirp_count):
+		var t := float(sample_index)/22050.0
+		var envelope := sin(PI*t/.85)
+		chirp_phase += TAU*(420.0+900.0*exp(-t*5.0)+70.0*sin(t*31.0))/22050.0
+		chirp_data.encode_s16(sample_index*2,int(envelope*(sin(chirp_phase)+.16*sin(chirp_phase*1.97))*6000.0))
+	chirp.data = chirp_data
+	daylight_audio.stream = chirp
+	add_child(daylight_audio)
 
 func set_filtering(enabled: bool) -> void:
 	if is_instance_valid(rain_filter): AudioServer.set_bus_effect_enabled(rain_bus_index, 0, enabled)
@@ -354,6 +345,11 @@ func _build_hud() -> void:
 
 func _process(delta: float) -> void:
 	if paused: return
+	gameplay_elapsed += delta
+	FOREST_DETAIL.set_motion_time(gameplay_elapsed)
+	TERRAIN_DETAIL.set_motion_time(gameplay_elapsed)
+	_update_echo_feedback()
+	_update_pulse_noise_feedback()
 	lightning_energy = storm_controller.lightning_energy
 	if player:
 		var rain: GPUParticles3D=get_node_or_null("Rain")
@@ -366,11 +362,15 @@ func _process(delta: float) -> void:
 		if fields[i].time<=0: fields[i].node.queue_free();fields.remove_at(i)
 	for i in range(traces.size()-1,-1,-1):
 		traces[i].time-=delta*1.8
+		traces[i].visible_time=maxf(0.0,float(traces[i].get("visible_time",0.0))-delta)
+		if traces[i].visible_time <= 0.0 and is_instance_valid(traces[i].node): traces[i].node.visible=false
 		if traces[i].time<=0: traces[i].node.queue_free();traces.remove_at(i)
 	if player: _apply_fields()
 
 func _on_lightning_started() -> void:
-	if player: player.afterimage_ready=true; player.afterimage_window=5.0
+	if player:
+		player.afterimage_ready=true; player.afterimage_window=5.0
+		player.capture_lightning()
 	_capture_flash_snapshot()
 	var afterimage_slot := GameState.equipped.find("afterimage")
 	_notice("闪电照亮了平原。按 %d 延长视觉后像。" % (afterimage_slot+1) if afterimage_slot >= 0 else "闪电照亮了平原。")
@@ -417,6 +417,7 @@ func hunter_state_label() -> String:
 	return "%d只追踪 / %d只冲刺" % [hunter_nodes.size(),charging]
 
 func interact() -> void:
+	if is_gameplay_blocked(): return
 	var nearest: Node3D=null;var best:=3.0
 	for node in objective_nodes:
 		if not is_instance_valid(node): continue
@@ -427,11 +428,8 @@ func interact() -> void:
 		var research_result: Dictionary = research_manager.collect(record_id)
 		if not research_result.ok: _notice("这份研究记录已归档。"); return
 		objective_nodes.erase(nearest);nearest.queue_free();collected=research_result.count
-		if not research_result.skill.is_empty():
-			_notice("研究记录 %d/3 已收录。%s 升至 Lv.2。" % [collected,GameState.skill_data(research_result.skill).name])
-		else: _notice("研究记录 %d/3 已收录。" % collected)
-		if collected == 3:
-			_notice("三份记录齐备。出口开启，奶龙仍在追踪你。")
+		_notice("研究记录 %d/3 已收录。选择一项能力强化。" % collected)
+		_sync_modal_state()
 		update_hud();return
 	if exit_node and player.global_position.distance_to(exit_node.global_position)<5:
 		if collected>=3: finish(true)
@@ -451,7 +449,7 @@ func _can_change_modal() -> bool:
 	return _modal_ready and not _leaving and is_inside_tree() and not is_queued_for_deletion() and not GameState.game_over
 
 func is_gameplay_blocked() -> bool:
-	return paused or notebook or GameState.game_over or _leaving
+	return paused or notebook or GameState.game_over or _leaving or (is_instance_valid(research_manager) and research_manager.has_pending_upgrade())
 
 func _sync_modal_state() -> void:
 	if not _modal_ready or not is_inside_tree() or is_queued_for_deletion(): return
@@ -459,18 +457,43 @@ func _sync_modal_state() -> void:
 	get_tree().paused = blocked
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE if blocked else Input.MOUSE_MODE_CAPTURED
 	if blocked and is_instance_valid(player):
+		player.clear_gameplay_actions()
 		player.velocity.x = 0.0
 		player.velocity.z = 0.0
 		player.is_sprinting = false
 	if GameState.game_over or _leaving:
 		hud_controller.hide_handbook()
 		hud_controller.hide_pause()
+		hud_controller.hide_upgrade()
 	elif notebook:
 		hud_controller.hide_pause()
+		hud_controller.hide_upgrade()
+	elif paused:
+		hud_controller.hide_handbook()
+		hud_controller.hide_upgrade()
+		hud_controller.show_pause()
+	elif research_manager.has_pending_upgrade():
+		hud_controller.hide_handbook()
+		hud_controller.hide_pause()
+		hud_controller.show_upgrade(GameState.upgrade_options())
 	else:
 		hud_controller.hide_handbook()
-		if paused: hud_controller.show_pause()
-		else: hud_controller.hide_pause()
+		hud_controller.hide_pause()
+		hud_controller.hide_upgrade()
+
+func confirm_upgrade(ability_id: String) -> void:
+	if not _can_change_modal() or not research_manager.has_pending_upgrade(): return
+	var result: Dictionary = research_manager.clear_without_upgrade() if ability_id.is_empty() else research_manager.apply_upgrade(ability_id)
+	if not result.ok:
+		_notice("这项能力当前无法强化，请重新选择。")
+	else:
+		if not ability_id.is_empty():
+			_notice("%s已提升至%s。%s" % [GameState.skill_data(ability_id).name.split(" /")[0], GameState.LEVEL_NAMES[result.level - 1], "三份报告齐备，出口已开启。" if collected == 3 else "继续寻找科研报告。"])
+		else:
+			_notice("本局可强化能力已满。" + ("三份报告齐备，出口已开启。" if collected == 3 else "继续寻找科研报告。"))
+	hud_controller.hide_upgrade()
+	_sync_modal_state()
+	update_hud()
 
 func toggle_pause() -> void:
 	if not _can_change_modal(): return
@@ -484,9 +507,11 @@ func toggle_handbook() -> void:
 	notebook=not notebook
 	if notebook:
 		var entries: Array[String] = []
-		for id in GameState.equipped:
+		var abilities: Array[String] = ["lamp"]
+		abilities.append_array(GameState.equipped)
+		for id in abilities:
 			var data: Dictionary = GameState.skill_data(id)
-			entries.append(data.name + "\n" + data.science + "\n" + data.effect + "\n代价：" + data.cost)
+			entries.append(data.name + " · " + GameState.LEVEL_NAMES[GameState.ability_level(id) - 1] + "\n" + data.science + "\n" + data.effect + "\n代价：" + data.cost + "\n本局参数：" + GameState.upgrade_benefit(id, GameState.ability_level(id)))
 		var fusion_entries: Array[String] = ["\n学科融合（✓ 已观察，· 待触发）"]
 		for pair_id in fusion_manager.DESCRIPTIONS:
 			var mark := "✓ " if fusion_manager.discovered.has(pair_id) else "· "
@@ -527,14 +552,14 @@ func finish(won: bool) -> void:
 	_sync_modal_state()
 	hud_controller.show_outcome(won)
 
-func emit_echo(position: Vector3) -> void:
+func emit_echo(position: Vector3, highlight_duration: float = 7.0) -> void:
 	echo_positions.append(position)
 	for h in hunter_nodes:
 		if is_instance_valid(h):h.hear_noise(position)
 	var ring:=MeshInstance3D.new();var torus:=TorusMesh.new();torus.inner_radius=0.08;torus.outer_radius=0.12;ring.mesh=torus;ring.position=position+Vector3(0,0.1,0);ring.material_override=_mat(Color(0.4,0.72,0.65,true));add_child(ring)
 	var ring_material := _mat(Color(0.4,0.72,0.65,0.8)); ring_material.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA; ring.material_override=ring_material
 	var tween:=create_tween();tween.tween_property(ring,"scale",Vector3.ONE*18,1.2);tween.parallel().tween_property(ring_material,"albedo_color:a",0.0,1.2);tween.tween_callback(ring.queue_free)
-	for obj in objective_nodes: obj.highlight()
+	for obj in objective_nodes: obj.highlight(highlight_duration)
 	_notice("回声脉冲发出：研究记录被标亮。奶龙仍持续锁定你。")
 
 func _capture_flash_snapshot() -> void:
@@ -551,22 +576,22 @@ func show_afterimage(duration: float) -> void:
 	var timer:=Timer.new();timer.process_mode=Node.PROCESS_MODE_PAUSABLE;timer.wait_time=duration;timer.one_shot=true;overlay.add_child(timer);timer.timeout.connect(overlay.queue_free);timer.start()
 	_notice("雷痕保留了闪电时敌人的旧屏幕位置；目标移动后，残像也不会更新。")
 
-func reveal_traces(improved := false) -> void:
+func reveal_traces(improved: bool = false, reveal_duration: float = 8.0, salt_emission: float = 1.2) -> void:
 	var count:=0
 	for trace in traces:
 		if not is_instance_valid(trace.node): continue
-		trace.node.visible=true;count+=1
+		trace.node.visible=true; trace.visible_time=reveal_duration; count+=1
 		var material := trace.node.material_override as StandardMaterial3D
-		if material: material.emission_energy_multiplier = 1.2 if improved and trace.salt_reactive else 0.6
+		if material: material.emission_energy_multiplier = salt_emission if improved and trace.salt_reactive else 0.6
 	_notice("鲁米诺显影 %d 处仍未被暴雨冲淡的反应性痕迹。" % count if count>0 else "没有合适的催化痕迹；干净地面不会发光。")
 
-func place_field(kind: String, position: Vector3, radius := 2.4) -> void:
+func place_field(kind: String, position: Vector3, radius: float = 2.4, duration: float = 11.0) -> void:
 	var node:=MeshInstance3D.new();var mesh:=CylinderMesh.new();mesh.top_radius=radius;mesh.bottom_radius=radius;mesh.height=0.06;node.mesh=mesh;node.position=position+Vector3(0,0.03,0);node.material_override=_mat(Color(0.04,0.055,0.045,0.72) if kind=="mire" else Color(0.65,0.66,0.59,0.32),kind=="salt");add_child(node)
-	fields.append({"node":node,"kind":kind,"time":11.0,"radius":radius})
-	_notice("%s已形成。玩家与追猎者都受其规则影响，暴雨会逐渐稀释。" % ("剪切增稠泥浆" if kind=="mire" else "高渗盐阵"))
+	fields.append({"node":node,"kind":kind,"time":duration,"radius":radius})
+	_notice("泥区已形成：追猎者减速且无法开始冲刺；玩家低速受阻，高速可通过。暴雨会逐渐稀释。" if kind=="mire" else "高渗盐阵已形成。暴雨会逐渐稀释。")
 
 func _spawn_trace(position: Vector3, salt_reactive := false, source_hunter_id := 0) -> void:
-	var mark:=MeshInstance3D.new();var mesh:=SphereMesh.new();mesh.radius=0.16;mesh.height=0.05;mark.mesh=mesh;mark.position=position+Vector3(0,0.04,0);mark.visible=false;mark.material_override=_mat(Color(0.2,0.55,0.95),true);add_child(mark);traces.append({"node":mark,"time":20.0,"salt_reactive":salt_reactive,"source_hunter_id":source_hunter_id})
+	var mark:=MeshInstance3D.new();var mesh:=SphereMesh.new();mesh.radius=0.16;mesh.height=0.05;mark.mesh=mesh;mark.position=position+Vector3(0,0.04,0);mark.visible=false;mark.material_override=_mat(Color(0.2,0.55,0.95),true);add_child(mark);traces.append({"node":mark,"time":20.0,"visible_time":0.0,"salt_reactive":salt_reactive,"source_hunter_id":source_hunter_id})
 
 func check_fusion(skill: String) -> void:
 	var discovered_description: String = fusion_manager.check_trigger(skill)
@@ -578,3 +603,85 @@ func check_fusion(skill: String) -> void:
 func toggle_mire_state(_enabled: bool) -> void: pass
 
 func damage_hunter_trace(position: Vector3, salt_reactive := false) -> void: _spawn_trace(position,salt_reactive)
+
+func release_spectrum(point_shot: bool, values: Dictionary, charge_ratio: float) -> Dictionary:
+	var origin: Vector3 = player.camera.global_position
+	var forward: Vector3 = -player.camera.global_basis.z
+	var maximum: float = values.range if point_shot else values.burst_range
+	var endpoint := origin+forward*maximum
+	var affected := 0
+	if point_shot:
+		var query := PhysicsRayQueryParameters3D.create(origin,endpoint,1,[player.get_rid()])
+		var hit := get_world_3d().direct_space_state.intersect_ray(query)
+		if not hit.is_empty():
+			endpoint = hit.position
+			if hit.collider.has_method("repel"):
+				hit.collider.repel(forward,float(values.impulse),.2)
+				affected = 1
+	else:
+		var cosine := cos(deg_to_rad(float(values.burst_half_angle_deg)))
+		for hunter in hunter_nodes:
+			if not is_instance_valid(hunter): continue
+			var target_point: Vector3 = hunter.global_position+Vector3(0,1.3,0)
+			var offset := target_point-origin
+			if offset.length() > maximum or forward.dot(offset.normalized()) < cosine: continue
+			var query := PhysicsRayQueryParameters3D.create(origin,target_point,1,[player.get_rid()])
+			var hit := get_world_3d().direct_space_state.intersect_ray(query)
+			if not hit.is_empty() and hit.collider != hunter: continue
+			hunter.repel(offset,float(values.burst_impulse)*clampf(charge_ratio,.12,1.0),.45)
+			affected += 1
+	_spectrum_beam(player.equipment.beam_socket.global_position,endpoint,point_shot)
+	_notice("点射击退了追猎者。" if point_shot and affected>0 else ("点射已释放；未命中追猎者。" if point_shot else "集中爆发击退 %d 只追猎者，当前储能已释放。" % affected))
+	return {"hits":affected,"endpoint":endpoint}
+
+func _spectrum_beam(start: Vector3, finish_position: Vector3, point_shot: bool) -> void:
+	var direction := finish_position-start
+	if direction.length_squared() < .001: return
+	var beam := MeshInstance3D.new()
+	beam.name = "SpectrumPulse" if point_shot else "SpectrumBurst"
+	var mesh := CylinderMesh.new()
+	mesh.top_radius = .013 if point_shot else .04
+	mesh.bottom_radius = .01 if point_shot else .018
+	mesh.height = direction.length(); mesh.radial_segments = 12
+	beam.mesh = mesh; beam.position = (start+finish_position)*.5
+	beam.quaternion = Quaternion(Vector3.UP,direction.normalized())
+	var material := _mat(Color(.46,.83,.73,.72),true)
+	material.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	beam.material_override = material
+	beam.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	add_child(beam)
+	var tween := create_tween()
+	tween.tween_property(material,"albedo_color:a",0.0,.11 if point_shot else .22)
+	tween.tween_callback(beam.queue_free)
+
+func play_disorientation_sound() -> void:
+	if not is_instance_valid(disorientation_audio):
+		disorientation_audio = AudioStreamPlayer.new()
+		disorientation_audio.name = "PulseDisorientation"
+		disorientation_audio.add_to_group("procedural_audio")
+		disorientation_audio.stream = HUNTER_VOICE.warning_stream
+		disorientation_audio.volume_db = -18.0
+		add_child(disorientation_audio)
+	disorientation_audio.play()
+	_notice("乱频噪声过载：短暂眩晕与尖叫，仍可控制方向。")
+
+func _update_echo_feedback() -> void:
+	if not is_instance_valid(player) or not is_instance_valid(echo_filter): return
+	var active: bool = player.echo_deafness > 0.0
+	echo_filter.cutoff_hz = lerpf(16000.0,900.0,clampf(player.echo_deafness/.8,0.0,1.0))
+	for index in range(AudioServer.get_bus_effect_count(0)):
+		if AudioServer.get_bus_effect(0,index) == echo_filter:
+			AudioServer.set_bus_effect_enabled(0,index,active)
+	if active and not echo_audio.playing: echo_audio.play()
+	elif not active and echo_audio.playing: echo_audio.stop()
+
+func play_daylight_sound() -> void:
+	if is_instance_valid(daylight_audio): daylight_audio.play()
+
+func _update_pulse_noise_feedback() -> void:
+	if not is_instance_valid(player) or not is_instance_valid(pulse_noise_audio): return
+	var amount: float = clampf(player.noise/100.0,0.0,1.0)
+	pulse_noise_audio.volume_db = lerpf(-45.0,-25.0,amount)
+	if amount > .02 and not pulse_noise_audio.playing: pulse_noise_audio.play()
+	elif amount <= .02 and pulse_noise_audio.playing: pulse_noise_audio.stop()

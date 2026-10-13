@@ -1,0 +1,3858 @@
+[
+	{
+		"event": "F9",
+		"pressed": true,
+		"tick_msec": 49572
+	},
+	{
+		"event": "F9",
+		"pressed": false,
+		"tick_msec": 49572
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 50540
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1630.0, 385.0)",
+		"pressed": true,
+		"tick_msec": 50695
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1630.0, 385.0)",
+		"pressed": false,
+		"tick_msec": 50829
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 90574
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(991.0, 300.0)",
+		"pressed": true,
+		"tick_msec": 90728
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(991.0, 300.0)",
+		"pressed": false,
+		"tick_msec": 90862
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 91641
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(376.0, 702.0)",
+		"pressed": true,
+		"tick_msec": 91895
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(376.0, 702.0)",
+		"pressed": false,
+		"tick_msec": 92028
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 92967
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1009.0, 702.0)",
+		"pressed": true,
+		"tick_msec": 93112
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1009.0, 702.0)",
+		"pressed": false,
+		"tick_msec": 93270
+	},
+	{
+		"event": "F9",
+		"pressed": true,
+		"tick_msec": 93420
+	},
+	{
+		"event": "F9",
+		"pressed": false,
+		"tick_msec": 93420
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 97515
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 97524
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-4.0
+		],
+		"tick_msec": 97531
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-6.0
+		],
+		"tick_msec": 97541
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 97548
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-14.0
+		],
+		"tick_msec": 97566
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-6.0
+		],
+		"tick_msec": 97581
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-6.0
+		],
+		"tick_msec": 97589
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 97598
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 97606
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 97614
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 97622
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 97631
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 97639
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 97648
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 97656
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 97665
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 97673
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98057
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			0.0
+		],
+		"tick_msec": 98073
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			4.0
+		],
+		"tick_msec": 98090
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			8.0,
+			4.0
+		],
+		"tick_msec": 98106
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 98123
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			2.0
+		],
+		"tick_msec": 98131
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			2.0
+		],
+		"tick_msec": 98139
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 98148
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98156
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98164
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			2.0
+		],
+		"tick_msec": 98173
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98181
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98190
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 98198
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98206
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98215
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98225
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 98239
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98248
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98256
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 98273
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98281
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98297
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98315
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98464
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98581
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98590
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 98607
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98622
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 98631
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98648
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98656
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 98664
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98681
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98689
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 98698
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98705
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98714
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98722
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 98739
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 113282
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			0.0
+		],
+		"tick_msec": 113290
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-50.0,
+			-2.0
+		],
+		"tick_msec": 113307
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-24.0,
+			-6.0
+		],
+		"tick_msec": 113323
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-104.0,
+			-16.0
+		],
+		"tick_msec": 113340
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-42.0,
+			-8.0
+		],
+		"tick_msec": 113356
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-44.0,
+			-8.0
+		],
+		"tick_msec": 113364
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-46.0,
+			-12.0
+		],
+		"tick_msec": 113373
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-46.0,
+			-10.0
+		],
+		"tick_msec": 113381
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-38.0,
+			-12.0
+		],
+		"tick_msec": 113390
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-42.0,
+			-12.0
+		],
+		"tick_msec": 113398
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-32.0,
+			-12.0
+		],
+		"tick_msec": 113406
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-62.0,
+			-24.0
+		],
+		"tick_msec": 113423
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 113697
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			0.0
+		],
+		"tick_msec": 113706
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-8.0,
+			-6.0
+		],
+		"tick_msec": 113714
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-10.0,
+			-6.0
+		],
+		"tick_msec": 113723
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-12.0,
+			-8.0
+		],
+		"tick_msec": 113730
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-14.0,
+			-10.0
+		],
+		"tick_msec": 113739
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-14.0,
+			-10.0
+		],
+		"tick_msec": 113747
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-14.0,
+			-10.0
+		],
+		"tick_msec": 113756
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-12.0,
+			-10.0
+		],
+		"tick_msec": 113764
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-12.0,
+			-8.0
+		],
+		"tick_msec": 113773
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 113780
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-4.0
+		],
+		"tick_msec": 113789
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-8.0,
+			-6.0
+		],
+		"tick_msec": 113797
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-4.0
+		],
+		"tick_msec": 113806
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 113814
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 113824
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-6.0
+		],
+		"tick_msec": 113831
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114339
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114348
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114356
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 114364
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114372
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114381
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114389
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114398
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114406
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 114414
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114423
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114431
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114439
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114447
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114456
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 114465
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114472
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114481
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114489
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 114498
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 114514
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1090.0, 731.0)",
+		"pressed": true,
+		"tick_msec": 115337
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1090.0, 731.0)",
+		"pressed": false,
+		"tick_msec": 115337
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 115972
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			22.0,
+			0.0
+		],
+		"tick_msec": 115981
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			24.0,
+			-2.0
+		],
+		"tick_msec": 115989
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			26.0,
+			-4.0
+		],
+		"tick_msec": 115998
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			34.0,
+			0.0
+		],
+		"tick_msec": 116006
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			38.0,
+			0.0
+		],
+		"tick_msec": 116016
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			42.0,
+			0.0
+		],
+		"tick_msec": 116023
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			42.0,
+			0.0
+		],
+		"tick_msec": 116030
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			82.0,
+			8.0
+		],
+		"tick_msec": 116039
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			82.0,
+			20.0
+		],
+		"tick_msec": 116047
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			146.0,
+			50.0
+		],
+		"tick_msec": 116064
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			44.0,
+			20.0
+		],
+		"tick_msec": 116081
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			14.0,
+			8.0
+		],
+		"tick_msec": 116089
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 116264
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			8.0
+		],
+		"tick_msec": 116273
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			6.0
+		],
+		"tick_msec": 116281
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			8.0
+		],
+		"tick_msec": 116289
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			8.0
+		],
+		"tick_msec": 116298
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			10.0
+		],
+		"tick_msec": 116306
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			8.0
+		],
+		"tick_msec": 116314
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			20.0
+		],
+		"tick_msec": 116323
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			10.0
+		],
+		"tick_msec": 116331
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			20.0,
+			30.0
+		],
+		"tick_msec": 116348
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			8.0,
+			14.0
+		],
+		"tick_msec": 116356
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			4.0
+		],
+		"tick_msec": 116364
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			8.0,
+			10.0
+		],
+		"tick_msec": 116372
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			4.0
+		],
+		"tick_msec": 116381
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			4.0
+		],
+		"tick_msec": 116390
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			4.0
+		],
+		"tick_msec": 116398
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 116423
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 116614
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116623
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116631
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			0.0
+		],
+		"tick_msec": 116648
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116664
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116673
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 116689
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116714
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 116747
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 116781
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1784.0, 985.0)",
+		"pressed": true,
+		"tick_msec": 117053
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1784.0, 985.0)",
+		"pressed": false,
+		"tick_msec": 117053
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-152.0,
+			224.0
+		],
+		"tick_msec": 126004
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-248.0,
+			406.0
+		],
+		"tick_msec": 126089
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-48.0,
+			98.0
+		],
+		"tick_msec": 126133
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-10.0,
+			22.0
+		],
+		"tick_msec": 126309
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 126353
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			90.0,
+			-180.0
+		],
+		"tick_msec": 126398
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			78.0,
+			-138.0
+		],
+		"tick_msec": 126442
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			50.0,
+			-62.0
+		],
+		"tick_msec": 126522
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(710.0, 928.0)",
+		"pressed": true,
+		"tick_msec": 126774
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(710.0, 928.0)",
+		"pressed": false,
+		"tick_msec": 126774
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-10.0
+		],
+		"tick_msec": 127046
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			70.0,
+			-102.0
+		],
+		"tick_msec": 127127
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			32.0,
+			-46.0
+		],
+		"tick_msec": 127163
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			24.0,
+			-34.0
+		],
+		"tick_msec": 127203
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-24.0
+		],
+		"tick_msec": 127246
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			-12.0
+		],
+		"tick_msec": 127317
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-6.0
+		],
+		"tick_msec": 127392
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-2.0
+		],
+		"tick_msec": 127426
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			-12.0
+		],
+		"tick_msec": 127502
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-10.0
+		],
+		"tick_msec": 127545
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			-16.0
+		],
+		"tick_msec": 127615
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 127649
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 127690
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-4.0
+		],
+		"tick_msec": 127771
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-4.0
+		],
+		"tick_msec": 127808
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-10.0
+		],
+		"tick_msec": 127880
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 127920
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 128044
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 128083
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 128192
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(922.0, 623.0)",
+		"pressed": true,
+		"tick_msec": 128609
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(922.0, 623.0)",
+		"pressed": false,
+		"tick_msec": 128609
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			62.0,
+			8.0
+		],
+		"tick_msec": 130680
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			24.0,
+			4.0
+		],
+		"tick_msec": 130708
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			2.0
+		],
+		"tick_msec": 130748
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			2.0
+		],
+		"tick_msec": 130780
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			8.0,
+			-10.0
+		],
+		"tick_msec": 130987
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			-22.0
+		],
+		"tick_msec": 131020
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-16.0
+		],
+		"tick_msec": 131052
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-6.0
+		],
+		"tick_msec": 131080
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 131105
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 131137
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-14.0,
+			0.0
+		],
+		"tick_msec": 131205
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-8.0,
+			4.0
+		],
+		"tick_msec": 131237
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			2.0
+		],
+		"tick_msec": 131274
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			2.0
+		],
+		"tick_msec": 131309
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			4.0
+		],
+		"tick_msec": 131375
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			2.0
+		],
+		"tick_msec": 131406
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 131432
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			2.0
+		],
+		"tick_msec": 131457
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			12.0
+		],
+		"tick_msec": 131516
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 131545
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 131574
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 131600
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 131657
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 131745
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 131782
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 131813
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 131839
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			2.0
+		],
+		"tick_msec": 131864
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			2.0
+		],
+		"tick_msec": 131923
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 131949
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 132006
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 132284
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 132284
+	},
+	{
+		"event": "Left Mouse Button (Double Click)",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 132561
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 132561
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 133118
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 133118
+	},
+	{
+		"event": "Left Mouse Button (Double Click)",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 133375
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 133375
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 133733
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 133733
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": true,
+		"tick_msec": 134262
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(960.0, 540.0)",
+		"pressed": false,
+		"tick_msec": 134262
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 135178
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			40.0,
+			-8.0
+		],
+		"tick_msec": 135229
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			26.0,
+			-8.0
+		],
+		"tick_msec": 135254
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-8.0
+		],
+		"tick_msec": 135278
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			26.0,
+			-8.0
+		],
+		"tick_msec": 135298
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			24.0,
+			-8.0
+		],
+		"tick_msec": 135328
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			34.0,
+			-4.0
+		],
+		"tick_msec": 135353
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			0.0
+		],
+		"tick_msec": 135369
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			18.0,
+			0.0
+		],
+		"tick_msec": 135379
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			0.0
+		],
+		"tick_msec": 135395
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			18.0,
+			0.0
+		],
+		"tick_msec": 135411
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			2.0
+		],
+		"tick_msec": 135428
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			14.0,
+			4.0
+		],
+		"tick_msec": 135445
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			32.0,
+			14.0
+		],
+		"tick_msec": 135473
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			18.0,
+			4.0
+		],
+		"tick_msec": 135488
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			6.0
+		],
+		"tick_msec": 135504
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			2.0
+		],
+		"tick_msec": 135520
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			4.0
+		],
+		"tick_msec": 135539
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			2.0
+		],
+		"tick_msec": 135553
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			8.0,
+			2.0
+		],
+		"tick_msec": 135562
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			0.0
+		],
+		"tick_msec": 135587
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			0.0
+		],
+		"tick_msec": 135611
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-2.0
+		],
+		"tick_msec": 135642
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 135653
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-4.0
+		],
+		"tick_msec": 135677
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 135687
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-8.0
+		],
+		"tick_msec": 135711
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-6.0
+		],
+		"tick_msec": 135721
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-16.0
+		],
+		"tick_msec": 135736
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-20.0
+		],
+		"tick_msec": 135744
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			-34.0
+		],
+		"tick_msec": 135754
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			30.0,
+			-80.0
+		],
+		"tick_msec": 135778
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			14.0,
+			-30.0
+		],
+		"tick_msec": 135787
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			32.0,
+			-60.0
+		],
+		"tick_msec": 135807
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			18.0,
+			-28.0
+		],
+		"tick_msec": 135820
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			42.0,
+			-66.0
+		],
+		"tick_msec": 135837
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			32.0,
+			-42.0
+		],
+		"tick_msec": 135857
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			24.0,
+			-34.0
+		],
+		"tick_msec": 135870
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			32.0,
+			-42.0
+		],
+		"tick_msec": 135887
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			-14.0
+		],
+		"tick_msec": 135904
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-22.0
+		],
+		"tick_msec": 135919
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-6.0
+		],
+		"tick_msec": 135928
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 135937
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 135944
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 135952
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136236
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136244
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 136252
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136261
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136269
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 136277
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136286
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 136294
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136302
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136311
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 136319
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 136327
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 136336
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-10.0
+		],
+		"tick_msec": 136353
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 136369
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-4.0
+		],
+		"tick_msec": 136387
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 136403
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136429
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 136477
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			4.0
+		],
+		"tick_msec": 136486
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			8.0
+		],
+		"tick_msec": 136494
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			10.0
+		],
+		"tick_msec": 136502
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			10.0
+		],
+		"tick_msec": 136510
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			16.0
+		],
+		"tick_msec": 136519
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			16.0
+		],
+		"tick_msec": 136527
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			28.0
+		],
+		"tick_msec": 136536
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			22.0
+		],
+		"tick_msec": 136547
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			32.0
+		],
+		"tick_msec": 136561
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			16.0
+		],
+		"tick_msec": 136569
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			18.0
+		],
+		"tick_msec": 136577
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			14.0
+		],
+		"tick_msec": 136585
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			6.0
+		],
+		"tick_msec": 136594
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			10.0
+		],
+		"tick_msec": 136602
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			10.0
+		],
+		"tick_msec": 136610
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			4.0
+		],
+		"tick_msec": 136619
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			6.0
+		],
+		"tick_msec": 136635
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 136852
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 136860
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-2.0
+		],
+		"tick_msec": 136868
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-4.0
+		],
+		"tick_msec": 136878
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-12.0
+		],
+		"tick_msec": 136894
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-2.0
+		],
+		"tick_msec": 136910
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-10.0
+		],
+		"tick_msec": 136927
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-4.0
+		],
+		"tick_msec": 136944
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			14.0,
+			-10.0
+		],
+		"tick_msec": 136960
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			4.0,
+			-2.0
+		],
+		"tick_msec": 136978
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			6.0,
+			-8.0
+		],
+		"tick_msec": 136994
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 137011
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-4.0
+		],
+		"tick_msec": 137018
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 137177
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-20.0,
+			-6.0
+		],
+		"tick_msec": 137186
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-74.0,
+			-38.0
+		],
+		"tick_msec": 137204
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-32.0,
+			-22.0
+		],
+		"tick_msec": 137219
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-216.0,
+			-142.0
+		],
+		"tick_msec": 137236
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-46.0,
+			-36.0
+		],
+		"tick_msec": 137252
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-244.0,
+			-202.0
+		],
+		"tick_msec": 137269
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-26.0,
+			-22.0
+		],
+		"tick_msec": 137287
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-112.0,
+			-84.0
+		],
+		"tick_msec": 137302
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 137511
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-12.0,
+			-14.0
+		],
+		"tick_msec": 137528
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-6.0
+		],
+		"tick_msec": 137544
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-10.0,
+			-12.0
+		],
+		"tick_msec": 137561
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-10.0
+		],
+		"tick_msec": 137569
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-8.0,
+			-10.0
+		],
+		"tick_msec": 137577
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-10.0
+		],
+		"tick_msec": 137585
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-8.0
+		],
+		"tick_msec": 137594
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-8.0
+		],
+		"tick_msec": 137602
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-6.0
+		],
+		"tick_msec": 137611
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-4.0
+		],
+		"tick_msec": 137619
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-6.0
+		],
+		"tick_msec": 137627
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-8.0,
+			-10.0
+		],
+		"tick_msec": 137636
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 137836
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-20.0,
+			-8.0
+		],
+		"tick_msec": 137852
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 137863
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-4.0
+		],
+		"tick_msec": 137870
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 137878
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 137886
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-2.0
+		],
+		"tick_msec": 137894
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 137902
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-6.0
+		],
+		"tick_msec": 137910
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-4.0
+		],
+		"tick_msec": 137916
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-2.0
+		],
+		"tick_msec": 137925
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-4.0
+		],
+		"tick_msec": 137933
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-2.0
+		],
+		"tick_msec": 137941
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 137950
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 137958
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 137966
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 137974
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 137983
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 137991
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 137999
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138008
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138041
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138058
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138066
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 138074
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138083
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138092
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138100
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138108
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			-2.0
+		],
+		"tick_msec": 138116
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138124
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 138133
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138141
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138149
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-2.0
+		],
+		"tick_msec": 138158
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 138166
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-2.0
+		],
+		"tick_msec": 138174
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			0.0
+		],
+		"tick_msec": 138183
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			-2.0
+		],
+		"tick_msec": 138191
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 138199
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			-2.0
+		],
+		"tick_msec": 138208
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 138219
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 138224
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			-2.0
+		],
+		"tick_msec": 138233
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			-2.0
+		],
+		"tick_msec": 138241
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			26.0,
+			-10.0
+		],
+		"tick_msec": 138250
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			42.0,
+			-12.0
+		],
+		"tick_msec": 138259
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			110.0,
+			-22.0
+		],
+		"tick_msec": 138267
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			110.0,
+			-12.0
+		],
+		"tick_msec": 138275
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			150.0,
+			0.0
+		],
+		"tick_msec": 138283
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			170.0,
+			0.0
+		],
+		"tick_msec": 138292
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			320.0,
+			28.0
+		],
+		"tick_msec": 138303
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			342.0,
+			118.0
+		],
+		"tick_msec": 138320
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			132.0,
+			62.0
+		],
+		"tick_msec": 138336
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			40.0,
+			22.0
+		],
+		"tick_msec": 138361
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 138527
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			44.0,
+			-16.0
+		],
+		"tick_msec": 138544
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			18.0,
+			-6.0
+		],
+		"tick_msec": 138561
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			48.0,
+			-20.0
+		],
+		"tick_msec": 138576
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			10.0,
+			-2.0
+		],
+		"tick_msec": 138593
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			36.0,
+			-14.0
+		],
+		"tick_msec": 138610
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			-6.0
+		],
+		"tick_msec": 138627
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			-6.0
+		],
+		"tick_msec": 138643
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			2.0,
+			0.0
+		],
+		"tick_msec": 138660
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			2.0
+		],
+		"tick_msec": 138677
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-16.0,
+			12.0
+		],
+		"tick_msec": 138686
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-34.0,
+			30.0
+		],
+		"tick_msec": 138694
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-30.0,
+			30.0
+		],
+		"tick_msec": 138705
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-94.0,
+			76.0
+		],
+		"tick_msec": 138720
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-52.0,
+			44.0
+		],
+		"tick_msec": 138727
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-58.0,
+			44.0
+		],
+		"tick_msec": 138736
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-58.0,
+			44.0
+		],
+		"tick_msec": 138744
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-54.0,
+			40.0
+		],
+		"tick_msec": 138753
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-52.0,
+			38.0
+		],
+		"tick_msec": 138760
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-54.0,
+			40.0
+		],
+		"tick_msec": 138768
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-20.0,
+			18.0
+		],
+		"tick_msec": 138777
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-42.0,
+			34.0
+		],
+		"tick_msec": 138785
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-38.0,
+			32.0
+		],
+		"tick_msec": 138793
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-12.0,
+			8.0
+		],
+		"tick_msec": 138802
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 139010
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			8.0
+		],
+		"tick_msec": 139019
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			8.0
+		],
+		"tick_msec": 139026
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			10.0
+		],
+		"tick_msec": 139035
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			12.0
+		],
+		"tick_msec": 139044
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			10.0
+		],
+		"tick_msec": 139053
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			8.0
+		],
+		"tick_msec": 139060
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			16.0
+		],
+		"tick_msec": 139070
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-6.0,
+			24.0
+		],
+		"tick_msec": 139087
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			8.0
+		],
+		"tick_msec": 139103
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			12.0
+		],
+		"tick_msec": 139119
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			2.0
+		],
+		"tick_msec": 139135
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139144
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			4.0
+		],
+		"tick_msec": 139160
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139343
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139353
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			4.0
+		],
+		"tick_msec": 139369
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139386
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 139394
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-4.0,
+			4.0
+		],
+		"tick_msec": 139411
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 139427
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			2.0
+		],
+		"tick_msec": 139444
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			0.0
+		],
+		"tick_msec": 139460
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			2.0
+		],
+		"tick_msec": 139477
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139485
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			-2.0,
+			2.0
+		],
+		"tick_msec": 139493
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			0.0,
+			0.0
+		],
+		"tick_msec": 139501
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1019.0, 704.0)",
+		"pressed": true,
+		"tick_msec": 139741
+	},
+	{
+		"event": "Left Mouse Button",
+		"position": "(1019.0, 704.0)",
+		"pressed": false,
+		"tick_msec": 139741
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			0.0
+		],
+		"tick_msec": 140152
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			34.0,
+			-4.0
+		],
+		"tick_msec": 140160
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			42.0,
+			-6.0
+		],
+		"tick_msec": 140168
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			50.0,
+			-2.0
+		],
+		"tick_msec": 140177
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			54.0,
+			0.0
+		],
+		"tick_msec": 140185
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			128.0,
+			0.0
+		],
+		"tick_msec": 140201
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			130.0,
+			18.0
+		],
+		"tick_msec": 140210
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			62.0,
+			18.0
+		],
+		"tick_msec": 140219
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			226.0,
+			70.0
+		],
+		"tick_msec": 140235
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			98.0,
+			38.0
+		],
+		"tick_msec": 140243
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			26.0,
+			14.0
+		],
+		"tick_msec": 140252
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			62.0,
+			30.0
+		],
+		"tick_msec": 140266
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			12.0,
+			2.0
+		],
+		"tick_msec": 140449
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			22.0,
+			6.0
+		],
+		"tick_msec": 140457
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			30.0,
+			10.0
+		],
+		"tick_msec": 140466
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			38.0,
+			12.0
+		],
+		"tick_msec": 140474
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			44.0,
+			16.0
+		],
+		"tick_msec": 140482
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			44.0,
+			22.0
+		],
+		"tick_msec": 140490
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			40.0,
+			24.0
+		],
+		"tick_msec": 140499
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			38.0,
+			22.0
+		],
+		"tick_msec": 140507
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			28.0,
+			18.0
+		],
+		"tick_msec": 140515
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			52.0,
+			36.0
+		],
+		"tick_msec": 140524
+	},
+	{
+		"event": "mouse_motion",
+		"relative_xy": [
+			16.0,
+			10.0
+		],
+		"tick_msec": 140533
+	}
+]

@@ -1,0 +1,14 @@
+{
+	"fusions": {},
+	"knowledge": {
+		"lamp": {
+			"effect": "基础装备，不占技能槽。照明与集中爆发共用电量；爆发释放当前全部储能，击退强度随释放电量变化。大幅击退追猎者属于游戏夸张。",
+			"field": "光学与能量转换",
+			"first_recorded_at": "2026-10-13 09:06:54",
+			"name": "谱灯 / Spectrum Lamp",
+			"science": "电能可以转为光能；光具有动量，但现实中便携灯具的光压极小。"
+		}
+	},
+	"reports": {},
+	"schema_version": 1
+}
