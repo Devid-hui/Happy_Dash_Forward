@@ -67,8 +67,10 @@ V8 的 24 对 UV 重叠和约 14 mm 支撑高度保留在[历史证据](../evide
 
 独立应用与 ZIP 保存在本次聊天的 `outputs/naifrog-standalone-v9/`，不混入可编辑仓库。导出时使用已核验的官方模板，临时模板路径随后逐字节恢复；生产输入前后 SHA 一致。较早的 standalone preflight 和旧 ZIP/PCK 是历史快照，不能代表当前奶蛙。
 
-后续通过 `cua_repl` 按新 APP 的完整路径启动了实际 release 窗口，核对运行进程路径及真实菜单画面，随后关闭本次实例。证据见[可见菜单回执](../evidence/naifrog-release-visible/VISIBLE_MENU_RECEIPT.json)和[窗口原图](../evidence/naifrog-release-visible/visible-menu.png)。该记录仅增加可见菜单启动证据，没有开展整局操作或写入科研档案。
+后续通过 `cua_repl` 按新 APP 的完整路径启动了实际 release 窗口，核对运行进程路径及真实菜单画面，随后关闭本次实例。证据见[可见菜单回执](../evidence/naifrog-release-visible/VISIBLE_MENU_RECEIPT.json)和[窗口原图](../evidence/naifrog-release-visible/visible-menu.jpg)。该记录仅增加可见菜单启动证据，没有开展整局操作或写入科研档案。
 
 Git LFS 管理模型和贴图；检出该分支后应完成 `git lfs pull` 再启动工程。先前 `17b34a5` 的云端失败来自 checkout 未取得实际 LFS 文件，本次已设置 `lfs: true`，云端结果以当前提交对应的 GitHub Actions 为准。
 
 奶蛙主提交为 `9f27f2281b63cad171d28a8402dbe797323c3790`；已从远端独立检出并下载实际 LFS 数据，15 个关键文件逐 SHA 与本地一致。[发布和回读回执](../evidence/naifrog-publication-v9/README.md)记录这一身份。该提交的首轮云端检查已成功取得 LFS 文件，但冷导入在 62% 时触发 120 秒超时，未进入场景测试。工作流随后使用运行器已有的 `--timeout 360` 参数，保留退出码、ERROR 和成功标记三项判定，以及 20 分钟总作业上限。
+
+后续云端冷导入仍在 360 秒超时，末段正在导入多份旧奶龙候选；同时发现可见菜单截图原件为 JPEG、后缀误记为 PNG。现已保留原字节并修正为 `.jpg`，原 SHA 不变；给 `docs/`、`assets/nailong/`、`assets/refined/nailong/` 增加 `.gdignore`，保留历史文件但不参与当前 Godot 资源导入。已按当前 actor、动态 LOD、森林／地表绑定清单、器具与正式 13 场景测试核对依赖。正式资源仍在 `assets/refined/naifrog/` 和其余现用目录；图片预览直接保存到文档目录不受影响。复现依赖旧模型的离线历史候选时，需暂时移开对应 `.gdignore` 并重新导入。第二轮实际失败日志已归档，不将超时记为通过。
